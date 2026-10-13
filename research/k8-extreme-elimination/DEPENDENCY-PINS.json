@@ -1,0 +1,10 @@
+{
+  "research/x54-mixed-allocation/MANIFEST.json": "8d809c3384ae3bc0ebacab0070db886b4e0f658b562ffbc9189d895881987ef5",
+  "upstream/build/sections/03-motifs.tex": "ed76761194988a01af77ead0ea6469cb5dcd29690ab985a0b5a4006b0f2b69bb",
+  "upstream/build/sections/04-swap.tex": "412b170ccaab38dba96e95e3cbfae09f4876a9818f8d278776a746b0f8044906",
+  "research/gauge44-slots/independent/audit_local.py": "03afcfc9da428b3f6edac81c1fee7f277ab81b64998efae78380b63498dec6cd",
+  "research/complex-k492-owner-repair/vendor/multicold/engines/moment.py": "81cbc864e106418fc7854322746f72180cb8110ff39f74450a3b8d55a82c1482",
+  "research/complex-k492-owner-repair/vendor/multicold/engines/base_two_moment.py": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+  "research/format-limits-corrected/README.md": "1bcd80c1cd61fddae9f3a7f00fc9d1c796410408251e576600e94c19b16b1e5e",
+  "research/projection-cut-toolkit/notes/RECYCLING.md": "146abc5b05f991ee488e957cf796631ba6a6b49726fb047b2fd87168ea54e489"
+}

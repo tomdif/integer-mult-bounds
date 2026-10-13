@@ -1,0 +1,26 @@
+{
+  "status": "FRAME_OBSTRUCTION_FOR_FIXED_COMMUTATION_TRACE",
+  "word_content_sha256": "9af7d49b4db4b286d099862df86ec960af3b16ab50f14b291d0eee01728356dc",
+  "initial_register": 545,
+  "initial_vector": 480,
+  "A_gate_path": [
+    1186
+  ],
+  "last_register": 545,
+  "boundary": {
+    "kind": "B_or_tail",
+    "event": 1855,
+    "cap_register": 208,
+    "frame": [
+      256,
+      129,
+      64,
+      32,
+      17,
+      9,
+      4,
+      3
+    ]
+  },
+  "scope": "Fixed A/B/cut phases, monotone common ADD/scale frames, these compiled gate multisets, and permutations preserving the original order of each noncommuting gate pair. Alternative algebraic factorizations and different interfaces are outside scope."
+}

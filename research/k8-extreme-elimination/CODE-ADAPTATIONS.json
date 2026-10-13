@@ -1,0 +1,52 @@
+{
+  "check_controls.py": {
+    "original_sha256": "c2d034ab1ab8ad19e4958fe455751a845116578769f623121315d3a34519afb9",
+    "packaged_sha256": "c2d034ab1ab8ad19e4958fe455751a845116578769f623121315d3a34519afb9",
+    "adaptation": "Unchanged"
+  },
+  "check_r464.py": {
+    "original_sha256": "275471d107c2a37aa93e5e4777b47e81b9b5abf3c83ae4a87f9d95f45d72cb74",
+    "packaged_sha256": "275471d107c2a37aa93e5e4777b47e81b9b5abf3c83ae4a87f9d95f45d72cb74",
+    "adaptation": "Unchanged"
+  },
+  "dynamic_elimination.py": {
+    "original_sha256": "664734cefd1df2560186ba5e6b1f8fd0fca3ffcb980dcc87e769c55a2df6dfd7",
+    "packaged_sha256": "664734cefd1df2560186ba5e6b1f8fd0fca3ffcb980dcc87e769c55a2df6dfd7",
+    "adaptation": "Unchanged"
+  },
+  "eliminate_register.py": {
+    "original_sha256": "48c06627b530a5bfa3d78522e1d68c599105629d3218fa8ec871cbcc90c6d4ad",
+    "packaged_sha256": "3ee769740e2315e5c50fc4a7b43446120da9889c7572205e871c62cadd38b9ff",
+    "adaptation": "Output directory from EXTREME_WORK; repository root relative to package; PR1240 import from retained vendor."
+  },
+  "find_obstruction.py": {
+    "original_sha256": "bf2e8c904f76e3152a69923136d5ff500c7789ded070343838afcfc1b20ff3f5",
+    "packaged_sha256": "bf2e8c904f76e3152a69923136d5ff500c7789ded070343838afcfc1b20ff3f5",
+    "adaptation": "Unchanged"
+  },
+  "independent_obstruction.py": {
+    "original_sha256": "86cc09cfa24140f15046a2c8b316210e0bd180ad60d3882b6fdc66fa568076ea",
+    "packaged_sha256": "23e602b261da9761947077b9936b34174304422506bc92bde193997737b640ce",
+    "adaptation": "Output directory from EXTREME_WORK; repository root relative to package; PR1240 import from retained vendor."
+  },
+  "joint_redesign.py": {
+    "original_sha256": "3cb38797c862bfc61b12141c33cba3ce47841313304d2db8fb27942ca76e0bc8",
+    "packaged_sha256": "3cb38797c862bfc61b12141c33cba3ce47841313304d2db8fb27942ca76e0bc8",
+    "adaptation": "Unchanged"
+  },
+  "reschedule_eliminated.py": {
+    "original_sha256": "5bab16265bad0f2a288ae6f9130b07ef8a41fd8d9006612105e9fa0fdb150e74",
+    "packaged_sha256": "5bab16265bad0f2a288ae6f9130b07ef8a41fd8d9006612105e9fa0fdb150e74",
+    "adaptation": "Unchanged"
+  },
+  "screen_geometry.py": {
+    "original_sha256": "4e3fec15fd3529e8e733c0de966522cd7ebfd1b17a875e79e43d8d8cb5dd2f75",
+    "packaged_sha256": "2e936e2f652cb41b47393f4175c5dd5337ee4b66b38eeb953244baf2d6b3bfb7",
+    "adaptation": "Output directory from EXTREME_WORK; repository root relative to package; PR1240 import from retained vendor."
+  },
+  "unlock_interfaces.py": {
+    "original_sha256": "5c2e5946d6e17bd104c0cb62dfe99c1671b95366c7e4eda5797a0375682f6f23",
+    "packaged_sha256": "5c2e5946d6e17bd104c0cb62dfe99c1671b95366c7e4eda5797a0375682f6f23",
+    "adaptation": "Unchanged"
+  }
+}

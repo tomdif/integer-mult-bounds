@@ -1,0 +1,159 @@
+{
+  "status": "EXACT_R464_SCALAR_MAP_ONLY_GEOMETRY_REJECTED",
+  "removed_helpers": [
+    461,
+    462,
+    463,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    478,
+    479,
+    480,
+    481,
+    482
+  ],
+  "R": 464,
+  "endpoint": {
+    "columns": 688,
+    "data_columns": 224,
+    "helper_columns": 464,
+    "target_residue_entries": 7083,
+    "full_forward_and_dual_columns": 688,
+    "compensation_gates": 7083,
+    "full_scalar_source_sha256": "03afcfc9da428b3f6edac81c1fee7f277ab81b64998efae78380b63498dec6cd"
+  },
+  "controls": [
+    {
+      "name": "drop_add",
+      "reason": "endpoint failures [('entering-response', 448)]"
+    },
+    {
+      "name": "flip_add",
+      "reason": "endpoint failures [('entering-response', 448)]"
+    }
+  ],
+  "geometric_failure": "('L not inside U at mutable vertex', 6360, 'tail', 102)",
+  "source_checker_sha256": "a1736324c6db161733d8e11f608defd87b7f97cacd611203d22499e4c7de5545",
+  "word_content_sha256": "9af7d49b4db4b286d099862df86ec960af3b16ab50f14b291d0eee01728356dc",
+  "steps": [
+    {
+      "removed_helper": 482,
+      "pivots": [],
+      "final_swaps": [],
+      "peak_relation_support": 4,
+      "scalar_gates": 12462
+    },
+    {
+      "removed_helper": 481,
+      "pivots": [],
+      "final_swaps": [],
+      "peak_relation_support": 7,
+      "scalar_gates": 12478
+    },
+    {
+      "removed_helper": 480,
+      "pivots": [],
+      "final_swaps": [],
+      "peak_relation_support": 8,
+      "scalar_gates": 12495
+    },
+    {
+      "removed_helper": 479,
+      "pivots": [],
+      "final_swaps": [],
+      "peak_relation_support": 8,
+      "scalar_gates": 12496
+    },
+    {
+      "removed_helper": 478,
+      "pivots": [],
+      "final_swaps": [],
+      "peak_relation_support": 8,
+      "scalar_gates": 12508
+    },
+    {
+      "removed_helper": 471,
+      "pivots": [],
+      "final_swaps": [],
+      "peak_relation_support": 8,
+      "scalar_gates": 12517
+    },
+    {
+      "removed_helper": 470,
+      "pivots": [],
+      "final_swaps": [],
+      "peak_relation_support": 7,
+      "scalar_gates": 12520
+    },
+    {
+      "removed_helper": 469,
+      "pivots": [],
+      "final_swaps": [],
+      "peak_relation_support": 8,
+      "scalar_gates": 12536
+    },
+    {
+      "removed_helper": 468,
+      "pivots": [],
+      "final_swaps": [],
+      "peak_relation_support": 7,
+      "scalar_gates": 12540
+    },
+    {
+      "removed_helper": 467,
+      "pivots": [],
+      "final_swaps": [],
+      "peak_relation_support": 7,
+      "scalar_gates": 12539
+    },
+    {
+      "removed_helper": 466,
+      "pivots": [],
+      "final_swaps": [],
+      "peak_relation_support": 7,
+      "scalar_gates": 12534
+    },
+    {
+      "removed_helper": 465,
+      "pivots": [],
+      "final_swaps": [],
+      "peak_relation_support": 7,
+      "scalar_gates": 12534
+    },
+    {
+      "removed_helper": 464,
+      "pivots": [],
+      "final_swaps": [],
+      "peak_relation_support": 7,
+      "scalar_gates": 12538
+    },
+    {
+      "removed_helper": 463,
+      "pivots": [],
+      "final_swaps": [],
+      "peak_relation_support": 7,
+      "scalar_gates": 12536
+    },
+    {
+      "removed_helper": 462,
+      "pivots": [],
+      "final_swaps": [],
+      "peak_relation_support": 7,
+      "scalar_gates": 12545
+    },
+    {
+      "removed_helper": 461,
+      "pivots": [],
+      "final_swaps": [],
+      "peak_relation_support": 7,
+      "scalar_gates": 12548
+    }
+  ],
+  "scope": "No valid frame assignment, native supplier, whole-owner packing or improved kappa is claimed."
+}

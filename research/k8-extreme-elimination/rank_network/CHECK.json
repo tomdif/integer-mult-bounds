@@ -1,0 +1,664 @@
+{
+  "status": "EXACT_MATRIX_LABEL_SEARCH_SCREEN",
+  "scope": "Forty prescribed XOR circuits, m=2 or 3, bounded integer matrices and heuristic rank-one moves; not exhaustive and not a new supplier.",
+  "cases": 40,
+  "proposals": 7813342,
+  "scheduled": 12000000,
+  "strict_savings": 0,
+  "results": [
+    {
+      "cost": 6,
+      "budget": 6,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 38,
+        "2": 3
+      },
+      "case": 0,
+      "W": 3,
+      "m": 2,
+      "routing": "identity",
+      "seed": 0,
+      "proposed": 193320,
+      "accepted": 49302
+    },
+    {
+      "cost": 9,
+      "budget": 9,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 38,
+        "3": 3
+      },
+      "case": 1,
+      "W": 3,
+      "m": 3,
+      "routing": "identity",
+      "seed": 0,
+      "proposed": 189022,
+      "accepted": 72090
+    },
+    {
+      "cost": 6,
+      "budget": 6,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 50,
+        "2": 3
+      },
+      "case": 2,
+      "W": 3,
+      "m": 2,
+      "routing": "cycle",
+      "seed": 0,
+      "proposed": 198689,
+      "accepted": 47096
+    },
+    {
+      "cost": 9,
+      "budget": 9,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 50,
+        "3": 3
+      },
+      "case": 3,
+      "W": 3,
+      "m": 3,
+      "routing": "cycle",
+      "seed": 0,
+      "proposed": 186285,
+      "accepted": 69945
+    },
+    {
+      "cost": 6,
+      "budget": 6,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 44,
+        "2": 3
+      },
+      "case": 4,
+      "W": 3,
+      "m": 2,
+      "routing": "identity",
+      "seed": 1,
+      "proposed": 196616,
+      "accepted": 46576
+    },
+    {
+      "cost": 9,
+      "budget": 9,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 44,
+        "3": 3
+      },
+      "case": 5,
+      "W": 3,
+      "m": 3,
+      "routing": "identity",
+      "seed": 1,
+      "proposed": 179210,
+      "accepted": 71979
+    },
+    {
+      "cost": 6,
+      "budget": 6,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 56,
+        "2": 3
+      },
+      "case": 6,
+      "W": 3,
+      "m": 2,
+      "routing": "cycle",
+      "seed": 1,
+      "proposed": 194361,
+      "accepted": 43003
+    },
+    {
+      "cost": 9,
+      "budget": 9,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 56,
+        "3": 3
+      },
+      "case": 7,
+      "W": 3,
+      "m": 3,
+      "routing": "cycle",
+      "seed": 1,
+      "proposed": 183706,
+      "accepted": 66544
+    },
+    {
+      "cost": 8,
+      "budget": 8,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 54,
+        "2": 4
+      },
+      "case": 8,
+      "W": 4,
+      "m": 2,
+      "routing": "identity",
+      "seed": 0,
+      "proposed": 195887,
+      "accepted": 51477
+    },
+    {
+      "cost": 12,
+      "budget": 12,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 54,
+        "3": 4
+      },
+      "case": 9,
+      "W": 4,
+      "m": 3,
+      "routing": "identity",
+      "seed": 0,
+      "proposed": 186040,
+      "accepted": 75768
+    },
+    {
+      "cost": 8,
+      "budget": 8,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 72,
+        "2": 4
+      },
+      "case": 10,
+      "W": 4,
+      "m": 2,
+      "routing": "cycle",
+      "seed": 0,
+      "proposed": 192773,
+      "accepted": 48264
+    },
+    {
+      "cost": 12,
+      "budget": 12,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 72,
+        "3": 4
+      },
+      "case": 11,
+      "W": 4,
+      "m": 3,
+      "routing": "cycle",
+      "seed": 0,
+      "proposed": 184478,
+      "accepted": 69563
+    },
+    {
+      "cost": 8,
+      "budget": 8,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 54,
+        "2": 4
+      },
+      "case": 12,
+      "W": 4,
+      "m": 2,
+      "routing": "identity",
+      "seed": 1,
+      "proposed": 189301,
+      "accepted": 53186
+    },
+    {
+      "cost": 12,
+      "budget": 12,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 54,
+        "3": 4
+      },
+      "case": 13,
+      "W": 4,
+      "m": 3,
+      "routing": "identity",
+      "seed": 1,
+      "proposed": 183567,
+      "accepted": 76898
+    },
+    {
+      "cost": 8,
+      "budget": 8,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 72,
+        "2": 4
+      },
+      "case": 14,
+      "W": 4,
+      "m": 2,
+      "routing": "cycle",
+      "seed": 1,
+      "proposed": 190545,
+      "accepted": 49253
+    },
+    {
+      "cost": 12,
+      "budget": 12,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 72,
+        "3": 4
+      },
+      "case": 15,
+      "W": 4,
+      "m": 3,
+      "routing": "cycle",
+      "seed": 1,
+      "proposed": 183999,
+      "accepted": 72114
+    },
+    {
+      "cost": 12,
+      "budget": 12,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 110,
+        "2": 6
+      },
+      "case": 16,
+      "W": 6,
+      "m": 2,
+      "routing": "identity",
+      "seed": 0,
+      "proposed": 196534,
+      "accepted": 51547
+    },
+    {
+      "cost": 18,
+      "budget": 18,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 110,
+        "3": 6
+      },
+      "case": 17,
+      "W": 6,
+      "m": 3,
+      "routing": "identity",
+      "seed": 0,
+      "proposed": 184551,
+      "accepted": 72528
+    },
+    {
+      "cost": 12,
+      "budget": 12,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 140,
+        "2": 6
+      },
+      "case": 18,
+      "W": 6,
+      "m": 2,
+      "routing": "cycle",
+      "seed": 0,
+      "proposed": 194963,
+      "accepted": 48100
+    },
+    {
+      "cost": 18,
+      "budget": 18,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 140,
+        "3": 6
+      },
+      "case": 19,
+      "W": 6,
+      "m": 3,
+      "routing": "cycle",
+      "seed": 0,
+      "proposed": 190072,
+      "accepted": 65807
+    },
+    {
+      "cost": 12,
+      "budget": 12,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 106,
+        "2": 6
+      },
+      "case": 20,
+      "W": 6,
+      "m": 2,
+      "routing": "identity",
+      "seed": 1,
+      "proposed": 192309,
+      "accepted": 52845
+    },
+    {
+      "cost": 18,
+      "budget": 18,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 106,
+        "3": 6
+      },
+      "case": 21,
+      "W": 6,
+      "m": 3,
+      "routing": "identity",
+      "seed": 1,
+      "proposed": 186413,
+      "accepted": 76092
+    },
+    {
+      "cost": 12,
+      "budget": 12,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 136,
+        "2": 6
+      },
+      "case": 22,
+      "W": 6,
+      "m": 2,
+      "routing": "cycle",
+      "seed": 1,
+      "proposed": 196462,
+      "accepted": 51041
+    },
+    {
+      "cost": 18,
+      "budget": 18,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 136,
+        "3": 6
+      },
+      "case": 23,
+      "W": 6,
+      "m": 3,
+      "routing": "cycle",
+      "seed": 1,
+      "proposed": 190906,
+      "accepted": 71670
+    },
+    {
+      "cost": 16,
+      "budget": 16,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 150,
+        "2": 8
+      },
+      "case": 24,
+      "W": 8,
+      "m": 2,
+      "routing": "identity",
+      "seed": 0,
+      "proposed": 195229,
+      "accepted": 50843
+    },
+    {
+      "cost": 24,
+      "budget": 24,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 150,
+        "3": 8
+      },
+      "case": 25,
+      "W": 8,
+      "m": 3,
+      "routing": "identity",
+      "seed": 0,
+      "proposed": 187159,
+      "accepted": 73536
+    },
+    {
+      "cost": 16,
+      "budget": 16,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 192,
+        "2": 8
+      },
+      "case": 26,
+      "W": 8,
+      "m": 2,
+      "routing": "cycle",
+      "seed": 0,
+      "proposed": 193150,
+      "accepted": 46622
+    },
+    {
+      "cost": 24,
+      "budget": 24,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 192,
+        "3": 8
+      },
+      "case": 27,
+      "W": 8,
+      "m": 3,
+      "routing": "cycle",
+      "seed": 0,
+      "proposed": 196917,
+      "accepted": 62809
+    },
+    {
+      "cost": 16,
+      "budget": 16,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 138,
+        "2": 8
+      },
+      "case": 28,
+      "W": 8,
+      "m": 2,
+      "routing": "identity",
+      "seed": 1,
+      "proposed": 194949,
+      "accepted": 52275
+    },
+    {
+      "cost": 24,
+      "budget": 24,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 138,
+        "3": 8
+      },
+      "case": 29,
+      "W": 8,
+      "m": 3,
+      "routing": "identity",
+      "seed": 1,
+      "proposed": 190751,
+      "accepted": 76834
+    },
+    {
+      "cost": 16,
+      "budget": 16,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 180,
+        "2": 8
+      },
+      "case": 30,
+      "W": 8,
+      "m": 2,
+      "routing": "cycle",
+      "seed": 1,
+      "proposed": 195879,
+      "accepted": 49465
+    },
+    {
+      "cost": 24,
+      "budget": 24,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 180,
+        "3": 8
+      },
+      "case": 31,
+      "W": 8,
+      "m": 3,
+      "routing": "cycle",
+      "seed": 1,
+      "proposed": 193205,
+      "accepted": 67184
+    },
+    {
+      "cost": 24,
+      "budget": 24,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 260,
+        "2": 12
+      },
+      "case": 32,
+      "W": 12,
+      "m": 2,
+      "routing": "identity",
+      "seed": 0,
+      "proposed": 202174,
+      "accepted": 44643
+    },
+    {
+      "cost": 36,
+      "budget": 36,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 260,
+        "3": 12
+      },
+      "case": 33,
+      "W": 12,
+      "m": 3,
+      "routing": "identity",
+      "seed": 0,
+      "proposed": 206453,
+      "accepted": 57157
+    },
+    {
+      "cost": 24,
+      "budget": 24,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 326,
+        "2": 12
+      },
+      "case": 34,
+      "W": 12,
+      "m": 2,
+      "routing": "cycle",
+      "seed": 0,
+      "proposed": 211723,
+      "accepted": 33671
+    },
+    {
+      "cost": 36,
+      "budget": 36,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 326,
+        "3": 12
+      },
+      "case": 35,
+      "W": 12,
+      "m": 3,
+      "routing": "cycle",
+      "seed": 0,
+      "proposed": 224290,
+      "accepted": 39006
+    },
+    {
+      "cost": 24,
+      "budget": 24,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 288,
+        "2": 12
+      },
+      "case": 36,
+      "W": 12,
+      "m": 2,
+      "routing": "identity",
+      "seed": 1,
+      "proposed": 206713,
+      "accepted": 39157
+    },
+    {
+      "cost": 36,
+      "budget": 36,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 288,
+        "3": 12
+      },
+      "case": 37,
+      "W": 12,
+      "m": 3,
+      "routing": "identity",
+      "seed": 1,
+      "proposed": 212533,
+      "accepted": 51192
+    },
+    {
+      "cost": 24,
+      "budget": 24,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 354,
+        "2": 12
+      },
+      "case": 38,
+      "W": 12,
+      "m": 2,
+      "routing": "cycle",
+      "seed": 1,
+      "proposed": 211035,
+      "accepted": 33681
+    },
+    {
+      "cost": 36,
+      "budget": 36,
+      "strict_rank_saving": false,
+      "histogram": {
+        "0": 354,
+        "3": 12
+      },
+      "case": 39,
+      "W": 12,
+      "m": 3,
+      "routing": "cycle",
+      "seed": 1,
+      "proposed": 231173,
+      "accepted": 34304
+    }
+  ],
+  "nonprojector_noncommuting_control": {
+    "cost": 18,
+    "budget": 6,
+    "strict_rank_saving": false,
+    "histogram": {
+      "0": 32,
+      "2": 9
+    }
+  },
+  "controls_rejected": [
+    "bad_endpoint",
+    "missing_gate",
+    "false_cost"
+  ]
+}

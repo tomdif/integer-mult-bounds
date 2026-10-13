@@ -1,0 +1,27 @@
+{
+  "status": "PASS_LITERAL_FRAME_OBSTRUCTION",
+  "initial_register": 545,
+  "initial_vector": 480,
+  "mandatory_A_edges": 0,
+  "last_register": 545,
+  "boundary": {
+    "kind": "B_or_tail",
+    "event": 1855,
+    "cap_register": 208,
+    "frame": [
+      256,
+      129,
+      64,
+      32,
+      17,
+      9,
+      4,
+      3
+    ]
+  },
+  "controls_rejected": [
+    "zero_vector",
+    "full_boundary",
+    "wrong_entry_register"
+  ]
+}

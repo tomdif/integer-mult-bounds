@@ -1,0 +1,12 @@
+{
+  "status": "SCALAR_CONSTRUCTION_AND_SCOPED_NEGATIVE_RESEARCH",
+  "new_kappa": false,
+  "reference_kappa": "0.001675809683500501",
+  "reference_commit": "a2293cce1213297ee6c2ed7c4c1fedd1c8b770fd",
+  "helpers_before": 480,
+  "helpers_after": 464,
+  "geometry_admitted": false,
+  "full_forward_and_dual_columns": 688,
+  "source_pr1240": "77dc486aafa0ce89c0af8b7bc012adb40a933fda",
+  "scope": "R464 preserves the scalar map with explicit compensation but fails common-frame geometry even with cold entrances and full helper ends. No native supplier, paid recursive profile or improved exponent. Matrix-label bit search is a separate limited research probe."
+}
