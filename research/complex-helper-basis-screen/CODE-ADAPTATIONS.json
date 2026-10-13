@@ -1,0 +1,32 @@
+[
+  {
+    "file": "code/basis_search.py",
+    "working_source_sha256": "1b8a01a1f0b34bd73e093c38c31624fd50120b01755089112ebf2ed34789e7ad",
+    "package_sha256": "5259f271ddefee139afd58d8f6efa7028dfe551df0847f4765a536348a93c706",
+    "changes": "Portable package/input/output paths only."
+  },
+  {
+    "file": "code/prefix_search.py",
+    "working_source_sha256": "d9e96621489d74026e621430f553ed5b40636fc0f8a96d388104d4c561be2d5e",
+    "package_sha256": "7464ae50cd873d098d018b3e44ca1209b1521968ce878d3479fafb8f14cd68fa",
+    "changes": "Portable package/input/output paths only."
+  },
+  {
+    "file": "code/reorder_search.py",
+    "working_source_sha256": "36501bf73de13b055f3d666c6ff10e6c0db57f6edd1d6c5452b8ac3783ec1b62",
+    "package_sha256": "fb527633c56b34d215d0057b36f9b64f33df12f6bb471b541ad177b7bbb51172",
+    "changes": "Portable package/input/output paths only."
+  },
+  {
+    "file": "code/cached_frames.py",
+    "working_source_sha256": "c6f5bd666b26bc6f11ce8137a483f9a4f1d5111af5e80374fe8d39c8131d47c7",
+    "package_sha256": "c6f5bd666b26bc6f11ce8137a483f9a4f1d5111af5e80374fe8d39c8131d47c7",
+    "changes": "Unchanged."
+  },
+  {
+    "file": "code/dense_search.py",
+    "working_source_sha256": "42f0074ea9db33957d749de329435ea1f495c03e78dd3e72344327dd7d8f4ba6",
+    "package_sha256": "0828a2d7629a2e94d19a12cdd9e7bf512241cdba13e749ea458f7bcde6a39c0d",
+    "changes": "Portable package/input/output paths only."
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "base_pr": 1286,
+  "base_commit": "57502a3f396f7db2237c8f5747bab4b8f2864d19",
+  "base_word_sha256": "b87c706d14a7e1972514ee901002a930908073811ef38761def31c8e36351916",
+  "vendor": [
+    {
+      "path": "vendor/pr1186/frames.py",
+      "source": "research/x54-mixed-allocation/vendor/pr1186/frames.py",
+      "sha256": "c4ba4e3705a9d2b703d4efd57e4553aa78fc13761922bfbd223de93ebbcb9b92",
+      "commit": "b7af4fa33b2c4b2a3ec8f08c97a2af672ea68033",
+      "original_pr1186": "9254a3cc610a72e9c4600da089d5cdbcab996b9c"
+    },
+    {
+      "path": "vendor/pr1186/word.py",
+      "source": "research/x54-mixed-allocation/vendor/pr1186/word.py",
+      "sha256": "47b294ebeffdf082bb359a02eaedf651bbe55c01ff0cf13142c82d609162a043",
+      "commit": "b7af4fa33b2c4b2a3ec8f08c97a2af672ea68033",
+      "original_pr1186": "9254a3cc610a72e9c4600da089d5cdbcab996b9c"
+    },
+    {
+      "path": "vendor/pr1186/model.py",
+      "source": "research/x54-mixed-allocation/vendor/pr1186/model.py",
+      "sha256": "1f8aed0f9453a8203fa8656aebafd7de92d780e9e1e24a97a6884d083bf3e8f5",
+      "commit": "b7af4fa33b2c4b2a3ec8f08c97a2af672ea68033",
+      "original_pr1186": "9254a3cc610a72e9c4600da089d5cdbcab996b9c"
+    },
+    {
+      "path": "vendor/pr1186/writeback.py",
+      "source": "research/x54-mixed-allocation/vendor/pr1186/writeback.py",
+      "sha256": "a8d443e3c6fe438656207cdf6eba29560483ef70128e09ee35dcfa8893313129",
+      "commit": "b7af4fa33b2c4b2a3ec8f08c97a2af672ea68033",
+      "original_pr1186": "9254a3cc610a72e9c4600da089d5cdbcab996b9c"
+    },
+    {
+      "path": "vendor/pr1186/harness.py",
+      "source": "research/x54-mixed-allocation/vendor/pr1186/harness.py",
+      "sha256": "9ca8b6d10c858b8011d360646b35ea24b783a4e5f016f0468495ff4767b73725",
+      "commit": "b7af4fa33b2c4b2a3ec8f08c97a2af672ea68033",
+      "original_pr1186": "9254a3cc610a72e9c4600da089d5cdbcab996b9c"
+    },
+    {
+      "path": "vendor/pr1186/exchange.py",
+      "source": "research/x54-mixed-allocation/vendor/pr1186/exchange.py",
+      "sha256": "02dde0645cfea95fe6a3cdf9ff2f2cec603f60dae01fcd16d19b543a71bdfd06",
+      "commit": "b7af4fa33b2c4b2a3ec8f08c97a2af672ea68033",
+      "original_pr1186": "9254a3cc610a72e9c4600da089d5cdbcab996b9c"
+    },
+    {
+      "path": "vendor/pr1186/paths.py",
+      "source": "research/x54-mixed-allocation/vendor/pr1186/paths.py",
+      "sha256": "6557d964a3c59bc326f67facc77cbc5d6bd63ec24e0845725e332f85025afe66",
+      "commit": "b7af4fa33b2c4b2a3ec8f08c97a2af672ea68033",
+      "original_pr1186": "9254a3cc610a72e9c4600da089d5cdbcab996b9c"
+    },
+    {
+      "path": "vendor/pr1186/NOTICE.md",
+      "source": "research/x54-mixed-allocation/vendor/pr1186/NOTICE.md",
+      "sha256": "1df35c4c6aba738cd2efcb6e4676069e13c3f28bfb3b1b99a27d329c3f8351e8",
+      "commit": "b7af4fa33b2c4b2a3ec8f08c97a2af672ea68033",
+      "original_pr1186": "9254a3cc610a72e9c4600da089d5cdbcab996b9c"
+    }
+  ],
+  "repository_dependencies": [
+    {
+      "path": "research/frame-domain-ceiling/engines/moment.py",
+      "sha256": "81cbc864e106418fc7854322746f72180cb8110ff39f74450a3b8d55a82c1482"
+    },
+    {
+      "path": "research/frame-domain-ceiling/engines/base_two_moment.py",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098"
+    },
+    {
+      "path": "research/frame-domain-ceiling/vendor/static44/gk/gk_word.py",
+      "sha256": "f027a9273bcf4e0971258c160b7d3b3c196366b32a529cff6e6a0e666b03826b"
+    },
+    {
+      "path": "research/frame-domain-ceiling/vendor/static44/gk/gk_common.py",
+      "sha256": "e68d190fd436b2f3955decb590adb53344d5d4ea0a19d62d86df1e4b55ecd198"
+    },
+    {
+      "path": "research/gauge44-frames-x/independent/audit_local.py",
+      "sha256": "03afcfc9da428b3f6edac81c1fee7f277ab81b64998efae78380b63498dec6cd"
+    }
+  ],
+  "additional_reproduction": {
+    "pr": 1297,
+    "commit": "4abf710a7f0d2a46f522f3f13c15769d003f9495",
+    "package": "research/global-mixed-four-cold-kernels",
+    "source_manifest_sha256": "e0eefc96567fbb45e19e6de0ca295381dbe0e686c08ddc783639b065c7c791d4",
+    "input_words": {
+      "gauge44-word.json.gz": "e8e6e78ff7422275c38324499e1f33fb2ecd30de9503aef2b8f1ee80d8c4df8e",
+      "extra-word.json.gz": "7b0e9fbda32749aabc7e156d9fe09bceb0624a178628fe69e5dfea783462f905"
+    }
+  }
+}

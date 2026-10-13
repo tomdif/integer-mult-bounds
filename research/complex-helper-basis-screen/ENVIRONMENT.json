@@ -1,0 +1,11 @@
+{
+  "python": "3.11.14",
+  "numpy": "2.4.6",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": 1,
+    "OMP_NUM_THREADS": 1
+  },
+  "native_compiler": "/opt/homebrew/bin/g++-16",
+  "boost": "1.86.0"
+}

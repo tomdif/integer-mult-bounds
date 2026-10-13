@@ -1,0 +1,90 @@
+{
+  "status": "PASS_HELPER_BASIS_SCREEN_SCOPED_NO_NEW_KAPPA",
+  "controls": {
+    "gate_conjugations": 1600,
+    "random_word_simplifications": 100,
+    "negative_controls": 1
+  },
+  "additional_negative_controls": 4,
+  "full_rank_blocks": 12,
+  "scalar_columns": 704,
+  "orientations": 2,
+  "positive_cost_change": 0,
+  "search_receipts": {
+    "status": "COMPLETED_SCOPED_SEARCH_NO_NEW_KAPPA",
+    "new_kappa": null,
+    "base_pr": 1286,
+    "base_commit": "57502a3f396f7db2237c8f5747bab4b8f2864d19",
+    "independently_reproduced_baseline_kappa": "838166083799229/500000000000000000",
+    "permanent": {
+      "tested": 10428,
+      "statuses": {
+        "frame-infeasible": 10428
+      },
+      "scalar_gate_reductions": 11
+    },
+    "reordering": {
+      "candidates": 11,
+      "attempts": 44,
+      "statuses": {
+        "rejected": 44
+      }
+    },
+    "temporary": {
+      "pairs": {
+        "specifications": 1037,
+        "distinct_tested": 1013,
+        "zero_shear_controls": 1,
+        "nonzero_tested": 1012,
+        "duplicate_words_skipped": 24,
+        "statuses": {
+          "priced": 645,
+          "frame-infeasible": 368
+        },
+        "frame_priced": 645,
+        "improved": 0,
+        "same_profile": 645,
+        "errors": 0
+      },
+      "blocks": {
+        "specifications": 4861,
+        "distinct_tested": 4381,
+        "zero_shear_controls": 1,
+        "nonzero_tested": 4380,
+        "duplicate_words_skipped": 480,
+        "statuses": {
+          "priced": 1741,
+          "frame-infeasible": 2640
+        },
+        "frame_priced": 1741,
+        "improved": 0,
+        "same_profile": 1741,
+        "errors": 0
+      },
+      "dense": {
+        "specifications": 1152,
+        "distinct_tested": 1152,
+        "zero_shear_controls": 0,
+        "nonzero_tested": 1152,
+        "duplicate_words_skipped": 0,
+        "statuses": {
+          "priced": 576,
+          "frame-infeasible": 576
+        },
+        "frame_priced": 576,
+        "improved": 0,
+        "same_profile": 576,
+        "errors": 0
+      }
+    },
+    "scope": "Finite emitted orders, stated dyadic basis families and seam choices. Frame-priced words are not all independently endpoint-audited; exact scalar conjugation is the construction invariant. Three selected nonzero/zero local controls are audited. No new native/global admission and no general no-go theorem.",
+    "additional_independent_reproduction": {
+      "pr": 1297,
+      "commit": "4abf710a7f0d2a46f522f3f13c15769d003f9495",
+      "kappa": "13414839829209/8000000000000000",
+      "kappa_decimal": "0.001676854978651125",
+      "novelty_claim": false
+    }
+  },
+  "baseline_native_replay": "Separate frozen receipt; not rerun by this focused verifier."
+}

@@ -1,0 +1,5 @@
+{
+  "gate_conjugations": 1600,
+  "random_word_simplifications": 100,
+  "negative_controls": 1
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "name": "literal-word-base",
+    "exit_code": 0,
+    "seconds": 0.08408075000625104,
+    "log_sha256": "83fec10f50d9b15386b8ed790bfeeeb720eb53a971f2f521b388a930f5ebd0ee"
+  },
+  {
+    "name": "literal-word-extra",
+    "exit_code": 0,
+    "seconds": 0.08857979098684154,
+    "log_sha256": "83fec10f50d9b15386b8ed790bfeeeb720eb53a971f2f521b388a930f5ebd0ee"
+  },
+  {
+    "name": "independent-local-base",
+    "exit_code": 0,
+    "seconds": 1.069055500003742,
+    "log_sha256": "cd9c50613281e4ddd919c44a843ec8f10cb3efe3d0ca14263a300523fd4d308b"
+  },
+  {
+    "name": "fusion-controls-base",
+    "exit_code": 0,
+    "seconds": 6.474849499994889,
+    "log_sha256": "79355b0e2f6aa7b320be93fc31ac08ac649ea542b41b18164e168f4aca8b76e1"
+  },
+  {
+    "name": "x54-controls-base",
+    "exit_code": 0,
+    "seconds": 2.807528250006726,
+    "log_sha256": "9158bf0939624705fe7b7812143f92f38c0a099208c996fe82c45396227d741b"
+  },
+  {
+    "name": "kernel543-controls-base",
+    "exit_code": 0,
+    "seconds": 3.366106959001627,
+    "log_sha256": "9fc045b637a62407475f14d8bc208de5991764461b62455ca5820d9b9955139f"
+  },
+  {
+    "name": "kernel-controls-base",
+    "exit_code": 0,
+    "seconds": 5.935523624997586,
+    "log_sha256": "3f4dca57215aed078ee412568d007e3d13427a35fd7759ffc7c6d331734affd0"
+  },
+  {
+    "name": "leaver-premise-base",
+    "exit_code": 0,
+    "seconds": 0.9022731659933925,
+    "log_sha256": "f8f2158eebacaa7ce92069edd23aa2e77408b74a1959ece4e617b6eb5bbf710c"
+  },
+  {
+    "name": "fresh-native-base",
+    "exit_code": 0,
+    "seconds": 138.46800708398223,
+    "log_sha256": "5ca9f310247cb601c905ff30597baa4634847395d7826e9ab926a9876ced2514"
+  },
+  {
+    "name": "independent-local-extra",
+    "exit_code": 0,
+    "seconds": 1.4466998749994673,
+    "log_sha256": "17bfeefa89823e1fb7d502f032ef1ce948dc2e6e6d952935c91967e38b2d734e"
+  },
+  {
+    "name": "fusion-controls-extra",
+    "exit_code": 0,
+    "seconds": 6.484264207974775,
+    "log_sha256": "79355b0e2f6aa7b320be93fc31ac08ac649ea542b41b18164e168f4aca8b76e1"
+  },
+  {
+    "name": "x54-controls-extra",
+    "exit_code": 0,
+    "seconds": 2.77388887500274,
+    "log_sha256": "9158bf0939624705fe7b7812143f92f38c0a099208c996fe82c45396227d741b"
+  },
+  {
+    "name": "kernel543-controls-extra",
+    "exit_code": 0,
+    "seconds": 3.3013350830005948,
+    "log_sha256": "9fc045b637a62407475f14d8bc208de5991764461b62455ca5820d9b9955139f"
+  },
+  {
+    "name": "kernel-controls-extra",
+    "exit_code": 0,
+    "seconds": 5.479514290986117,
+    "log_sha256": "3f4dca57215aed078ee412568d007e3d13427a35fd7759ffc7c6d331734affd0"
+  },
+  {
+    "name": "leaver-premise-extra",
+    "exit_code": 0,
+    "seconds": 0.8870260000112467,
+    "log_sha256": "2f035786ef08573510a5cbe1a0d3797ee1293561ef569b676570d9e5a78609df"
+  },
+  {
+    "name": "fresh-native-extra",
+    "exit_code": 0,
+    "seconds": 136.48220845800824,
+    "log_sha256": "5ca9f310247cb601c905ff30597baa4634847395d7826e9ab926a9876ced2514"
+  },
+  {
+    "name": "literal-construct",
+    "exit_code": 0,
+    "seconds": 5.367640333017334,
+    "log_sha256": "67815b900cd62e4080ce2544f99c8140ff97b580c8c1016b1ed8362d21079291"
+  },
+  {
+    "name": "strict-global",
+    "exit_code": 0,
+    "seconds": 77.72652104101144,
+    "log_sha256": "108e274bee1bbece6a6f10edd28a7fb1360aed956baa294375dc21656eeae5bb"
+  }
+]

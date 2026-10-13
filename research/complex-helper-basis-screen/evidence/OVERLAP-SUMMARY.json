@@ -1,0 +1,86 @@
+{
+  "status": "POSSIBLE_OVERLAP_NOT_A_NOVELTY_CERTIFICATE",
+  "searched_at": "2026-10-13T21:58:35.666550+00:00",
+  "terms": [
+    "block kernel",
+    "helper-donor",
+    "centre path"
+  ],
+  "coverage": {
+    "open_prs": {
+      "fetched_at": "2026-10-13T21:58:23.223979+00:00",
+      "complete_pagination": true,
+      "records": 792
+    },
+    "discussions": {
+      "fetched_at": "2026-10-13T21:58:35.624103+00:00",
+      "complete_pagination": true,
+      "records": 42
+    }
+  },
+  "local_records": 326,
+  "warnings": [],
+  "limits": "Remote PR scope is open PRs including drafts. Closed work is searched through local READMEs, TASK metadata and ledger only. No code diffs or arbitrary package files are searched. Recheck relevant heads before submission.",
+  "matches_total": 12,
+  "matches": [
+    {
+      "kind": "pr",
+      "number": 1286,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/1286",
+      "head": "57502a3f396f7db2237c8f5747bab4b8f2864d19"
+    },
+    {
+      "kind": "pr",
+      "number": 1274,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/1274",
+      "head": "336d0ee3ea8026f9388ccafee91c923a434d0328"
+    },
+    {
+      "kind": "pr",
+      "number": 1280,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/1280",
+      "head": "66da60e0119424fe60b7b0fa2526f5d1dad2fcea"
+    },
+    {
+      "kind": "pr",
+      "number": 1272,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/1272",
+      "head": "e7ba787e5a2ab430dd054901fe1a3feb72ef5ba5"
+    },
+    {
+      "kind": "pr",
+      "number": 1297,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/1297",
+      "head": "394e7de97b5321aaa2a9a6e2594c8c17a208e86a"
+    },
+    {
+      "kind": "discussion-comment",
+      "number": 1251,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1251#discussioncomment-18909899"
+    },
+    {
+      "kind": "local-readme"
+    },
+    {
+      "kind": "local-readme"
+    },
+    {
+      "kind": "local-readme"
+    },
+    {
+      "kind": "local-readme"
+    },
+    {
+      "kind": "pr",
+      "number": 1012,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/1012",
+      "head": "4ceaf380ed41b28dadcc41d2f974f025ac4d8c03"
+    },
+    {
+      "kind": "pr",
+      "number": 1288,
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/1288",
+      "head": "03996ace330391110071a053a4380ca4529483e1"
+    }
+  ]
+}

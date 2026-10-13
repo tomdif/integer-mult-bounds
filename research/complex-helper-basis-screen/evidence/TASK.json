@@ -1,0 +1,14 @@
+{
+  "task": "complex-block-kernel-resynthesis",
+  "base": "57502a3f396f7db2237c8f5747bab4b8f2864d19",
+  "predecessors": {
+    "1274": "336d0ee3ea8026f9388ccafee91c923a434d0328",
+    "1286": "57502a3f396f7db2237c8f5747bab4b8f2864d19"
+  },
+  "question": "Can a temporary helper change of basis replace several low-frame correction reads with a cheaper complete recursive profile?",
+  "scope": "Refined from unrestricted operator-valued synthesis to exact rank-one/rank-two helper basis changes in the admitted complex word; change scalar factorization, not just gate order.",
+  "method": "Exact backward response and interval conjugation; prescribed B/tail seams, dyadic coefficients, pair and block changes; full endpoint and frame pricing required.",
+  "budget": "Bounded one-session screen; no kappa claim without native/global admission.",
+  "credit": "Jeremy Kothe PR1274; Rohan Arun PR1286; retained X54/gauge44 lineage and PR1186 frame toolkit.",
+  "overlap": "evidence/OVERLAP-SUMMARY.json"
+}
