@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-13",
+  "source_commit": "1960cfa919a0945d0ca4cb14ea96237000037903",
+  "upstream_command": "BOOST_INCLUDE=/Users/thomasdifiore/integer-mult-bit-seed13/build/deps/boost_1_86_0 /Users/thomasdifiore/integer-mult-bit-seed13/.venv/bin/python -B research/complex-t37-owners/verify.py --work /Users/thomasdifiore/integer-mult-runs/t37-verified-20261013 --baseline799 /Users/thomasdifiore/integer-mult-runs/architecture799-20261013",
+  "refinement_command": "/Users/thomasdifiore/integer-mult-bit-seed13/.venv/bin/python -B research/t37-rounding-refinement/verify.py --work /Users/thomasdifiore/integer-mult-runs/t37-verified-20261013 --baseline /Users/thomasdifiore/integer-mult-runs/architecture799-20261013 --output research/t37-rounding-refinement/CERTIFICATE.json",
+  "upstream_result": {
+    "status": "PASS_T37_STRICT_WITH_SOURCE_BOUND_ANCESTRY",
+    "kappa": "1661960547713947/1000000000000000000",
+    "kappa_decimal": "0.001661960547713947",
+    "cold_baseline": "/Users/thomasdifiore/integer-mult-runs/architecture799-20261013",
+    "reused_completed_baseline": true,
+    "stages": [
+      {
+        "name": "ancestry-coverage",
+        "exit_code": 0,
+        "seconds": 0.039,
+        "log_sha256": "84e7b14bf5045963cf79594707227b0923a0448da6f89cfb55309b8a6d7b8fe2"
+      },
+      {
+        "name": "baseline799-binding",
+        "exit_code": 0,
+        "seconds": 0.285,
+        "log_sha256": "d634fcb721165a1da4804168fd6a221063b71d1621bb21457afd7e2a25f5476f"
+      },
+      {
+        "name": "u8-native",
+        "exit_code": 0,
+        "seconds": 243.063,
+        "log_sha256": "72f5e3c6ba7b66b3f19e1ab7f21e7c02fa0f68245cdd3c47d99d1df656feef48"
+      },
+      {
+        "name": "prepare",
+        "exit_code": 0,
+        "seconds": 0.12,
+        "log_sha256": "b5cc4984e5168801009b6d937b2f6e78e917405646aedfcc1395cf907f4fee6a"
+      },
+      {
+        "name": "frozen-construction",
+        "exit_code": 0,
+        "seconds": 1.635,
+        "log_sha256": "ea8a0969bac3fc5f57155e4f1e28f52f089612dcda2697ebef20ca3763b829da"
+      },
+      {
+        "name": "independent-owners",
+        "exit_code": 0,
+        "seconds": 6.139,
+        "log_sha256": "e6cae59b6fe8d259f52627cfb54a85485586bb974d12809e01d66eeee8dd3ce0"
+      },
+      {
+        "name": "build-parent",
+        "exit_code": 0,
+        "seconds": 2.755,
+        "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "name": "check-parent",
+        "exit_code": 0,
+        "seconds": 9.823,
+        "log_sha256": "efc9bef89fcac5c95165ca04c186c034a774fc6bd2e1db28f481ddb4e40bea96"
+      },
+      {
+        "name": "independent-price",
+        "exit_code": 0,
+        "seconds": 0.441,
+        "log_sha256": "8c82691dffc129471ffaeb4723ac83d7928a2eb978291d095b5f9220761fe633"
+      },
+      {
+        "name": "discovery",
+        "exit_code": 0,
+        "seconds": 46.012,
+        "log_sha256": "fb22767e33d2e9fc4743fae02e19190c8f69a8e86d1b66400859fb6ee3d44cf9"
+      },
+      {
+        "name": "strict",
+        "exit_code": 0,
+        "seconds": 47.326,
+        "log_sha256": "b5723b06e1d4358a732840982f7552fa4b0d200e0d2327ff752e2c90d3aed30c"
+      },
+      {
+        "name": "payload-controls",
+        "exit_code": 0,
+        "seconds": 0.318,
+        "log_sha256": "d07d284f38925af9ab0bfe9778b5c214a78ffe43d8e961e7a71afa576a3eed32"
+      },
+      {
+        "name": "final-binding",
+        "exit_code": 0,
+        "seconds": 3.202,
+        "log_sha256": "ded1e6dba6ad93443cd4929db192181badcbacdda1ab01ad8ddde31ec523927f"
+      }
+    ],
+    "roles": 167832,
+    "calls": 333,
+    "prefix_bits": 779,
+    "charged_prefix_bits": 1024,
+    "row_coefficient": 17495,
+    "source_sha256": {
+      "research/complex-t37-owners/OWNERS.json.gz": "f89e00863c8415d1df1de9c481528f677eeda808ef3cd83bfa5ca3e7d9360f5a",
+      "research/complex-t37-owners/ORDER.json": "2093ca4050e1ce95621f4702bebe8b01b36773b1ecfa2c0d6275e132bd33d578",
+      "research/complex-t37-owners/EDITS.json": "cd28d8014fe6576a56a640d9a94b6b3fbd7715ea1a6c2858c1597b3c9fb51576",
+      "research/complex-t37-owners/prepare.py": "8414859fc69885e5698fb3dbe0f7d9ee20d9782102e0abf7da991c904920fe47",
+      "research/complex-t37-owners/replay.py": "7834f469861df4a8ed82550762e7d1640123f547a715b55a937dea0cb381cedd",
+      "research/complex-t37-owners/verify.py": "4d880a6237c2f5d4f4e08374e2a4ddbe7bdcc972fe4ee0e879e9a547754f5fd0",
+      "research/complex-t37-owners/final_binding.py": "61e8a8856ebc36feee11cbf6e60f2ace3b9b89195c3282f565a651488cf947f7"
+    },
+    "scope": "Finite conditional composition. Independent owner/construction/all-T checks supplement this replay. Inherited all-size/compiler, physical-realization, precision/tape, analytic and bitH1-H5 assumptions remain.",
+    "pins": {
+      "manifest_sha256": "38907d05fddac9be6bf7a7aff47fae43114a055d2259cead5651a08f9b983820",
+      "dependencies_sha256": "0160ea2677cc9ceeb0f861dc2774d470a27cbaa58b8fd6c064cf0683d18f3e87",
+      "predecessor": {
+        "manifest_sha256": "663a4300ec3abe2278ac6c8e49dd13dc58694c33bfadaa278c5406539e113a31",
+        "dependencies_sha256": "7c47d44e8d5c24aa80afc70724e7c0381fec57ef80d085d2ee4611726a0f1254"
+      }
+    },
+    "final_binding_sha256": "26803699a525d48998207c2def9d4260caf3dd3df377d34e6ebf7a65fa6c63db"
+  },
+  "refinement_status": "PASS_CONDITIONAL_T37_ROUNDING_REFINEMENT",
+  "kappa": "0.001661960547713947858091",
+  "checks": {
+    "exact_outer_constraints": 47,
+    "moment_engines": 2,
+    "moment_endpoints_per_side": 2,
+    "bootstrap_steps": 7,
+    "retained_complex_prefix_charge_bits": 1024,
+    "retained_bit_prefix_charge_bits": 512,
+    "negative_controls": [
+      "next_1e24_grid",
+      "equality_at_margin",
+      "next_1e18_grid"
+    ]
+  },
+  "sha256": {
+    "verify.py": "feb46e942caa598491e2ca0a94570157ee0a02491e906f57db6e7ae0316d51f8",
+    "README.md": "199696d24412bffb31e360f52dd7c9e9749de0aea72d00f6d2c22daee575b3c8",
+    "CERTIFICATE.json": "cee8d62a2bc58a40a0b861bccaaece96ba793c6b81abb2987012c00fe2f8ef45"
+  },
+  "other_search": {
+    "method": "SciPy HiGHS LP relaxation of PR864 complete fixed-frame model, applied to U8",
+    "components": 140,
+    "free_gate_nodes": 1209,
+    "changed_nodes": 0,
+    "best_profile": {
+      "1": 2548,
+      "2": 338,
+      "3": 446,
+      "4": 162,
+      "5": 72,
+      "8": 8
+    },
+    "scope": "Floating-point exploratory negative result; no exact U8 optimality claim.",
+    "artifact": "build/kappa-improve/FRAME-LP.json"
+  },
+  "new_circuit_improvement_found": false
+}
