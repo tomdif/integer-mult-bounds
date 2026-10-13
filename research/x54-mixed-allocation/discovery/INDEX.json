@@ -1,0 +1,34 @@
+{
+  "x54-repair-results.json": {
+    "file": "records/x54-repair-results.json.gz",
+    "original_sha256": "e9dc62a0cdff9ebba0a2b5506707fb69c1aaec051c83f8d375d0e52bbf9a8b57"
+  },
+  "retiming/RESULTS.json": {
+    "file": "records/retiming-RESULTS.json.gz",
+    "original_sha256": "80b0d8a5cbfb09c9af5875b28436843a0fed4cf1e889513e9456fe266f4e39e5"
+  },
+  "retiming/STATUS.json": {
+    "file": "records/retiming-STATUS.json.gz",
+    "original_sha256": "135fdfa5b602f558bab3987dcdc29205f3491abe50e704bd90d2ee290da5b8df"
+  },
+  "shared-donations/CANDIDATES.json": {
+    "file": "records/shared-donations-CANDIDATES.json.gz",
+    "original_sha256": "9b5745de8cfd5c49671be6a25ecebcfbe8d3d2333910395752287d9b863a5247"
+  },
+  "shared-donations/RESULTS.json": {
+    "file": "records/shared-donations-RESULTS.json.gz",
+    "original_sha256": "a6051818c0a7d05daaa4d272878c51102bf2791dbc5ad41fa0fa956cc180f5b3"
+  },
+  "shared-pairs/RESULTS.json": {
+    "file": "records/shared-pairs-RESULTS.json.gz",
+    "original_sha256": "5f72baeedf2ebd036741ddb6f82cf631ef3214c730b71ec5451038c93b6ff65e"
+  },
+  "single-demotions/RESULTS.json": {
+    "file": "records/single-demotions-RESULTS.json.gz",
+    "original_sha256": "3fb19bf1b096bd20fda26c17e902de47a01512fe7c6e1424d6b11d87f14dd799"
+  },
+  "partial-group/RESULTS.json": {
+    "file": "records/partial-group-RESULTS.json.gz",
+    "original_sha256": "f15b9698c8e26d25973db4200064090d81722a33e09023dca28ab4db5bcce3f6"
+  }
+}

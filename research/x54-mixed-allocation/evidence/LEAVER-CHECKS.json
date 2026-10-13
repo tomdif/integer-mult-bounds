@@ -1,0 +1,549 @@
+{
+  "status": "PASS_INDEPENDENT_PR1049_AUDIT",
+  "source_commit": "6d0a145e8b4774b1b0d4e3da56890af5adc9b04f",
+  "source_sha256": "a1736324c6db161733d8e11f608defd87b7f97cacd611203d22499e4c7de5545",
+  "providers": {
+    "demote3": {
+      "R": 480,
+      "paid_profile": {
+        "1": 2358,
+        "2": 504,
+        "3": 410,
+        "4": 130,
+        "5": 82,
+        "8": 8
+      },
+      "endpoint": {
+        "columns": 704,
+        "data_columns": 224,
+        "helper_columns": 480,
+        "target_residue_entries": 7208
+      },
+      "cells": [
+        {
+          "cell": "01+",
+          "main_index": 4152,
+          "leavers": [
+            17,
+            25,
+            57
+          ]
+        },
+        {
+          "cell": "23+",
+          "main_index": 4173,
+          "leavers": [
+            81,
+            89,
+            239
+          ]
+        },
+        {
+          "cell": "45+",
+          "main_index": 4194,
+          "leavers": [
+            49,
+            255,
+            415
+          ]
+        },
+        {
+          "cell": "67+",
+          "main_index": 4215,
+          "leavers": [
+            271,
+            431,
+            447
+          ]
+        },
+        {
+          "cell": "67-",
+          "main_index": 4236,
+          "leavers": [
+            18,
+            50,
+            82
+          ]
+        },
+        {
+          "cell": "01-",
+          "main_index": 4257,
+          "leavers": [
+            233,
+            249,
+            265
+          ]
+        },
+        {
+          "cell": "23-",
+          "main_index": 4278,
+          "leavers": [
+            58,
+            409,
+            425
+          ]
+        },
+        {
+          "cell": "45-",
+          "main_index": 4299,
+          "leavers": [
+            26,
+            90,
+            441
+          ]
+        }
+      ],
+      "leavers": [
+        {
+          "cell": "01+",
+          "register": 17,
+          "kind": "data",
+          "first_full_cleanup_write": 2153,
+          "full_cleanup_writes": 6
+        },
+        {
+          "cell": "01+",
+          "register": 25,
+          "kind": "data",
+          "first_full_cleanup_write": 1330,
+          "full_cleanup_writes": 10
+        },
+        {
+          "cell": "01+",
+          "register": 57,
+          "kind": "data",
+          "first_full_cleanup_write": 522,
+          "full_cleanup_writes": 3
+        },
+        {
+          "cell": "23+",
+          "register": 81,
+          "kind": "data",
+          "first_full_cleanup_write": 3080,
+          "full_cleanup_writes": 5
+        },
+        {
+          "cell": "23+",
+          "register": 89,
+          "kind": "data",
+          "first_full_cleanup_write": 4432,
+          "full_cleanup_writes": 4
+        },
+        {
+          "cell": "23+",
+          "register": 239,
+          "kind": "helper",
+          "first_full_cleanup_write": 481,
+          "full_cleanup_writes": 76
+        },
+        {
+          "cell": "45+",
+          "register": 49,
+          "kind": "data",
+          "first_full_cleanup_write": 877,
+          "full_cleanup_writes": 4
+        },
+        {
+          "cell": "45+",
+          "register": 255,
+          "kind": "helper",
+          "first_full_cleanup_write": 1269,
+          "full_cleanup_writes": 57
+        },
+        {
+          "cell": "45+",
+          "register": 415,
+          "kind": "helper",
+          "first_full_cleanup_write": 1203,
+          "full_cleanup_writes": 8
+        },
+        {
+          "cell": "67+",
+          "register": 271,
+          "kind": "helper",
+          "first_full_cleanup_write": 2244,
+          "full_cleanup_writes": 15
+        },
+        {
+          "cell": "67+",
+          "register": 431,
+          "kind": "helper",
+          "first_full_cleanup_write": 1204,
+          "full_cleanup_writes": 10
+        },
+        {
+          "cell": "67+",
+          "register": 447,
+          "kind": "helper",
+          "first_full_cleanup_write": 782,
+          "full_cleanup_writes": 16
+        },
+        {
+          "cell": "67-",
+          "register": 18,
+          "kind": "data",
+          "first_full_cleanup_write": 2152,
+          "full_cleanup_writes": 6
+        },
+        {
+          "cell": "67-",
+          "register": 50,
+          "kind": "data",
+          "first_full_cleanup_write": 802,
+          "full_cleanup_writes": 4
+        },
+        {
+          "cell": "67-",
+          "register": 82,
+          "kind": "data",
+          "first_full_cleanup_write": 3719,
+          "full_cleanup_writes": 4
+        },
+        {
+          "cell": "01-",
+          "register": 233,
+          "kind": "helper",
+          "first_full_cleanup_write": 523,
+          "full_cleanup_writes": 63
+        },
+        {
+          "cell": "01-",
+          "register": 249,
+          "kind": "helper",
+          "first_full_cleanup_write": 1303,
+          "full_cleanup_writes": 32
+        },
+        {
+          "cell": "01-",
+          "register": 265,
+          "kind": "helper",
+          "first_full_cleanup_write": 1379,
+          "full_cleanup_writes": 22
+        },
+        {
+          "cell": "23-",
+          "register": 58,
+          "kind": "data",
+          "first_full_cleanup_write": 509,
+          "full_cleanup_writes": 3
+        },
+        {
+          "cell": "23-",
+          "register": 409,
+          "kind": "helper",
+          "first_full_cleanup_write": 3824,
+          "full_cleanup_writes": 12
+        },
+        {
+          "cell": "23-",
+          "register": 425,
+          "kind": "helper",
+          "first_full_cleanup_write": 3740,
+          "full_cleanup_writes": 10
+        },
+        {
+          "cell": "45-",
+          "register": 26,
+          "kind": "data",
+          "first_full_cleanup_write": 1302,
+          "full_cleanup_writes": 10
+        },
+        {
+          "cell": "45-",
+          "register": 90,
+          "kind": "data",
+          "first_full_cleanup_write": 4429,
+          "full_cleanup_writes": 4
+        },
+        {
+          "cell": "45-",
+          "register": 441,
+          "kind": "helper",
+          "first_full_cleanup_write": 803,
+          "full_cleanup_writes": 10
+        }
+      ],
+      "controls": {
+        "N1_drop_leaver_write": "endpoint: endpoint failures [('data', 56), ('data', 59)]",
+        "N2_drop_full_cleanup_restore": "endpoint: endpoint failures [('data', 17), ('data', 18), ('data', 21), ('data', ",
+        "N3_neutral_touch_of_leaver_after_cell": "premise: leaver 17 touched in main after its cell (index 5471)",
+        "N4_wrong_cell_coefficient": "endpoint: endpoint failures [('data', 57), ('data', 58)]",
+        "N5_leaver_write_after_its_read": "endpoint: endpoint failures [('data', 56), ('data', 59)]",
+        "N6_entering_dirt_into_cell_target": "endpoint: endpoint failures [('entering-response', 448)]",
+        "N7_leaver_gate_below_current_frame": "frames: non-monotone climb in B, register 57"
+      },
+      "word_content_sha256": "cff41d72e4fe6ca1a6a4c1c4263e9031123f89330e7ab21dfac0dca01c744d1e"
+    },
+    "demote4": {
+      "R": 480,
+      "paid_profile": {
+        "1": 2350,
+        "2": 512,
+        "3": 414,
+        "4": 126,
+        "5": 82,
+        "8": 8
+      },
+      "endpoint": {
+        "columns": 704,
+        "data_columns": 224,
+        "helper_columns": 480,
+        "target_residue_entries": 7208
+      },
+      "cells": [
+        {
+          "cell": "01+",
+          "main_index": 4152,
+          "leavers": [
+            17,
+            25,
+            57
+          ]
+        },
+        {
+          "cell": "23+",
+          "main_index": 4173,
+          "leavers": [
+            81,
+            89,
+            239
+          ]
+        },
+        {
+          "cell": "45+",
+          "main_index": 4194,
+          "leavers": [
+            49,
+            255,
+            415
+          ]
+        },
+        {
+          "cell": "67+",
+          "main_index": 4215,
+          "leavers": [
+            271,
+            431,
+            447
+          ]
+        },
+        {
+          "cell": "67-",
+          "main_index": 4236,
+          "leavers": [
+            18,
+            50,
+            82
+          ]
+        },
+        {
+          "cell": "01-",
+          "main_index": 4257,
+          "leavers": [
+            233,
+            249,
+            265
+          ]
+        },
+        {
+          "cell": "23-",
+          "main_index": 4278,
+          "leavers": [
+            58,
+            409,
+            425
+          ]
+        },
+        {
+          "cell": "45-",
+          "main_index": 4299,
+          "leavers": [
+            26,
+            90,
+            441
+          ]
+        }
+      ],
+      "leavers": [
+        {
+          "cell": "01+",
+          "register": 17,
+          "kind": "data",
+          "first_full_cleanup_write": 2153,
+          "full_cleanup_writes": 6
+        },
+        {
+          "cell": "01+",
+          "register": 25,
+          "kind": "data",
+          "first_full_cleanup_write": 1330,
+          "full_cleanup_writes": 10
+        },
+        {
+          "cell": "01+",
+          "register": 57,
+          "kind": "data",
+          "first_full_cleanup_write": 522,
+          "full_cleanup_writes": 3
+        },
+        {
+          "cell": "23+",
+          "register": 81,
+          "kind": "data",
+          "first_full_cleanup_write": 3080,
+          "full_cleanup_writes": 5
+        },
+        {
+          "cell": "23+",
+          "register": 89,
+          "kind": "data",
+          "first_full_cleanup_write": 4432,
+          "full_cleanup_writes": 4
+        },
+        {
+          "cell": "23+",
+          "register": 239,
+          "kind": "helper",
+          "first_full_cleanup_write": 481,
+          "full_cleanup_writes": 76
+        },
+        {
+          "cell": "45+",
+          "register": 49,
+          "kind": "data",
+          "first_full_cleanup_write": 877,
+          "full_cleanup_writes": 4
+        },
+        {
+          "cell": "45+",
+          "register": 255,
+          "kind": "helper",
+          "first_full_cleanup_write": 1269,
+          "full_cleanup_writes": 57
+        },
+        {
+          "cell": "45+",
+          "register": 415,
+          "kind": "helper",
+          "first_full_cleanup_write": 1203,
+          "full_cleanup_writes": 8
+        },
+        {
+          "cell": "67+",
+          "register": 271,
+          "kind": "helper",
+          "first_full_cleanup_write": 2244,
+          "full_cleanup_writes": 15
+        },
+        {
+          "cell": "67+",
+          "register": 431,
+          "kind": "helper",
+          "first_full_cleanup_write": 1204,
+          "full_cleanup_writes": 10
+        },
+        {
+          "cell": "67+",
+          "register": 447,
+          "kind": "helper",
+          "first_full_cleanup_write": 782,
+          "full_cleanup_writes": 16
+        },
+        {
+          "cell": "67-",
+          "register": 18,
+          "kind": "data",
+          "first_full_cleanup_write": 2152,
+          "full_cleanup_writes": 6
+        },
+        {
+          "cell": "67-",
+          "register": 50,
+          "kind": "data",
+          "first_full_cleanup_write": 802,
+          "full_cleanup_writes": 4
+        },
+        {
+          "cell": "67-",
+          "register": 82,
+          "kind": "data",
+          "first_full_cleanup_write": 3719,
+          "full_cleanup_writes": 4
+        },
+        {
+          "cell": "01-",
+          "register": 233,
+          "kind": "helper",
+          "first_full_cleanup_write": 523,
+          "full_cleanup_writes": 63
+        },
+        {
+          "cell": "01-",
+          "register": 249,
+          "kind": "helper",
+          "first_full_cleanup_write": 1303,
+          "full_cleanup_writes": 32
+        },
+        {
+          "cell": "01-",
+          "register": 265,
+          "kind": "helper",
+          "first_full_cleanup_write": 1379,
+          "full_cleanup_writes": 22
+        },
+        {
+          "cell": "23-",
+          "register": 58,
+          "kind": "data",
+          "first_full_cleanup_write": 509,
+          "full_cleanup_writes": 3
+        },
+        {
+          "cell": "23-",
+          "register": 409,
+          "kind": "helper",
+          "first_full_cleanup_write": 3824,
+          "full_cleanup_writes": 12
+        },
+        {
+          "cell": "23-",
+          "register": 425,
+          "kind": "helper",
+          "first_full_cleanup_write": 3740,
+          "full_cleanup_writes": 10
+        },
+        {
+          "cell": "45-",
+          "register": 26,
+          "kind": "data",
+          "first_full_cleanup_write": 1302,
+          "full_cleanup_writes": 10
+        },
+        {
+          "cell": "45-",
+          "register": 90,
+          "kind": "data",
+          "first_full_cleanup_write": 4429,
+          "full_cleanup_writes": 4
+        },
+        {
+          "cell": "45-",
+          "register": 441,
+          "kind": "helper",
+          "first_full_cleanup_write": 803,
+          "full_cleanup_writes": 10
+        }
+      ],
+      "controls": {
+        "N1_drop_leaver_write": "endpoint: endpoint failures [('data', 56), ('data', 59)]",
+        "N2_drop_full_cleanup_restore": "endpoint: endpoint failures [('data', 17), ('data', 18), ('data', 21), ('data', ",
+        "N3_neutral_touch_of_leaver_after_cell": "premise: leaver 17 touched in main after its cell (index 5471)",
+        "N4_wrong_cell_coefficient": "endpoint: endpoint failures [('data', 57), ('data', 58)]",
+        "N5_leaver_write_after_its_read": "endpoint: endpoint failures [('data', 56), ('data', 59)]",
+        "N6_entering_dirt_into_cell_target": "endpoint: endpoint failures [('entering-response', 448)]",
+        "N7_leaver_gate_below_current_frame": "frames: non-monotone climb in B, register 57"
+      },
+      "word_content_sha256": "b39a2172269268cba66de83256a700f638440e458012c508928735ff4a93b7a7"
+    }
+  }
+}

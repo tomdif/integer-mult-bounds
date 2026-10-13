@@ -1,0 +1,69 @@
+{
+  "status": "BOUNDED_NEGATIVE_EXPERIMENTS_NOT_AN_EXCLUSION_PROOF",
+  "cost_endpoint": "67018507072324140917/40000000000000000000000",
+  "base_words": {
+    "demote3": "cff41d72e4fe6ca1a6a4c1c4263e9031123f89330e7ab21dfac0dca01c744d1e",
+    "demote4": "b39a2172269268cba66de83256a700f638440e458012c508928735ff4a93b7a7"
+  },
+  "repair": {
+    "candidates": 2238,
+    "evaluations": 2850,
+    "feasible_records": 969,
+    "max_options_generated": 4,
+    "per_candidate_option_cap": 40,
+    "gains": 0,
+    "limitation": "Original toolkit stores best priced repair but not all per-evaluation failure/timeout/certification statuses. No infeasibility proof is inferred from missing results."
+  },
+  "retiming": {
+    "planned": 14720,
+    "retained_trials": 700,
+    "certified": 680,
+    "infeasible": 20,
+    "gains": 0,
+    "scope": "Partial search stopped intentionally. Other cases and unflushed work excluded."
+  },
+  "shared_donations": {
+    "candidates": 215,
+    "certified": 215,
+    "gains": 0,
+    "target_batch_sizes": {
+      "2": 169,
+      "3": 46
+    }
+  },
+  "shared_pairs": {
+    "candidates": 30,
+    "certified": 30,
+    "gains": 0
+  },
+  "single_demotions": {
+    "trials": 372,
+    "certified": 372,
+    "gains": 0,
+    "scope": "31 codimension-one subspaces for eight D3 helpers and four D4 helpers; assumes one available rank-one idle axis. No new physical packing was built."
+  },
+  "partial_group": {
+    "trials": 11,
+    "proper_subsets": 10,
+    "proper_subset_gains": 0,
+    "positive_control_full_group": {
+      "helpers": [
+        627,
+        629,
+        630,
+        631
+      ],
+      "certified": true,
+      "delta_with_idle": -7452,
+      "profile": {
+        "1": 2350,
+        "2": 512,
+        "3": 414,
+        "4": 126,
+        "5": 82,
+        "8": 8
+      }
+    },
+    "scope": "The known four-helper D4 improvement is the positive control. All six pairs and four triples at the chosen entrance tie after idle credit."
+  }
+}

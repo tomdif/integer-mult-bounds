@@ -1,0 +1,5 @@
+# Every source and receipt is pinned by its literal bytes.
+* -text
+# Preserve the original upstream formatting and recorded output.
+vendor/** -whitespace
+evidence/** -whitespace

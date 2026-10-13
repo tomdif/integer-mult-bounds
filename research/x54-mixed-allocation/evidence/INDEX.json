@@ -1,0 +1,230 @@
+{
+  "RESULT.json": {
+    "file": "replay/RESULT.json",
+    "original_sha256": "007be17ea54909f71924f536b338063fc7f9e2eeeafce32566e98d83940a4da0"
+  },
+  "STAGES.json": {
+    "file": "replay/STAGES.json",
+    "original_sha256": "bdf8ad6bdf766db238870aad17e79abff0e2c1760eacdd8a466a9d0e2ee9dde4"
+  },
+  "ANCESTRY.json": {
+    "file": "replay/ANCESTRY.json",
+    "original_sha256": "0d9d54cb38b71e78505945986b6b2da04215a7d0dccf12c7d7c7891a19874b49"
+  },
+  "PRICE.json": {
+    "file": "replay/PRICE.json",
+    "original_sha256": "b1afaadf642760ed5f5ae07453426f409c136c9eb5938940dd301b68af9c0b20"
+  },
+  "INDEPENDENT-OWNERS.json": {
+    "file": "replay/INDEPENDENT-OWNERS.json",
+    "original_sha256": "6b2a42eda717bf769b703024586a4cdbef01c2fde723f3c1cc866636d6c9d11a"
+  },
+  "FLOW-CONTROLS.json": {
+    "file": "replay/FLOW-CONTROLS.json",
+    "original_sha256": "43fe7e94bd72607d502ed947ac1463405be18728eb0b8faabd7ba63ab1d28ab4"
+  },
+  "PARENT-CHECK.json": {
+    "file": "replay/PARENT-CHECK.json",
+    "original_sha256": "2b729fd666ffe4e34a355223b57f74ba460fb171b19c84f260378dd109f0b9a0"
+  },
+  "ENTRANCE-CONTROLS.json": {
+    "file": "replay/ENTRANCE-CONTROLS.json",
+    "original_sha256": "7b101dd97c1025667fb3615930a9d6cd2ec443169d263a3bc1191b80fc712a1f"
+  },
+  "X54-CONTROLS.json": {
+    "file": "replay/X54-CONTROLS.json",
+    "original_sha256": "6db495cffc5420f3175fe5188a20c458706d2ca9de0d5f62dc272d51de6208b6"
+  },
+  "FUSION-CONTROLS.json": {
+    "file": "replay/FUSION-CONTROLS.json",
+    "original_sha256": "357beb99585e46761bc1cb050e6b386efb05b65e84afef308eb7a884bd33f820"
+  },
+  "RAW-demote3.json": {
+    "file": "replay/RAW-demote3.json",
+    "original_sha256": "b66c4dfd3e9664fbf23014dbfe9e6e21453567b0d5cb018f752d92fe778a4811"
+  },
+  "RAW-demote4.json": {
+    "file": "replay/RAW-demote4.json",
+    "original_sha256": "5edb5770559590b56867ae5f19820d8d2eb3386eec4cbd5ddd4d3e71742fa525"
+  },
+  "parent.log": {
+    "file": "replay/parent.log",
+    "original_sha256": "efc9bef89fcac5c95165ca04c186c034a774fc6bd2e1db28f481ddb4e40bea96"
+  },
+  "native-demote4.log": {
+    "file": "replay/native-demote4.log",
+    "original_sha256": "5ca9f310247cb601c905ff30597baa4634847395d7826e9ab926a9876ced2514"
+  },
+  "entrance-controls.log": {
+    "file": "replay/entrance-controls.log",
+    "original_sha256": "a4ded37f2994ee242102a5ad1765673bb73be2a9d232132e4a44cd91a3d9525e"
+  },
+  "native-demote3.log": {
+    "file": "replay/native-demote3.log",
+    "original_sha256": "5ca9f310247cb601c905ff30597baa4634847395d7826e9ab926a9876ced2514"
+  },
+  "fusion-build.log": {
+    "file": "replay/fusion-build.log",
+    "original_sha256": "ac66be50c0925c506f648801da5727f831d9a888117312629950ce79c4d1cb13"
+  },
+  "raw-demote4.log": {
+    "file": "replay/raw-demote4.log",
+    "original_sha256": "92516278d13ac533db98e7434ff177a9683e11307dc7d5970c7a0253d7f1f140"
+  },
+  "x54-build.log": {
+    "file": "replay/x54-build.log",
+    "original_sha256": "5891a8a751acb0139cb78590c867aef01c36d927b40cf387e21fe30003b891a8"
+  },
+  "raw-demote3.log": {
+    "file": "replay/raw-demote3.log",
+    "original_sha256": "ace3b809685e97c914b23dbfa0fcff3e9205ec88fc2ff056b2ad3a543f71e8f7"
+  },
+  "owners.log": {
+    "file": "replay/owners.log",
+    "original_sha256": "ec8c339a452fecb7b455305c7faea42110cd69dcbee240e110f825178b0d23b4"
+  },
+  "fusion-controls.log": {
+    "file": "replay/fusion-controls.log",
+    "original_sha256": "d7f56e885dcc99b4d6f960f92b265283222507ded557ccb4e15f8be664b84c9d"
+  },
+  "x54-controls.log": {
+    "file": "replay/x54-controls.log",
+    "original_sha256": "47dba6221975f170a048dbf6004bb94d501431554d481e8658a8c7b2ac694798"
+  },
+  "demote3/STEPS.json": {
+    "file": "replay/demote3/STEPS.json",
+    "original_sha256": "19881156128721f638454e905620cdf72c47e42b104b3afaff1b1f1ecfe371f4"
+  },
+  "demote3/wrappers.log": {
+    "file": "replay/demote3/wrappers.log",
+    "original_sha256": "74b13cf8570ca2f32ce0018575b1b73e95af77a28e59d09556fec59260bdbba5"
+  },
+  "demote3/phases.log": {
+    "file": "replay/demote3/phases.log",
+    "original_sha256": "b839a775b1f357fcb3818056c06b919e4db220a368117fe784fb7a5a9ff41c53"
+  },
+  "demote3/ledgers.log": {
+    "file": "replay/demote3/ledgers.log",
+    "original_sha256": "a74074d40846001a0f180a66b4085ad096cc30e6715428c43f26140fa571c490"
+  },
+  "demote3/native.log": {
+    "file": "replay/demote3/native.log",
+    "original_sha256": "bf6f14a75fc15790c65f4b1da850b665c38e42cfb27909afc80d92e095dcb06d"
+  },
+  "demote3/local-replay.log": {
+    "file": "replay/demote3/local-replay.log",
+    "original_sha256": "dd643a58258431c3b07d3b06d9060c49677fa23b4fafc9f10988ed1f6867bd9a"
+  },
+  "demote3/local/LOCAL-CHECKS.json": {
+    "file": "replay/demote3/local/LOCAL-CHECKS.json",
+    "original_sha256": "358a9a7a5a2856054df6f180938e6053c85ae780c89da4e2764130e7d4ff6d9d"
+  },
+  "demote3/local/INDEPENDENT-LOCAL-REPLAY.json": {
+    "file": "replay/demote3/local/INDEPENDENT-LOCAL-REPLAY.json",
+    "original_sha256": "9efe201fc5ddb9cf256e403edfa9f960c5679dac60a3918bc66f9628ac668a99"
+  },
+  "demote3/local/WRAPPER-CHECKS.json": {
+    "file": "replay/demote3/local/WRAPPER-CHECKS.json",
+    "original_sha256": "fc7e24778302326fdacfd08dd3d5e63483cf4539cd5022a6c77f016752fac1a3"
+  },
+  "demote3/local/CLIFFORD-REVIEW.json": {
+    "file": "replay/demote3/local/CLIFFORD-REVIEW.json",
+    "original_sha256": "708dfa1bde705aee19f51ca6d0c2d3755414874a2ba752469b1523d6d5258ad1"
+  },
+  "demote4/STEPS.json": {
+    "file": "replay/demote4/STEPS.json",
+    "original_sha256": "44f86dad67f0cda0dfa67ed6e617d85c48afd8cff6049a1f35514b2fa66026fa"
+  },
+  "demote4/wrappers.log": {
+    "file": "replay/demote4/wrappers.log",
+    "original_sha256": "74b13cf8570ca2f32ce0018575b1b73e95af77a28e59d09556fec59260bdbba5"
+  },
+  "demote4/phases.log": {
+    "file": "replay/demote4/phases.log",
+    "original_sha256": "17f05abb01b66ed5794148df45110ab5bd2823beef4cc25d2cea93af4c9dc2d4"
+  },
+  "demote4/ledgers.log": {
+    "file": "replay/demote4/ledgers.log",
+    "original_sha256": "a74074d40846001a0f180a66b4085ad096cc30e6715428c43f26140fa571c490"
+  },
+  "demote4/native.log": {
+    "file": "replay/demote4/native.log",
+    "original_sha256": "6770c2049a79a0f4c96db2bf07821a6aa4f44e5a709f376967c28eddbc3202f7"
+  },
+  "demote4/local-replay.log": {
+    "file": "replay/demote4/local-replay.log",
+    "original_sha256": "dd643a58258431c3b07d3b06d9060c49677fa23b4fafc9f10988ed1f6867bd9a"
+  },
+  "demote4/local/LOCAL-CHECKS.json": {
+    "file": "replay/demote4/local/LOCAL-CHECKS.json",
+    "original_sha256": "ea3356239bb11b1ffdb386409e2439ac9e4d0e13dceb24cadc8d26210706daf4"
+  },
+  "demote4/local/INDEPENDENT-LOCAL-REPLAY.json": {
+    "file": "replay/demote4/local/INDEPENDENT-LOCAL-REPLAY.json",
+    "original_sha256": "ffea772c9575415294434e06f5f6be2fa0313dbb884003e29d2fcbc5cabf1ab3"
+  },
+  "demote4/local/WRAPPER-CHECKS.json": {
+    "file": "replay/demote4/local/WRAPPER-CHECKS.json",
+    "original_sha256": "84a5bc26df5fb70dc12852a868962bcdfad3b85d85408edfd1f343e898a78c0e"
+  },
+  "demote4/local/CLIFFORD-REVIEW.json": {
+    "file": "replay/demote4/local/CLIFFORD-REVIEW.json",
+    "original_sha256": "fd2f28324113cec18d6afe6f3352a5d49ff2ce2c9559ec121b6cbfced38fb626"
+  },
+  "t37/strict/ASSEMBLY.json": {
+    "file": "replay/t37/strict/ASSEMBLY.json.gz",
+    "original_sha256": "58f1b4188334f0d771ea5a0b98391cd5d5caf532fef3033f800c03f2eebf199c"
+  },
+  "t37/strict/STAGES.json": {
+    "file": "replay/t37/strict/STAGES.json",
+    "original_sha256": "589582ac37a15b62908e27bf96a76b2a5e0a849d57dd988e45bc33708dd64fed"
+  },
+  "t37/strict/ADMISSION-CONTROLS.json": {
+    "file": "replay/t37/strict/ADMISSION-CONTROLS.json",
+    "original_sha256": "2fbe3f734003efdbaa7280d77fc5446eea966665cd53f6a5eceaf02bd8eb50ab"
+  },
+  "t37/strict/BIT-CONTROLS.json": {
+    "file": "replay/t37/strict/BIT-CONTROLS.json",
+    "original_sha256": "877b9404080b58b3c4109adf6f02d1c779c8d250228cff29238745c0c126a4ab"
+  },
+  "t37/strict/global/audit/ASYNC-AUDIT.json": {
+    "file": "replay/t37/strict/global/audit/ASYNC-AUDIT.json",
+    "original_sha256": "539eff07149a5486bce33d365653ef8761aa98befb161d45bdd104b40369688e"
+  },
+  "t37/strict/global/audit/OWNERS-AND-PROFILE.json": {
+    "file": "replay/t37/strict/global/audit/OWNERS-AND-PROFILE.json",
+    "original_sha256": "4201ea23c071d799c013c721198fd3d76e950ddb657a150697e360e3d591a54f"
+  },
+  "t37/strict/global/audit/PREFIX-AND-INVOICE.json": {
+    "file": "replay/t37/strict/global/audit/PREFIX-AND-INVOICE.json.gz",
+    "original_sha256": "72327d6e51a2d40f6374a70eb60bf87fa3011387c17eec30c0be253944ddc0cd"
+  },
+  "t37/strict/assembly.log": {
+    "file": "replay/t37/strict/assembly.log",
+    "original_sha256": "da82aa5412877873666c1e498acc5a9920a72fe2e240a944a609059f26d28aec"
+  },
+  "t37/strict/bind.log": {
+    "file": "replay/t37/strict/bind.log",
+    "original_sha256": "71f679ce5a123fb58397fd6852ba64ce3832fd20e81a096bfda9a1cf3237237a"
+  },
+  "t37/strict/invoice.log": {
+    "file": "replay/t37/strict/invoice.log",
+    "original_sha256": "b8ea678847a75f50150d47ee32deb7d1923368548992ec73eb38b1176503f8e9"
+  },
+  "t37/strict/audit.log": {
+    "file": "replay/t37/strict/audit.log",
+    "original_sha256": "539eff07149a5486bce33d365653ef8761aa98befb161d45bdd104b40369688e"
+  },
+  "t37/strict/emit.log": {
+    "file": "replay/t37/strict/emit.log",
+    "original_sha256": "3a2c3152fea7a8dd1ae2f6720dc5a98cffe54b5a1c703d1af66f91a4d3532749"
+  },
+  "t37/strict/admission-controls.log": {
+    "file": "replay/t37/strict/admission-controls.log",
+    "original_sha256": "40f0c35552fb10f02288ae8d2c6b9f902050fb370c0a19b7b88c977d0d44dab1"
+  },
+  "t37/strict/bit-controls.log": {
+    "file": "replay/t37/strict/bit-controls.log",
+    "original_sha256": "d54d260bf95bd8ae4ab8846314082b93b2e3d8f427eb35376691f2ce543a6b67"
+  }
+}

@@ -1,0 +1,17 @@
+# Local circuit change and exact mixed hosting
+
+Start with Jeremy Diviney's PR1193 fused D3 and D4 words, pinned at d313cce94d7bb4dd8b15265cad0aa5fb77b2ecff. Its original proof and notice are retained in vendor/pr1193. D3 contains PR1148's three joint entrance demotions and PR1195's source-holder fusions. D4 also demotes helpers 627, 629, 630 and 631. Their width inventories are `{4:44,5:44,7:38,8:114,9:240}` and `{4:40,5:48,7:38,8:114,9:240}`.
+
+Apply X54 to both scalar words. Jeremy Kothe's PR1130 supplies the operation, chafreaky's PR1196 supplies its composition and constructor, and Rohan Arun's PR1207 supplies the mapped scalar recipe on the fused word. It replaces five B gates, inserts five B gates, and adds one early and one full restoration. Donations use holders 335 and 367 with sources 54 and 589. Literal frames are independently regenerated with Marius-Paul Dumitrean's PR1186 toolkit and frozen; discovery arithmetic is not the verifier.
+
+build_x54.py checks the source fusion word, applies the retained scalar constructor, and checks every old/new frame entry. build_word.py reconstructs D4 using only entrance and gate-frame changes. Complete decompressed equality with both frozen words is required. Fresh native replay checks both scalar orientations, arbitrary dirty-state restoration, monotone frames, residual interfaces, wrappers and every directed phase edge. Removing either X54 restoration, flipping a donation, or omitting its preread must be rejected on both final providers. The fusion and entrance mutations remain mandatory.
+
+Both profiles change by `+2 H3 -4 H4 +2 H5`, with zero rank-mass change: `2*3 -4*4 +2*5 = 0`. Every ordered start/end frame, centre interface and port agrees with its parent provider. Thus all 480 individual widths agree, permitting reuse of the original assignment, beyond aggregate inventory equality.
+
+The frozen dispatch uses 125 D3 and 208 D4 calls. The retained integer flow and regular bipartite matching constructor regenerate all 159,840 whole-helper roles in the same physical windows. A separate audit checks actual source events, bridge boundaries, family noncollision, per-call widths, prefixes and 73-axis charts. No owner is split. Two idle rank-one children and 11,374 idle rank-48 children remain.
+
+The full paid profile is `{1:783552,2:169496,3:137362,4:42458,5:27306,8:2664,48:11374}`. Its rank mass is 2,408,256 and deficit `73*33152 - 2408256 = 11840`. The retained emitted controller, complete finite invoice and strict assembly independently check the profile and physical accounting. Prefix reserve is 1024 bits against a 775-bit bound; physical row coefficient is 17495 against the charged 20161. The unchanged bit supplier includes PR559's correction and the bad-residue surcharge.
+
+Two exact moment engines bracket the complex root. The certified lower endpoint is `839311367867996118499/500000000000000000000000`; the retained 47-inequality outer assembly admits `1675809683500501/1000000000000000000`. The specification is derived once, frozen and replayed strictly. Profile pricing and discovery-mode success do not substitute for that replay.
+
+Compiler, common-label/mutable-source realization, whole-call hosting, precision/tape and recovery, analytic transfer, and bit H1–H5 assumptions remain. This finite construction makes no global optimality statement, discharges none of those hypotheses, and establishes no practical runtime speedup.
