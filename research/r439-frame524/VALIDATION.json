@@ -1,0 +1,161 @@
+{
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "python": "Python 3.11.14",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.1.1.101)",
+  "boost": "1.86.0",
+  "boost_archive_sha256": "1bed88e40401b2cb7a1f76d4bab499e352fa4d0c5f31c0dbae64e24d34d7513b",
+  "source_base": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "original_bit_supplier_replay": {
+    "command": "BOOST_INCLUDE=/path/to/boost PYTHON=/path/to/python bash research/e8-bit-p111-tuned/tune/verify.sh /fresh/output",
+    "exit_code": 0,
+    "elapsed_seconds_reported": 158,
+    "c_nine": "1733427039589844234749/1000000000000000000000000",
+    "c_eleven": "855475950388791987811/500000000000000000000000",
+    "scope": "Original PR589 word, all documented package steps, controls and hosted invoices; not replacement hosted replay or current complex supplier."
+  },
+  "checks": [
+    {
+      "command": "python3 -I -B research/r439-frame524/verify.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -I -O -B research/r439-frame524/verify.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -I -B research/r439-frame524/factor_comparison.py",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -I -B research/r439-frame524/check_package.py",
+      "exit_code": 0
+    },
+    {
+      "command": "BOOST_INCLUDE=/path/to/boost python3 -I -B research/r439-frame524/native.py --output /fresh/output",
+      "exit_code": 0
+    },
+    {
+      "command": "python3 -I -B research/r439-frame524/search.py --output /tmp/frame524-search.json; cmp /tmp/frame524-search.json research/r439-frame524/CANDIDATE.json",
+      "exit_code": 0
+    },
+    {
+      "command": "make selected-record-check",
+      "exit_code": 0
+    }
+  ],
+  "local_log_hashes": {
+    "pr589-baseline": {
+      "sha256": "63c739cf11e3a41f5725fa4d767493248cfeba5548b807092acf60e38b35c9c9",
+      "bytes": 119900
+    },
+    "package-check": {
+      "sha256": "655e32d0560c912ae0dc1c0fa4437cde4152ff7a7ce93c9e01eadecb4e9a6a2d",
+      "bytes": 77
+    },
+    "optimized-check": {
+      "sha256": "c0504f829a3e71cda226a560d002c7fb85a47bf2653c88d1799ab24b0db08a23",
+      "bytes": 210
+    },
+    "native-check": {
+      "sha256": "40acaf90c66d6e567f3900c3f1cf22500e22ec5457c3997d9cfd79ed87ddb952",
+      "bytes": 277
+    },
+    "final-check": {
+      "sha256": "c0504f829a3e71cda226a560d002c7fb85a47bf2653c88d1799ab24b0db08a23",
+      "bytes": 210
+    }
+  },
+  "development_findings": [
+    "Caught and fixed a textual adaptation that widened the MOVE register bound from 660 to 1260; final bound is 0 <= register < 661, with a new temporary-register rejection control.",
+    "The package control initially expected the frozen gate-count error but the new factor checker rejected first; moved structural gate-count validation before factor checks. Corruption was never accepted."
+  ],
+  "not_claimed": [
+    "replacement hosted invoice",
+    "new supplier exponent",
+    "new kappa",
+    "full Lean theorem",
+    "independent human review"
+  ],
+  "fixed_factor_extension": "Integer back-substitution checks all nonnegative donor multiplicities. Every feasible edge has coefficients 0 or 1, so repeated donors add no edges; minima remain 12 and 15.",
+  "frontier741_dependency_replay": {
+    "command": "make frontier741-verify (inside make verify)",
+    "steps": [
+      {
+        "name": "bit589",
+        "exit_code": 0,
+        "seconds": 144.12319658399792,
+        "log_sha256": "51b19c47be077150ba3f4867237bc0f98956fbb2731d6f0be1f4a9cce28675a1"
+      },
+      {
+        "name": "complex741",
+        "exit_code": 0,
+        "seconds": 598.2626257499942,
+        "log_sha256": "a3051e115805e394538a7ecfed36cd08bf6895441b52c1ceb544d6efe4de2d50"
+      },
+      {
+        "name": "bindings",
+        "exit_code": 0,
+        "seconds": 0.04869758400309365,
+        "log_sha256": "3749764c11e425c10f2f68137b987a7ed5c6a7f29fa319e0d0623cb1bd752526"
+      }
+    ],
+    "result_sha256": "4b8ca28519c51bb8f0980e0e04e9fe1802f1d0c69989bc220d077ae65df4da2a",
+    "scope": "Original PR741 + PR589 finite composition, not PR799 X4 and not the replacement circuit."
+  },
+  "full_suite_initial": {
+    "command": "make verify",
+    "exit_code": 2,
+    "completed_top_level_groups": [
+      "verify-community",
+      "verify-producers",
+      "verify-partial-gauge",
+      "verify-three-stage-cover",
+      "verify-paired-cube",
+      "verify-recycled-bit",
+      "verify-entrance-banks",
+      "gen4-bank-verify",
+      "frontier741-verify",
+      "verify-certificates",
+      "verify-ternary",
+      "verify-research"
+    ],
+    "failure": "Unchanged research/skip-suffix/producer.py invokes c++ -fopenmp; Apple clang rejects the flag.",
+    "log_sha256": "fc1a4288cf436bed8a588ff366a4655d11979ae749752b177c01929d0fb297d9"
+  },
+  "full_suite_gcc_resume": {
+    "command": "CXX=g++-16 BOOST_INCLUDE=/path/to/boost OMP_NUM_THREADS=4 make verify-strips verify-clones verify-positive verify-joint verify-pair verify-tests",
+    "exit_code": 2,
+    "completed_top_level_groups": [
+      "verify-strips",
+      "verify-clones"
+    ],
+    "failure": "Unchanged scripts/audit_positive_skip_exact.py does not add BOOST_INCLUDE to compiler flags; isolated Boost was not on its include search path.",
+    "log_sha256": "fd70de0563f359deb6a83212393467f6c5dd2c971beac15e51996c9706aa093f"
+  },
+  "full_suite_include_resume": {
+    "command": "CXX=g++-16 CPLUS_INCLUDE_PATH=/path/to/boost make verify-positive verify-joint verify-pair verify-tests",
+    "exit_code": 2,
+    "failure": "The failed positive-skip build had already created its output directory; its generator requires a fresh directory. Preserved the failed output under build/positive-skip-exact-missing-boost and restarted.",
+    "log_sha256": "6641776174625e092a15491c8a2bd8ce41266ad4cfcd69fb1a7f70625117c221"
+  },
+  "full_suite_final_resume": {
+    "command": "CXX=/opt/homebrew/bin/g++-16 BOOST_INCLUDE=/path/to/boost CPLUS_INCLUDE_PATH=/path/to/boost OMP_NUM_THREADS=4 make verify-positive verify-joint verify-pair verify-tests",
+    "exit_code": 0,
+    "completed_top_level_groups": [
+      "verify-positive",
+      "verify-joint",
+      "verify-pair",
+      "verify-tests"
+    ],
+    "isolated_test_modules": 87,
+    "historical_patch_application_checks": 20,
+    "log_sha256": "6d895cc269e43d368205ad35049c2170f4807a3f89fe4be4d3aa10fc45b7c050"
+  },
+  "full_suite_coverage": "All 18 top-level groups of make verify passed across the initial prefix and documented resumed runs. The original make verify invocation exited 2 on a platform compiler setup issue; no mathematical check was removed or weakened.",
+  "final_overlap": {
+    "latest_pr": 904,
+    "main_unchanged": true,
+    "pr904_frame524_windows": 0,
+    "comparison_file": "PR904-COMPARISON.json"
+  }
+}

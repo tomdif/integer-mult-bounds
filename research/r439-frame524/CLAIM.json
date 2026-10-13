@@ -1,0 +1,20 @@
+{
+  "assignment_seed": 13,
+  "track": "bit supplier",
+  "base_commit": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "scope": "PR589 R439 phase-B frame 524, B[449:490): shorten its exact positive integer circuit with literal reverse cleanup.",
+  "candidate_tasks": [
+    "Frame reassignment of the selected bit word: rejected because PR886 closes this class.",
+    "Further puncturing of E8 star decoder: deprioritized because PR631/747/772/875 already cover broad threshold classes.",
+    "Positive factorization of the twelve-wire frame-524 B block: selected; PR891 excludes the whole-block single-write class, so search permits intermediate/multiple writes."
+  ],
+  "expected_deliverable": "Exact candidate or bounded negative result with independent matrix replay, unchanged frame-path proof, complete native bill and meaningful mutation controls.",
+  "stopping_rule": "At most 12000 seeded whole-matrix factorization trials and a fixed-factor exact DP comparison; reserve final portion for verification.",
+  "coordination": "No pinned sprint coordination issue found; only non-PR open issue #650. Claim recorded locally.",
+  "overlap_checked_prs": 683,
+  "overlap_latest_pr": 891,
+  "expected_finish_utc": "2026-10-13T11:20:00Z",
+  "result": "Completed: 41-to-26 frame-524 circuit, 30 total ADDs saved, exact 27-ADD fixed-factor class bound; no new kappa.",
+  "completed_utc": "2026-10-13T11:47:36.638738+00:00",
+  "result_link": "https://github.com/tomdif/integer-mult-bounds/tree/research/bit-seed13-20261013/research/r439-frame524"
+}

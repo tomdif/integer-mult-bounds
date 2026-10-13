@@ -1,0 +1,97 @@
+{
+  "main_sha": "f567884aeb8851b6e794af1184119a3bfbe1e631",
+  "latest_pr": 904,
+  "new_prs": [
+    {
+      "number": 904,
+      "title": "Bit supplier: save 254 R439 ADDs with four-wire prefix resynthesis (no new kappa)",
+      "head": "883a0bdf7792693e57c16be660824b57aacfbe05",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/904",
+      "mentions_frame524": false
+    },
+    {
+      "number": 903,
+      "title": "Tooling: 1.71x faster exhaustive data-corner replay with identical receipts",
+      "head": "4e1d75e312d09107298ceeb27a79d96f369459db",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/903",
+      "mentions_frame524": false
+    },
+    {
+      "number": 902,
+      "title": "Research audit: tighter Gaussian correction-power endpoint bound (no new kappa)",
+      "head": "e17fd726b23ff009518c2fc7fa0c423e3c25a46d",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/902",
+      "mentions_frame524": false
+    },
+    {
+      "number": 901,
+      "title": "Research construction: restored X4 target pairs save 33,800 primitives per orientation (no new kappa)",
+      "head": "dbe8dc01f8306bd7dab8d861a953b23e5cda6a70",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/901",
+      "mentions_frame524": false
+    },
+    {
+      "number": 900,
+      "title": "Tooling: exact spectator orbits accelerate historical sparse-fusion verification",
+      "head": "6e004d863bffd2d91b4168b78deb4e7b6fa1fe5e",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/900",
+      "mentions_frame524": false
+    },
+    {
+      "number": 899,
+      "title": "Helper minimality (no κ claim): the shipped helper layers of #656 / #799 are minimal for their op multiset",
+      "head": "75e7699a691f321861ab8fe303f8bd8e6a6fc393",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/899",
+      "mentions_frame524": false
+    },
+    {
+      "number": 898,
+      "title": "Tooling: accelerate historical Leech minors with exact byte lanes",
+      "head": "521c86e7fd4d0fbd1ed4e0524aa26a1e45861477",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/898",
+      "mentions_frame524": false
+    },
+    {
+      "number": 897,
+      "title": "No new κ: covers of E7 by hyperplane flats are exactly the D4-frame triples; near-covers are the A3s (checked)",
+      "head": "12c4789c61ac843dcd00e2c71e5388d362298b1a",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/897",
+      "mentions_frame524": false
+    },
+    {
+      "number": 896,
+      "title": "[Lean] Prove nonlinear dirty-commutator restoration and ordered products (no new kappa)",
+      "head": "4e34d42b64ff05a4f293b9748d71642e14ef273d",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/896",
+      "mentions_frame524": false
+    },
+    {
+      "number": 895,
+      "title": "No new κ: BW16 as a unit — window c ≥ 72 puts its ceiling at 0.649× E8's (checked)",
+      "head": "3bf6fccaf17521ffdb9b3bec2740ba4886478556",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/895",
+      "mentions_frame524": false
+    },
+    {
+      "number": 894,
+      "title": "Research audit: exact endpoint-to-kappa reduction of the selected frontier799 assembly (no new kappa)",
+      "head": "144e7e21c4f6ab4afda1338fe25eaab5a53b4431",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/894",
+      "mentions_frame524": false
+    },
+    {
+      "number": 893,
+      "title": "Independently audit PR236 source commands and recorded axiom evidence",
+      "head": "5d8c2e96e0624efbadb182d9ee0a09ee65b70b48",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/893",
+      "mentions_frame524": false
+    },
+    {
+      "number": 892,
+      "title": "Research: rank-eight coded-helper endpoint and complete mixed-cost obstruction (no new kappa)",
+      "head": "9778ba2d891468996b81eb50c389bb4169df0025",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/892",
+      "mentions_frame524": false
+    }
+  ]
+}
