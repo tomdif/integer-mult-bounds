@@ -1,0 +1,81 @@
+{
+  "status": "PASS_COMPLETE_U10_T37_RESULT_BINDINGS",
+  "pins": {
+    "manifest_sha256": "38907d05fddac9be6bf7a7aff47fae43114a055d2259cead5651a08f9b983820",
+    "dependencies_sha256": "0160ea2677cc9ceeb0f861dc2774d470a27cbaa58b8fd6c064cf0683d18f3e87",
+    "predecessor": {
+      "manifest_sha256": "663a4300ec3abe2278ac6c8e49dd13dc58694c33bfadaa278c5406539e113a31",
+      "dependencies_sha256": "7c47d44e8d5c24aa80afc70724e7c0381fec57ef80d085d2ee4611726a0f1254"
+    }
+  },
+  "kappa": "831019538879371/500000000000000000",
+  "actual_payload": {
+    "template": "940a43a4ca88eba831acd3e5014b652e4b163af71c521dc669b2053102371f5a",
+    "sigma_stream": "cdeabb863fd48b7c29554a2c2f909659be5911a3c2abd6b5188b7d5d7bdb50fe",
+    "sigmas": 9628,
+    "source_artifacts": {
+      "work/complex-nine-native/DATA-PHASES.json": "c5916ff312678f12aba403847643fbbc29f643acec60bdf836fa56cd3e8251fa",
+      "providers/gauge44/CANONICAL-WORD.json.gz": "3691f0a284a72e252694c6145d9c08971b8339b7ca8aa103e8f6f93bd461563b",
+      "providers/gauge44/LOCAL-PROGRAMS.json.gz": "0757108be6b4af2598aeeff482692eedd1ef7af4a1aac6ebe5ff069a90265812",
+      "providers/gauge44/LOCAL-CHECKS.json": "278e4af527e2530abe670a4b786c512be1d10bdd45ff0f5da22fbae6aea7593f",
+      "providers/gauge44/INDEPENDENT-LOCAL-REPLAY.json": "86973e80297660a8b82b9c4fe439cbee7ee413dfc17bc371c26cf7683705e802",
+      "providers/gauge44/RESIDUAL-ADAPTERS.json": "8b06181f69832da05e3bffab0737598013e20de6f1f48aad43617fbfe62df615",
+      "providers/gauge44/CLIFFORD-RECIPES.json": "27a03e185257ef29e842cd6c49a29c58bbe632b0cbd396f64c3523c38b7b3fe9",
+      "providers/gauge44/CLIFFORD-REVIEW.json": "ed89faa97e8a9b0a0a34b71388934a6d83b1423907cbe4ef40b3d59712cdf15c"
+    }
+  },
+  "authorized_adapters": {
+    "build_parent.py": "cda5b50746b2d383e8a347eec32ab2d8addbd3a171b1273a65f066c3bd160587",
+    "check_parent.py": "5c81d552ab1d88991f400e983b0492f47a6650da92915cd296e7312f15b1b93a",
+    "runtime/assemble.py": "d89ed7a68f19e6d0dbb9d1bd75805433b1dc000bd89649fb598ef381c3887925",
+    "runtime/assembly_controls.py": "29ba6742d899d2318a96745c8ec21de06ba3968d4641c3400a15bc714e0d7f9e",
+    "runtime/audit_allcold.py": "a8d3c48e26957c5174ea35043545d3863a4c19c82422074ac42132b446533b4a",
+    "runtime/bind_providers_portable.py": "1d39bcc7b63ac158e021454beaae897d123e174360573762aecade3cd43193f6",
+    "runtime/bit_supplier_controls.py": "e6d33fb61a570c3f50669412acc467a3fd06ef0b806da6a75bc296c6ba2142a5",
+    "runtime/emit_allcold.py": "3219e0706d497a2e6b595cec0a0d5bdbfbd1d991bf70136762eada44126a9ac1",
+    "runtime/freeze_spec.py": "e9132a9d195c66123f2747a17f7ef404b4d1e3ef6263ab4c28c983a052cf10bd",
+    "runtime/generated_identity.py": "c8af22719c0f3097a991a3f6ccac8f090afd2faba554745733d9ea88f2c25708",
+    "runtime/invoice_allcold.py": "e348dfdca722088144d3db2e619ab3369228011212f558ea1fe12514ff06877c",
+    "runtime/prepare_global.py": "8c0dae301a8f34b77a5a462f840952d08ed120576212adf5051bc09bcad874dc",
+    "runtime/restore_parent.py": "69b7b25ff85e9b8160e233c1d415cc6a0272019e5c486dcec14cb6c349e7024d",
+    "runtime/witness.py": "779c5172894b992131e85be1e592ed2a1aec8c287b872ff42007d36a7291e444"
+  },
+  "artifacts": {
+    "ANCESTRY-COVERAGE.json": "e591a2e6315a822e3252a2b38877a6d7f683b44c91393751f2e00982b33d4b1f",
+    "BASELINE-BINDING.json": "87cec793c1fc0ad9f222b65ada110a593979045f7326bade510c3591fb28974b",
+    "ADAPTATIONS.json": "41d4e4e3ac2c6fdaf0de02e016b23546b590c5ea449e699e1ae6f9aba5b0dfad",
+    "CONSTRUCTION-CHECK.json": "f7e5604b2626aca57d56d4f8b3ad96ba0f977b0ff50837e88dcf2b9a75496813",
+    "INDEPENDENT-OWNERS.json": "fc3435164587d95456795e88663b61b8659bbd5173133d2ae1293c4b386eafad",
+    "PARENT-CHECK.json": "2b729fd666ffe4e34a355223b57f74ba460fb171b19c84f260378dd109f0b9a0",
+    "ALL-T-BOUND.json": "d3be401f45a4b41cf74ec2b2b86b05be5b1c31409351453283f9c4126e69f6ea",
+    "PAYLOAD-CONTROLS.json": "0ea40ba82e8987b7a57b0abfe6363d5c7fd173e3962f5a78166fb77042929585",
+    "lift/PLAN.json": "eff7b4d8623f3aeca93c5770fbeeb3a320d08adb54b2ae637f35d4b64b79a6ec",
+    "runtime/data/SPEC.json": "803b3d16f7b89ee4445f60e612f67dcf120a36724ec45ccebfdadf6d39450a38",
+    "native/STEPS.json": "5ac5e840d9682c1cb2c11345118f379bc4a09fea58ceb26a1c09e1423c261ef8",
+    "strict/STAGES.json": "877aaee69ef506eb14efdf0b209ad620e8f8ff9c59445552385e37a7b731f074",
+    "strict/ASSEMBLY.json": "0118bc2740d391514c47e9b5d490c83af1bf858744c2f7208b51bd4d2188230c",
+    "strict/ADMISSION-CONTROLS.json": "37aa1b9f15f0132691953af8dda061ca4dab5a2ffa35013da3ec5cc2c2f853be",
+    "strict/BIT-CONTROLS.json": "3111c41a99c2191e4c543acb8d10e0b305503ac3c64d37708480b89a16207ffa",
+    "strict/global/audit/OWNERS-AND-PROFILE.json": "02a58fcea7a7442ea07cf020e6880f97aca91527783f4597a42d251545a59475",
+    "strict/global/audit/PREFIX-AND-INVOICE.json": "ed03eda0c4129e03ac0cad8b5a5b367854719383b7dc45b56dcd9e5e1d6b3768",
+    "strict/global/audit/ASYNC-AUDIT.json": "eb14e2e6d40149a2edf40c24b563456dfd037dc5ff01a3c74c1192a47758b53c",
+    "lift/GLOBAL-TEMPLATE.json.gz": "378d81d3fc38ac1a8cb8d54bf748ecda355c21f4e07f34c09709f1b4d9fcfbab",
+    "strict/global/PLAN.json": "9fc3f639b12e9ab7ee3803d51fe78e1487499908c72a20c5426a16ca673dee74",
+    "strict/global/BINDING.json": "e61cc1c283a691e669a2fc6d4fd332d85c1d3870e50b1628357987481dfc7f19",
+    "strict/global/hosted/HOSTED.json": "6e24dd419f4b9308a0e540ca3ab026a985464076e5802d4561e6db28898e1e1a",
+    "strict/global/hosted/GLOBAL-TEMPLATE.json.gz": "6c4775ab89815784b07f8cacd4e61446fe5e53cc142a96070ed6232189eb7996",
+    "strict/global/hosted/ACTUAL-SIGMAS.json.gz": "b9b340768bdb84617d7b682aff9153bd0b23cc12129cb590795fa4977e115289",
+    "strict/global/hosted/IDLE-REMAINDER-FRAMES.json.gz": "69ebf869efc3559e70cc3f5499dd41f26d3be6a519f805bee78a38f895556ad2",
+    "strict/global/audit/IDLE-REMAINDER-FRAMES.json": "a2066f19d082e735fe2296f10d2863260879327a5b73e1717e41d538d331fd9c",
+    "discovery/STAGES.json": "06bc439e44f0994ad97b6893dd7e5d7fb148035db2fe43324f05b7567a78961d",
+    "independent_check_1024.py": "95acdd1b8f284ffb0dd6fce2e7b640ae0240fe2a0575ff9d8f4558901e77e2dc",
+    "strict/global/base/work/complex-nine-native/DATA-PHASES.json": "c5916ff312678f12aba403847643fbbc29f643acec60bdf836fa56cd3e8251fa",
+    "strict/global/base/providers/gauge44/CANONICAL-WORD.json.gz": "3691f0a284a72e252694c6145d9c08971b8339b7ca8aa103e8f6f93bd461563b",
+    "strict/global/base/providers/gauge44/LOCAL-PROGRAMS.json.gz": "0757108be6b4af2598aeeff482692eedd1ef7af4a1aac6ebe5ff069a90265812",
+    "strict/global/base/providers/gauge44/LOCAL-CHECKS.json": "278e4af527e2530abe670a4b786c512be1d10bdd45ff0f5da22fbae6aea7593f",
+    "strict/global/base/providers/gauge44/INDEPENDENT-LOCAL-REPLAY.json": "86973e80297660a8b82b9c4fe439cbee7ee413dfc17bc371c26cf7683705e802",
+    "strict/global/base/providers/gauge44/RESIDUAL-ADAPTERS.json": "8b06181f69832da05e3bffab0737598013e20de6f1f48aad43617fbfe62df615",
+    "strict/global/base/providers/gauge44/CLIFFORD-RECIPES.json": "27a03e185257ef29e842cd6c49a29c58bbe632b0cbd396f64c3523c38b7b3fe9",
+    "strict/global/base/providers/gauge44/CLIFFORD-REVIEW.json": "ed89faa97e8a9b0a0a34b71388934a6d83b1423907cbe4ef40b3d59712cdf15c"
+  }
+}

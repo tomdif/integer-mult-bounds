@@ -1,0 +1,15 @@
+{
+  "support.py": "4b2e525d084df6cfc49c15f5de54c99f2d39c0b23e329c0cba7a8fdb3f5c72a8",
+  "LOCAL-PINS.json": "4e3f96e5d829360e3d3627819dc2433304657f2bceca83fdd9e2bd9904c30534",
+  "verify_upstream.py": "0c82840a3869496af2f009cc92f758418bd53cc68fd9d3e763f21e820402854c",
+  "CLAIM.json": "4b5d2d3fdca25801ea67e9bcf35a1885f807f7c43939fdafbb5cdb55891248dd",
+  "reproduce_local.py": "aa29ff388c4d2bbd74e26b9d2bbded0040904d2cd51b2558c71a16beefe25577",
+  "verify.py": "6c240b63347ca47bac22bbc33f04bd607284407e5f166a22cb8517eb2754b7c1",
+  "prepare.py": "5d2d2d0d58968724284c2b34c41e987a5f28e08c6385d35bf79751936d0822e2",
+  "vendor/pr987/LOCAL-PINS-U10.json": "bdd328276aac23bec0ff81a7eebd0344c62996c6035b32068e7528b90fc40bf6",
+  "vendor/pr987/RECIPE-U10.json": "d670808c0c75258285ee15c71a91056a287e22ecfa2e02701d7f7e9397f8f9cd",
+  "vendor/pr987/UPSTREAM.json": "dca73a8af947e31c69ca9153a559d18ede922d6c41e3cc4eb42016adad8a7b6c",
+  "vendor/pr987/reproduce_u10.py": "9ef3f7baa18e5117e9dafc1adf81c08469e9d1cfe54b35f4dc41c6ed0086e0f4",
+  "nominate_provider.py": "0950aaeeaedbf067c8d8ad6cf92d005aad57606fce4ce64f3b9b8bb2bcbd63f4",
+  "reuse_local.py": "d703a3887616acc8fc97daad361e7e0150dbf7d7cd4e36441e2b54d708b98a5a"
+}

@@ -1,0 +1,42 @@
+{
+  "status": "PASS_U8_U10_EXACT_INTERFACE_COMPARISON",
+  "changed_fields": [
+    "B",
+    "cleanup",
+    "early_cleanup",
+    "report"
+  ],
+  "identical_fields": [
+    "ports",
+    "A",
+    "start_extra",
+    "helper_final",
+    "centers",
+    "center_frames",
+    "cut"
+  ],
+  "raw_word_content_sha256": [
+    "090fd574747fbf9628e70cb9beb792732914cfa52e1df147579fe4dbccc68c5a",
+    "776de990f3e1e9eebb075a3d280d1aa029cb5a171d30945128a713f78dd126d1"
+  ],
+  "local_profiles": [
+    {
+      "1": 2548,
+      "2": 338,
+      "3": 446,
+      "4": 162,
+      "5": 72,
+      "8": 8
+    },
+    {
+      "1": 2548,
+      "2": 338,
+      "3": 450,
+      "4": 154,
+      "5": 76,
+      "8": 8
+    }
+  ],
+  "rank_mass": 5634,
+  "scope": "Interface compatibility check. Full native and global admission are separately required."
+}

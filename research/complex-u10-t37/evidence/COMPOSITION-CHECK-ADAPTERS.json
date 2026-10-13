@@ -1,0 +1,95 @@
+{
+  "all_t_bound.py": {
+    "source_sha256": "3f8637a90baaa11ef18eab9e739d17b32fcff18fbc50c355f9ef32727a92e4f6",
+    "generated_sha256": "b1c05fadd576919cd0e4858f2a8543e53aa23b0facc2816f5ea26b0b52ba9350",
+    "edits": [
+      [
+        "ROOT = HERE.parents[2]",
+        "ROOT = Path('/Users/thomasdifiore/integer-mult-kappa-improve')",
+        1
+      ],
+      [
+        "claim = json.loads((ROOT/'research/complex-t21-owners/data/CLAIM.json').read_text())",
+        "claim = json.loads((ROOT/'research/complex-u10-t37/CLAIM.json').read_text())",
+        1
+      ],
+      [
+        "fixed U8 whole-owner family",
+        "fixed U10 whole-owner family",
+        1
+      ],
+      [
+        "unchanged U8 local paid profile",
+        "fixed U10 local paid profile",
+        1
+      ],
+      [
+        "PASS_ALL_T_U8_SIGNED_DUAL_RELAXATION_BOUND",
+        "PASS_ALL_T_U10_SIGNED_DUAL_RELAXATION_BOUND",
+        1
+      ]
+    ]
+  },
+  "check_payload_controls.py": {
+    "source_sha256": "5b59c6f50c0d79c5857dd4efefdd0fb472ba72fbaafa91596a5a3159500e98cf",
+    "generated_sha256": "d8f251e69c034a9f705ecd26f3d8eef9016b423f47024c2866eac88abffe0d6b",
+    "edits": [
+      [
+        "ROOT=HERE.parents[2]",
+        "ROOT=Path('/Users/thomasdifiore/integer-mult-kappa-improve')",
+        1
+      ],
+      [
+        "'0.001661960547713947'",
+        "'0.001662039077758742'",
+        1
+      ]
+    ]
+  },
+  "final_binding.py": {
+    "source_sha256": "61e8a8856ebc36feee11cbf6e60f2ace3b9b89195c3282f565a651488cf947f7",
+    "generated_sha256": "6986051ca59cb6c424fc83dd696eecaefbfbf8b13ab14d233fed3e6ed42c934d",
+    "edits": [
+      [
+        "load(P/'prepare.py','t37_expected_adapters').expected_adaptations()",
+        "load(Path('/Users/thomasdifiore/integer-mult-kappa-improve/research/complex-u10-t37/prepare.py'),'u10_expected_adapters').expected_adaptations()",
+        1
+      ],
+      [
+        "Q('0.001661960547713947')",
+        "Q('0.001662039077758742')",
+        1
+      ],
+      [
+        "Q('0.001664727258740678855772')",
+        "Q('0.00166480605047151514435')",
+        1
+      ],
+      [
+        "['barch','barch-controls','layer-end-controls','native','ledgers','local-replay','wrappers','phases']",
+        "['u10','u10-controls','layer-end-controls','native','ledgers','local-replay','wrappers','phases']",
+        1
+      ],
+      [
+        "len(read(work/'native/barch-controls/controls.json'))==38",
+        "len(read(work/'native/u10-controls/controls.json'))==14",
+        1
+      ],
+      [
+        "expected=['ancestry-coverage','baseline799-binding','u8-native','prepare'",
+        "expected=['upstream-t37-binding','ancestry-coverage','baseline799-binding','u10-native','prepare'",
+        1
+      ],
+      [
+        "'independent-owners','build-parent','check-parent','independent-price'",
+        "'independent-owners','build-parent','nominate-provider','check-parent','independent-price'",
+        1
+      ],
+      [
+        "PASS_COMPLETE_T37_RESULT_BINDINGS",
+        "PASS_COMPLETE_U10_T37_RESULT_BINDINGS",
+        1
+      ]
+    ]
+  }
+}

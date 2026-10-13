@@ -1,0 +1,42 @@
+[
+  {
+    "step": "u10",
+    "exit_code": 0,
+    "seconds": 0.101
+  },
+  {
+    "step": "u10-controls",
+    "exit_code": 0,
+    "seconds": 5.944
+  },
+  {
+    "step": "layer-end-controls",
+    "exit_code": 0,
+    "seconds": 90.978
+  },
+  {
+    "step": "native",
+    "exit_code": 0,
+    "seconds": 1.338
+  },
+  {
+    "step": "ledgers",
+    "exit_code": 0,
+    "seconds": 0.844
+  },
+  {
+    "step": "local-replay",
+    "exit_code": 0,
+    "seconds": 5.755
+  },
+  {
+    "step": "wrappers",
+    "exit_code": 0,
+    "seconds": 2.059
+  },
+  {
+    "step": "phases",
+    "exit_code": 0,
+    "seconds": 127.631
+  }
+]

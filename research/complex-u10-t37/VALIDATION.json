@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-13",
+  "status": "PASS_U10_T37_STRICT_WITH_SOURCE_BOUND_ANCESTRY",
+  "kappa": "0.001662039077758742",
+  "previous_local_kappa": "1661960547713947858091/1000000000000000000000000",
+  "absolute_gain": "7.8530044794141909E-8",
+  "relative_gain_percent": "0.0047251449441541308669535104528379832338600889771527289623386770574",
+  "work": "/Users/thomasdifiore/integer-mult-runs/u10-t37-20261013-v4",
+  "verified_pipeline_stages": 15,
+  "outer_inequalities": 47,
+  "exact_moment_engines": 2,
+  "controls": {
+    "local_recipe_outcomes": 14,
+    "local_recipe_mutations_rejected": 12,
+    "helper_endpoint_mutations": 95,
+    "owner_mutations": 6,
+    "omitted_owner_edits": 8,
+    "parent_mutations": 8,
+    "controller_mutations": 15,
+    "admission_mutations": 69,
+    "bit_mutations": 12,
+    "payload_mutations": 11,
+    "outer_mutations": 4
+  },
+  "finite": {
+    "global_prefix_bits": 779,
+    "charged_complex_prefix_bits": 1024,
+    "physical_row_coefficient": 17495,
+    "charged_bit_prefix_bits": 512
+  },
+  "native_replay": "U10 rebuilt and checked in this session; the final combined run explicitly reused the completed eight-stage native replay, with full artifact binding.",
+  "ancestry": "Completed PR799 and U8/T37 ancestry explicitly reused and rebound.",
+  "command": "BOOST_INCLUDE=/Users/thomasdifiore/integer-mult-bit-seed13/build/deps/boost_1_86_0 /Users/thomasdifiore/integer-mult-bit-seed13/.venv/bin/python -B research/complex-u10-t37/verify.py --work /Users/thomasdifiore/integer-mult-runs/u10-t37-20261013-v4 --baseline799 /Users/thomasdifiore/integer-mult-runs/architecture799-20261013 --u8-run /Users/thomasdifiore/integer-mult-runs/t37-verified-20261013 --native-from /Users/thomasdifiore/integer-mult-runs/u10-t37-20261013-v2/native",
+  "input_source_pins_sha256": "1ba6f63a5231bb0e72a4439391146e308134a23e9d6bb4abad58a48b33d9ec09",
+  "evidence_sha256": {
+    "evidence/ASSEMBLY.json": "0118bc2740d391514c47e9b5d490c83af1bf858744c2f7208b51bd4d2188230c",
+    "evidence/INDEPENDENT-OWNERS.json": "fc3435164587d95456795e88663b61b8659bbd5173133d2ae1293c4b386eafad",
+    "evidence/RESULT.json": "78f3c19a971245b49efa210708cc84e4ea7756ffa9ae54d6a2576161f6cc9d82",
+    "evidence/FINAL-BINDING.json": "a810a4b747599e84b9b15a28e7f123e0c7f9e85538f689573276823affd0300e",
+    "evidence/PARENT-CHECK.json": "2b729fd666ffe4e34a355223b57f74ba460fb171b19c84f260378dd109f0b9a0",
+    "evidence/U10-PROVIDER-NOMINATION.json": "ed242d030413b670668e19a8461b2a591d5074d615ddb362b559e515937f3ab5",
+    "evidence/NATIVE-REUSE-BINDING.json": "4e96ce625222e394ac9051af5c05909e8d050e3ca970ff8058b2af6d38e859a2",
+    "evidence/ADMISSION-CONTROLS.json": "37aa1b9f15f0132691953af8dda061ca4dab5a2ffa35013da3ec5cc2c2f853be",
+    "evidence/COMPOSITION-CHECK-ADAPTERS.json": "ef5d6647e96dd28e6e6db66166011ceac9f5ce95e90fdd143f8ec756a8d26acd",
+    "evidence/INTERFACE.json": "bd6f5df4f4ccabf2927d05b8d385b58a54929f1ee9a27be88bd8aecc6637fa87",
+    "evidence/PAYLOAD-CONTROLS.json": "0ea40ba82e8987b7a57b0abfe6363d5c7fd173e3962f5a78166fb77042929585",
+    "evidence/ALL-T-BOUND.json": "d3be401f45a4b41cf74ec2b2b86b05be5b1c31409351453283f9c4126e69f6ea",
+    "evidence/NATIVE-STEPS.json": "5ac5e840d9682c1cb2c11345118f379bc4a09fea58ceb26a1c09e1423c261ef8",
+    "evidence/BIT-CONTROLS.json": "3111c41a99c2191e4c543acb8d10e0b305503ac3c64d37708480b89a16207ffa"
+  },
+  "scope": "Finite conditional composition. Inherited all-size/compiler, common-label/physical-realization, precision/tape, analytic-transfer and bit H1-H5 assumptions remain. No unconditional or full proof-assistant theorem claim."
+}

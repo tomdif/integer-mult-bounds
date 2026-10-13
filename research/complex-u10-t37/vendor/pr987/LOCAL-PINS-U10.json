@@ -1,0 +1,19 @@
+{
+ "u10_controls": [
+  "C0_identity",
+  "recipe",
+  "drop_restore",
+  "restore_full",
+  "drop_preread",
+  "donation_after",
+  "drop_restore@444",
+  "restore_full@444",
+  "drop_preread@444",
+  "donation_after@444",
+  "drop_restore@446",
+  "restore_full@446",
+  "drop_preread@446",
+  "donation_after@446"
+ ],
+ "layer_controls": 95
+}

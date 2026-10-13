@@ -1,0 +1,27 @@
+{
+  "CANONICAL-WORD.json.gz": "3691f0a284a72e252694c6145d9c08971b8339b7ca8aa103e8f6f93bd461563b",
+  "LOCAL-PROGRAMS.json.gz": "0757108be6b4af2598aeeff482692eedd1ef7af4a1aac6ebe5ff069a90265812",
+  "LOCAL-CHECKS.json": "278e4af527e2530abe670a4b786c512be1d10bdd45ff0f5da22fbae6aea7593f",
+  "CLIFFORD-RECIPES.json": "27a03e185257ef29e842cd6c49a29c58bbe632b0cbd396f64c3523c38b7b3fe9",
+  "CLIFFORD-REVIEW.json": {
+    "status": "PASS_NEW_WORD_EXACT_LOCAL_PHASE_RECIPES",
+    "canonical_word_sha256": "3691f0a284a72e252694c6145d9c08971b8339b7ca8aa103e8f6f93bd461563b",
+    "frames": 1005,
+    "directed_edges": 2949,
+    "ranks": {
+      "1": 2007,
+      "2": 330,
+      "3": 426,
+      "8": 16,
+      "4": 136,
+      "5": 34
+    },
+    "endpoint_adapters": 224,
+    "all_child_equalities_include_global_phase": true,
+    "recipe_sha256": "27a03e185257ef29e842cd6c49a29c58bbe632b0cbd396f64c3523c38b7b3fe9",
+    "scope": "Every local frame and center transition. Expanded scalar-interface integration and global emitted program are separate obligations."
+  },
+  "RESIDUAL-ADAPTERS.json": "8b06181f69832da05e3bffab0737598013e20de6f1f48aad43617fbfe62df615",
+  "WRAPPER-CHECKS.json": "75510637de1a14c5d37e2fe95d4c11aabc5cf3d2f1508dfb04f9795972629865",
+  "INDEPENDENT-LOCAL-REPLAY.json": "86973e80297660a8b82b9c4fe439cbee7ee413dfc17bc371c26cf7683705e802"
+}

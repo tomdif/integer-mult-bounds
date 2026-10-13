@@ -1,0 +1,30 @@
+{
+  "status": "PASS_U10_PROVIDER_NOMINATION_SAME_T37_GEOMETRY",
+  "previous_plan_sha256": "3bafa76b64a407e63a61d5b64b5ea4dbcf319ccfecc21a02231de3a03bbe920c",
+  "plan_sha256": "eff7b4d8623f3aeca93c5770fbeeb3a320d08adb54b2ae637f35d4b64b79a6ec",
+  "native_artifact_sha256": {
+    "CANONICAL-WORD.json.gz": "3691f0a284a72e252694c6145d9c08971b8339b7ca8aa103e8f6f93bd461563b",
+    "LOCAL-PROGRAMS.json.gz": "0757108be6b4af2598aeeff482692eedd1ef7af4a1aac6ebe5ff069a90265812",
+    "LOCAL-CHECKS.json": "278e4af527e2530abe670a4b786c512be1d10bdd45ff0f5da22fbae6aea7593f",
+    "INDEPENDENT-LOCAL-REPLAY.json": "86973e80297660a8b82b9c4fe439cbee7ee413dfc17bc371c26cf7683705e802",
+    "CLIFFORD-RECIPES.json": "27a03e185257ef29e842cd6c49a29c58bbe632b0cbd396f64c3523c38b7b3fe9",
+    "CLIFFORD-REVIEW.json": "ed89faa97e8a9b0a0a34b71388934a6d83b1423907cbe4ef40b3d59712cdf15c",
+    "RESIDUAL-ADAPTERS.json": "8b06181f69832da05e3bffab0737598013e20de6f1f48aad43617fbfe62df615"
+  },
+  "native_semantic_sha256": {
+    "CANONICAL-WORD.json.gz": "4ea29d5f21a45f1c7b1362867ef458aa3fa3078580a420c83f75f0decf1af74b",
+    "LOCAL-PROGRAMS.json.gz": "50b5c91b02e5f4e068b37b56ee7b1e7c24b521b19de92875ea4f07e4981e98ca",
+    "LOCAL-CHECKS.json": "693b147eb5b82648f472c6192b38b4d93d330761b11cee5b3b525e533d5ad56d",
+    "INDEPENDENT-LOCAL-REPLAY.json": "70428603a4aee2bf870c472de8a36a51ce9feb0d7eeb512627c1633abe784ddf",
+    "CLIFFORD-RECIPES.json": "27a03e185257ef29e842cd6c49a29c58bbe632b0cbd396f64c3523c38b7b3fe9",
+    "CLIFFORD-REVIEW.json": "ce9b78aa22ae5c5ac8ae837445858a5164b9d216e226ddb87998d9417d4984f6",
+    "RESIDUAL-ADAPTERS.json": "55281b345e902c04c38a6e82a44e2c84467cd1b93198c101d5cb00d8f7bf40fb"
+  },
+  "only_changed_fields": [
+    "provider_registry.artifact_sha256",
+    "provider_registry.artifact_semantic_sha256",
+    "provider_registry.actual_paid_profile",
+    "provider_registry.orientation_program_sha256",
+    "provider_calls.local_program_sha256"
+  ]
+}

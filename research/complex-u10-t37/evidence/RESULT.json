@@ -1,0 +1,138 @@
+{
+  "status": "PASS_U10_T37_STRICT_WITH_SOURCE_BOUND_ANCESTRY",
+  "kappa": "831019538879371/500000000000000000",
+  "kappa_decimal": "0.001662039077758742",
+  "improvement_over_pr942": "15706008959/200000000000000000",
+  "improvement_over_pr987_t21": "1386664487/500000000000000000",
+  "complex_lower": "33296121009430302887/20000000000000000000000",
+  "bit_lower": "1733427039589844234749/1000000000000000000000000",
+  "prefix_bits": 779,
+  "charged_prefix_bits": 1024,
+  "physical_row_coefficient": 17495,
+  "profile": {
+    "1": 848490,
+    "2": 112554,
+    "3": 149850,
+    "4": 51282,
+    "5": 25308,
+    "8": 2664,
+    "48": 11086
+  },
+  "cold_baseline": "/Users/thomasdifiore/integer-mult-runs/architecture799-20261013",
+  "reused_completed_ancestry": true,
+  "reused_u8_run": "/Users/thomasdifiore/integer-mult-runs/t37-verified-20261013",
+  "fresh_u10_native": false,
+  "reused_u10_native": "/Users/thomasdifiore/integer-mult-runs/u10-t37-20261013-v2/native",
+  "pins": {
+    "composition_source_pins_sha256": "1ba6f63a5231bb0e72a4439391146e308134a23e9d6bb4abad58a48b33d9ec09",
+    "upstream": {
+      "manifest_sha256": "38907d05fddac9be6bf7a7aff47fae43114a055d2259cead5651a08f9b983820",
+      "dependencies_sha256": "0160ea2677cc9ceeb0f861dc2774d470a27cbaa58b8fd6c064cf0683d18f3e87",
+      "predecessor": {
+        "manifest_sha256": "663a4300ec3abe2278ac6c8e49dd13dc58694c33bfadaa278c5406539e113a31",
+        "dependencies_sha256": "7c47d44e8d5c24aa80afc70724e7c0381fec57ef80d085d2ee4611726a0f1254"
+      }
+    }
+  },
+  "final_binding_sha256": "a810a4b747599e84b9b15a28e7f123e0c7f9e85538f689573276823affd0300e",
+  "assembly_sha256": "0118bc2740d391514c47e9b5d490c83af1bf858744c2f7208b51bd4d2188230c",
+  "frozen_spec_sha256": "803b3d16f7b89ee4445f60e612f67dcf120a36724ec45ccebfdadf6d39450a38",
+  "stages": [
+    {
+      "name": "upstream-t37-binding",
+      "exit_code": 0,
+      "seconds": 3.275,
+      "log_sha256": "f683fe43812b0de3fe259fee89e06a64ea89e6a6805b6bf87f4de3ad4ea248ba"
+    },
+    {
+      "name": "ancestry-coverage",
+      "exit_code": 0,
+      "seconds": 0.036,
+      "log_sha256": "84e7b14bf5045963cf79594707227b0923a0448da6f89cfb55309b8a6d7b8fe2"
+    },
+    {
+      "name": "baseline799-binding",
+      "exit_code": 0,
+      "seconds": 0.072,
+      "log_sha256": "d634fcb721165a1da4804168fd6a221063b71d1621bb21457afd7e2a25f5476f"
+    },
+    {
+      "name": "u10-native",
+      "exit_code": 0,
+      "seconds": 0.118,
+      "log_sha256": "6ef171c72e6337e2c25c0ab946253f528cdd19fc20cd805840a0f7367d716db0"
+    },
+    {
+      "name": "prepare",
+      "exit_code": 0,
+      "seconds": 0.13,
+      "log_sha256": "34d26313b5d9564c7807f8f3277798dacedca087c9507899cdad8d54091a0dcd"
+    },
+    {
+      "name": "frozen-construction",
+      "exit_code": 0,
+      "seconds": 1.644,
+      "log_sha256": "ea8a0969bac3fc5f57155e4f1e28f52f089612dcda2697ebef20ca3763b829da"
+    },
+    {
+      "name": "independent-owners",
+      "exit_code": 0,
+      "seconds": 6.345,
+      "log_sha256": "e6cae59b6fe8d259f52627cfb54a85485586bb974d12809e01d66eeee8dd3ce0"
+    },
+    {
+      "name": "build-parent",
+      "exit_code": 0,
+      "seconds": 2.852,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "nominate-provider",
+      "exit_code": 0,
+      "seconds": 0.256,
+      "log_sha256": "a0131a0f00ba8e62fd722380612a3d53d15971d8767b6d031e0ce83e4aae2fe1"
+    },
+    {
+      "name": "check-parent",
+      "exit_code": 0,
+      "seconds": 10.385,
+      "log_sha256": "efc9bef89fcac5c95165ca04c186c034a774fc6bd2e1db28f481ddb4e40bea96"
+    },
+    {
+      "name": "independent-price",
+      "exit_code": 0,
+      "seconds": 0.446,
+      "log_sha256": "86264aa7736b14798b43a09fb6c99b5d4074be5b95130d625a49853a88167fb6"
+    },
+    {
+      "name": "discovery",
+      "exit_code": 0,
+      "seconds": 47.069,
+      "log_sha256": "d06427d314c737ada8c5397b1994a1fca76a90c9742afa9f9fd16a22ee47e5e8"
+    },
+    {
+      "name": "strict",
+      "exit_code": 0,
+      "seconds": 47.236,
+      "log_sha256": "b4111b89bb80da70329c6390e85d6d7c64c2a14a52f15ac5c9fa12870e58f7aa"
+    },
+    {
+      "name": "payload-controls",
+      "exit_code": 0,
+      "seconds": 0.317,
+      "log_sha256": "d07d284f38925af9ab0bfe9778b5c214a78ffe43d8e961e7a71afa576a3eed32"
+    },
+    {
+      "name": "final-binding",
+      "exit_code": 0,
+      "seconds": 3.283,
+      "log_sha256": "e6e5275aeb615ff4433302fdae2aa041b0a1d31d482e97842aaf7478cba1436e"
+    }
+  ],
+  "scope": "Finite conditional composition. Inherited all-size/compiler, common-label/physical-realization, precision/tape, analytic-transfer and bit H1-H5 assumptions remain. No unconditional or full proof-assistant theorem claim.",
+  "credits": {
+    "U10": "rohanarun PR987, extending NewBArch PR869",
+    "T37": "jon314159 PR942",
+    "composition": "U10 local construction combined with T37 whole owners; OpenAI Codex assistance."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "conditional_finite_composition_nomination",
+  "kappa": "831019538879371/500000000000000000",
+  "kappa_decimal": "0.001662039077758742",
+  "complex_lower": "0.00166480605047151514435",
+  "bit_lower": "0.001733427039589844234749",
+  "local_profile": {
+    "1": 2548,
+    "2": 338,
+    "3": 450,
+    "4": 154,
+    "5": 76,
+    "8": 8
+  },
+  "profile": {
+    "1": 848490,
+    "2": 112554,
+    "3": 149850,
+    "4": 51282,
+    "5": 25308,
+    "8": 2664,
+    "48": 11086
+  },
+  "calls": 333,
+  "roles": 167832,
+  "live": 33152,
+  "physical": 33666,
+  "rank_mass": 2408256,
+  "deficit": 11840,
+  "idle": {
+    "48": 11086,
+    "1": 6
+  },
+  "charged_prefix_bits": 1024,
+  "physical_row_coefficient": 17495,
+  "prefix_bits": 779
+}

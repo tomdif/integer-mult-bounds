@@ -1,0 +1,20 @@
+{
+  "pr": "https://github.com/CrocSwap/integer-mult-bounds/pull/987",
+  "author": "rohanarun",
+  "commit": "36b76ed29fb30bce784a9b5d81eca0abc9f1f442",
+  "files": {
+    "RECIPE-U10.json": {
+      "source_path": "research/complex-u10-t21/construction/u10/RECIPE-U10.json",
+      "sha256": "d670808c0c75258285ee15c71a91056a287e22ecfa2e02701d7f7e9397f8f9cd"
+    },
+    "LOCAL-PINS-U10.json": {
+      "source_path": "research/complex-u10-t21/construction/u10/LOCAL-PINS-U10.json",
+      "sha256": "bdd328276aac23bec0ff81a7eebd0344c62996c6035b32068e7528b90fc40bf6"
+    },
+    "reproduce_u10.py": {
+      "source_path": "research/complex-u10-t21/construction/u10/reproduce_u10.py",
+      "sha256": "9ef3f7baa18e5117e9dafc1adf81c08469e9d1cfe54b35f4dc41c6ed0086e0f4"
+    }
+  },
+  "driver_adaptation": "PKG lookup redirected to byte-identical existing PR890 vendored builders; no algorithm change."
+}
