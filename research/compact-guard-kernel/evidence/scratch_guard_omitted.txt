@@ -1,0 +1,2 @@
+scratch_guard_omitted.lean:2:52: error: unsolved goals
+⊢ False

@@ -1,0 +1,139 @@
+{
+  "status": "POSSIBLE_OVERLAP_NOT_A_NOVELTY_CERTIFICATE",
+  "searched_at": "2026-10-16T16:11:12.385170+00:00",
+  "terms": [
+    "compact guard",
+    "exceptional-set",
+    "repairBijective",
+    "dirty control"
+  ],
+  "coverage": {
+    "open_prs": {
+      "fetched_at": "2026-10-16T16:10:35.574510+00:00",
+      "complete_pagination": true,
+      "records": 228
+    },
+    "discussions": {
+      "fetched_at": "2026-10-16T16:11:12.257680+00:00",
+      "complete_pagination": true,
+      "records": 1686
+    }
+  },
+  "local_records": 2697,
+  "warnings": [],
+  "limits": "Remote PR scope is open PRs including drafts. Closed work is searched through local READMEs, TASK metadata and ledger only. No code diffs or arbitrary package files are searched. Recheck relevant heads before submission.",
+  "matches_total": 10,
+  "matches": [
+    {
+      "number": 2238,
+      "title": "FINDING / HANDOFF: selected complex compact adapters with sequential repair",
+      "kind": "discussion",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2238",
+      "updated_at": "2026-10-16T10:54:16Z",
+      "matched_terms": [
+        "dirty control"
+      ],
+      "score": 1,
+      "excerpt": " `d404b48a1e7b147556b309497d55089c837dddb2`, as `jmbarrancoml`.**\n\nI implemented sequential compact dirty controls and their exact exceptional-record repair: extraction, inverse destination keys, stable binary radix passes, reinsertion and cleanup. I also compiled the actual selected R480/T16 monomial catalogue into columnwise address operations and Gaussian unit phases, with inverse execution.\n\nThe written composition retains the existing algebra, sufficient guard and long-record domain. Given "
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/community-efficient400-audit/README.md",
+      "path": "research/community-efficient400-audit/README.md",
+      "sha256": "eb7be2ab1d46a234549fac815c801d5aec9d3fd33a92ccfb235045e931133765",
+      "matched_terms": [
+        "compact guard"
+      ],
+      "score": 1,
+      "excerpt": "tps://github.com/CrocSwap/integer-mult-bounds/pull/1247) | bbMisk | Two-pass invariant later-source compact guard with correlated exact density and complete dirty restoration; source-load carries and both subcall guards retained. |\n| [#1248](https://github.com/CrocSwap/integer-mult-bounds/pull/1248) | mightyOil | Sharp cost72 for the fixed unpunctured A8 simplex decoder with arbitrary complex row shifts, via complete binary deficiency-plane compatibility; no general nine-term or puncture claim. "
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/complex-record-amortization/README.md",
+      "path": "research/complex-record-amortization/README.md",
+      "sha256": "088fb37ada002da3699bd9fe43c05033f710dc7bb22838be2d85900c5f069527",
+      "matched_terms": [
+        "compact guard"
+      ],
+      "score": 1,
+      "excerpt": "J V d^(99733167/100000000)\n\nwhen every descendant retains its complete long coefficient records and\ncompact guard ranges and satisfies the quantitative admission inequalities\nin [PROOF.md](PROOF.md). J bounds the number of repair calls per node.\nThe constant is independent of depth and root size. It includes the source\nguard evaluation, inverse-key preparation, radix traffic and cleanup tariff;\nit is not an invoice for the whole supplier.\n\nThe result turns the source's per-call absorption statem"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/mixed-port-coverage-audit/README.md",
+      "path": "research/mixed-port-coverage-audit/README.md",
+      "sha256": "1c673092b6ddd6c3633f2d28f69cdcc49c75e83413dc82b6ec5e93a7292579a9",
+      "matched_terms": [
+        "dirty control"
+      ],
+      "score": 1,
+      "excerpt": "cer verifier runs successfully in a Git-free\nexport on every replay, including its search, decoder, dirty controls,\naddress corrections and original pricing. Those identities remain credited\nto the producer; their replay does not establish the uniform-five implication.\n\nThe selected global template independently binds the normalization: 16\nreplicas, 144 complete calls, 14,336 live data families, four bank pairs and\nnine local stages per replica. Each of 112 ports therefore occurs on eight\nfamili"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/packed-guard-envelope-audit/README.md",
+      "path": "research/packed-guard-envelope-audit/README.md",
+      "sha256": "f28014a6416552291230ffc78c047a93cf970033bbdc1700811efeb94ae31722",
+      "matched_terms": [
+        "exceptional-set"
+      ],
+      "score": 1,
+      "excerpt": "ng rule; no unfinished search is hidden.\nEach packed case checks the inverse, both ideal and actual exceptional-set\ninvariance, equality off the envelope, and exact repaired output. The\nsmall exhaustive domains check the density directly. They stress carries\nat widths below the original lemma's K>=6; the symbolic proof covers\nthat lemma's full range and the larger checks exercise it explicitly.\n\nRelated baseline checks: the four tests in `test_finite_identities.py`,\nthe short-guard tests, and th"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/pr543-binomial-audit/README.md",
+      "path": "research/pr543-binomial-audit/README.md",
+      "sha256": "0707ad9221986bee01384cf2ca54d5f50def685eac7a6d9a8e717e5514bd27e3",
+      "matched_terms": [
+        "exceptional-set"
+      ],
+      "score": 1,
+      "excerpt": "\n\\[\nM(a_-)<1<M(a_+),\\qquad a_+-a_-=10^{-24},\n\\]\nat the endpoints consumed by PR #626, including the exceptional-set fallback charge.\n\nThis contribution confirms the recorded bracket using a standalone standard-library checker and an exact certificate. Powers are evaluated through an outward-rounded generalized-binomial series, without importing the existing logarithm or exponential pricing engines. The result is an independent check of the finite numerical obligation, not a new \\(\\kappa\\).\n\nFrom"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/selected-child-compact-return/README.md",
+      "path": "research/selected-child-compact-return/README.md",
+      "sha256": "ffb7787fc0fa9da4d4d2d85f747ab80cc5192e5c3df2b22da65c8bb9d552eb1d",
+      "matched_terms": [
+        "dirty control"
+      ],
+      "score": 1,
+      "excerpt": "kage executes selected child 7 with two tensor columns: both actual\nmonomial adapters, real Compact dirty controls and exceptional repair, an exact\nC^2 leaf, its literal inverse and the parked caller return. The contribution is\ntheir composition; the existing primitives retain their attribution.\n\nAll 512 native columns and both 512-column monomial maps prove that this actual\nnine-axis child acts on four axes and fixes five. The complete finite execution\nhas 12,288 records, all dirty u/t/b values"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/h2sem-copyshare-priced/TASK.json",
+      "path": "research/h2sem-copyshare-priced/TASK.json",
+      "sha256": "1bf8a02829a0ad913e6e0d4b8a57bad62cfd6b0b4702a60401771fb5d62fd108",
+      "matched_terms": [
+        "dirty control"
+      ],
+      "score": 1,
+      "excerpt": "s\": 60,\n  \"stop_rule\": \"Stop after one complete invoice for the single-pair and matching wraps with dirty controls, or after a falsifying dirty counterexample to H2-sem on those wraps.\",\n  \"outcome\": \"completed\",\n  \"evidence\": \"PASS_H2SEM_COPYSHARE_PRICED: single pair saves 65 ADDs (24305->24240); matching saves 6231 ADDs (24305->18074); paid profile mass 5129 unchanged; guards 94/177 and 95/180; 661 columns; 7 controls.\",\n  \"author\": \"Wentao Li\",\n  \"ai_assistance\": \"Prepared by Wentao Li with s"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/h2sem-matching-f-invoice/TASK.json",
+      "path": "research/h2sem-matching-f-invoice/TASK.json",
+      "sha256": "0341229277ed737a05f6814d7d9818cbbf70f09e287a970b4fc88b78a559e7bd",
+      "matched_terms": [
+        "dirty control"
+      ],
+      "score": 1,
+      "excerpt": "_rule\": \"Stop once one matching that strictly dominates seed-42 on ADD and F is fully invoiced with dirty controls, or after a bounded seed screen finds no such point.\",\n  \"outcome\": \"completed\",\n  \"evidence\": \"PASS_H2SEM_MATCHING_F_INVOICE: seed-7 matching 208 pairs saves 6245 ADDs (24305->18060) with F=73805 vs seed-42 6231/75381; deltas -14 ADDs and -1576 F; profile mass 5129; 661 columns; 7 controls; seed screen 0..255 recorded in SWEEP.json.\",\n  \"author\": \"Wentao Li\",\n  \"ai_assistance\": \"Su"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/selected-complex-compact-adapters/TASK.json",
+      "path": "research/selected-complex-compact-adapters/TASK.json",
+      "sha256": "e919bd3401fd6cb09ac2389a3299464ba461d3ea6430b7ef088031775f52c3af",
+      "matched_terms": [
+        "dirty control"
+      ],
+      "score": 1,
+      "excerpt": "\"precision\"\n    ]\n  },\n  \"scope_status\": \"refined\",\n  \"actual_scope\": \"Implement sequential compact dirty controls, exact exceptional-record repair and the tensor lift of the actual selected complex monomial catalogue, with a written all-size adapter bound under a completed ordinary-interchange contract.\",\n  \"scope_change_reason\": \"After completing the BIT recursive construction, the donor requested continued mathematical research. Existing compact-control audits cover addresses and guards; this"
+    }
+  ]
+}

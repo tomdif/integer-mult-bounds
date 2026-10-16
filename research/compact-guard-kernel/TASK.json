@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "task_id": "uniform-transfer-audit",
+  "priority_revision": 5,
+  "base_commit": "8f1a6ea5c48c806f2b0708002eb9faeb4a6edc68",
+  "original_card": {
+    "id": "uniform-transfer-audit",
+    "question": "Can one exact all-size/compiler, precision, hosting or restoration implication be proved or falsified?",
+    "starting_points": [
+      "certificates/selected-result.json",
+      "docs/audit.md"
+    ],
+    "methods": [
+      "Prove one missing implication with explicit quantified hypotheses.",
+      "Find an exact counterexample at the claimed interface boundary."
+    ],
+    "acceptance_gate": "Identify the proposition and what would change downstream; do not equate a finite replay with a universal proof.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Read the selected review scope and choose one exact all-size or precision implication.",
+      "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+    },
+    "first_experiment": "Write its quantified inputs and conclusion; find a missing hypothesis or construct a minimal exact adversarial instance.",
+    "bottleneck_link": "Finite supplier improvements are useful only under the retained transfer obligations.",
+    "allowed_variations": [
+      "Choose one tape, precision, hosting or restoration lemma."
+    ],
+    "scope_change_triggers": [
+      "Replacing a quantified obligation with another finite smoke test."
+    ],
+    "overlap_terms": [
+      "uniform transfer",
+      "all-size",
+      "precision"
+    ]
+  },
+  "scope_status": "refined",
+  "actual_scope": "Prove the guarded dirty-control, mixed-radix no-carry, density and selective-repair implications in Lean, bound to the retained sparse word.",
+  "scope_change_reason": "Continuing the explicit user proof-completion request after the written outer composition; the primitive audit exposed an intermediate control invariant worth making explicit and formal.",
+  "bottleneck_link": "The support router and complex primitive depend on restoration and valid exceptional-record repair, not only a finite moment.",
+  "budget_minutes": 60,
+  "stop_rule": "Finish a source-bound quantified primitive result; retain the boundary between algebraic formalization, tape costs and the full multiplier.",
+  "outcome": "completed",
+  "evidence": "Guard.lean, PROOF.md, source-bound exact seam checks and fresh kernel replay.",
+  "author": "Thomas DiFiore",
+  "ai_assistance": "Substantial OpenAI Codex assistance in mathematics, Lean, auditing, checks and writing. No subagents.",
+  "open_questions": [
+    {
+      "question": "Can the address-level guard and repair proof be refined to the encoded tape interpreter with explicit cost and delimiter locality?",
+      "why_it_matters": "The kernel currently checks algebra and repair, while physical movement and preparation costs remain written contracts.",
+      "first_step": "Formalize one complete controlled rotation and stable binary radix pass, then instantiate the repair theorem.",
+      "blocked_by": "No full tape semantics are defined in this kernel package."
+    },
+    {
+      "question": "Does independent review validate the complete B/C and outer proof chain?",
+      "why_it_matters": "The claimed multiplication bound depends on all those written implementations and analytic joins.",
+      "first_step": "Review the exact interfaces in fine-prime-transform-assembly/DEPENDENCIES.md against their constructive proofs.",
+      "blocked_by": "No independent human or separate-agent review has been performed."
+    }
+  ],
+  "publication": "Authorized fork branch only; no PR, discussion, email or other external message.",
+  "upstream_checkpoint": {
+    "latest_main": "b3f3ee0392b71b118fd086a6eaf6b4cab54ef455",
+    "previous_main": "47fa55b3cd8c7cf8879206f33569bc59d637dad8",
+    "guidance_changes": [
+      "Read current canonical guidance; new changes since the preceding checkpoint concern maintainer intake and archive scheduling, not this research proof.",
+      "Read new odd-prime unit-root and scatter-export parity audits: reduced evidence boundaries and a rejected synthetic duplicate-scatter mutation; neither changes these primitive inputs. Rank7 joint-endframe archives are a separate construction."
+    ],
+    "decision": "Continue the existing isolated proof task with predecessor packages and frozen inputs unchanged.",
+    "checked_at": "2026-10-16T16:14:05.312612+00:00",
+    "common_input_paths_checked": 5,
+    "input_changes": [],
+    "fork_only_inputs": [
+      "research/fine-prime-transform-assembly/DEPENDENCIES.md",
+      "research/recursive-refit-realization/common.py",
+      "research/refit-physical-dispatch/PROOF.md",
+      "research/refit-proof-closure/ROUTER.md",
+      "research/refit-proof-closure/coordinate_router.py",
+      "research/refit-proof-closure/sparse_router.py"
+    ]
+  },
+  "overlap": {
+    "searched_at": "2026-10-16T16:11:12.385170+00:00",
+    "coverage": {
+      "open_prs": {
+        "fetched_at": "2026-10-16T16:10:35.574510+00:00",
+        "complete_pagination": true,
+        "records": 228
+      },
+      "discussions": {
+        "fetched_at": "2026-10-16T16:11:12.257680+00:00",
+        "complete_pagination": true,
+        "records": 1686
+      }
+    },
+    "warnings": [],
+    "matches_total": 10,
+    "review": "Read selected-complex-compact-adapters PROOF/README, packed-guard-envelope-audit, complex-record-amortization and selected-child-compact-return. Prior written guard/repair arguments are credited; this adds scoped Lean implications, not a new guard or novelty claim."
+  },
+  "validation": "Both registered exact suites passed in fresh bytecode namespaces, normal and -O. Fresh Lean 4.32.2 checks 18 theorems plus controlledAdd equivalence with standard axioms; four false controls rejected. No unchanged full native/outer admission replay or whole-machine execution.",
+  "completed_at": "2026-10-16T16:15:53.534356+00:00"
+}

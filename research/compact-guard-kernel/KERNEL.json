@@ -1,0 +1,111 @@
+{
+  "axioms": {
+    "allGuardDensity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "controlledAdd": [
+      "propext"
+    ],
+    "exceptionalDensity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "flipCorrect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "guardBounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "loadedControl": [
+      "Quot.sound",
+      "propext"
+    ],
+    "packBounds": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "packedNoWrap": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "packedUpdates": [
+      "Quot.sound",
+      "propext"
+    ],
+    "pairedFlipCorrect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "parityCancellation": [
+      "Quot.sound",
+      "propext"
+    ],
+    "productFailure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "rawPreservesGood": [
+      "Quot.sound",
+      "propext"
+    ],
+    "repairBijective": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "repairCorrect": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "repairEquals": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "shuttle": [],
+    "singleGuardDensity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "sourcePreserved": [
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "build_log_sha256": "2a87395a0eca0e004043415b09f65cd9f6a06cde4d5e1267a6fe8bcd15837a22",
+  "dependencies": {
+    "Cli": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+    "LeanSearchClient": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+    "Qq": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+    "aesop": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+    "batteries": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+    "importGraph": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+    "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+    "plausible": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+    "proofwidgets": "6e311e2a844da9b2cc3971187df2fe0066947b93"
+  },
+  "kernel_checked": true,
+  "lean_version": "Lean (version 4.32.2, arm64-apple-darwin24.6.0, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "rejected_controls": {
+    "forward_instead_of_inverse": "38260020e1802b7231f0f3ab15e91427745fc8b5f4c8501212b527e0d8502942",
+    "loaded_maximum_excluded": "14c1dd41826b1e5e77182c726e8c0dd913540e98702c954e39cc0c714de79ecc",
+    "loaded_parity_omitted": "83fd886ff6c42994c5747738ee1ad6eb4650606681c2be75277ae3a74cd84681",
+    "scratch_guard_omitted": "65200c23769a73955232f45424248b1e22643db85c8c7cf3e6d012393706685e"
+  },
+  "scope": "Quantified guarded arithmetic, packed bounds, density inequalities and selective permutation repair. No tape-cost, native-dispatch, analytic-transform or complete multiplication theorem is formalized.",
+  "source_sha256": "c59855b86767c8ae20bbfe764785786a16f32b640ae2c160c4c3fc4b34257930",
+  "status": "PASS_COMPACT_GUARD_REPAIR_KERNEL"
+}

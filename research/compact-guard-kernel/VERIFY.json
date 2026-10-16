@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "status": "ready",
+  "python": "3.12",
+  "requirements": [],
+  "inputs": [
+    "research/fine-prime-transform-assembly/DEPENDENCIES.md",
+    "research/recursive-refit-realization/common.py",
+    "research/refit-physical-dispatch/PROOF.md",
+    "research/refit-proof-closure/ROUTER.md",
+    "research/refit-proof-closure/coordinate_router.py",
+    "research/refit-proof-closure/sparse_router.py",
+    "research/selected-bit-recursive-closure/PROOF.md",
+    "research/selected-complex-compact-adapters/NOTICE.md",
+    "research/selected-complex-compact-adapters/PROOF.md",
+    "research/selected-complex-compact-adapters/compact.py",
+    "research/selected-complex-compact-adapters/streams.py"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Authenticate source and kernel receipt; exact sparse-word endpoints, guard census, cross-guard sources, dirty restoration and five rejecting counterexamples"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "timeout_seconds": 180,
+      "checks": "Authenticate source and kernel receipt; exact sparse-word endpoints, guard census, cross-guard sources, dirty restoration and five rejecting counterexamples"
+    }
+  ]
+}

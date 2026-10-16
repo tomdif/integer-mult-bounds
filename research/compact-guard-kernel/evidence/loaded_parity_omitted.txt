@@ -1,0 +1,2 @@
+loaded_parity_omitted.lean:2:49: error: unsolved goals
+⊢ False

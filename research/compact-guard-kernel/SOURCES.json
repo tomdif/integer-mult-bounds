@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "base_commit": "8f1a6ea5c48c806f2b0708002eb9faeb4a6edc68",
+  "files": [
+    {
+      "path": "certificates/selected-result.json",
+      "usage": "provenance",
+      "git_blob": "b1fea0c94436b236cc2b7d41a7be032811b94c81",
+      "sha256": "bb2eaa58647b353f88d0aec2eafb9d30df1be53589231b23e12ceef3e4bad129"
+    },
+    {
+      "path": "docs/research/agent-task-catalog.json",
+      "usage": "provenance",
+      "git_blob": "889b95d936746df124872133ae1e7cc339adcb92",
+      "sha256": "7d185cd8c2af35988d638d969748ad7b670f902606444dbfc748e4402c340df6"
+    },
+    {
+      "path": "research/fine-prime-transform-assembly/DEPENDENCIES.md",
+      "usage": "input",
+      "git_blob": "ed5031c356ce1878cfba0b376ac647f5b209e285",
+      "sha256": "a3b4df68dd0cd53a6e7cf2fa630887f19e3ce8f4a965e432802ab59516be815e"
+    },
+    {
+      "path": "research/recursive-refit-realization/common.py",
+      "usage": "input",
+      "git_blob": "68e3ad31eca97593ead8a367a823441a5feb25a9",
+      "sha256": "73cdb345686a0a1202c960a7f0f3a5dbcaca8c6b0fc06847fdd18d1d6794ef1d"
+    },
+    {
+      "path": "research/refit-physical-dispatch/PROOF.md",
+      "usage": "input",
+      "git_blob": "95fba8f3604f906193ba8a69f40a5440a2195664",
+      "sha256": "0cd62c835c71711d50f7e91f3ba29c40a0d4b6f3f336ec2911a6de358be408da"
+    },
+    {
+      "path": "research/refit-proof-closure/ROUTER.md",
+      "usage": "input",
+      "git_blob": "5e01ca894cda133f8596842c236efdff426c4a42",
+      "sha256": "6d833c3066042e4bca038654621b358e0f706bbf4f0058926eab29ecb0df127d"
+    },
+    {
+      "path": "research/refit-proof-closure/coordinate_router.py",
+      "usage": "input",
+      "git_blob": "d3dcad1fefc78cb204ec46ff5e71879aabb6c2a0",
+      "sha256": "136f04bc20d07d42bdb0641225ff104058468d3af41f39bbf3369bd6ddd3395f"
+    },
+    {
+      "path": "research/refit-proof-closure/sparse_router.py",
+      "usage": "input",
+      "git_blob": "3c2d3ba610de4e13d2f181077e3852e8b253cd43",
+      "sha256": "0432ece3099784045be4ba525c70bf0d507d53b87657c6257e73bacc4e8203bb"
+    },
+    {
+      "path": "research/selected-bit-recursive-closure/PROOF.md",
+      "usage": "input",
+      "git_blob": "6c410cab5713979214a45835091fbeb9ee9b8531",
+      "sha256": "74cc8de20f21acb5123fe2d20996fe0925ea6e51b3dec633bd5221fb719b3344"
+    },
+    {
+      "path": "research/selected-complex-compact-adapters/compact.py",
+      "usage": "input",
+      "git_blob": "60bc206c78150f23563a4775800b0dd32025843d",
+      "sha256": "0e1027a60f38c21cfd808c8ce44dcc2423810efdab0e15f02b07f261ad48fc3c"
+    },
+    {
+      "path": "research/selected-complex-compact-adapters/streams.py",
+      "usage": "input",
+      "git_blob": "61542ce4c9eb51bfc113475b4f98649cb90a853e",
+      "sha256": "718a582a50aee8f1f04945ed942be1d4162962fe47dbf05c6ff37b7fb8c61257"
+    },
+    {
+      "path": "research/selected-complex-compact-adapters/PROOF.md",
+      "usage": "input",
+      "git_blob": "685efc529493e4b841c1ce8799d28968b4991d7e",
+      "sha256": "804446e22304540eb02a5f4da3f71464a217be830a33b11420ea31eea878782c"
+    },
+    {
+      "path": "research/selected-complex-compact-adapters/NOTICE.md",
+      "usage": "input",
+      "git_blob": "e82bfef53054bd753ba0aa8a966f84427faa2293",
+      "sha256": "74a9f03e9ce467c75f5f7cf1b8465d349ea38ef114afad261824c3bcf13da00f"
+    }
+  ]
+}

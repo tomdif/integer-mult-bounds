@@ -1,0 +1,21 @@
+ℹ [2997/2998] Built Guard (4.2s)
+info: Guard.lean:287:0: 'CompactGuard.guardBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Guard.lean:288:0: 'CompactGuard.flipCorrect' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Guard.lean:289:0: 'CompactGuard.loadedControl' depends on axioms: [propext, Quot.sound]
+info: Guard.lean:290:0: 'CompactGuard.parityCancellation' depends on axioms: [propext, Quot.sound]
+info: Guard.lean:291:0: 'CompactGuard.pairedFlipCorrect' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Guard.lean:292:0: 'CompactGuard.shuttle' does not depend on any axioms
+info: Guard.lean:293:0: 'CompactGuard.sourcePreserved' depends on axioms: [propext, Quot.sound]
+info: Guard.lean:294:0: 'CompactGuard.packedUpdates' depends on axioms: [propext, Quot.sound]
+info: Guard.lean:295:0: 'CompactGuard.packBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Guard.lean:296:0: 'CompactGuard.packedNoWrap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Guard.lean:297:0: 'CompactGuard.singleGuardDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Guard.lean:298:0: 'CompactGuard.productFailure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Guard.lean:299:0: 'CompactGuard.allGuardDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Guard.lean:300:0: 'CompactGuard.exceptionalDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Guard.lean:301:0: 'CompactGuard.controlledAdd' depends on axioms: [propext]
+info: Guard.lean:302:0: 'CompactGuard.rawPreservesGood' depends on axioms: [propext, Quot.sound]
+info: Guard.lean:303:0: 'CompactGuard.repairEquals' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Guard.lean:304:0: 'CompactGuard.repairCorrect' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Guard.lean:305:0: 'CompactGuard.repairBijective' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2998 jobs).

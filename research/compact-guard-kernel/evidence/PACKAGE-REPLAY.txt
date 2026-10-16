@@ -1,0 +1,379 @@
+CHECK Authenticate source and kernel receipt; exact sparse-word endpoints, guard census, cross-guard sources, dirty restoration and five rejecting counterexamples
+{
+  "counterexamples": {
+    "allow_control_overflow": {
+      "ideal": {
+        "b": 11,
+        "t": 0,
+        "u": 3,
+        "y": 1045
+      },
+      "input": {
+        "b": 11,
+        "t": 0,
+        "u": 3,
+        "y": 1044
+      },
+      "raw": {
+        "b": 11,
+        "t": 0,
+        "u": 3,
+        "y": 1109
+      }
+    },
+    "allow_scratch_overflow": {
+      "ideal": {
+        "b": 11,
+        "t": 3,
+        "u": 1,
+        "y": 1044
+      },
+      "input": {
+        "b": 11,
+        "t": 3,
+        "u": 1,
+        "y": 1045
+      },
+      "raw": {
+        "b": 11,
+        "t": 3,
+        "u": 1,
+        "y": 1052
+      }
+    },
+    "forward_in_place_of_inverse": {
+      "S": [
+        1,
+        2,
+        0
+      ],
+      "T": [
+        0,
+        1,
+        2
+      ],
+      "current": 1,
+      "input": 0,
+      "wrong": 2
+    },
+    "omit_guard_margin": {
+      "ideal": {
+        "b": 9,
+        "t": 2,
+        "u": 1,
+        "y": 62
+      },
+      "input": {
+        "b": 9,
+        "t": 2,
+        "u": 1,
+        "y": 63
+      },
+      "raw": {
+        "b": 9,
+        "t": 6,
+        "u": 1,
+        "y": 62
+      }
+    },
+    "omit_ideal_good_invariance": {
+      "S": [
+        1,
+        0,
+        2
+      ],
+      "T": [
+        1,
+        2,
+        0
+      ],
+      "current": 0,
+      "good": [
+        0
+      ],
+      "input": 1,
+      "wrong": 0
+    }
+  },
+  "exhaustive": [
+    {
+      "G": 2,
+      "K": 6,
+      "addresses": 4096,
+      "bad": 2944,
+      "good": 1152,
+      "loaded_maximum_good_cases": 192,
+      "raw_errors": 512
+    },
+    {
+      "G": 3,
+      "K": 7,
+      "addresses": 65536,
+      "bad": 40448,
+      "good": 25088,
+      "loaded_maximum_good_cases": 1792,
+      "raw_errors": 4096
+    }
+  ],
+  "packed": [
+    {
+      "G": 2,
+      "K": 8,
+      "active_digits": 3,
+      "capacity_digits": 4,
+      "maximum_transient_controls": 516,
+      "sources": [
+        12,
+        25,
+        3
+      ],
+      "states": 1024,
+      "targets": [
+        0,
+        11,
+        23
+      ]
+    },
+    {
+      "G": 3,
+      "K": 10,
+      "active_digits": 3,
+      "capacity_digits": 4,
+      "maximum_transient_controls": 216,
+      "sources": [
+        14,
+        29,
+        3
+      ],
+      "states": 1024,
+      "targets": [
+        0,
+        13,
+        27
+      ]
+    },
+    {
+      "G": 5,
+      "K": 14,
+      "active_digits": 3,
+      "capacity_digits": 4,
+      "maximum_transient_controls": 49,
+      "sources": [
+        18,
+        37,
+        3
+      ],
+      "states": 1024,
+      "targets": [
+        0,
+        17,
+        35
+      ]
+    }
+  ],
+  "scope": "Finite binding of the retained sparse word to the quantified guard and repair proof. No new tape execution or full multiplier formalization.",
+  "sources": [
+    "research/fine-prime-transform-assembly/DEPENDENCIES.md",
+    "research/recursive-refit-realization/common.py",
+    "research/refit-physical-dispatch/PROOF.md",
+    "research/refit-proof-closure/ROUTER.md",
+    "research/refit-proof-closure/coordinate_router.py",
+    "research/refit-proof-closure/sparse_router.py",
+    "research/selected-bit-recursive-closure/PROOF.md",
+    "research/selected-complex-compact-adapters/compact.py",
+    "research/selected-complex-compact-adapters/streams.py",
+    "research/selected-complex-compact-adapters/PROOF.md",
+    "research/selected-complex-compact-adapters/NOTICE.md"
+  ],
+  "status": "PASS_COMPACT_GUARD_SOURCE_SEAMS"
+}
+CHECK Authenticate source and kernel receipt; exact sparse-word endpoints, guard census, cross-guard sources, dirty restoration and five rejecting counterexamples
+{
+  "counterexamples": {
+    "allow_control_overflow": {
+      "ideal": {
+        "b": 11,
+        "t": 0,
+        "u": 3,
+        "y": 1045
+      },
+      "input": {
+        "b": 11,
+        "t": 0,
+        "u": 3,
+        "y": 1044
+      },
+      "raw": {
+        "b": 11,
+        "t": 0,
+        "u": 3,
+        "y": 1109
+      }
+    },
+    "allow_scratch_overflow": {
+      "ideal": {
+        "b": 11,
+        "t": 3,
+        "u": 1,
+        "y": 1044
+      },
+      "input": {
+        "b": 11,
+        "t": 3,
+        "u": 1,
+        "y": 1045
+      },
+      "raw": {
+        "b": 11,
+        "t": 3,
+        "u": 1,
+        "y": 1052
+      }
+    },
+    "forward_in_place_of_inverse": {
+      "S": [
+        1,
+        2,
+        0
+      ],
+      "T": [
+        0,
+        1,
+        2
+      ],
+      "current": 1,
+      "input": 0,
+      "wrong": 2
+    },
+    "omit_guard_margin": {
+      "ideal": {
+        "b": 9,
+        "t": 2,
+        "u": 1,
+        "y": 62
+      },
+      "input": {
+        "b": 9,
+        "t": 2,
+        "u": 1,
+        "y": 63
+      },
+      "raw": {
+        "b": 9,
+        "t": 6,
+        "u": 1,
+        "y": 62
+      }
+    },
+    "omit_ideal_good_invariance": {
+      "S": [
+        1,
+        0,
+        2
+      ],
+      "T": [
+        1,
+        2,
+        0
+      ],
+      "current": 0,
+      "good": [
+        0
+      ],
+      "input": 1,
+      "wrong": 0
+    }
+  },
+  "exhaustive": [
+    {
+      "G": 2,
+      "K": 6,
+      "addresses": 4096,
+      "bad": 2944,
+      "good": 1152,
+      "loaded_maximum_good_cases": 192,
+      "raw_errors": 512
+    },
+    {
+      "G": 3,
+      "K": 7,
+      "addresses": 65536,
+      "bad": 40448,
+      "good": 25088,
+      "loaded_maximum_good_cases": 1792,
+      "raw_errors": 4096
+    }
+  ],
+  "packed": [
+    {
+      "G": 2,
+      "K": 8,
+      "active_digits": 3,
+      "capacity_digits": 4,
+      "maximum_transient_controls": 516,
+      "sources": [
+        12,
+        25,
+        3
+      ],
+      "states": 1024,
+      "targets": [
+        0,
+        11,
+        23
+      ]
+    },
+    {
+      "G": 3,
+      "K": 10,
+      "active_digits": 3,
+      "capacity_digits": 4,
+      "maximum_transient_controls": 216,
+      "sources": [
+        14,
+        29,
+        3
+      ],
+      "states": 1024,
+      "targets": [
+        0,
+        13,
+        27
+      ]
+    },
+    {
+      "G": 5,
+      "K": 14,
+      "active_digits": 3,
+      "capacity_digits": 4,
+      "maximum_transient_controls": 49,
+      "sources": [
+        18,
+        37,
+        3
+      ],
+      "states": 1024,
+      "targets": [
+        0,
+        17,
+        35
+      ]
+    }
+  ],
+  "scope": "Finite binding of the retained sparse word to the quantified guard and repair proof. No new tape execution or full multiplier formalization.",
+  "sources": [
+    "research/fine-prime-transform-assembly/DEPENDENCIES.md",
+    "research/recursive-refit-realization/common.py",
+    "research/refit-physical-dispatch/PROOF.md",
+    "research/refit-proof-closure/ROUTER.md",
+    "research/refit-proof-closure/coordinate_router.py",
+    "research/refit-proof-closure/sparse_router.py",
+    "research/selected-bit-recursive-closure/PROOF.md",
+    "research/selected-complex-compact-adapters/compact.py",
+    "research/selected-complex-compact-adapters/streams.py",
+    "research/selected-complex-compact-adapters/PROOF.md",
+    "research/selected-complex-compact-adapters/NOTICE.md"
+  ],
+  "status": "PASS_COMPACT_GUARD_SOURCE_SEAMS"
+}
+PASS_REGISTERED_RESEARCH_PACKAGE research/compact-guard-kernel outcome=completed

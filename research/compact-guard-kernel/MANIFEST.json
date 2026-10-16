@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "scope": "All package files except this manifest and bytecode; mathematical dependencies are separately pinned.",
+  "files": [
+    {
+      "path": "Guard.lean",
+      "bytes": 13103,
+      "sha256": "c59855b86767c8ae20bbfe764785786a16f32b640ae2c160c4c3fc4b34257930"
+    },
+    {
+      "path": "KERNEL.json",
+      "bytes": 3123,
+      "sha256": "f32fb5df722e7540d084ec2e985172dd3fe7dfa0e8f07605092dd98c989fd8f5"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 10771,
+      "sha256": "a553295b0205765cdc543a31d9ee8779dd4042e5c662518e6912193462d39d76"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4322,
+      "sha256": "d39548e36292bfe6282b9a46a61c41896ae8c7a3d9eb7c7184922ba65c162745"
+    },
+    {
+      "path": "RESULT.json",
+      "bytes": 3475,
+      "sha256": "6832f58b22beeacd25246de8667629e5511676dc38b2cc64a02afa5e507be44b"
+    },
+    {
+      "path": "SOURCES.json",
+      "bytes": 3314,
+      "sha256": "11c9e30656c9ff3354e9e14104dedf1f1c5475ff712c49837de8244c03396ac7"
+    },
+    {
+      "path": "TASK.json",
+      "bytes": 6114,
+      "sha256": "89cded1eb30e9feded80c0c7c64a553d78a77b21225ef2ff553606a4bf6b1733"
+    },
+    {
+      "path": "VERIFY.json",
+      "bytes": 1373,
+      "sha256": "7ed2254faa53171aa0a21d853b217bdefdc71a9971e6c19129c4f9fd51db5b20"
+    },
+    {
+      "path": "checks.py",
+      "bytes": 9392,
+      "sha256": "882ac1df376becad883d98ddc800be723dd41f8b072c8f784d64d534c87876b3"
+    },
+    {
+      "path": "evidence/BUILD.txt",
+      "bytes": 2070,
+      "sha256": "2a87395a0eca0e004043415b09f65cd9f6a06cde4d5e1267a6fe8bcd15837a22"
+    },
+    {
+      "path": "evidence/ENVIRONMENT.json",
+      "bytes": 494,
+      "sha256": "c7bf3f160c8678cb2a6e38b0a6afb931ee666a040225b0e304df79972ba6f838"
+    },
+    {
+      "path": "evidence/OVERLAP.json",
+      "bytes": 9482,
+      "sha256": "e9f9c753f9a39c8cd6ea042ecca48818118d655b2711e465c9740a19265e4f3c"
+    },
+    {
+      "path": "evidence/PACKAGE-REPLAY.txt",
+      "bytes": 7357,
+      "sha256": "ae7b39bdf9deff837fe40c3b94d675e34a0c3c9961e309dabbe2f3a791b778a3"
+    },
+    {
+      "path": "evidence/forward_instead_of_inverse.txt",
+      "bytes": 120,
+      "sha256": "38260020e1802b7231f0f3ab15e91427745fc8b5f4c8501212b527e0d8502942"
+    },
+    {
+      "path": "evidence/loaded_maximum_excluded.txt",
+      "bytes": 67,
+      "sha256": "14c1dd41826b1e5e77182c726e8c0dd913540e98702c954e39cc0c714de79ecc"
+    },
+    {
+      "path": "evidence/loaded_parity_omitted.txt",
+      "bytes": 65,
+      "sha256": "83fd886ff6c42994c5747738ee1ad6eb4650606681c2be75277ae3a74cd84681"
+    },
+    {
+      "path": "evidence/scratch_guard_omitted.txt",
+      "bytes": 65,
+      "sha256": "65200c23769a73955232f45424248b1e22643db85c8c7cf3e6d012393706685e"
+    },
+    {
+      "path": "lean/lake-manifest.json",
+      "bytes": 3559,
+      "sha256": "f4671ef2eff309d21d902848451b325ee8cc1d2a7a6805f06be95661ff1d2471"
+    },
+    {
+      "path": "lean/lakefile.toml",
+      "bytes": 224,
+      "sha256": "0a837191f6e9edd8b024f0b34be7dafe4c2f3a53c5aaa3f38db57cb9d09268e9"
+    },
+    {
+      "path": "lean/lean-toolchain",
+      "bytes": 25,
+      "sha256": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 117,
+      "sha256": "f30ce7a73cebd7fb33b66e587533b8a37ee37ceb9d06134a24d18c7cf01e8fef"
+    },
+    {
+      "path": "verify_kernel.py",
+      "bytes": 4741,
+      "sha256": "f5a6ad35e8cbfdd191d8dfc5b1c6c0c884f521b7f8b57162cb124aee8512cc7b"
+    }
+  ]
+}

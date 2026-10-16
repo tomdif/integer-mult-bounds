@@ -1,0 +1,9 @@
+{
+  "python": "3.12.13 (main, Apr 14 2026, 14:33:40) [Clang 22.1.3 ]",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "machine": "arm64",
+  "kernel": "Lean (version 4.32.2, arm64-apple-darwin24.6.0, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "scientific_base": "8f1a6ea5c48c806f2b0708002eb9faeb4a6edc68",
+  "canonical_main": "b3f3ee0392b71b118fd086a6eaf6b4cab54ef455",
+  "scope": "New package only; unchanged predecessor suites and full native admission were not repeated."
+}
