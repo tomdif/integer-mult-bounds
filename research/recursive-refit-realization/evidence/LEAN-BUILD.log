@@ -1,0 +1,8 @@
+ℹ [2997/2998] Built Recursion (19s)
+info: Recursion.lean:58:0: 'RefitRecursion.properChild' depends on axioms: [propext, Quot.sound]
+info: Recursion.lean:59:0: 'RefitRecursion.deferredReservation' depends on axioms: [propext, Quot.sound]
+info: Recursion.lean:60:0: 'RefitRecursion.rowCapacity' depends on axioms: [propext, Quot.sound]
+info: Recursion.lean:61:0: 'RefitRecursion.elevenRows' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Recursion.lean:62:0: 'RefitRecursion.heightBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Recursion.lean:63:0: 'RefitRecursion.deferredHeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2998 jobs).

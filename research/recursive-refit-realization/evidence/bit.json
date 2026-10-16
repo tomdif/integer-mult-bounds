@@ -1,0 +1,59 @@
+{
+  "arithmetic": {
+    "c": "173/100000",
+    "effective_router_margin": "990883154520536094200000000000000000000000000000000000000000000000000000000000000000000000000000003/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "fallback_count": 118606528512,
+    "fit_ratio_at_cutoff": "114014209/2147483648",
+    "fractional_upper": "9999888003265898086231324359140084395528466771/10000000000000000000000000000000000000000000000",
+    "induction_constants": [
+      200,
+      100000
+    ],
+    "linear_moment": "2874298095721977/2890625000000000",
+    "ordinary_saving": "17270071/10000000000",
+    "rejected_point": "87/50000",
+    "scope": "Exact parameter theorem; predecessor physical implementation arguments remain credited dependencies.",
+    "slack_lower": "111996734101913768675640859915604471533229/10000000000000000000000000000000000000000000000",
+    "target_margin": "49544157726026804710000000000000000000001000000000000000000000001/10000000000000000000000000000000000000000000000000000000000000000000000",
+    "uniform_fit_from": 4294967296
+  },
+  "physical_setup": {
+    "encoded_roots": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        64,
+        2
+      ],
+      [
+        10000,
+        2
+      ]
+    ],
+    "peak_setup_leases": 17,
+    "production_profile": {
+      "child_rank": 42,
+      "denominator": 100000,
+      "dimension": 64,
+      "numerator": 173,
+      "row_factor": 269241600
+    },
+    "reduced_q3_plan": {
+      "body": 214,
+      "borrowed": 83,
+      "depth": 9,
+      "fits": true,
+      "remainder": 1,
+      "rows": 3990838394187339929534246675572349035227,
+      "stock": 2045961983582684028502947113655607492608,
+      "width": 2
+    },
+    "scope": "Actual encoded parameter path under no-decoder/no-constructor guards; reduced stock test."
+  }
+}

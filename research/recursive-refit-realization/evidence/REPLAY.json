@@ -1,0 +1,103 @@
+{
+  "status": "PASS_REGISTERED_RESEARCH_PACKAGE",
+  "outcome": "partial",
+  "completed_at": "2026-10-16T12:55:20.870862+00:00",
+  "command": [
+    "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+    "-I",
+    "-B",
+    "scripts/research_package.py",
+    "--package",
+    "research/recursive-refit-realization"
+  ],
+  "exit_code": 0,
+  "python": "3.12.13",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "passed_markers": [
+    "PASS_RECURSIVE_REFIT_BIT",
+    "PASS_RECURSIVE_REFIT_CORE",
+    "PASS_RECURSIVE_REFIT_SCHEDULE",
+    "PASS_RECURSIVE_REFIT_BRIDGE",
+    "PASS_RECURSIVE_REFIT_CONTROLS",
+    "PASS_RECURSIVE_REFIT_CONTROLS"
+  ],
+  "registered_commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py",
+        "--suite",
+        "bit"
+      ],
+      "timeout_seconds": 300,
+      "checks": "Two exact BIT moments, all-width fit premises and the retuned encoded selector"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py",
+        "--suite",
+        "core"
+      ],
+      "timeout_seconds": 300,
+      "checks": "Actual complete refit event/child/height ledger and all 3780 monomials"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py",
+        "--suite",
+        "schedule"
+      ],
+      "timeout_seconds": 30,
+      "checks": "Deferred complete-row controller and target strict inequalities"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py",
+        "--suite",
+        "bridge"
+      ],
+      "timeout_seconds": 300,
+      "checks": "Actual compact/B1 handoff, both source orders, fitted C0 returns and cleanup"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py",
+        "--suite",
+        "controls"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Reject the stated source, buffer, rank, stock, chronology and deferral violations"
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/verify.py",
+        "--suite",
+        "controls"
+      ],
+      "timeout_seconds": 60,
+      "checks": "Explicit rejection controls remain active with assertions disabled"
+    }
+  ],
+  "log": "PACKAGE-REPLAY.log",
+  "log_sha256": "576df57743ff47db8691080640d6c5ee631e0048906cd2ef98df7d9caee8bd0a",
+  "kernel_receipt": "../KERNEL.json",
+  "scope": "Source-bound finite replay, arithmetic certificates and reduced physical fixtures. Six quantified arithmetic lemmas were separately kernel checked. Complete physical refinement and the outer multiplication theorem remain unproved."
+}

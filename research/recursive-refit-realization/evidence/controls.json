@@ -1,0 +1,16 @@
+{
+  "assertions_required": false,
+  "controls": [
+    "private buffer used before allocation",
+    "recursive child observes cleanup buffer",
+    "wrong directed child rank",
+    "unbound rank-zero warp",
+    "missing chronological dispatch",
+    "nondyadic coefficient",
+    "Horner scratch charged despite coefficient below one",
+    "under-reserved complete row field",
+    "dropped deferred selected axes",
+    "double processing reserved selected axes"
+  ],
+  "count": 10
+}

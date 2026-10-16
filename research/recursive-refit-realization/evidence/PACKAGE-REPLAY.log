@@ -1,0 +1,371 @@
+CHECK Two exact BIT moments, all-width fit premises and the retuned encoded selector
+{
+  "arithmetic": {
+    "c": "173/100000",
+    "effective_router_margin": "990883154520536094200000000000000000000000000000000000000000000000000000000000000000000000000000003/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "fallback_count": 118606528512,
+    "fit_ratio_at_cutoff": "114014209/2147483648",
+    "fractional_upper": "9999888003265898086231324359140084395528466771/10000000000000000000000000000000000000000000000",
+    "induction_constants": [
+      200,
+      100000
+    ],
+    "linear_moment": "2874298095721977/2890625000000000",
+    "ordinary_saving": "17270071/10000000000",
+    "rejected_point": "87/50000",
+    "scope": "Exact parameter theorem; predecessor physical implementation arguments remain credited dependencies.",
+    "slack_lower": "111996734101913768675640859915604471533229/10000000000000000000000000000000000000000000000",
+    "target_margin": "49544157726026804710000000000000000000001000000000000000000000001/10000000000000000000000000000000000000000000000000000000000000000000000",
+    "uniform_fit_from": 4294967296
+  },
+  "physical_setup": {
+    "encoded_roots": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        64,
+        2
+      ],
+      [
+        10000,
+        2
+      ]
+    ],
+    "peak_setup_leases": 17,
+    "production_profile": {
+      "child_rank": 42,
+      "denominator": 100000,
+      "dimension": 64,
+      "numerator": 173,
+      "row_factor": 269241600
+    },
+    "reduced_q3_plan": {
+      "body": 214,
+      "borrowed": 83,
+      "depth": 9,
+      "fits": true,
+      "remainder": 1,
+      "rows": 3990838394187339929534246675572349035227,
+      "stock": 2045961983582684028502947113655607492608,
+      "width": 2
+    },
+    "scope": "Actual encoded parameter path under no-decoder/no-constructor guards; reduced stock test."
+  }
+}
+PASS_RECURSIVE_REFIT_BIT
+CHECK Actual complete refit event/child/height ledger and all 3780 monomials
+{
+  "distinct_scalar_coefficients": 20,
+  "height": {
+    "C0_exponent": 210000,
+    "E_exponent": 100000,
+    "conclusion": "A(e)<=2*(Gamma*4816512+E)*e; total deferred-layer guard<C0*h",
+    "full_cover_mass_bits": 2650,
+    "grid": "one root grid 2^-(p+ceil(C0*h)), no child or phase rounding",
+    "rank_mass": 4816512,
+    "recurrence": "A(e) <= A(48 floor(e/73)) + Gamma*4816512*floor(e/73) + E",
+    "scalar_charge_bits": 2653,
+    "space": "O(V)+F_q on fixed tapes, by child volume V/(66304*Gamma) and local parking"
+  },
+  "ledger": {
+    "bridge_adds_per_cover": 149184,
+    "caller_event_counts": {
+      "bank_padding_cover_sweep": 1,
+      "bridge": 666,
+      "idle_cover_sweep": 740,
+      "local_cover_sweep": 666,
+      "terminal": 74,
+      "terminal_Y_translations": 74,
+      "translate_every_live_family": 1
+    },
+    "caller_events": 2222,
+    "caller_prefix_sha256": "f3d303a1ce3e67a68a6959b3b221af9406df749104fa5844625d234a506c093b",
+    "child_profile": {
+      "1": 1620396,
+      "2": 428904,
+      "3": 191980,
+      "4": 73260,
+      "5": 24951,
+      "6": 167,
+      "7": 45,
+      "8": 5328,
+      "24": 1,
+      "32": 207,
+      "48": 26958
+    },
+    "children_per_cover": 2372197,
+    "local": {
+      "extra/backward": {
+        "children": {
+          "1": 2408,
+          "2": 644,
+          "3": 280,
+          "4": 110,
+          "5": 26,
+          "8": 8
+        },
+        "events": 22353,
+        "max_division_shift": 3,
+        "max_numerator_bits": 3,
+        "prefix_sha256": "e51112262a0d58c7f6abcd609b84160b04c28ae722cc038e6efbea3f0ce7f32e",
+        "program_sha256": "a8c20187860bbdedacc4dadc55e2d0d8cd87a698d369460e182a911ce9e44787",
+        "scalar_height": 37475,
+        "tags": {
+          "adapter": 996,
+          "center": 8,
+          "climb": 3468,
+          "phase": 10,
+          "residual_adapter": 372,
+          "scalar": 17095,
+          "warp": 240,
+          "zero_buffer": 164
+        },
+        "zero_buffer_peak": 82
+      },
+      "extra/forward": {
+        "children": {
+          "1": 2408,
+          "2": 644,
+          "3": 280,
+          "4": 110,
+          "5": 26,
+          "8": 8
+        },
+        "events": 22353,
+        "max_division_shift": 3,
+        "max_numerator_bits": 3,
+        "prefix_sha256": "ad2ef0f9514969b19a89f5120b0edfd7a673962985b87626bd70a76fde08fe7a",
+        "program_sha256": "e94979757d00b38bf72b98ab7a645d8fe4311add152356a0bc70cbbb7bb1d625",
+        "scalar_height": 37459,
+        "tags": {
+          "adapter": 996,
+          "center": 8,
+          "climb": 3468,
+          "phase": 10,
+          "residual_adapter": 372,
+          "scalar": 17095,
+          "warp": 240,
+          "zero_buffer": 164
+        },
+        "zero_buffer_peak": 82
+      },
+      "gauge44/backward": {
+        "children": {
+          "1": 2408,
+          "2": 644,
+          "3": 280,
+          "4": 110,
+          "5": 26,
+          "8": 8
+        },
+        "events": 22353,
+        "max_division_shift": 3,
+        "max_numerator_bits": 3,
+        "prefix_sha256": "e51112262a0d58c7f6abcd609b84160b04c28ae722cc038e6efbea3f0ce7f32e",
+        "program_sha256": "a8c20187860bbdedacc4dadc55e2d0d8cd87a698d369460e182a911ce9e44787",
+        "scalar_height": 37475,
+        "tags": {
+          "adapter": 996,
+          "center": 8,
+          "climb": 3468,
+          "phase": 10,
+          "residual_adapter": 372,
+          "scalar": 17095,
+          "warp": 240,
+          "zero_buffer": 164
+        },
+        "zero_buffer_peak": 82
+      },
+      "gauge44/forward": {
+        "children": {
+          "1": 2408,
+          "2": 644,
+          "3": 280,
+          "4": 110,
+          "5": 26,
+          "8": 8
+        },
+        "events": 22353,
+        "max_division_shift": 3,
+        "max_numerator_bits": 3,
+        "prefix_sha256": "ad2ef0f9514969b19a89f5120b0edfd7a673962985b87626bd70a76fde08fe7a",
+        "program_sha256": "e94979757d00b38bf72b98ab7a645d8fe4311add152356a0bc70cbbb7bb1d625",
+        "scalar_height": 37459,
+        "tags": {
+          "adapter": 996,
+          "center": 8,
+          "climb": 3468,
+          "phase": 10,
+          "residual_adapter": 372,
+          "scalar": 17095,
+          "warp": 240,
+          "zero_buffer": 164
+        },
+        "zero_buffer_peak": 82
+      }
+    },
+    "local_events_per_cover": 14887098,
+    "original_idle_deadlines": 165760,
+    "positive_idle_children": 57181,
+    "scalar_height_per_cover": 25101614,
+    "unnormalized_rank_mass": 4816512,
+    "zero_rank_nonzero_translations": 20032
+  },
+  "monomial_binding": {
+    "actual_warp": {
+      "new": 1,
+      "old": 1,
+      "op": 1,
+      "sign": -1
+    },
+    "catalogue_sha256": "b33b62d6c2fb9350dc275faf79acc1300251f6bb6085699843022391113d110f",
+    "complete_column_checks": 1935360,
+    "maximum_binary_gates": 59,
+    "physical_warp": {
+      "G": 1,
+      "K": 1,
+      "both_directions_restore": true,
+      "coefficient_bits": 5,
+      "columns": 1,
+      "dimension": 9,
+      "meter": {
+        "control_evaluations": 512,
+        "digit_passes": 18,
+        "erases": 389120,
+        "moves": 2334720,
+        "ordinary_calls": [],
+        "radix_passes": 0,
+        "reads": 389120,
+        "repair_records": 0,
+        "rotation_passes": 0,
+        "writes": 389120
+      },
+      "output_sha256": "e85d891ab9d9932306aa4590457c3428cb2ca3d8bae2beee1812bd18b77f63fd",
+      "payload_bits": 10240,
+      "records": 512,
+      "rho": 0
+    },
+    "unique_monomials": 3780
+  }
+}
+PASS_RECURSIVE_REFIT_CORE
+CHECK Deferred complete-row controller and target strict inequalities
+{
+  "controller": {
+    "bit_stock": "B1 borrows and restores inside each compact interchange",
+    "contraction": "1/16",
+    "max_phases_tested": 37,
+    "maximum_interval_descriptors": 2,
+    "row_chunks_bound": 11,
+    "row_stock": "(66304*|O(73,2)|)^D(h)",
+    "scope": "Exact interval controller and integer premises of the written all-width proof; no payload or support-router execution.",
+    "stock_bits": 2644,
+    "tail_below": 512,
+    "width_cases": 1084
+  },
+  "parameters": {
+    "actual_B1_saving": "17270071/10000000000",
+    "complex_endpoint": "1722052684227397319529/1000000000000000000000000",
+    "complex_moment_interval": [
+      "62499999999999999999999916331/62500000000000000000000000000",
+      "999999999999999999999998661297/1000000000000000000000000000000"
+    ],
+    "conclusion": "O(V*h^(1-q)*polylog(p)) under the explicit primitive/realization contracts in PROOF.md",
+    "effective_bit_saving": "344410536845479463905799999999999999999999999999999999999999999999999999999999999999999999999999999997/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "internal": "199655589463154520536094200000000000000000000000000000000000000000000000000000000000000000000000000000003/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "lambda": "399311178926309041072188400000000000000000000000000000000000000000000000000000000000000000000000000000007/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "lambdaPrime": "49913897365788630134023550000000000000000000000000000000000000000000000000000000000000000000000000000001/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "leaf": "9982779473157726026804710000000000000000000000000000000000000000000000000000000000000000000000000000000100000000172205268422739731952899999999999999999999999999999999999999999999999999999999999999999999999999999999/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "margins": {
+      "B1_above_effective": "990883154520536094200000000000000000000000000000000000000000000000000000000000000000000000000000003/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "lambdaPrime_above_lambda": "1/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "lambdaPrime_above_leaf": "99999999827794731577260268047100000000000000000000000000000000000000000000000000000000000000000000000000000001/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "lambda_above_internal": "1/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "lambda_above_sigma": "3/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "lambda_above_tau": "1/400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "outer_main_above_kappa": "20480000000000000000000020479999999999999999999999999999995900469791997333835494965550000000000000000000000000000000000000000000000000000000000000000000000000000041/204800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "q_positive": "86102634211369865976449999999999999999999999999999999999999999999999999999999999999999999999999999999/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "sigma_moment_slack": "1338703/1000000000000000000000000000000",
+      "stop_below_one": "99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "stop_positive": "1/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "not_proved": "outer FFT, gauge/conditioning, prime padding and exact integer recovery",
+    "q": "86102634211369865976449999999999999999999999999999999999999999999999999999999999999999999999999999999/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "reservation_cost": "geometric deferred phases, no d^(1-c) preliminary scan",
+    "sigma": "99827794731577260268047100000000000000000000000000000000000000000000000000000000000000000000000000000001/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "stop": "1/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "tau": "199655589463154520536094200000000000000000000000000000000000000000000000000000000000000000000000000000003/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+  }
+}
+PASS_RECURSIVE_REFIT_SCHEDULE
+CHECK Actual compact/B1 handoff, both source orders, fitted C0 returns and cleanup
+{
+  "compact_cases": [
+    {
+      "late_source": false,
+      "ordinary_calls": 4,
+      "records": 128,
+      "source_restored": true
+    },
+    {
+      "late_source": true,
+      "ordinary_calls": 12,
+      "records": 128,
+      "source_restored": true
+    }
+  ],
+  "fitted_C0_roots": 2,
+  "fitted_binary_bits": 1024,
+  "production_profile": {
+    "child_rank": 42,
+    "denominator": 100000,
+    "dimension": 64,
+    "numerator": 173,
+    "row_factor": 269241600
+  },
+  "scope": "Executable compact/B1 boundary with source preservation, sequential transfer and cleanup; reduced fixtures, not the selected large-prime payload."
+}
+PASS_RECURSIVE_REFIT_BRIDGE
+CHECK Reject the stated source, buffer, rank, stock, chronology and deferral violations
+{
+  "assertions_required": false,
+  "controls": [
+    "private buffer used before allocation",
+    "recursive child observes cleanup buffer",
+    "wrong directed child rank",
+    "unbound rank-zero warp",
+    "missing chronological dispatch",
+    "nondyadic coefficient",
+    "Horner scratch charged despite coefficient below one",
+    "under-reserved complete row field",
+    "dropped deferred selected axes",
+    "double processing reserved selected axes"
+  ],
+  "count": 10
+}
+PASS_RECURSIVE_REFIT_CONTROLS
+CHECK Explicit rejection controls remain active with assertions disabled
+{
+  "assertions_required": false,
+  "controls": [
+    "private buffer used before allocation",
+    "recursive child observes cleanup buffer",
+    "wrong directed child rank",
+    "unbound rank-zero warp",
+    "missing chronological dispatch",
+    "nondyadic coefficient",
+    "Horner scratch charged despite coefficient below one",
+    "under-reserved complete row field",
+    "dropped deferred selected axes",
+    "double processing reserved selected axes"
+  ],
+  "count": 10
+}
+PASS_RECURSIVE_REFIT_CONTROLS
+PASS_REGISTERED_RESEARCH_PACKAGE research/recursive-refit-realization outcome=partial

@@ -1,0 +1,107 @@
+[
+  {
+    "suite": "kernels",
+    "exit_code": 0,
+    "seconds": 0.7986177080310881,
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-I",
+      "-B",
+      "/Users/thomasdifiore/integer-mult-bit2915/research/selected-bit-fast-primitives/verify.py",
+      "--suite",
+      "kernels"
+    ]
+  },
+  {
+    "suite": "routes",
+    "exit_code": 0,
+    "seconds": 4.350624250015244,
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-I",
+      "-B",
+      "/Users/thomasdifiore/integer-mult-bit2915/research/selected-bit-fast-primitives/verify.py",
+      "--suite",
+      "routes"
+    ]
+  },
+  {
+    "suite": "catalogue",
+    "exit_code": 0,
+    "seconds": 37.982451000018045,
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-I",
+      "-B",
+      "/Users/thomasdifiore/integer-mult-bit2915/research/selected-bit-fast-primitives/verify.py",
+      "--suite",
+      "catalogue"
+    ]
+  },
+  {
+    "suite": "handoff",
+    "exit_code": 0,
+    "seconds": 36.419646958005615,
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-I",
+      "-B",
+      "/Users/thomasdifiore/integer-mult-bit2915/research/selected-bit-fast-primitives/verify.py",
+      "--suite",
+      "handoff"
+    ]
+  },
+  {
+    "suite": "caller",
+    "exit_code": 0,
+    "seconds": 7.292289791977964,
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-I",
+      "-B",
+      "/Users/thomasdifiore/integer-mult-bit2915/research/selected-bit-fast-primitives/verify.py",
+      "--suite",
+      "caller"
+    ]
+  },
+  {
+    "suite": "complete",
+    "exit_code": 0,
+    "seconds": 464.9595276249456,
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-I",
+      "-B",
+      "/Users/thomasdifiore/integer-mult-bit2915/research/selected-bit-fast-primitives/verify.py",
+      "--suite",
+      "complete"
+    ]
+  },
+  {
+    "suite": "outer",
+    "exit_code": 0,
+    "seconds": 80.44207916699816,
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-I",
+      "-B",
+      "/Users/thomasdifiore/integer-mult-bit2915/research/selected-bit-fast-primitives/verify.py",
+      "--suite",
+      "outer"
+    ]
+  },
+  {
+    "suite": "controls",
+    "exit_code": 0,
+    "seconds": 3.987663584004622,
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-I",
+      "-O",
+      "-B",
+      "/Users/thomasdifiore/integer-mult-bit2915/research/selected-bit-fast-primitives/verify.py",
+      "--suite",
+      "controls"
+    ]
+  }
+]
