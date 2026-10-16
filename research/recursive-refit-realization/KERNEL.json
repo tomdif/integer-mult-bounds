@@ -1,0 +1,53 @@
+{
+  "axioms": {
+    "deferredHeight": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "deferredReservation": [
+      "Quot.sound",
+      "propext"
+    ],
+    "elevenRows": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "heightBound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "properChild": [
+      "Quot.sound",
+      "propext"
+    ],
+    "rowCapacity": [
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "build_log_sha256": "c246c67b434a57434dbd298a0e451e6ba2a8b45274111217dc108dc492523d8c",
+  "dependencies": {
+    "Cli": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+    "LeanSearchClient": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+    "Qq": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+    "aesop": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+    "batteries": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+    "importGraph": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+    "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+    "plausible": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+    "proofwidgets": "6e311e2a844da9b2cc3971187df2fe0066947b93"
+  },
+  "kernel_checked": true,
+  "lean_version": "Lean (version 4.32.2, arm64-apple-darwin24.6.0, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "rejected_controls": {
+    "floor_instead_of_ceiling": "bc0700bc8159a044325e87541cd686376f511aada81018ef4ced509c51044dd4",
+    "noncontracting_child": "e0fb515970be3b9edc82dee9f8c335347c70b14838b403c2d5d136a55ec99c74",
+    "too_small_deferral_tail": "a6e7d09f5fec2a87c1db7652da34c0f31a219f59977f17cb3b770931424d3971"
+  },
+  "scope": "All-width arithmetic implications only; native event semantics, physical refinement and outer multiplication are not formalized.",
+  "source_sha256": "cb41bddb764a8546ea441027a593f7893a976eb34f3ddf48c669bc5305319b02",
+  "status": "PASS_SCOPED_RECURSIVE_ARITHMETIC_KERNEL"
+}

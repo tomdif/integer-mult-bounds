@@ -1,0 +1,18 @@
+{
+  "searched_at": "2026-10-16T12:45:25.833702+00:00",
+  "coverage": {
+    "open_prs": {
+      "fetched_at": "2026-10-16T12:44:50.536760+00:00",
+      "complete_pagination": true,
+      "records": 473
+    },
+    "discussions": {
+      "fetched_at": "2026-10-16T12:45:25.724000+00:00",
+      "complete_pagination": true,
+      "records": 1625
+    }
+  },
+  "warnings": [],
+  "matches_total": 111,
+  "meaning": "Search leads, not a novelty certificate. No messages or pull requests posted."
+}

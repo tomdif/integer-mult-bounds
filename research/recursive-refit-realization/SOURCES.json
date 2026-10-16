@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "base_commit": "8c8bcecb03def61bca701dd3b045932d39c48022",
+  "files": [
+    {
+      "path": "certificates/selected-result.json",
+      "usage": "input",
+      "sha256": "bb2eaa58647b353f88d0aec2eafb9d30df1be53589231b23e12ceef3e4bad129",
+      "git_blob": "b1fea0c94436b236cc2b7d41a7be032811b94c81"
+    },
+    {
+      "path": "research/bit2234-stock-threshold/README.md",
+      "usage": "input",
+      "sha256": "1e050c9f963421d751d9208092f9a15321ed77810e03912df8eb5eb56bbb06e7",
+      "git_blob": "ede0d322c477af91d4c2cc33db0fd10958f45eab"
+    },
+    {
+      "path": "research/community-frontier1094-audit/ASSEMBLY.json",
+      "usage": "input",
+      "sha256": "1122cb3a575f8c788345fc1bf4c108ac7c3250fb81a5988671f5eb04b3ab3045",
+      "git_blob": "5fd676df060f3b450782fdf5ff5f6beb63a5eeb0"
+    },
+    {
+      "path": "research/community-hyperplane599-audit/pr589/bit589/v9/hosted/GLOBAL-TEMPLATE.json.gz",
+      "usage": "input",
+      "sha256": "0357b7cfbd7c29b4983982baf153c8a9f1e1e412690cd7fa9fc3d23d7963b20f",
+      "git_blob": "9eafb8776cbf78c72124f833534469ddfa5e98ec"
+    },
+    {
+      "path": "research/community-hyperplane599-audit/pr589/bit589/v9/hosted/GLOBAL.json",
+      "usage": "input",
+      "sha256": "8de008a7978d4b7189cbec2470443619149a2b7b2f0f862540eeee4b23d3a819",
+      "git_blob": "1f648db9e63e7bfcaa6d5b1dd9fa6503caac47d2"
+    },
+    {
+      "path": "research/community-hyperplane599-audit/pr589/bit589/v9/nine/GEOMETRY.json",
+      "usage": "input",
+      "sha256": "0058c491d839142aa99ef86a5ec697ce99857632228531512ea3fa74fb24d734",
+      "git_blob": "44006542202ca6037533a754f0bcd00549d7e088"
+    },
+    {
+      "path": "research/complex-k492-owner-repair/vendor/multicold/vendor/pr558/vendor/pr552/complex-global/vendor531/vendor/clifford/clifford_exact.py",
+      "usage": "input",
+      "sha256": "2982ead07721e83358dc67c6f49c2b4c16a236a6bebdfd72f58221be1f5d0962",
+      "git_blob": "166841a037f069249f6f7f6dedb89248812f59e2"
+    },
+    {
+      "path": "research/e8-bit-p111-tuned/tune/EXPECTED.json",
+      "usage": "input",
+      "sha256": "b9f0e5ca038abe837b0007c8fe006f366a6f02009244ac57705a8a200e2301f4",
+      "git_blob": "e293ddc557742637f9f679f083a1a282d87b1b13"
+    },
+    {
+      "path": "research/e8-bit-p111-tuned/tune/bitE8mut-p111-tuned.json.gz",
+      "usage": "input",
+      "sha256": "e3e301e62bc2b41dbf1ceac0acf3d35824ebeab1848c5a2142d4577b109da52f",
+      "git_blob": "85a4499bf9e4911a705d50567a2c2ef6cf23739a"
+    },
+    {
+      "path": "research/e8-bit-p111-tuned/vendor/pr510/e8-r480-nine-stage/vendor/e8-r740-replica32/code/engines/base_two_moment.py",
+      "usage": "input",
+      "sha256": "aee70c242a2f1d225528fabe2002e1564d1dc884797c07d28a831c7878ee9098",
+      "git_blob": "14a90fa0e788217856f070382c9e61bd7c603c61"
+    },
+    {
+      "path": "research/e8-bit-p111-tuned/vendor/pr510/e8-r480-nine-stage/vendor/e8-r740-replica32/code/engines/moment.py",
+      "usage": "input",
+      "sha256": "81cbc864e106418fc7854322746f72180cb8110ff39f74450a3b8d55a82c1482",
+      "git_blob": "7d697cb45203fe72d97037403d6da41f71f3b7fd"
+    },
+    {
+      "path": "research/idle-axis-hosting/PROOF.md",
+      "usage": "input",
+      "sha256": "cfe34bf0b64259661312dae22c3a23adc5bf6f6326951eee5c1488ccfc347542",
+      "git_blob": "4468a00349b4f68dce103e785a8392099435e1d6"
+    },
+    {
+      "path": "research/paired-terminal-refit/evidence/OUTER-LEDGER.json",
+      "usage": "input",
+      "sha256": "0ded0f50a82d1d66adf836f488da3f8dbb92bab9445e2c1feaa27f35ba082365",
+      "git_blob": "00036f33d54faf2014945f1b29f3cd0838888834",
+      "pin": "head:09f85e76bf816f2455cd362620743b2a54b16a22:research/paired-terminal-refit/evidence/OUTER-LEDGER.json"
+    },
+    {
+      "path": "research/pr589-five-helper-hosting/PROOF.md",
+      "usage": "input",
+      "sha256": "59cae781bfbe1a01ed9e66a8efeeb5a2b995e5ecdf908586b23ecc39f2b8d647",
+      "git_blob": "bbd3f12b9a32b3ad3cba85a2d5a1b3054214fa02"
+    },
+    {
+      "path": "research/pr589-five-helper-hosting/verify.py",
+      "usage": "input",
+      "sha256": "cf90e19ae9991b0698be03d395a8cc29061ecb307eb7fea19adfb2d23c25a367",
+      "git_blob": "dbc71f56bb4205ebe378ada1f9f4ea88630d1d39"
+    },
+    {
+      "path": "research/recursive-parking-boundary/README.md",
+      "usage": "input",
+      "sha256": "491aa208391ee4c2936510b1a5c5c018dd5509d9a0e88687c72ab8406cd77b18",
+      "git_blob": "251f335ebaccc11d69393ee7aeb5a2e84526d0bb"
+    },
+    {
+      "path": "research/selected-bit-local-ring-sweeps/PROOF.md",
+      "usage": "input",
+      "sha256": "846c59440cc99e28bae93ad2af99525bc769de29368080071b8427141215b4f7",
+      "git_blob": "4330de85dd9862ed15d84ab917887d249753df99"
+    },
+    {
+      "path": "research/selected-bit-recursive-closure/PROOF.md",
+      "usage": "input",
+      "sha256": "74cc8de20f21acb5123fe2d20996fe0925ea6e51b3dec633bd5221fb719b3344",
+      "git_blob": "6c410cab5713979214a45835091fbeb9ee9b8531"
+    },
+    {
+      "path": "research/selected-complex-compact-adapters/PROOF.md",
+      "usage": "input",
+      "sha256": "804446e22304540eb02a5f4da3f71464a217be830a33b11420ea31eea878782c",
+      "git_blob": "685efc529493e4b841c1ce8799d28968b4991d7e"
+    },
+    {
+      "path": "research/selected-complex-compact-adapters/check_monomials.py",
+      "usage": "input",
+      "sha256": "1aa15ca4b34ca3c09212296f3c4cac8929ee9d9a26720be85bfbdda75c2f7c62",
+      "git_blob": "483522483cb5cd63695b384e1ab8427b58ca8e08"
+    },
+    {
+      "path": "research/selected-complex-compact-adapters/compact.py",
+      "usage": "input",
+      "sha256": "0e1027a60f38c21cfd808c8ce44dcc2423810efdab0e15f02b07f261ad48fc3c",
+      "git_blob": "60bc206c78150f23563a4775800b0dd32025843d"
+    },
+    {
+      "path": "research/selected-complex-compact-adapters/monomial.py",
+      "usage": "input",
+      "sha256": "394f9a465ac9148af0c20844d375e4befbef17d92b2fcc840d83419480dd4740",
+      "git_blob": "5fa4494167c4ba668993a2b1c902969518728a4c"
+    },
+    {
+      "path": "research/selected-complex-compact-adapters/streams.py",
+      "usage": "input",
+      "sha256": "718a582a50aee8f1f04945ed942be1d4162962fe47dbf05c6ff37b7fb8c61257",
+      "git_blob": "61542ce4c9eb51bfc113475b4f98649cb90a853e"
+    },
+    {
+      "path": "research/selected-complex-height-ledger/PROOF.md",
+      "usage": "input",
+      "sha256": "2cb6dc8e3bd1c9b565df02ca90788e52608dc0581cf4c1af85136d2e3c1d8324",
+      "git_blob": "aeb02abb802f6c5c2ff7a898f7de36a05c5b4dfd"
+    },
+    {
+      "path": "research/selected-complex-layer-closure/PROOF.md",
+      "usage": "input",
+      "sha256": "43feda0342c07a9429699c3a44e8936a3f3fb57ce9b32f38ff3dc06ac887b265",
+      "git_blob": "d7ec0d101405a5f099f55f6a73e9791731737fd0"
+    },
+    {
+      "path": "research/selected-lcm-stock-wrapper-fit/README.md",
+      "usage": "input",
+      "sha256": "d56ee549aa15d75da7d42411a0456de5cfbb66b142422fec53c562c5a4803bb6",
+      "git_blob": "d670df78e99587a4b70cf77af957fdef58c0b371"
+    },
+    {
+      "path": "upstream/build/sections/02-streams.tex",
+      "usage": "input",
+      "sha256": "606c80db61cad13aa0c3b6060dc4b88dbbe7ac60cdd831aa93f28d908fd09dab",
+      "git_blob": "088fceea1867abc76271d7efe7532b779fee9039"
+    },
+    {
+      "path": "docs/research/agent-task-catalog.json",
+      "usage": "provenance",
+      "sha256": "7d185cd8c2af35988d638d969748ad7b670f902606444dbfc748e4402c340df6",
+      "git_blob": "889b95d936746df124872133ae1e7cc339adcb92"
+    }
+  ],
+  "vendor": [
+    {
+      "path": "vendor/support/SUPPLIER-SUPPORT-AUDIT.md",
+      "sha256": "bd5b06eca043c5c871227264f6a954473c55cd16ec85bb420ff538fb8ec1d8d6",
+      "source": "paired-terminal-refit admitted source/vendor/pr1673/capped-phase-fusion/SUPPLIER-SUPPORT-AUDIT.md",
+      "modification": "Unchanged exact copy"
+    },
+    {
+      "path": "vendor/support/SUPPORT-ADVERSARIAL-AUDIT.md",
+      "sha256": "b1290f8720bf075ea2ad58d6070f3e1fc95c0155f8e33b165bc13439bbb9222d",
+      "source": "paired-terminal-refit admitted source/vendor/pr1673/capped-phase-fusion/SUPPORT-ADVERSARIAL-AUDIT.md",
+      "modification": "Unchanged exact copy"
+    },
+    {
+      "path": "vendor/support/SUPPORT-ROUTER.md",
+      "sha256": "6ddb322e11883c1177ba6cd1a77d23a1dac827d7290b32eaf642457b1d762a54",
+      "source": "paired-terminal-refit admitted source/vendor/pr1673/capped-phase-fusion/SUPPORT-ROUTER.md",
+      "modification": "Unchanged exact copy"
+    },
+    {
+      "path": "vendor/support/TENSOR-COMPILER.md",
+      "sha256": "4d3b8466598a864a234b978e25976648d4e761840aad9153dd18d73d3dfe4d15",
+      "source": "paired-terminal-refit admitted source/vendor/pr1673/capped-phase-fusion/TENSOR-COMPILER.md",
+      "modification": "Unchanged exact copy"
+    }
+  ],
+  "pr2899": {
+    "head": "2f0911ad735643a069b9790302fbf179e49f74f8",
+    "archive": "vendor/pr2899.tar",
+    "sha256": "fc4a2e07423835737c8fb3872664b16ff12aa4cf83b1e26e49878debef40c531"
+  },
+  "native_inputs": "INPUTS.json",
+  "native_source_manifest": "0c8213c5fd3dc60a0ab3db8963cf1357d46334c93268e33fcf555aeb4cce5f36"
+}

@@ -1,0 +1,194 @@
+{
+  "distinct_scalar_coefficients": 20,
+  "height": {
+    "C0_exponent": 210000,
+    "E_exponent": 100000,
+    "conclusion": "A(e)<=2*(Gamma*4816512+E)*e; total deferred-layer guard<C0*h",
+    "full_cover_mass_bits": 2650,
+    "grid": "one root grid 2^-(p+ceil(C0*h)), no child or phase rounding",
+    "rank_mass": 4816512,
+    "recurrence": "A(e) <= A(48 floor(e/73)) + Gamma*4816512*floor(e/73) + E",
+    "scalar_charge_bits": 2653,
+    "space": "O(V)+F_q on fixed tapes, by child volume V/(66304*Gamma) and local parking"
+  },
+  "ledger": {
+    "bridge_adds_per_cover": 149184,
+    "caller_event_counts": {
+      "bank_padding_cover_sweep": 1,
+      "bridge": 666,
+      "idle_cover_sweep": 740,
+      "local_cover_sweep": 666,
+      "terminal": 74,
+      "terminal_Y_translations": 74,
+      "translate_every_live_family": 1
+    },
+    "caller_events": 2222,
+    "caller_prefix_sha256": "f3d303a1ce3e67a68a6959b3b221af9406df749104fa5844625d234a506c093b",
+    "child_profile": {
+      "1": 1620396,
+      "2": 428904,
+      "24": 1,
+      "3": 191980,
+      "32": 207,
+      "4": 73260,
+      "48": 26958,
+      "5": 24951,
+      "6": 167,
+      "7": 45,
+      "8": 5328
+    },
+    "children_per_cover": 2372197,
+    "local": {
+      "extra/backward": {
+        "children": {
+          "1": 2408,
+          "2": 644,
+          "3": 280,
+          "4": 110,
+          "5": 26,
+          "8": 8
+        },
+        "events": 22353,
+        "max_division_shift": 3,
+        "max_numerator_bits": 3,
+        "prefix_sha256": "e51112262a0d58c7f6abcd609b84160b04c28ae722cc038e6efbea3f0ce7f32e",
+        "program_sha256": "a8c20187860bbdedacc4dadc55e2d0d8cd87a698d369460e182a911ce9e44787",
+        "scalar_height": 37475,
+        "tags": {
+          "adapter": 996,
+          "center": 8,
+          "climb": 3468,
+          "phase": 10,
+          "residual_adapter": 372,
+          "scalar": 17095,
+          "warp": 240,
+          "zero_buffer": 164
+        },
+        "zero_buffer_peak": 82
+      },
+      "extra/forward": {
+        "children": {
+          "1": 2408,
+          "2": 644,
+          "3": 280,
+          "4": 110,
+          "5": 26,
+          "8": 8
+        },
+        "events": 22353,
+        "max_division_shift": 3,
+        "max_numerator_bits": 3,
+        "prefix_sha256": "ad2ef0f9514969b19a89f5120b0edfd7a673962985b87626bd70a76fde08fe7a",
+        "program_sha256": "e94979757d00b38bf72b98ab7a645d8fe4311add152356a0bc70cbbb7bb1d625",
+        "scalar_height": 37459,
+        "tags": {
+          "adapter": 996,
+          "center": 8,
+          "climb": 3468,
+          "phase": 10,
+          "residual_adapter": 372,
+          "scalar": 17095,
+          "warp": 240,
+          "zero_buffer": 164
+        },
+        "zero_buffer_peak": 82
+      },
+      "gauge44/backward": {
+        "children": {
+          "1": 2408,
+          "2": 644,
+          "3": 280,
+          "4": 110,
+          "5": 26,
+          "8": 8
+        },
+        "events": 22353,
+        "max_division_shift": 3,
+        "max_numerator_bits": 3,
+        "prefix_sha256": "e51112262a0d58c7f6abcd609b84160b04c28ae722cc038e6efbea3f0ce7f32e",
+        "program_sha256": "a8c20187860bbdedacc4dadc55e2d0d8cd87a698d369460e182a911ce9e44787",
+        "scalar_height": 37475,
+        "tags": {
+          "adapter": 996,
+          "center": 8,
+          "climb": 3468,
+          "phase": 10,
+          "residual_adapter": 372,
+          "scalar": 17095,
+          "warp": 240,
+          "zero_buffer": 164
+        },
+        "zero_buffer_peak": 82
+      },
+      "gauge44/forward": {
+        "children": {
+          "1": 2408,
+          "2": 644,
+          "3": 280,
+          "4": 110,
+          "5": 26,
+          "8": 8
+        },
+        "events": 22353,
+        "max_division_shift": 3,
+        "max_numerator_bits": 3,
+        "prefix_sha256": "ad2ef0f9514969b19a89f5120b0edfd7a673962985b87626bd70a76fde08fe7a",
+        "program_sha256": "e94979757d00b38bf72b98ab7a645d8fe4311add152356a0bc70cbbb7bb1d625",
+        "scalar_height": 37459,
+        "tags": {
+          "adapter": 996,
+          "center": 8,
+          "climb": 3468,
+          "phase": 10,
+          "residual_adapter": 372,
+          "scalar": 17095,
+          "warp": 240,
+          "zero_buffer": 164
+        },
+        "zero_buffer_peak": 82
+      }
+    },
+    "local_events_per_cover": 14887098,
+    "original_idle_deadlines": 165760,
+    "positive_idle_children": 57181,
+    "scalar_height_per_cover": 25101614,
+    "unnormalized_rank_mass": 4816512,
+    "zero_rank_nonzero_translations": 20032
+  },
+  "monomial_binding": {
+    "actual_warp": {
+      "new": 1,
+      "old": 1,
+      "op": 1,
+      "sign": -1
+    },
+    "catalogue_sha256": "b33b62d6c2fb9350dc275faf79acc1300251f6bb6085699843022391113d110f",
+    "complete_column_checks": 1935360,
+    "maximum_binary_gates": 59,
+    "physical_warp": {
+      "G": 1,
+      "K": 1,
+      "both_directions_restore": true,
+      "coefficient_bits": 5,
+      "columns": 1,
+      "dimension": 9,
+      "meter": {
+        "control_evaluations": 512,
+        "digit_passes": 18,
+        "erases": 389120,
+        "moves": 2334720,
+        "ordinary_calls": [],
+        "radix_passes": 0,
+        "reads": 389120,
+        "repair_records": 0,
+        "rotation_passes": 0,
+        "writes": 389120
+      },
+      "output_sha256": "e85d891ab9d9932306aa4590457c3428cb2ca3d8bae2beee1812bd18b77f63fd",
+      "payload_bits": 10240,
+      "records": 512,
+      "rho": 0
+    },
+    "unique_monomials": 3780
+  }
+}

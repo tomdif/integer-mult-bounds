@@ -1,0 +1,26 @@
+{
+  "compact_cases": [
+    {
+      "late_source": false,
+      "ordinary_calls": 4,
+      "records": 128,
+      "source_restored": true
+    },
+    {
+      "late_source": true,
+      "ordinary_calls": 12,
+      "records": 128,
+      "source_restored": true
+    }
+  ],
+  "fitted_C0_roots": 2,
+  "fitted_binary_bits": 1024,
+  "production_profile": {
+    "child_rank": 42,
+    "denominator": 100000,
+    "dimension": 64,
+    "numerator": 173,
+    "row_factor": 269241600
+  },
+  "scope": "Executable compact/B1 boundary with source preservation, sequential transfer and cleanup; reduced fixtures, not the selected large-prime payload."
+}

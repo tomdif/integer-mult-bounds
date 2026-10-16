@@ -1,0 +1,67 @@
+[
+  {
+    "path": "inputs/hosted/GLOBAL-TEMPLATE.json.gz",
+    "sha256": "0469ad483d418f115725307d0bacc2ec4b7aced359f90a2cbfe0a166c094ad22",
+    "source": "paired-terminal-refit complete replay, admission/release/verify/strict/global/hosted/GLOBAL-TEMPLATE.json.gz"
+  },
+  {
+    "path": "inputs/audit/PREFIX-AND-INVOICE.json",
+    "sha256": "b20c3d2ae05cf39c91d6af28a1a18049a940d2c9efbcaecd05ed47eec5ab5e04",
+    "source": "paired-terminal-refit complete replay, admission/release/verify/strict/global/audit/PREFIX-AND-INVOICE.json"
+  },
+  {
+    "path": "inputs/base/work/complex-nine-native/DATA-PHASES.json",
+    "sha256": "c5916ff312678f12aba403847643fbbc29f643acec60bdf836fa56cd3e8251fa",
+    "source": "paired-terminal-refit complete replay, admission/release/verify/strict/global/base/work/complex-nine-native/DATA-PHASES.json"
+  },
+  {
+    "path": "inputs/base/providers/gauge44/LOCAL-PROGRAMS.json.gz",
+    "sha256": "ce6e429f8f7731a4f226841b2b5f5c152dcfa686563bf249ded4584370c0b0e1",
+    "source": "paired-terminal-refit complete replay, admission/release/verify/strict/global/base/providers/gauge44/LOCAL-PROGRAMS.json.gz"
+  },
+  {
+    "path": "inputs/base/providers/gauge44/CANONICAL-WORD.json.gz",
+    "sha256": "0783ec2c80dde24c7410973e98a4b37b786d85e1b87a95873e179ae0dd497692",
+    "source": "paired-terminal-refit complete replay, admission/release/verify/strict/global/base/providers/gauge44/CANONICAL-WORD.json.gz"
+  },
+  {
+    "path": "inputs/base/providers/gauge44/CLIFFORD-RECIPES.json",
+    "sha256": "023105debf99d52f85dadf66a880d079672c9702736c748d69bfba73d2f8b47d",
+    "source": "paired-terminal-refit complete replay, admission/release/verify/strict/global/base/providers/gauge44/CLIFFORD-RECIPES.json"
+  },
+  {
+    "path": "inputs/base/providers/gauge44/RESIDUAL-ADAPTERS.json",
+    "sha256": "8e5fd73070ae59997ef3848af4dc1a25fcf2336ac42a03bb86c11ce0f5a6bb68",
+    "source": "paired-terminal-refit complete replay, admission/release/verify/strict/global/base/providers/gauge44/RESIDUAL-ADAPTERS.json"
+  },
+  {
+    "path": "inputs/base/providers/gauge44/INDEPENDENT-LOCAL-REPLAY.json",
+    "sha256": "6a2db3fb1a9428aacf19a5ad5ce898354f831362abaa6d7b62e018992cad42f9",
+    "source": "paired-terminal-refit complete replay, admission/release/verify/strict/global/base/providers/gauge44/INDEPENDENT-LOCAL-REPLAY.json"
+  },
+  {
+    "path": "inputs/base/providers/extra/LOCAL-PROGRAMS.json.gz",
+    "sha256": "ce6e429f8f7731a4f226841b2b5f5c152dcfa686563bf249ded4584370c0b0e1",
+    "source": "paired-terminal-refit complete replay, admission/release/verify/strict/global/base/providers/extra/LOCAL-PROGRAMS.json.gz"
+  },
+  {
+    "path": "inputs/base/providers/extra/CANONICAL-WORD.json.gz",
+    "sha256": "12e355df6793a3024da19b7aaa9a31a92ae7a9117d8485943fea3dbff3031a8e",
+    "source": "paired-terminal-refit complete replay, admission/release/verify/strict/global/base/providers/extra/CANONICAL-WORD.json.gz"
+  },
+  {
+    "path": "inputs/base/providers/extra/CLIFFORD-RECIPES.json",
+    "sha256": "6f61fc975bdee8fe3e9a832350973934a3fed636580505a1c2e1d3d2a0f14d03",
+    "source": "paired-terminal-refit complete replay, admission/release/verify/strict/global/base/providers/extra/CLIFFORD-RECIPES.json"
+  },
+  {
+    "path": "inputs/base/providers/extra/RESIDUAL-ADAPTERS.json",
+    "sha256": "2d3ceef05af25f0c21cfce7f3583d8a16947f941f261ac20ea28ab080650148f",
+    "source": "paired-terminal-refit complete replay, admission/release/verify/strict/global/base/providers/extra/RESIDUAL-ADAPTERS.json"
+  },
+  {
+    "path": "inputs/base/providers/extra/INDEPENDENT-LOCAL-REPLAY.json",
+    "sha256": "70c67ba7b8fdb7c09e8f515939364065cfe6f530117ffe3c73473b97e84243fb",
+    "source": "paired-terminal-refit complete replay, admission/release/verify/strict/global/base/providers/extra/INDEPENDENT-LOCAL-REPLAY.json"
+  }
+]
