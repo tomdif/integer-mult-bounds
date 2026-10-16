@@ -1,0 +1,2 @@
+omitted_S_normalization.lean:2:39: error: unsolved goals
+⊢ False

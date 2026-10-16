@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "scope": "All package files except this manifest and bytecode; mathematical dependencies are separately pinned.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 41,
+      "sha256": "24d35612cb959e12173dbbee582d851053e2a19446618f3fadf4987ded844392"
+    },
+    {
+      "path": "CORE.md",
+      "bytes": 14620,
+      "sha256": "10e85343ddf02d17ce0fa0ae940ea69820f31235ded2464ea2caddfee1b200cf"
+    },
+    {
+      "path": "DEPENDENCIES.md",
+      "bytes": 8336,
+      "sha256": "a3b4df68dd0cd53a6e7cf2fa630887f19e3ce8f4a965e432802ab59516be815e"
+    },
+    {
+      "path": "KERNEL.json",
+      "bytes": 1933,
+      "sha256": "c61838a3e386d1293a07c7efb50394bb6d6b568705e5c941f209bb3b8d686104"
+    },
+    {
+      "path": "PRECISION.md",
+      "bytes": 15494,
+      "sha256": "a71f5453b03634a411d35e83de67dd6a32dd45daf6b47efa3b7467ae09a4f2f1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3814,
+      "sha256": "197d25c262d18a1f838ab1e564962f3bcfc01b06614b0d1b10be4f43f2d86f23"
+    },
+    {
+      "path": "REFERENCES.json",
+      "bytes": 2733,
+      "sha256": "62bb6e8c0852f9f148405297a8d561534d78416658f5cf4df2f8d385ce06d43e"
+    },
+    {
+      "path": "RESULT.json",
+      "bytes": 16277,
+      "sha256": "48f168648a4aa17e41aed510c9fdb01aa295bba84ee166dbb5cd7499b0355ff3"
+    },
+    {
+      "path": "Recovery.lean",
+      "bytes": 1974,
+      "sha256": "a9238eca65a09a961f4013c14ca308e2e44188b7e92dd12d719accbf638d682c"
+    },
+    {
+      "path": "SOURCES.json",
+      "bytes": 33874,
+      "sha256": "1cb225827c366af1a4ae6ff14cc8b49cd41421e730158507dc9da198976a5815"
+    },
+    {
+      "path": "TASK.json",
+      "bytes": 5101,
+      "sha256": "3121f43cbc5f75333d4c19391c74d956974823100cbd57ee97e9d1c7c4ce22d9"
+    },
+    {
+      "path": "TRANSFER.md",
+      "bytes": 19419,
+      "sha256": "ceb209c767342840553e79b32229a2acd05a1a276f50dbe0d541d8a4ed419f03"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 1762,
+      "sha256": "81c0cd88d57af0c8e5fc49a0bc5a74941e5d714b39b114e2ca6e07eae017ec9d"
+    },
+    {
+      "path": "VERIFY.json",
+      "bytes": 9035,
+      "sha256": "4832ac6d7fb04c8dd6fc9a179a44ef0b62223a60439f0ab042285ca7cfe5599e"
+    },
+    {
+      "path": "checks.py",
+      "bytes": 19212,
+      "sha256": "86c48d06daaa5fd28f97f83c5458c70b8642b1daa3008f268f8650e210569a83"
+    },
+    {
+      "path": "evidence/ENVIRONMENT.json",
+      "bytes": 474,
+      "sha256": "a0f6b3e4962ce170ee110886122a61352c2e8931f15f9908f354c3e001291b51"
+    },
+    {
+      "path": "evidence/LEAN-BUILD.txt",
+      "bytes": 827,
+      "sha256": "53564242134584d1ce5269130c93baaa08f094553508a9f76096a73f9d4c685d"
+    },
+    {
+      "path": "evidence/LEAN-nearest_integer_without_radius.txt",
+      "bytes": 74,
+      "sha256": "89088c17c79bba6483f646af3c81de7cf43974a92a80424f7eb64cff27f3be6a"
+    },
+    {
+      "path": "evidence/LEAN-omitted_S_normalization.txt",
+      "bytes": 67,
+      "sha256": "30082adb839abc55826ba3b5cc07f4f64f890d2ee83ba2857d86eb2ed0a849d0"
+    },
+    {
+      "path": "evidence/LEAN-one_bit_accuracy_is_insufficient.txt",
+      "bytes": 76,
+      "sha256": "07b6473338e19d1a805376ade5ae9f28c2e8318a842d2866faf03c652bf4c423"
+    },
+    {
+      "path": "evidence/OVERLAP.json",
+      "bytes": 19280,
+      "sha256": "4a0a2c4a6d1defa42248c0e39eae107e5a342e82a6f27affbfd07b5354d202c0"
+    },
+    {
+      "path": "evidence/PACKAGE-REPLAY.txt",
+      "bytes": 32823,
+      "sha256": "ec1600bd9f58d3ab0857ff3d9f1d488ae9688aae6667162b1597707f64e80919"
+    },
+    {
+      "path": "evidence/RETAINED-SOURCE-MANIFEST.json",
+      "bytes": 79313,
+      "sha256": "0c8213c5fd3dc60a0ab3db8963cf1357d46334c93268e33fcf555aeb4cce5f36"
+    },
+    {
+      "path": "evidence/SPECIFIC-OVERLAP.json",
+      "bytes": 11297,
+      "sha256": "07b57024bd14538472f9d0840f5b758ee39e968553c09be366b37a6ec3784d42"
+    },
+    {
+      "path": "evidence/UPSTREAM-REFRESH.json",
+      "bytes": 658,
+      "sha256": "4a730d089e552141a392a488f8c62d0aa2985ccf8d91799b7a50f2bc2612eda5"
+    },
+    {
+      "path": "lean/lake-manifest.json",
+      "bytes": 3559,
+      "sha256": "f4671ef2eff309d21d902848451b325ee8cc1d2a7a6805f06be95661ff1d2471"
+    },
+    {
+      "path": "lean/lakefile.toml",
+      "bytes": 225,
+      "sha256": "902867c725375c0fe0f2b5a51e42931f1b2abe24a6d0000f9cff30b44309e77c"
+    },
+    {
+      "path": "lean/lean-toolchain",
+      "bytes": 25,
+      "sha256": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273"
+    },
+    {
+      "path": "references/NOTICE",
+      "bytes": 1439,
+      "sha256": "a91b93a731f116ae55b3644c88232b4d996e58bb810e2559dec013f9788f5e4b"
+    },
+    {
+      "path": "references/outer/GAUGEFREE-INTERIORS.md",
+      "bytes": 22859,
+      "sha256": "ebeb7fa53dca671e45b3a3dedf4603607d19461bbeb977445bf5e17bbdb25db8"
+    },
+    {
+      "path": "references/outer/UNION-SCHEDULE.md",
+      "bytes": 17015,
+      "sha256": "bc8e9cf7c178bb39b092ab5aafc4eeb523e72b1f69639bfcb9f27d0f74109357"
+    },
+    {
+      "path": "references/vendor/pr1673/capped-phase-fusion/HALO-THEOREM.md",
+      "bytes": 12777,
+      "sha256": "cb9e1da38400b658f9209e465b4e5896fadd17dc66afa862f38bae8d8c1f2058"
+    },
+    {
+      "path": "references/vendor/pr1673/capped-phase-fusion/PHASE-LAYOUT-AUDIT.md",
+      "bytes": 11774,
+      "sha256": "54aafc7afd09fe1a5312e69fad09c87422690543ab75c6ae35f6cbcc26b3eb8a"
+    },
+    {
+      "path": "references/vendor/pr1673/capped-phase-fusion/SHALLOW-TOEPLITZ.md",
+      "bytes": 15480,
+      "sha256": "b384b93f3fb4a8c97da2e617ebc14d55cebb0a739070e7f8dbb66f63e24e9310"
+    },
+    {
+      "path": "references/vendor/pr1673/capped-phase-fusion/TENSOR-COMPILER.md",
+      "bytes": 13430,
+      "sha256": "4d3b8466598a864a234b978e25976648d4e761840aad9153dd18d73d3dfe4d15"
+    },
+    {
+      "path": "references/vendor/pr1673/capped-phase-fusion/evidence/phase_assembly_ultra/OUTER-AUDIT.md",
+      "bytes": 13831,
+      "sha256": "94799bfa2794eb867d6ba68593c3e92988ade083e74d895e8d07ae3b8d0670dc"
+    },
+    {
+      "path": "references/vendor/pr1786/FINE-PRIME-PADDING.md",
+      "bytes": 18927,
+      "sha256": "47d1b1b4df28aadda3cd6bdeb1fbc47290595e9208cd09c1a1f338520d33fdce"
+    },
+    {
+      "path": "references/vendor/pr1786/NOTICE.md",
+      "bytes": 864,
+      "sha256": "dcc1adb2461aa93ca62b6a912dbd8b215599e6af8053dfbacb7423b544dd659a"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 215,
+      "sha256": "9f03bed01abaacfea044ba344a4081eaceb50c8ffd56a5a311b191c9405ce276"
+    },
+    {
+      "path": "verify_kernel.py",
+      "bytes": 3875,
+      "sha256": "76236b63553ac374b0635d822fea92f346604bd970366bc6ce311389d6926e27"
+    }
+  ]
+}

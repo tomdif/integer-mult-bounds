@@ -1,0 +1,173 @@
+{
+  "status": "POSSIBLE_OVERLAP_NOT_A_NOVELTY_CERTIFICATE",
+  "searched_at": "2026-10-16T15:33:07.724755+00:00",
+  "terms": [
+    "cyclic",
+    "finite core",
+    "integer recovery",
+    "CRT",
+    "shallow"
+  ],
+  "coverage": {
+    "open_prs": {
+      "fetched_at": "2026-10-16T15:32:29.948693+00:00",
+      "complete_pagination": true,
+      "records": 230
+    },
+    "discussions": {
+      "fetched_at": "2026-10-16T15:33:07.582784+00:00",
+      "complete_pagination": true,
+      "records": 1675
+    }
+  },
+  "local_records": 2695,
+  "warnings": [],
+  "limits": "Remote PR scope is open PRs including drafts. Closed work is searched through local READMEs, TASK metadata and ledger only. No code diffs or arbitrary package files are searched. Recheck relevant heads before submission.",
+  "matches_total": 314,
+  "matches": [
+    {
+      "kind": "local-readme",
+      "title": "research/bit-dicyclic-diagonal-seed620ca/README.md",
+      "path": "research/bit-dicyclic-diagonal-seed620ca/README.md",
+      "sha256": "4c66cbf5712d6556c2d1ba33065217175a740f7e8e9a75ef806051e8b2935a90",
+      "matched_terms": [
+        "cyclic",
+        "shallow"
+      ],
+      "score": 4,
+      "excerpt": "xact census finds no paid-call saving in either of two stated endpoint layers of a three-register dicyclic address model. It does not prove a lower bound for other groups, generators, endpoints, or word depths.\n\nThe work uses accepted seed `620ca5cd76dec930418c29abde328dc6` on selector base `fcea6916f3af98346ff13581ac7626718b7e55a2`, track `bit-mechanisms`, task `bit-new-register-model`, priority revision 3. The selected-record SHA-256 is `10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/cyclic-fourier-transfer-audit/README.md",
+      "path": "research/cyclic-fourier-transfer-audit/README.md",
+      "sha256": "d3759ca157a25bc9786ad516e32e8c808f366b4a22972e937a7400105e5065e1",
+      "matched_terms": [
+        "cyclic",
+        "crt"
+      ],
+      "score": 4,
+      "excerpt": "# Audit: sharpen the prime-power cyclic inverse's Fourier transfer\n\n**Status: independent Sobolev/Fourier audit of PR621. No new kappa.**\n\nPublication context: Rafael Guevara (@alephnan) concurrently submitted\n[PR803](https://github.com/CrocSwap/integer-mult-bounds/pull/803), which proposes\na stronger degree-controlled inverse-gap estimate. This package retains a\nseparate elementary Sobolev proof and exact regression evidence; it does not\nclaim the best currently proposed conditioning bound.\n\nTh"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/cyclic-stride-independent/README.md",
+      "path": "research/cyclic-stride-independent/README.md",
+      "sha256": "cf589306b57b56a1a4aab531bee72fde1fb46f01d463ba6241f4ea50c34c2c77",
+      "matched_terms": [
+        "cyclic",
+        "crt"
+      ],
+      "score": 4,
+      "excerpt": "different obligations from the predecessor's neighboring forward\nGaussian checks, PR668's resultant CRT, PR666's composite lifting, and\nPR663/PR673's dirty composition. No defect in PR628's stated neighboring\nscope was found. Incorrect extensions have exact rejecting controls.\n\nPR628 already supplies a charged two-sort layout for a constant scalar gauge\nand the direct-sum norm argument. Neither is new here. This package instead\nchecks per-cycle closures with independently varying phases and the "
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/cyclic-zero-elimination/README.md",
+      "path": "research/cyclic-zero-elimination/README.md",
+      "sha256": "73b2c058517ef416aef6425c4898efa45a636257e7d98d4fa29aa3e505236b59",
+      "matched_terms": [
+        "cyclic",
+        "crt"
+      ],
+      "score": 4,
+      "excerpt": "# Skip zero row updates in the exact cyclic-inverse replay\n\nThis optional adapter speeds up Ali Romman's incorporated PR621 verifier by\nskipping elimination updates whose coefficient is exactly zero. The full\neight-case output remains byte-identical to the predecessor's `EXPECTED.json`.\nThis is a tooling improvement with no new kappa or mathematical construction.\n\nThe only arithmetic change is in `eliminate`, immediately after reading the\ncoefficient for a non-pivot row:\n\n```python\nvalue = a[row"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/sw4-crt-endpoint/README.md",
+      "path": "research/sw4-crt-endpoint/README.md",
+      "sha256": "f9d84b30884799f3acc1f5c5761f03457900a184ba97fa019f989c3e141cf201",
+      "matched_terms": [
+        "cyclic",
+        "crt"
+      ],
+      "score": 4,
+      "excerpt": "tor nor an existing verifier. It uses no rational-matrix library.\n\n```sh\npython3 -I -B research/sw4-crt-endpoint/verify.py\n```\n\nExpected: `PASS_SW4_EXACT_MODULAR_ENDPOINT columns=736 moduli=2 controls=7`.\nPython 3.11+ and the standard library suffice; normal verification is offline\nand read-only. `--write NEW_FILE` explicitly regenerates the receipt without\noverwriting an existing file.\n\nThe complete domain is all 19,197 scalar macros in the pinned backward\nprogram. There is no randomized mathem"
+    },
+    {
+      "number": 1952,
+      "title": "CLAIM: cyclic masked rank-three child profile (seed 380b8276)",
+      "kind": "discussion",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1952",
+      "updated_at": "2026-10-14T15:06:26Z",
+      "matched_terms": [
+        "cyclic"
+      ],
+      "score": 3,
+      "excerpt": " run).\n\n**Question and object:** For a standard `3x3` matrix-multiplication child restricted to the cyclic support\n`A=diag(x0,x1,x2)`, `B[i,(i+1) mod 3]=y_i`, the output has exactly `C[i,(i+1) mod 3]=x_i y_i`. Can this masked child serve 303 disjoint triples of rank-one children per local invocation with no extra rank-one frame, copy, or restoration calls, so that the exact local profile ceiling exceeds the selected fixed-word ceiling by at least 5%?\n\n**Changed hypothesis and complete optimistic"
+    },
+    {
+      "number": 1695,
+      "title": "Claim: Five-helper cyclic basis changes on the R439 D map",
+      "kind": "discussion",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1695",
+      "updated_at": "2026-10-14T08:20:33Z",
+      "matched_terms": [
+        "cyclic"
+      ],
+      "score": 3,
+      "excerpt": "6180d88ff08d00037f7d9b9abc`; task `bit-helper-contract`; scope refined and changed to a five-helper cyclic basis move. Catalogue priority revision 3. Exact task base `0b1cccf86e2f5132ed286a26ef0a681a495740ea`; selected-record SHA-256 `10b9e340fd8e354a37a0c4813c90e5de1dd42044b5f6aca4a3fc5a42b685fa32`.\n\n**Question:** On the source-pinned 111-target/439-helper R439 word in `research/r439-bsection-stars-seed01/candidate.json.gz`, can a five-step directed cycle of helper XOR basis changes, placed bef"
+    },
+    {
+      "number": 2331,
+      "title": "DONE: nine-line counterexample to the B2 acyclic-edge strengthening (#2334)",
+      "kind": "discussion",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2331",
+      "updated_at": "2026-10-15T05:50:50Z",
+      "matched_terms": [
+        "cyclic"
+      ],
+      "score": 3,
+      "excerpt": "/0fabfe9316c14835e9156214979f7510e3e538bc), in `research/b2-tripartite-edge-counterexample/`.\n\nThe acyclic-edge strengthening of B2(iii) is false: **cost(B)=21 < masE(W[F])=27** for nine indexed lines. This answers question 1 in Aaron Wang's [#2293](https://github.com/CrocSwap/integer-mult-bounds/pull/2293), building on DreamingOfClouds's model in [#2162](https://github.com/CrocSwap/integer-mult-bounds/pull/2162). The vertex theorem, target (A), and selected frontier are unchanged.\n\n**Evidence:*"
+    },
+    {
+      "number": 1952,
+      "title": "CLAIM: cyclic masked rank-three child profile (seed 380b8276)",
+      "kind": "discussion-comment",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1952#discussioncomment-18926805",
+      "updated_at": "2026-10-14T15:06:25Z",
+      "matched_terms": [
+        "cyclic"
+      ],
+      "score": 3,
+      "excerpt": "e0ab243375f298a08ce45a25165d99677` on branch `research/autoresearch-cycle8`, under `research/masked-cyclic-m3-triplet-seed380b/`. I did not open a PR because no selected-word source-aligned triple or complete source/frame/copy/hosting/precision/restoration invoice was found. This is an exact masked-interface identity and a conditional profile calculation, not a supplier, full-cost construction, or \u03ba improvement. The selected record and frontier remain unchanged.\n\nFinal overlap refresh at 2026-10"
+    },
+    {
+      "number": 1695,
+      "title": "Claim: Five-helper cyclic basis changes on the R439 D map",
+      "kind": "discussion-comment",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1695#discussioncomment-18918146",
+      "updated_at": "2026-10-14T07:16:36Z",
+      "matched_terms": [
+        "cyclic"
+      ],
+      "score": 3,
+      "excerpt": "SCOPE CORRECTION before the search: place the new five-edge word H1 **after** the pinned helper preparation H0, not before it. The old injection is J0 on helper state H0 s. The changed helper state is H1 H0 s, so the exact replacement injection is J0 H1^{-1}; then restore H1^{-1} before the old H0^{-1}. Thus J0 H1^{-1} H1 H0 s = J0 H0 s and the helper boundary returns s. The charge stays five preparation plus five restoration ADDs, with the exact new injection weight. The bounded support ranking"
+    },
+    {
+      "number": 1695,
+      "title": "Claim: Five-helper cyclic basis changes on the R439 D map",
+      "kind": "discussion-comment",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1695#discussioncomment-18918215",
+      "updated_at": "2026-10-14T07:20:37Z",
+      "matched_terms": [
+        "cyclic"
+      ],
+      "score": 3,
+      "excerpt": " The resulting full word saves 12 ADDs: D `5,548 -> 5,536`, total `11,500 -> 11,488`. Four distinct cyclic sweeps tie at the 12-ADD saving; the lexicographically first is selected. The optimistic domain ceiling was 109 ADDs.\n\nThe initial replay through the retained R439 checker passes: the exact D boundary and complete 661-column map in both directions, all nine COPY/ERASE pairs, identical paid rank profile (mass 5,129), and the exporter agree at 11,488 ADDs. Exact bounds are F=27,061, B=5,921,3"
+    },
+    {
+      "number": 1695,
+      "title": "Claim: Five-helper cyclic basis changes on the R439 D map",
+      "kind": "discussion-comment",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1695#discussioncomment-18919456",
+      "updated_at": "2026-10-14T08:20:32Z",
+      "matched_terms": [
+        "cyclic"
+      ],
+      "score": 3,
+      "excerpt": "f1775f79131d2f4d4633a1241e1ad8c1`, base `0b1cccf86e2f5132ed286a26ef0a681a495740ea`. The five-helper cyclic basis change on the pinned R439 D word saves 12 ADDs locally (`11,500 -> 11,488`) after charging ten preparation/restoration ADDs. The exact finite circuit replay, boundary/profile checks, source-bound receipts, and negative controls are packaged in the PR. The selected conditional bound and kappa are unchanged. CI currently has 30 queued jobs; no CI completion is claimed."
+    }
+  ]
+}

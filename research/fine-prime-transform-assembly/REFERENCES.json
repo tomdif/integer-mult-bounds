@@ -1,0 +1,57 @@
+{
+  "source_manifest_sha256": "0c8213c5fd3dc60a0ab3db8963cf1357d46334c93268e33fcf555aeb4cce5f36",
+  "binding": "research/paired-terminal-refit/CLAIM.json source_manifest_sha256",
+  "files": [
+    {
+      "source_path": "outer/GAUGEFREE-INTERIORS.md",
+      "local_path": "references/outer/GAUGEFREE-INTERIORS.md",
+      "sha256": "ebeb7fa53dca671e45b3a3dedf4603607d19461bbeb977445bf5e17bbdb25db8"
+    },
+    {
+      "source_path": "outer/UNION-SCHEDULE.md",
+      "local_path": "references/outer/UNION-SCHEDULE.md",
+      "sha256": "bc8e9cf7c178bb39b092ab5aafc4eeb523e72b1f69639bfcb9f27d0f74109357"
+    },
+    {
+      "source_path": "vendor/pr1673/capped-phase-fusion/SHALLOW-TOEPLITZ.md",
+      "local_path": "references/vendor/pr1673/capped-phase-fusion/SHALLOW-TOEPLITZ.md",
+      "sha256": "b384b93f3fb4a8c97da2e617ebc14d55cebb0a739070e7f8dbb66f63e24e9310"
+    },
+    {
+      "source_path": "vendor/pr1673/capped-phase-fusion/TENSOR-COMPILER.md",
+      "local_path": "references/vendor/pr1673/capped-phase-fusion/TENSOR-COMPILER.md",
+      "sha256": "4d3b8466598a864a234b978e25976648d4e761840aad9153dd18d73d3dfe4d15"
+    },
+    {
+      "source_path": "vendor/pr1673/capped-phase-fusion/HALO-THEOREM.md",
+      "local_path": "references/vendor/pr1673/capped-phase-fusion/HALO-THEOREM.md",
+      "sha256": "cb9e1da38400b658f9209e465b4e5896fadd17dc66afa862f38bae8d8c1f2058"
+    },
+    {
+      "source_path": "vendor/pr1673/capped-phase-fusion/PHASE-LAYOUT-AUDIT.md",
+      "local_path": "references/vendor/pr1673/capped-phase-fusion/PHASE-LAYOUT-AUDIT.md",
+      "sha256": "54aafc7afd09fe1a5312e69fad09c87422690543ab75c6ae35f6cbcc26b3eb8a"
+    },
+    {
+      "source_path": "vendor/pr1673/capped-phase-fusion/evidence/phase_assembly_ultra/OUTER-AUDIT.md",
+      "local_path": "references/vendor/pr1673/capped-phase-fusion/evidence/phase_assembly_ultra/OUTER-AUDIT.md",
+      "sha256": "94799bfa2794eb867d6ba68593c3e92988ade083e74d895e8d07ae3b8d0670dc"
+    },
+    {
+      "source_path": "vendor/pr1786/FINE-PRIME-PADDING.md",
+      "local_path": "references/vendor/pr1786/FINE-PRIME-PADDING.md",
+      "sha256": "47d1b1b4df28aadda3cd6bdeb1fbc47290595e9208cd09c1a1f338520d33fdce"
+    },
+    {
+      "source_path": "vendor/pr1786/NOTICE.md",
+      "local_path": "references/vendor/pr1786/NOTICE.md",
+      "sha256": "dcc1adb2461aa93ca62b6a912dbd8b215599e6af8053dfbacb7423b544dd659a"
+    },
+    {
+      "source_path": "NOTICE",
+      "local_path": "references/NOTICE",
+      "sha256": "a91b93a731f116ae55b3644c88232b4d996e58bb810e2559dec013f9788f5e4b"
+    }
+  ],
+  "meaning": "Unmodified proof references, matched to the authenticated terminal-refit reproduction export. Retained source statements are not validated by their hashes."
+}

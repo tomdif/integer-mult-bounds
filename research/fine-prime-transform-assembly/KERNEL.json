@@ -1,0 +1,51 @@
+{
+  "axioms": {
+    "exactRecovery": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "productError": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "quarterRadius": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "roundOfQuarter": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "scaleEnvelope": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "build_log_sha256": "53564242134584d1ce5269130c93baaa08f094553508a9f76096a73f9d4c685d",
+  "dependencies": {
+    "Cli": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+    "LeanSearchClient": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+    "Qq": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+    "aesop": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+    "batteries": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+    "importGraph": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+    "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+    "plausible": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+    "proofwidgets": "6e311e2a844da9b2cc3971187df2fe0066947b93"
+  },
+  "kernel_checked": true,
+  "lean_version": "Lean (version 4.32.2, arm64-apple-darwin24.6.0, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "rejected_controls": {
+    "nearest_integer_without_radius": "89088c17c79bba6483f646af3c81de7cf43974a92a80424f7eb64cff27f3be6a",
+    "omitted_S_normalization": "30082adb839abc55826ba3b5cc07f4f64f890d2ee83ba2857d86eb2ed0a849d0",
+    "one_bit_accuracy_is_insufficient": "07b6473338e19d1a805376ade5ae9f28c2e8318a842d2866faf03c652bf4c423"
+  },
+  "scope": "The error envelope and nearest-integer recovery implication only. The approximation and complexity premises of the outer algorithms are not formalized.",
+  "source_sha256": "a9238eca65a09a961f4013c14ca308e2e44188b7e92dd12d719accbf638d682c",
+  "status": "PASS_RECOVERY_IMPLICATION_KERNEL"
+}

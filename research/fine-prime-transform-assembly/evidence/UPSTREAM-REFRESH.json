@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-16T15:41:53.795660+00:00",
+  "latest_main": "47fa55b3cd8c7cf8879206f33569bc59d637dad8",
+  "previous_main": "a23bdc1b07be96bea0101d44ae27d14de67a79ed",
+  "common_input_paths_checked": 38,
+  "input_changes": [],
+  "guidance_changes": [
+    "Read the delta-only maintainer intake update in AGENTS.md/CONTRIBUTING.md. This task is an explicitly assigned fork research proof, not authorized maintainer queue intake.",
+    "Retain archive-acceptance versus scientific-validation distinction."
+  ],
+  "decision": "Continue the same isolated proof task on its immutable scientific inputs; no selected frontier or source archive change."
+}

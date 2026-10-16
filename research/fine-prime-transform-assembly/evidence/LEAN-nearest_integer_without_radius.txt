@@ -1,0 +1,2 @@
+nearest_integer_without_radius.lean:2:37: error: unsolved goals
+⊢ False

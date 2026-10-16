@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "task_id": "uniform-transfer-audit",
+  "priority_revision": 5,
+  "base_commit": "b7f0e3d343b81549c0d311ca0346a2d95389a857",
+  "original_card": {
+    "id": "uniform-transfer-audit",
+    "question": "Can one exact all-size/compiler, precision, hosting or restoration implication be proved or falsified?",
+    "starting_points": [
+      "certificates/selected-result.json",
+      "docs/audit.md"
+    ],
+    "methods": [
+      "Prove one missing implication with explicit quantified hypotheses.",
+      "Find an exact counterexample at the claimed interface boundary."
+    ],
+    "acceptance_gate": "Identify the proposition and what would change downstream; do not equate a finite replay with a universal proof.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Read the selected review scope and choose one exact all-size or precision implication.",
+      "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+    },
+    "first_experiment": "Write its quantified inputs and conclusion; find a missing hypothesis or construct a minimal exact adversarial instance.",
+    "bottleneck_link": "Finite supplier improvements are useful only under the retained transfer obligations.",
+    "allowed_variations": [
+      "Choose one tape, precision, hosting or restoration lemma."
+    ],
+    "scope_change_triggers": [
+      "Replacing a quantified obligation with another finite smoke test."
+    ],
+    "overlap_terms": [
+      "uniform transfer",
+      "all-size",
+      "precision"
+    ]
+  },
+  "scope_status": "refined",
+  "actual_scope": "Complete the finite-core/rounding/source-transform/CRT/recovery composition, with the two physical primitive theorems identified as dependencies.",
+  "scope_change_reason": "Continuing the explicit user proof-completion task after dispatcher and spectral estimates; source-transform contract T and exact recovery were the remaining outer obligations.",
+  "bottleneck_link": "Without these joins the improved finite supplier does not imply the claimed multiplication bound.",
+  "budget_minutes": 60,
+  "stop_rule": "Keep the theorem dependency boundary explicit; finite checks and archive acceptance are not a whole-machine proof.",
+  "outcome": "completed",
+  "evidence": "CORE.md, PRECISION.md, TRANSFER.md, DEPENDENCIES.md, exact seam replay and recovery-only Lean theorems.",
+  "author": "Thomas DiFiore",
+  "ai_assistance": "Substantial OpenAI Codex assistance in proof development, exact checks, Lean, auditing and writing. No subagents.",
+  "open_questions": [
+    {
+      "question": "Does independent mathematical review validate the two physical primitive proofs and the joined outer construction?",
+      "why_it_matters": "The full multiplication claim depends on those written proofs, not merely their finite certificates.",
+      "first_step": "Read the exact B/C interfaces, then CORE section 5 and PRECISION sections 3-5 against their dependencies.",
+      "blocked_by": "Independent review and full formalization have not been performed."
+    }
+  ],
+  "publication": "Authorized fork branch only. No PR, discussion, email or other message posted.",
+  "scope_completion": "Written outer composition relative to the two named physical primitive proofs; not a full formal verification.",
+  "upstream_checkpoint": {
+    "checked_at": "2026-10-16T15:41:53.795660+00:00",
+    "latest_main": "47fa55b3cd8c7cf8879206f33569bc59d637dad8",
+    "previous_main": "a23bdc1b07be96bea0101d44ae27d14de67a79ed",
+    "common_input_paths_checked": 38,
+    "input_changes": [],
+    "guidance_changes": [
+      "Read the delta-only maintainer intake update in AGENTS.md/CONTRIBUTING.md. This task is an explicitly assigned fork research proof, not authorized maintainer queue intake.",
+      "Retain archive-acceptance versus scientific-validation distinction."
+    ],
+    "decision": "Continue the same isolated proof task on its immutable scientific inputs; no selected frontier or source archive change."
+  },
+  "overlap": {
+    "searched_at": "2026-10-16T15:33:07.724755+00:00",
+    "coverage": {
+      "open_prs": {
+        "fetched_at": "2026-10-16T15:32:29.948693+00:00",
+        "complete_pagination": true,
+        "records": 230
+      },
+      "discussions": {
+        "fetched_at": "2026-10-16T15:33:07.582784+00:00",
+        "complete_pagination": true,
+        "records": 1675
+      }
+    },
+    "warnings": [],
+    "matches_total": 314,
+    "review": "Read cyclic-fourier-transfer-audit and cyclic-stride-independent; they address different prior interfaces, not this finite-core assembly. No novelty claim."
+  },
+  "completed_at": "2026-10-16T15:43:59.916148+00:00",
+  "validation": "Both registered exact suites pass. Fresh Lean build checks five recovery implications and rejects three false-statement controls. Existing native/outer admission retained; no native inputs changed and no full physical multiplier executed."
+}

@@ -1,0 +1,289 @@
+{
+  "status": "POSSIBLE_OVERLAP_NOT_A_NOVELTY_CERTIFICATE",
+  "searched_at": "2026-10-16T15:03:37.148208+00:00",
+  "terms": [
+    "uniform-transfer-audit",
+    "uniform transfer",
+    "all-size",
+    "precision"
+  ],
+  "coverage": {
+    "open_prs": {
+      "fetched_at": "2026-10-16T15:03:00.309748+00:00",
+      "complete_pagination": true,
+      "records": 238
+    },
+    "discussions": {
+      "fetched_at": "2026-10-16T15:03:37.014449+00:00",
+      "complete_pagination": true,
+      "records": 1665
+    }
+  },
+  "local_records": 2693,
+  "warnings": [],
+  "limits": "Remote PR scope is open PRs including drafts. Closed work is searched through local READMEs, TASK metadata and ledger only. No code diffs or arbitrary package files are searched. Recheck relevant heads before submission.",
+  "matches_total": 2308,
+  "matches": [
+    {
+      "kind": "local-task",
+      "title": "research/affine-lattice-inverse-precision/TASK.json",
+      "path": "research/affine-lattice-inverse-precision/TASK.json",
+      "sha256": "de8c1e19611c8fb105e633f0bb9ad76e58dd5e624bf47ab69224ea890cdeb79e",
+      "matched_terms": [
+        "uniform-transfer-audit",
+        "uniform transfer",
+        "all-size",
+        "precision"
+      ],
+      "score": 6,
+      "excerpt": "{\n  \"schema_version\": 1,\n  \"task_id\": \"uniform-transfer-audit\",\n  \"priority_revision\": 3,\n  \"base_commit\": \"0b1cccf86e2f5132ed286a26ef0a681a495740ea\",\n  \"original_card\": {\n    \"id\": \"uniform-transfer-audit\",\n    \"question\": \"Can one exact all-size/compiler, precision, hosting or restoration implication be proved or falsified?\",\n    \"starting_points\": [\n      \"certificates/selected-result.json\",\n      \"docs/audit.md\"\n    ],\n    \"methods\": [\n      \"Prove one missing implication with explicit quant"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/commuting-dirty-precision/TASK.json",
+      "path": "research/commuting-dirty-precision/TASK.json",
+      "sha256": "55d73983fd400f2196a36d5b698cbe04299f9dd77426ddb1edf2caef76835efd",
+      "matched_terms": [
+        "uniform-transfer-audit",
+        "uniform transfer",
+        "all-size",
+        "precision"
+      ],
+      "score": 6,
+      "excerpt": "{\n  \"schema_version\": 1,\n  \"task_id\": \"uniform-transfer-audit\",\n  \"priority_revision\": 2,\n  \"base_commit\": \"dadfea6e8a78ff6ba901705f87532a71c6f5bbb8\",\n  \"original_card\": {\n    \"id\": \"uniform-transfer-audit\",\n    \"question\": \"Can one exact all-size/compiler, precision, hosting or restoration implication be proved or falsified?\",\n    \"starting_points\": [\n      \"certificates/selected-result.json\",\n      \"docs/audit.md\"\n    ],\n    \"methods\": [\n      \"Prove one missing implication with explicit quant"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/mixed-precision-inverse-boundary/TASK.json",
+      "path": "research/mixed-precision-inverse-boundary/TASK.json",
+      "sha256": "dce35d6506d476c5d77845f9bf4ba0a34839867596228bab2869ec09bc3b52a5",
+      "matched_terms": [
+        "uniform-transfer-audit",
+        "uniform transfer",
+        "all-size",
+        "precision"
+      ],
+      "score": 6,
+      "excerpt": "{\n  \"schema_version\": 1,\n  \"task_id\": \"uniform-transfer-audit\",\n  \"priority_revision\": 2,\n  \"base_commit\": \"bce54fb3f895cbe5cd4c0eb477c3afeed100190f\",\n  \"original_card\": {\n    \"id\": \"uniform-transfer-audit\",\n    \"question\": \"Can one exact all-size/compiler, precision, hosting or restoration implication be proved or falsified?\",\n    \"starting_points\": [\n      \"certificates/selected-result.json\",\n      \"docs/audit.md\"\n    ],\n    \"methods\": [\n      \"Prove one missing implication with explicit quant"
+    },
+    {
+      "number": 1260,
+      "title": "Selected PR1094 precision: signed cancellation through unitary frames",
+      "kind": "discussion",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1260",
+      "updated_at": "2026-10-13T21:44:02Z",
+      "matched_terms": [
+        "uniform-transfer-audit",
+        "all-size",
+        "precision"
+      ],
+      "score": 5,
+      "excerpt": "y stored real/imaginary components within the same 18/21 bits. Under the inherited global execution/precision hypotheses, replacing only the local term gives 397 \u2192 350 sufficient bits. The production payload remains 512 and kappa is unchanged.\n\nThe written proof is a prefix norm corollary of the credited Lemma G conjugation theorem. Four exact boundary examples distinguish common frames, exact recipes, unitary labels and partial stores. At forward event 24223, scratch reaches 131088 although reg"
+    },
+    {
+      "number": 2253,
+      "title": "FINDING / HANDOFF: selected complex layer and recursive precision closure",
+      "kind": "discussion",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2253",
+      "updated_at": "2026-10-15T07:19:59Z",
+      "matched_terms": [
+        "all-size",
+        "precision"
+      ],
+      "score": 4,
+      "excerpt": "mit `8c60765b5dea9d862b3b190d55da102a576031bf`. Claim complete and released.**\n\nI propose a written all-size selected R480/T16 complex-layer construction with cost `O(V*d^(599/600))` on the stated spaced-axis/long-record domain. I compose the pending ordinary contract from PR2234 and compact monomial implementation from PR2250 with whole owner packets, recursive row/work restoration and one exact root precision grid.\n\nThe proof applies the common-label invariant to both the literal local program"
+    },
+    {
+      "number": 1283,
+      "title": "CLAIM: commuting interval transport in the target-dependent PR1054 precision budget (seed 64)",
+      "kind": "discussion-comment",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1283#discussioncomment-18910013",
+      "updated_at": "2026-10-13T21:56:02Z",
+      "matched_terms": [
+        "all-size",
+        "precision"
+      ],
+      "score": 4,
+      "excerpt": "mains, with the same 4,000 leaves, six scratch arrays and preparation. No supplier/kappa or optimal-precision claim.\n\nWritten all-size proof, 5,220 exact uniform budgets, 216 generic cases, 78 literal dispatcher comparisons, 80 actual signed rounded words/2,336 leaves, meaningful noncommuting/target-dependent controls, source/receipt corruption and read-only relocation are included. Python3.12 registered replay and all25 selected tests pass. The large radix64 row is a budget calculation, not a m"
+    },
+    {
+      "number": 2750,
+      "title": "DONE: exact internal precision for the first physical P104 collector",
+      "kind": "discussion-comment",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2750#discussioncomment-18958966",
+      "updated_at": "2026-10-15T21:19:27Z",
+      "matched_terms": [
+        "all-size",
+        "precision"
+      ],
+      "score": 4,
+      "excerpt": "antic controls reject broken occurrence binding, cleanup, phase, dyadic arithmetic and insufficient precision. Optimized Git-free CLI/export/source-corruption tests pass. Reproduce with `python3.12 -B scripts/research_package.py --package research/p104-whole-word-internal-grid`.\n\nCredit Arham Tahir/PR2674 and PR2665, ywz65/PR2586 and PR2730, Nick Petalas/PR2754 and PR2549/2550, Alejandro Zarzuelo Urdiales's Gaussian parity methods and the retained native/P104 lineage. Assistance and verification"
+    },
+    {
+      "number": 2253,
+      "title": "FINDING / HANDOFF: selected complex layer and recursive precision closure",
+      "kind": "discussion-comment",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2253#discussioncomment-18941296",
+      "updated_at": "2026-10-15T05:31:49Z",
+      "matched_terms": [
+        "uniform-transfer-audit",
+        "precision"
+      ],
+      "score": 4,
+      "excerpt": "d`, `arithmetic.py`, `bounds.py`, and its existing arithmetic checks. The standard picker selected `uniform-transfer-audit` with nonce `811c3101664c04ace52e516ba0bb155a`.\n\nMethod/domain: state a quantified exact-grid lemma, independently compare the pinned integer-word primitives with integer/rational semantics, exercise exhaustive small signed-word boundaries and nested forward/inverse cancellation, and verify rejection for insufficient division reserve, child-return rounding and overflowing in"
+    },
+    {
+      "number": 2253,
+      "title": "FINDING / HANDOFF: selected complex layer and recursive precision closure",
+      "kind": "discussion-comment",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2253#discussioncomment-18941667",
+      "updated_at": "2026-10-15T05:59:21Z",
+      "matched_terms": [
+        "uniform-transfer-audit",
+        "precision"
+      ],
+      "score": 4,
+      "excerpt": "stream instantiation and physical tensor-interpreter correctness remain explicit handoffs; hosting, precision, row/tape and outer transfer obligations are outside scope. No new \u03ba or independent human review is claimed. The original claim is released.\n\nCredit: Jose Manuel supplied PR2287's written argument; DreamingOfClouds and the retained Lemma G lineage supplied its formal semantics; Mathlib supplies tensor infrastructure. Gareth Davidson with substantial OpenAI Codex assistance prepared this "
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/commuting-dirty-precision/README.md",
+      "path": "research/commuting-dirty-precision/README.md",
+      "sha256": "647d49b0756e300e37cc0566cb2c13fe1d00352e645ebf00e17a95995e2d5783",
+      "matched_terms": [
+        "all-size",
+        "precision"
+      ],
+      "score": 4,
+      "excerpt": "# Smaller sufficient precision for the commuting dirty word\n\n**Conditional precision audit; no new kappa.** This applies PR1278's commuting\ninterval lemma and PR1085's sharp prefix count to PR1054's actual\ntarget-dependent rounded leaf contract. Both standalone word directions are\ncovered, including the positive preimage visited inside a negative leaf.\n\nFor n factors, put h=ceil(log2 n), C=h+2, and suppose every subset product\nhas norm at most G>=1. The prefix bound is B=CG and the interval boun"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/dirty-cubic-precision-validation/README.md",
+      "path": "research/dirty-cubic-precision-validation/README.md",
+      "sha256": "c2c83f183d5bf4d1f6ff51c08cd2309e7192cce277ce5cf0de2b305b3c380d9d",
+      "matched_terms": [
+        "all-size",
+        "precision"
+      ],
+      "score": 4,
+      "excerpt": "al controls are retained in the full results.\n\nThis is finite exact evidence supporting the written all-size proof and\ninherited analytic, leaf and preparation hypotheses. It is not an\nindependent human review or formal verification of the full multiplication\ntheorem. No practical runtime improvement or new kappa is claimed. Hosted\nCI is a separate publication check, not represented as passed by these\nlocal validation records.\n"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/dirty-cubic-precision/README.md",
+      "path": "research/dirty-cubic-precision/README.md",
+      "sha256": "b599aec1864cafdfc8b2ecde8cdc25278dfd8f1c56760f476249e8cfbaa5b201",
+      "matched_terms": [
+        "all-size",
+        "precision"
+      ],
+      "score": 4,
+      "excerpt": "# Cubic precision with arbitrary dirty arrays\n\nFor PR628's balanced prime-power cyclic inverse, sufficient complete word\nsize is\n\n    max(p, incoming_grid_bits) + O(m + r^3),\n\nwhere every initial array has norm at most 2^m. The dispatcher, rounded\nleaves, quadratic leaf count, and logarithmic number of borrowed dirty\narrays are unchanged. **No reserved zero bits or clean length-L array are\nrequired. No new kappa is claimed.**\n\nThe new [proof](PROOF.md) shows that every ideal prefix and inverse p"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/p104-clean-dual-precision/README.md",
+      "path": "research/p104-clean-dual-precision/README.md",
+      "sha256": "1516ffeb5ddbba98b12c5d79347e7b75ab7aeba6a3ff4eb4ef26846aaae56dd9",
+      "matched_terms": [
+        "all-size",
+        "precision"
+      ],
+      "score": 4,
+      "excerpt": "# Precision and private-erasure debt in the corrected P104 dual\n\nA scoped precision and lifecycle audit submitted for review. No supplier or new kappa is claimed.\n\n[PR2497](https://github.com/CrocSwap/integer-mult-bounds/pull/2497), exact head\n`7f2cf129d42030d3eb3975b7d1b07392c6d32a1b`, supplies a 4,982-event two-target\nP104 backward word with eight private collectors restored to exact zero.\nThis package independently computes its signed error response at every cut.\nIt also exhibits a state-rela"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/p104-delayed-precision/README.md",
+      "path": "research/p104-delayed-precision/README.md",
+      "sha256": "d3b210b2272d199790c8acd3e312a6fcadc59d649a5095ed4b92cf762ed0cb10",
+      "matched_terms": [
+        "all-size",
+        "precision"
+      ],
+      "score": 4,
+      "excerpt": "# Precision of the completed delayed-query P104 word\n\nThis supplies a finite local precision implication for Jose Manuel's\n[PR2139](https://github.com/CrocSwap/integer-mult-bounds/pull/2139), exact head\n`1df674ca8e9d9e0fb98ba4df402b648e9b3be0a4`. It does not supply a rounded\nrecursive implementation, an admitted supplier or a new exponent. The\npredecessor's unfavorable fixed-profile cost screen remains unchanged.\n\nAdam Gall's [PR2096](https://github.com/CrocSwap/integer-mult-bounds/pull/2096)\nch"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/p104-dual-precision/README.md",
+      "path": "research/p104-dual-precision/README.md",
+      "sha256": "e43c121aecaffa8e2ed7a8599781c58f0ac54f834a5dabbc6608fe32fde77f5e",
+      "matched_terms": [
+        "all-size",
+        "precision"
+      ],
+      "score": 4,
+      "excerpt": "# P104 private-macro dual: exact local precision interface\n\nThe finite private-macro dual in [PR2479](https://github.com/CrocSwap/integer-mult-bounds/pull/2479)\nhas **absolute-defect coefficient 2393/2** and **native-only coefficient 861/2**.\nThese are attained, and exceed the original forward word's 450 and 356 in\n[PR2096](https://github.com/CrocSwap/integer-mult-bounds/pull/2096).\nThe native rank profile is unchanged, but the signed propagation of errors is\ndifferent. PR2096 does not claim its"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/p104-native-precision/README.md",
+      "path": "research/p104-native-precision/README.md",
+      "sha256": "d3b02e995e160b8a4639a34e1dc787dcfa7cb038ea483d0b2d41419eb8861532",
+      "matched_terms": [
+        "all-size",
+        "precision"
+      ],
+      "score": 4,
+      "excerpt": "# A source-bound precision interface for the native P104 channel\n\n**Finite local precision theorem; no side correction, admitted supplier or new \u03ba.**\nFor the literal native channel of [PR1991](https://github.com/CrocSwap/integer-mult-bounds/pull/1991),\nthis package bounds every instruction boundary, including arbitrary dirty\nhelpers and the eight owned private-copy lifetimes. It supplies the following\nmissing local implication, rather than another compilation of the channel.\n\nLet `B` bound the H"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/adaptive-grid-injectivity-audit/TASK.json",
+      "path": "research/adaptive-grid-injectivity-audit/TASK.json",
+      "sha256": "e91427bf5dd97097915ff9057f227ef6b19f0822fc047954c08eefc654742b94",
+      "matched_terms": [
+        "uniform-transfer-audit",
+        "uniform transfer",
+        "all-size",
+        "precision"
+      ],
+      "score": 4,
+      "excerpt": "{\n  \"schema_version\": 1,\n  \"task_id\": \"uniform-transfer-audit\",\n  \"priority_revision\": 3,\n  \"base_commit\": \"0b1cccf86e2f5132ed286a26ef0a681a495740ea\",\n  \"original_card\": {\n    \"id\": \"uniform-transfer-audit\",\n    \"question\": \"Can one exact all-size/compiler, precision, hosting or restoration implication be proved or falsified?\",\n    \"starting_points\": [\n      \"certificates/selected-result.json\",\n      \"docs/audit.md\"\n    ],\n    \"methods\": [\n      \"Prove one missing implication with explicit quant"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/b2-tripartite-edge-counterexample/TASK.json",
+      "path": "research/b2-tripartite-edge-counterexample/TASK.json",
+      "sha256": "f9c0d5178cd758593bac2a8d65289847f77649bec1930129bf94fa6eef467bbd",
+      "matched_terms": [
+        "uniform-transfer-audit",
+        "uniform transfer",
+        "all-size",
+        "precision"
+      ],
+      "score": 4,
+      "excerpt": "{\n  \"schema_version\": 1,\n  \"task_id\": \"uniform-transfer-audit\",\n  \"priority_revision\": 4,\n  \"base_commit\": \"0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2\",\n  \"original_card\": {\n    \"id\": \"uniform-transfer-audit\",\n    \"question\": \"Can one exact all-size/compiler, precision, hosting or restoration implication be proved or falsified?\",\n    \"starting_points\": [\n      \"certificates/selected-result.json\",\n      \"docs/audit.md\"\n    ],\n    \"methods\": [\n      \"Prove one missing implication with explicit quant"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/binary-add-cost-audit/TASK.json",
+      "path": "research/binary-add-cost-audit/TASK.json",
+      "sha256": "55323bfbfd26099b1c427bc5a65cb5c286a30d0c73a1dee7f8182765b6c2b65d",
+      "matched_terms": [
+        "uniform-transfer-audit",
+        "uniform transfer",
+        "all-size",
+        "precision"
+      ],
+      "score": 4,
+      "excerpt": "{\n  \"schema_version\": 1,\n  \"task_id\": \"uniform-transfer-audit\",\n  \"priority_revision\": 4,\n  \"base_commit\": \"0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2\",\n  \"original_card\": {\n    \"id\": \"uniform-transfer-audit\",\n    \"question\": \"Can one exact all-size/compiler, precision, hosting or restoration implication be proved or falsified?\",\n    \"starting_points\": [\n      \"certificates/selected-result.json\",\n      \"docs/audit.md\"\n    ],\n    \"methods\": [\n      \"Prove one missing implication with explicit quant"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/bit2234-callee-substitution/TASK.json",
+      "path": "research/bit2234-callee-substitution/TASK.json",
+      "sha256": "6e2d4991ab98ce8d93dc18a732820fb35f6685eae1c64788cf71c6c579a97c26",
+      "matched_terms": [
+        "uniform-transfer-audit",
+        "uniform transfer",
+        "all-size",
+        "precision"
+      ],
+      "score": 4,
+      "excerpt": "{\n  \"schema_version\": 1,\n  \"task_id\": \"uniform-transfer-audit\",\n  \"priority_revision\": 4,\n  \"base_commit\": \"0fdd7d82de03e43c9e5a1000dfbcd380d1b687d2\",\n  \"original_card\": {\n    \"id\": \"uniform-transfer-audit\",\n    \"question\": \"Can one exact all-size/compiler, precision, hosting or restoration implication be proved or falsified?\",\n    \"starting_points\": [\n      \"certificates/selected-result.json\",\n      \"docs/audit.md\"\n    ],\n    \"methods\": [\n      \"Prove one missing implication with explicit quant"
+    }
+  ]
+}
