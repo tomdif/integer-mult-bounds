@@ -1,0 +1,871 @@
+{
+  "changes": {
+    "new/BORROW-PROVIDERS.json": {
+      "after": "cd076087ac626f1e5ad0460f03215cfcf8d7207924ce63ace7ce388fbd15a72b",
+      "before": "9c5638eadef65dcfa324ba0900bbd2039a3f9caec197b5e48d0989443b6c5834"
+    },
+    "new/borrow/channel400/PINS.json": {
+      "after": "bae57c4eea8062b7c787490aa14d33959258cfa7125e8a05ae76fb8fbef0618e",
+      "before": null
+    },
+    "new/borrow/channel400/data/PARENT-base.json.gz": {
+      "after": "b7e310888e87a478a4f94350d9c059fd52836fdd6ba98c51daa02687d122e8a0",
+      "before": null
+    },
+    "new/borrow/channel400/data/PARENT-extra.json.gz": {
+      "after": "dc4e09d113d88e0d987edd8dc34190921432a56a4748787706dfc65f2c39c0a3",
+      "before": null
+    },
+    "new/borrow/channel400/data/TRANSFORM.json": {
+      "after": "3f3c0fb30bd1bce2974cd97af879bb1046b0907fe101bd6ebc225f4bc6c155c9",
+      "before": null
+    },
+    "new/borrow/channel400/data/WORD-base.json.gz": {
+      "after": "637182fbb1b2242ab19ebcaee2af05b9242d7034ac399afd92c4b2e76ae8a25e",
+      "before": null
+    },
+    "new/borrow/channel400/data/WORD-extra.json.gz": {
+      "after": "91de864edf2459babded0df8073865dbd50e7c65579f6383326515735bfc1d12",
+      "before": null
+    },
+    "new/borrow/channel400/extract.py": {
+      "after": "4c13a3b0da7ebd722c10d5df04d3e61fad88e98602316b100fcbba6df133d745",
+      "before": null
+    },
+    "new/borrow/channel400/structure.py": {
+      "after": "83f63b6d9a1a543ecfa2c98d479dbe4e7a1c3caf6fd1c3566123308efbc32e96",
+      "before": null
+    },
+    "new/borrow/channel400/vendor/audit_local.py": {
+      "after": "a38940094f7d19cd6376aafdd4734fa68eabc9aff4c98c3c4a3e9540328b1c90",
+      "before": null
+    },
+    "new/borrow/channel400/vendor/preload_move.py": {
+      "after": "c8fda4674644fcd5cbf39b6645ce148a21daa90a998b678cbe51f970b78b0044",
+      "before": null
+    },
+    "new/borrow/channel400/verify.py": {
+      "after": "9d55ae2471d2f40b86185169e91810a1f19ab3d7c40713c1d66bd3410ca9317c",
+      "before": null
+    },
+    "new/borrow/channel400_extract.py": {
+      "after": "4c13a3b0da7ebd722c10d5df04d3e61fad88e98602316b100fcbba6df133d745",
+      "before": null
+    },
+    "new/borrow/channel416/PINS.json": {
+      "after": "e10780f17b9ca15ca02624402bf43ca7720fec10c32f3981a310722dc1571192",
+      "before": null
+    },
+    "new/borrow/channel416/data/PARENT-base.json.gz": {
+      "after": "637182fbb1b2242ab19ebcaee2af05b9242d7034ac399afd92c4b2e76ae8a25e",
+      "before": null
+    },
+    "new/borrow/channel416/data/PARENT-extra.json.gz": {
+      "after": "91de864edf2459babded0df8073865dbd50e7c65579f6383326515735bfc1d12",
+      "before": null
+    },
+    "new/borrow/channel416/data/TRANSFORM.json": {
+      "after": "ca5d9faf565ef5f0af5050d40cf19cc01232d41e5db1744ee7f945e24bdba985",
+      "before": null
+    },
+    "new/borrow/channel416/data/WORD-base.json.gz": {
+      "after": "3b6bef7b52262e8b2128a769a611f094b054c3281429cebd8759e7ca77e0c7a2",
+      "before": null
+    },
+    "new/borrow/channel416/data/WORD-extra.json.gz": {
+      "after": "dfaaa93e9fb4b8d471fa0be265123f42d797482a387d9d9c9dd082516a71b334",
+      "before": null
+    },
+    "new/borrow/channel416/extract.py": {
+      "after": "1e223213ac11aaff023506b58b43a166684359c231aa23cbb6facd1f0d5c05ef",
+      "before": null
+    },
+    "new/borrow/channel416/structure.py": {
+      "after": "83f63b6d9a1a543ecfa2c98d479dbe4e7a1c3caf6fd1c3566123308efbc32e96",
+      "before": null
+    },
+    "new/borrow/channel416/vendor/audit_local.py": {
+      "after": "a38940094f7d19cd6376aafdd4734fa68eabc9aff4c98c3c4a3e9540328b1c90",
+      "before": null
+    },
+    "new/borrow/channel416/vendor/preload_move.py": {
+      "after": "c8fda4674644fcd5cbf39b6645ce148a21daa90a998b678cbe51f970b78b0044",
+      "before": null
+    },
+    "new/borrow/channel416/verify.py": {
+      "after": "0c1abc3e5bfbbb49dc0f1c4b3258d29ad515d611aa8bce2d0a79e2370c7d9b14",
+      "before": null
+    },
+    "new/borrow/channel416_extract.py": {
+      "after": "1e223213ac11aaff023506b58b43a166684359c231aa23cbb6facd1f0d5c05ef",
+      "before": null
+    },
+    "new/borrow/inputs/PRE-CHANNEL400-WORD-base.json.gz": {
+      "after": "b7e310888e87a478a4f94350d9c059fd52836fdd6ba98c51daa02687d122e8a0",
+      "before": null
+    },
+    "new/borrow/inputs/PRE-CHANNEL400-WORD-extra.json.gz": {
+      "after": "dc4e09d113d88e0d987edd8dc34190921432a56a4748787706dfc65f2c39c0a3",
+      "before": null
+    },
+    "new/borrow/inputs/PRE-CHANNEL416-WORD-base.json.gz": {
+      "after": "637182fbb1b2242ab19ebcaee2af05b9242d7034ac399afd92c4b2e76ae8a25e",
+      "before": null
+    },
+    "new/borrow/inputs/PRE-CHANNEL416-WORD-extra.json.gz": {
+      "after": "91de864edf2459babded0df8073865dbd50e7c65579f6383326515735bfc1d12",
+      "before": null
+    },
+    "new/borrow/inputs/PRE-REFIT-WORD-base.json.gz": {
+      "after": "3b6bef7b52262e8b2128a769a611f094b054c3281429cebd8759e7ca77e0c7a2",
+      "before": null
+    },
+    "new/borrow/inputs/PRE-REFIT-WORD-extra.json.gz": {
+      "after": "dfaaa93e9fb4b8d471fa0be265123f42d797482a387d9d9c9dd082516a71b334",
+      "before": null
+    },
+    "new/borrow/terminal_refit/PINS.json": {
+      "after": "b7f42ee6af70a9379c870675cf4d03a5ff80ca698f5335d731d928cfac0cbb6f",
+      "before": null
+    },
+    "new/borrow/terminal_refit/data/PARENT-base.json.gz": {
+      "after": "80f22872ead229c16231813322c2f37a48805bae92b7a197ce5693f1aea2c509",
+      "before": null
+    },
+    "new/borrow/terminal_refit/data/PARENT-extra.json.gz": {
+      "after": "d62040b1a76b5178aa5abd7b3ec2c1a800a60743165fd975700437f0501c7f8f",
+      "before": null
+    },
+    "new/borrow/terminal_refit/data/PATCH-base.json": {
+      "after": "8fcc234c4a2eb3e0e0885a500355dd7744b9b5218243222ba1bc175c75a885c6",
+      "before": null
+    },
+    "new/borrow/terminal_refit/data/PATCH-extra.json": {
+      "after": "be2d7f94d9b843e348780626575eca57f7410dd13fb44979677898db9568462b",
+      "before": null
+    },
+    "new/borrow/terminal_refit/data/WORD-base.json.gz": {
+      "after": "378d6894eb3cc8b979d7c98238d869c07556d3dfbe26fa4972382d27c9c8b888",
+      "before": null
+    },
+    "new/borrow/terminal_refit/data/WORD-extra.json.gz": {
+      "after": "a234fea66e185b3a6cf74dca6b8a8986b19e5bb693ab4fdfeac74d9716785169",
+      "before": null
+    },
+    "new/borrow/terminal_refit/terminal_refit.py": {
+      "after": "493c9d8022acff3d33558b2a30cdb61db4c9cfdb7b277b2185b8ecf765ca22cb",
+      "before": null
+    },
+    "new/borrow/terminal_refit/vendor/audit_local.py": {
+      "after": "a38940094f7d19cd6376aafdd4734fa68eabc9aff4c98c3c4a3e9540328b1c90",
+      "before": null
+    },
+    "new/borrow/terminal_refit/vendor/preload_move.py": {
+      "after": "c8fda4674644fcd5cbf39b6645ce148a21daa90a998b678cbe51f970b78b0044",
+      "before": null
+    },
+    "new/borrow/terminal_refit_apply.py": {
+      "after": "493c9d8022acff3d33558b2a30cdb61db4c9cfdb7b277b2185b8ecf765ca22cb",
+      "before": null
+    },
+    "new/borrow/words/BORROW-WORD-43base.json.gz": {
+      "after": "378d6894eb3cc8b979d7c98238d869c07556d3dfbe26fa4972382d27c9c8b888",
+      "before": "b7e310888e87a478a4f94350d9c059fd52836fdd6ba98c51daa02687d122e8a0"
+    },
+    "new/borrow/words/BORROW-WORD-43extra.json.gz": {
+      "after": "a234fea66e185b3a6cf74dca6b8a8986b19e5bb693ab4fdfeac74d9716785169",
+      "before": "dc4e09d113d88e0d987edd8dc34190921432a56a4748787706dfc65f2c39c0a3"
+    },
+    "new/rebuild_borrow.py": {
+      "after": "3dabbb8f500701b9ef934bc54eaffe9b6ab341ff3d3b6ff9bfba24ed6acac537",
+      "before": "97528a0f297fce87cfac228052070802d22320a6728087dd70758ae06a3d6803"
+    },
+    "verify.py": {
+      "after": "db45bb497f0ca575ba477fbfa227607289f6e65ac900f509bd46eb7b1d6169ad",
+      "before": "cd901fd008df2abac880e6575351a395eadf04a86814ee83a75dd3a8bcaa8544"
+    }
+  },
+  "files": 665,
+  "manifest_sha256": "f495a8fae246147553add6ec7f02a35cb3c77da99987ae6316083939995b1f05",
+  "parent_manifest": "efef6b2579bd72004c574635ad9d1e3d39aafac56bf8f0cb35658c151e860105",
+  "stages": [
+    {
+      "buffers": 75,
+      "helper": 400,
+      "local_result_sha256": "d41dd4539816765629ae968d3aa0e7790b95d0386a85c037ed3a9cc4ea9cf472",
+      "transform": {
+        "after": [
+          [
+            "add",
+            412,
+            414,
+            -1,
+            1,
+            [
+              256,
+              128,
+              65,
+              36,
+              20,
+              9,
+              3
+            ]
+          ],
+          [
+            "add",
+            400,
+            412,
+            -2,
+            1,
+            [
+              256,
+              128,
+              65,
+              33,
+              17,
+              9,
+              5,
+              3
+            ]
+          ]
+        ],
+        "before": [
+          [
+            "add",
+            400,
+            242,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            242,
+            400,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            400,
+            242,
+            1,
+            1,
+            []
+          ],
+          [
+            "scale",
+            242,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            242,
+            401,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            242,
+            406,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            242,
+            407,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            242,
+            410,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            242,
+            411,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            242,
+            412,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            242,
+            413,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            242,
+            414,
+            -2,
+            1,
+            []
+          ],
+          [
+            "add",
+            242,
+            415,
+            2,
+            1,
+            []
+          ],
+          [
+            "scale",
+            242,
+            1,
+            4,
+            []
+          ],
+          [
+            "add",
+            246,
+            242,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            247,
+            242,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            249,
+            242,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            250,
+            242,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            252,
+            242,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            255,
+            242,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            402,
+            242,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            403,
+            242,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            406,
+            242,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            407,
+            242,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            409,
+            242,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            410,
+            242,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            412,
+            242,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            415,
+            242,
+            -1,
+            1,
+            []
+          ]
+        ],
+        "final_frame": [
+          256,
+          128,
+          65,
+          33,
+          17,
+          9,
+          5,
+          3
+        ],
+        "helper": 400,
+        "inventory": {
+          "4": 26,
+          "5": 2,
+          "7": 62,
+          "8": 89,
+          "9": 229
+        },
+        "normal": 127,
+        "profile": {
+          "1": 2411,
+          "2": 637,
+          "3": 262,
+          "4": 128,
+          "5": 26,
+          "8": 8
+        },
+        "tree": {
+          "floating_tree_cost": 3.997615056007697,
+          "merge_choices": 8,
+          "states": 8,
+          "subsets": 7,
+          "terminal_frame": [
+            256,
+            128,
+            65,
+            33,
+            17,
+            9,
+            5,
+            3
+          ]
+        },
+        "u": {
+          "401": "1",
+          "406": "-1",
+          "407": "1",
+          "410": "1",
+          "411": "-1",
+          "412": "-1",
+          "413": "1",
+          "414": "2",
+          "415": "-2"
+        },
+        "v": {
+          "242": "1/4",
+          "246": "-1/4",
+          "247": "-1/4",
+          "249": "-1/4",
+          "250": "-1/4",
+          "252": "1/4",
+          "255": "1/4",
+          "402": "-1/4",
+          "403": "-1/4",
+          "406": "1/4",
+          "407": "1/4",
+          "409": "1/4",
+          "410": "1/4",
+          "412": "-1/4",
+          "415": "-1/4"
+        }
+      }
+    },
+    {
+      "buffers": 76,
+      "helper": 416,
+      "local_result_sha256": "f5b38103425cf343a74edb1d3b9d95eb6545d7c5c00b16c2cc456613436db647",
+      "transform": {
+        "after": [
+          [
+            "add",
+            428,
+            430,
+            -1,
+            1,
+            [
+              256,
+              128,
+              72,
+              44,
+              28,
+              2,
+              1
+            ]
+          ],
+          [
+            "add",
+            416,
+            428,
+            -2,
+            1,
+            [
+              256,
+              128,
+              68,
+              32,
+              16,
+              12,
+              2,
+              1
+            ]
+          ]
+        ],
+        "before": [
+          [
+            "add",
+            416,
+            258,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            258,
+            416,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            416,
+            258,
+            1,
+            1,
+            []
+          ],
+          [
+            "scale",
+            258,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            258,
+            417,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            258,
+            422,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            258,
+            423,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            258,
+            426,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            258,
+            427,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            258,
+            428,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            258,
+            429,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            258,
+            430,
+            -2,
+            1,
+            []
+          ],
+          [
+            "add",
+            258,
+            431,
+            2,
+            1,
+            []
+          ],
+          [
+            "scale",
+            258,
+            1,
+            4,
+            []
+          ],
+          [
+            "add",
+            262,
+            258,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            263,
+            258,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            265,
+            258,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            266,
+            258,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            268,
+            258,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            271,
+            258,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            418,
+            258,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            419,
+            258,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            422,
+            258,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            423,
+            258,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            425,
+            258,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            426,
+            258,
+            1,
+            1,
+            []
+          ],
+          [
+            "add",
+            428,
+            258,
+            -1,
+            1,
+            []
+          ],
+          [
+            "add",
+            431,
+            258,
+            -1,
+            1,
+            []
+          ]
+        ],
+        "final_frame": [
+          256,
+          128,
+          68,
+          32,
+          16,
+          12,
+          2,
+          1
+        ],
+        "helper": 416,
+        "inventory": {
+          "4": 26,
+          "5": 2,
+          "7": 62,
+          "8": 90,
+          "9": 228
+        },
+        "normal": 76,
+        "profile": {
+          "1": 2412,
+          "2": 636,
+          "3": 262,
+          "4": 128,
+          "5": 26,
+          "8": 8
+        },
+        "tree": {
+          "floating_tree_cost": 3.997615056007697,
+          "merge_choices": 8,
+          "states": 8,
+          "subsets": 7,
+          "terminal_frame": [
+            256,
+            128,
+            68,
+            32,
+            16,
+            12,
+            2,
+            1
+          ]
+        },
+        "u": {
+          "417": "1",
+          "422": "-1",
+          "423": "1",
+          "426": "1",
+          "427": "-1",
+          "428": "-1",
+          "429": "1",
+          "430": "2",
+          "431": "-2"
+        },
+        "v": {
+          "258": "1/4",
+          "262": "-1/4",
+          "263": "-1/4",
+          "265": "-1/4",
+          "266": "-1/4",
+          "268": "1/4",
+          "271": "1/4",
+          "418": "-1/4",
+          "419": "-1/4",
+          "422": "1/4",
+          "423": "1/4",
+          "425": "1/4",
+          "426": "1/4",
+          "428": "-1/4",
+          "431": "-1/4"
+        }
+      }
+    },
+    {
+      "local_result_sha256": "7e60e86b92c624303028eda524fa2cd27d1e7b266da7a3f6b633e851ac1ef25d",
+      "stage": "commuting-terminal-frame-refit"
+    }
+  ]
+}

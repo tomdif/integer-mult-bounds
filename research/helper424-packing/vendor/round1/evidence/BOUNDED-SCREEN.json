@@ -1,0 +1,102 @@
+[
+  {
+    "variant": "base",
+    "helper": 408,
+    "normal": 52,
+    "profile": {
+      "1": 2407,
+      "2": 640,
+      "3": 262,
+      "4": 128,
+      "5": 26,
+      "8": 8
+    },
+    "inventory": {
+      "4": 26,
+      "5": 2,
+      "7": 62,
+      "8": 87,
+      "9": 231
+    },
+    "audit_exit": 0,
+    "reason": "checked_columns\": 632,\n  \"elapsed_seconds\": 0.47815091704251245,\n  \"scope\": \"Exact free-operator-algebra replay (every remaining input is an independent column): K_G warps with G invertible, G(from)=to, symplectic form fixing L_0/L_FULL and sending L_from to L_to (rank 0), literal frame chain with warps, relaxed fixed initial compensation, derived inverse-reverse cleanup at FULL with inverse warps and private zero buffers. No Clifford phase/Gaussian product, no owner admission, no repricing.\"\n}\n"
+  },
+  {
+    "variant": "base",
+    "helper": 424,
+    "normal": 52,
+    "profile": {
+      "1": 2410,
+      "2": 638,
+      "3": 262,
+      "4": 128,
+      "5": 26,
+      "8": 8
+    },
+    "inventory": {
+      "4": 26,
+      "5": 2,
+      "7": 62,
+      "8": 88,
+      "9": 230
+    },
+    "audit_exit": 0,
+    "reason": "\"checked_columns\": 632,\n  \"elapsed_seconds\": 0.4840678329928778,\n  \"scope\": \"Exact free-operator-algebra replay (every remaining input is an independent column): K_G warps with G invertible, G(from)=to, symplectic form fixing L_0/L_FULL and sending L_from to L_to (rank 0), literal frame chain with warps, relaxed fixed initial compensation, derived inverse-reverse cleanup at FULL with inverse warps and private zero buffers. No Clifford phase/Gaussian product, no owner admission, no repricing.\"\n}\n"
+  },
+  {
+    "variant": "base",
+    "helper": 440,
+    "status": "REJECTED_EXACT_SCREEN",
+    "reason": "no terminal hyperplane"
+  },
+  {
+    "variant": "extra",
+    "helper": 408,
+    "normal": 52,
+    "profile": {
+      "1": 2407,
+      "2": 640,
+      "3": 262,
+      "4": 128,
+      "5": 26,
+      "8": 8
+    },
+    "inventory": {
+      "4": 26,
+      "5": 2,
+      "7": 62,
+      "8": 87,
+      "9": 231
+    },
+    "audit_exit": 0,
+    "reason": "\n  \"checked_columns\": 632,\n  \"elapsed_seconds\": 0.4944961250294,\n  \"scope\": \"Exact free-operator-algebra replay (every remaining input is an independent column): K_G warps with G invertible, G(from)=to, symplectic form fixing L_0/L_FULL and sending L_from to L_to (rank 0), literal frame chain with warps, relaxed fixed initial compensation, derived inverse-reverse cleanup at FULL with inverse warps and private zero buffers. No Clifford phase/Gaussian product, no owner admission, no repricing.\"\n}\n"
+  },
+  {
+    "variant": "extra",
+    "helper": 424,
+    "normal": 52,
+    "profile": {
+      "1": 2410,
+      "2": 638,
+      "3": 262,
+      "4": 128,
+      "5": 26,
+      "8": 8
+    },
+    "inventory": {
+      "4": 26,
+      "5": 2,
+      "7": 62,
+      "8": 88,
+      "9": 230
+    },
+    "audit_exit": 0,
+    "reason": " \"checked_columns\": 632,\n  \"elapsed_seconds\": 0.483804167015478,\n  \"scope\": \"Exact free-operator-algebra replay (every remaining input is an independent column): K_G warps with G invertible, G(from)=to, symplectic form fixing L_0/L_FULL and sending L_from to L_to (rank 0), literal frame chain with warps, relaxed fixed initial compensation, derived inverse-reverse cleanup at FULL with inverse warps and private zero buffers. No Clifford phase/Gaussian product, no owner admission, no repricing.\"\n}\n"
+  },
+  {
+    "variant": "extra",
+    "helper": 440,
+    "status": "REJECTED_EXACT_SCREEN",
+    "reason": "no terminal hyperplane"
+  }
+]

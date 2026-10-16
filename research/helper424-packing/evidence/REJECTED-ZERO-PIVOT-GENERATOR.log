@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/thomasdifiore/integer-mult-push424/research/helper424-packing/extract_candidates.py", line 62, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/thomasdifiore/integer-mult-push424/research/helper424-packing/extract_candidates.py", line 35, in main
+    v={r:row['v',()]for r,row in V.items()if row};assert sum(u.get(r,0)*c for r,c in v.items())==1 and v[h]
+                                                                                                       ~^^^
+KeyError: 400

@@ -1,0 +1,41 @@
+{
+  "environment_sha256": "659611f8c4a2ca246d6d7e804eb26f3dea466b47f5fa28af232afa5e4d3bab66",
+  "native_receipt_sha256": "3f4fb96546163238ce0ecada9aa8b222a4b3875f814dfc75544c6fb10ab77ff2",
+  "preparer_sha256": "8dd9c32fe5b468d7330be60c6fa741018112ba69d9b52c31d15a7b0da5a0a001",
+  "scope": "Fresh changed base/extra native chains; two unchanged retained native chains and16-stage parent admission explicitly reused by exact full-tree receipts. No owner/controller/outer admission yet.",
+  "seconds": 34.28595491696615,
+  "source_manifest_sha256": "f495a8fae246147553add6ec7f02a35cb3c77da99987ae6316083939995b1f05",
+  "stages": [
+    {
+      "command": [
+        "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+        "-B",
+        "/Users/thomasdifiore/beat2745-work/round2/final-integration/source/new/fastnative/run_native.py",
+        "/Users/thomasdifiore/beat2745-work/round2/final-integration/source/new/borrow/words/BORROW-WORD-43base.json.gz",
+        "/Users/thomasdifiore/beat2745-work/round2/final-integration/native/fresh-base"
+      ],
+      "exit_code": 0,
+      "log_sha256": "2b5833bf300a2de376e258db335f451e555202d487bdc5d75f8f90fab915358d",
+      "name": "fresh-current-base",
+      "result_sha256": "60422557868dcce63977d6666971a79434a3076082c32be1bc30fbf7ebeed729",
+      "script_sha256": "a7bfe110fe5098f6ef8bde3c43ecf15e8d1e06149abf7321a4c945383dcc2627",
+      "seconds": 33.99049975001253
+    },
+    {
+      "command": [
+        "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+        "-B",
+        "/Users/thomasdifiore/beat2745-work/round2/final-integration/source/new/fastnative/run_native.py",
+        "/Users/thomasdifiore/beat2745-work/round2/final-integration/source/new/borrow/words/BORROW-WORD-43extra.json.gz",
+        "/Users/thomasdifiore/beat2745-work/round2/final-integration/native/fresh-extra"
+      ],
+      "exit_code": 0,
+      "log_sha256": "522cbb657dc352efa57a5f7436c6522e5659ed3065f0b0fc6da9ef9bcb9cfede",
+      "name": "fresh-current-extra",
+      "result_sha256": "ab7ebc685209ea3ca59222f6d0f45241a0c72803e667f22a40db86ff7fde2372",
+      "script_sha256": "a7bfe110fe5098f6ef8bde3c43ecf15e8d1e06149abf7321a4c945383dcc2627",
+      "seconds": 34.12224408297334
+    }
+  ],
+  "status": "PASS_TWO_FRESH_SHARED_KERNEL_NATIVE_CHAINS_AUTHENTICATED_PARENT_REUSE"
+}

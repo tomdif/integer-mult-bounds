@@ -1,0 +1,49 @@
+{
+  "calls": 666,
+  "complex_lower": "1722052684227397319529/1000000000000000000000000",
+  "complex_upper": "172205268422739731953/100000000000000000000000",
+  "controls": [
+    "missing role",
+    "omitted paid child"
+  ],
+  "gain_over_pr2917": "116009257398859731/250000000000000000000000",
+  "idle": {
+    "1": 16668,
+    "3": 5500,
+    "5": 7635,
+    "6": 167,
+    "7": 45,
+    "24": 1,
+    "32": 207,
+    "48": 26958
+  },
+  "inputs_sha256": {
+    "research/paired-terminal-refit/data/WORD-base.json.gz": "65b8ca17dbc9a97832d387c9b4e79a4638ec7c97448c08dc25616fc8b831da38",
+    "research/paired-terminal-refit/data/WORD-extra.json.gz": "755ef5ae33dab4853d3d00ce39ffceb88479390acb32a2802f78c4991b98561a",
+    "research/paired-terminal-refit/vendor/pr2917/allocation/DISPATCH.json": "65e435bd68e97243c003677271b88485a29d4d0fae2dff1354100404a145e74c",
+    "research/paired-terminal-refit/vendor/pr2917/allocation/FILL.json.gz": "19b551af07274931b443ac42588e15df20ec0140fa69b54f3b62a4df9a54ff8e",
+    "research/paired-terminal-refit/vendor/pr2917/allocation/ORDER.json": "519d1d5dbb997a219fcfcad34c0b03e7838bef24199784d7e964fa10090f66e1"
+  },
+  "kappa": "17220526842273973195289999999999999999999998999999999999999999999999/10000000000000000000000000000000000000000000000000000000000000000000000",
+  "live": 66304,
+  "physical": 66804,
+  "private_buffers": 82,
+  "profile": {
+    "1": 1620396,
+    "2": 428904,
+    "3": 191980,
+    "4": 73260,
+    "5": 24951,
+    "6": 167,
+    "7": 45,
+    "8": 5328,
+    "24": 1,
+    "32": 207,
+    "48": 26958
+  },
+  "rank_mass": 4816512,
+  "replicas": 74,
+  "roles": 271728,
+  "scope": "Complete finite words, literal owners and rational complex moment. Full native/supplier/outer admission remains separate.",
+  "status": "PASS_EXACT_TERMINAL_REFIT_OWNERS_AND_MOMENT"
+}

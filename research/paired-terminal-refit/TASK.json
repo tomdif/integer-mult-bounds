@@ -1,0 +1,44 @@
+{
+  "boundary": "Entire terminal scalar operator, final rank8 endpoints, compensation, helper widths and literal allocation unchanged. Four pairs of commuting additions and two preceding scales execute in earlier legal rank7 frames.",
+  "credit": "Mason Hale PR2917, Jeremy Diviney PR2908, Jeremy Kothe PR2894/2833, Yiyang Lu PR2857 and all retained source notices; Thomas DiFiore with OpenAI Codex assistance.",
+  "expansion_decision": "Proceed to full release: a complete literal allocation already exists, semantic operator equality is exact, and the priced moment improves PR2917 and the previous local candidate.",
+  "freshness_utc": "2026-10-16T11:16:00Z",
+  "main": "5a0dc2c0f4685b02bef7776bc196c7c1231cbac1",
+  "parent_manifest": "55c46ddf2e3edc87dfe1ba3320947466d36980d457eb37f6cd6fba341dae0192",
+  "primary_parent": "PR2917@224bd5e56041c40078ff6b5fa7393733a215de5c",
+  "priority_revision": 5,
+  "proved_costs": "Exact local frame delta -8H1+4H2, unchanged 82-buffer stock, all 271728 literal owner roles, exact rational moment and two fresh native chains.",
+  "publication": "Prepared for the user-authorized push to tomdif/integer-mult-bounds, branch research/push424-20261016. No independent human review or selected-result change.",
+  "result": "CLAIM.json",
+  "scope_change": "After fully verifying the four-helper local branch, apply its commuting terminal-frame improvement to Mason Hale's newly published larger construction. Preserve all nine extraction stages and all 82 buffers.",
+  "status": "complete_local_release",
+  "stop_rule": "Finish complete admission and one reproducible artifact; no further mechanism search in this session.",
+  "submission_checkpoint": {
+    "canonical_main": "3bee87dc2bbb012623ecece9df6b27c6d15706fb",
+    "decision": "Keep the exact scientific base and frozen inputs. Refreshed guidance, task priorities and selected record are unchanged; upstream adds separate reviews/tooling and neither scoped package path conflicts. PR2917 remains open at the pinned head.",
+    "overlap": {
+      "checked_at": "2026-10-16T11:40:39.840046+00:00",
+      "coverage": {
+        "discussions": {
+          "complete_pagination": true,
+          "fetched_at": "2026-10-16T11:40:39.721576+00:00",
+          "records": 1601
+        },
+        "open_prs": {
+          "complete_pagination": true,
+          "fetched_at": "2026-10-16T11:40:04.727256+00:00",
+          "records": 495
+        }
+      },
+      "finding": "PR2917 and its completed discussion remain the immediate credited parent. No claim of novelty or global frontier is inferred.",
+      "scope": "Remote PR scope is open PRs including drafts. Closed work is searched through local READMEs, TASK metadata and ledger only. No code diffs or arbitrary package files are searched. Recheck relevant heads before submission.",
+      "warnings": []
+    },
+    "parent_2917_head": "224bd5e56041c40078ff6b5fa7393733a215de5c",
+    "priority_revision": 5,
+    "scientific_base": "5a0dc2c0f4685b02bef7776bc196c7c1231cbac1",
+    "utc": "2026-10-16T11:40:00Z"
+  },
+  "unknowns": "Inherited all-size/compiler and theorem hypotheses remain; complete finite supplier/outer release passed.",
+  "user_request": "keep pushing; then push the completed research branch"
+}

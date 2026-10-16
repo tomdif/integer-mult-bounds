@@ -1,0 +1,14 @@
+{
+  "admit_extension.py": {
+    "after": "01664b986602471889bf1fe834665ce4d1775d42673436737be413349369ba5c",
+    "before": "04abab54626f0c512fdf57232f8ce64835fe47d24984838f85cc5bae4934466a"
+  },
+  "extension_blocknorm.py": {
+    "after": "d3893ef2265b1027f90b33832a3631b7a664bfdcac47962b83149d904bb7578f",
+    "before": "d3893ef2265b1027f90b33832a3631b7a664bfdcac47962b83149d904bb7578f"
+  },
+  "prepare_extension_native.py": {
+    "after": "b3eefdd17cec7cafc3b9861d646ca11e473c00b8402b95573c713fd81ed8a789",
+    "before": "4fe2b71c2f6d55aa45fe8a5e102787f8a149d0cb17fca4e70dca405ba7180792"
+  }
+}

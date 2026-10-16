@@ -1,0 +1,26 @@
+{
+  "kappa": "17217788112746512613199999999999999999999998999999999999999999999999/10000000000000000000000000000000000000000000000000000000000000000000000",
+  "kappa_decimal": "0.0017217788112746512613199999999999999999999998999999999999999999999999",
+  "physical_families": 66798,
+  "private_buffers": 76,
+  "profile": {
+    "1": 1620696,
+    "15": 1,
+    "16": 2,
+    "2": 424908,
+    "24": 2,
+    "3": 180459,
+    "32": 138,
+    "4": 85248,
+    "48": 26850,
+    "5": 25538,
+    "6": 1,
+    "8": 5328
+  },
+  "publication": "Prepared for the user-authorized push to tomdif/integer-mult-bounds, branch research/push424-20261016. No independent human review or selected-result change.",
+  "release_receipt_sha256": "d4d58d4cf0f593a9633387c588255d0b36cf94771498cbbb89a82d7e5733f8dd",
+  "reproducer_status": "Complete underlying stages executed. Convenience driver pinned-source preflight passed; its whole wrapper was not additionally rerun.",
+  "scope": "Complete finite words, literal owners and rational complex moment. Both fresh native chains and complete supplier/outer admission passed; inherited all-size theorem hypotheses remain.",
+  "source_manifest_sha256": "f495a8fae246147553add6ec7f02a35cb3c77da99987ae6316083939995b1f05",
+  "status": "PASS_CONDITIONAL_FOUR_CHANNEL_COMPLETE_RELEASE"
+}
