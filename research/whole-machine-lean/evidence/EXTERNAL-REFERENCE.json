@@ -1,0 +1,17 @@
+{
+  "built_here": false,
+  "commit": "de074bf95a2211efefcac642ec66a952e127ad9c",
+  "files": {
+    "IntegerMultBounds/Machine.lean": "af410cf9353c96cc22a8f8deafbcaea5f2b278a1e7d23456a0da6447c8756465",
+    "IntegerMultBounds/MathlibTM2/Fast/CompactFinal.lean": "b2a39bb0b56d1dc10d350840c9f4b758cf69e94f5f9bc4ff8dcf462451586981",
+    "IntegerMultBounds/MathlibTM2/Statement.lean": "c3894c70397b4af3d2a49c154a1239dedda6c80b03551293a95e8591a5b07661",
+    "IntegerMultBounds/MathlibTM2/Theorem.lean": "6b30a2d7781cd550720821e1ab36854761582dc47dd0291220badcd8c6722c36",
+    "LICENSE": "d42315aa7b17b89e4f9294ceebd610d6b5613be168270475fac2fb261f158a9c",
+    "plan/D-sharper-bound.md": "99ae8e1e09fc466e3826a597b79ab29b9f88d3772a1a8821aad387464469cd12"
+  },
+  "imported_theorems": [],
+  "public_linear_space_conjunct": false,
+  "public_saving": "2^-34",
+  "repository": "https://github.com/platypii/integer-mult-bounds-lean",
+  "scope": "Read-only source comparison; no claim of independently accepting this external proof."
+}

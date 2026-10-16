@@ -1,0 +1,19 @@
+CHECK Saved source/receipt/log bindings only. Does not run Lean or prove the whole-machine theorem.
+{
+  "inputs": 16,
+  "new_lean_theorems": 58,
+  "scope": "Saved source/receipt/log bindings only; this invocation does not run Lean.",
+  "status": "PASS_SAVED_EVIDENCE_BINDINGS_ONLY",
+  "strict_acceptance": false,
+  "whole_machine_proved": false
+}
+CHECK Same saved-evidence binding check with assertions disabled; not a fresh Lean replay.
+{
+  "inputs": 16,
+  "new_lean_theorems": 58,
+  "scope": "Saved source/receipt/log bindings only; this invocation does not run Lean.",
+  "status": "PASS_SAVED_EVIDENCE_BINDINGS_ONLY",
+  "strict_acceptance": false,
+  "whole_machine_proved": false
+}
+PASS_REGISTERED_RESEARCH_PACKAGE research/whole-machine-lean outcome=partial

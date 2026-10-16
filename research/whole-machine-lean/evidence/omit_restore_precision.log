@@ -1,0 +1,2 @@
+omit_restore_precision.lean:2:49: error: unsolved goals
+⊢ False

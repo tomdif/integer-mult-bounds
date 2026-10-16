@@ -1,0 +1,140 @@
+{
+  "actual_scope": "Formalize the existing claimed multiplication theorem as an exact whole-machine Lean theorem, including the original kappa and linear visited space.",
+  "ai_assistance": "Substantial OpenAI Codex assistance in formalization, source review, validation and documentation. No subagents or independent reviewer.",
+  "author": "Thomas DiFiore",
+  "base_commit": "e6d133adbb9039f2ee5c07ceb49465655db81312",
+  "bottleneck_link": "Formal completion requires actual machine implementations and analytic estimates, not just local implications or exact cost arithmetic.",
+  "budget_minutes": 60,
+  "evidence": "Lean source modules, KERNEL.json, fresh official replay, axiom audit, five rejecting controls and VALIDATION.md.",
+  "open_questions": [
+    {
+      "blocked_by": "All-size dispatch, exact root-grid arithmetic, layout and actual-cost proofs are absent.",
+      "first_step": "Compile one pinned word through the head-local tape instructions and prove its run.",
+      "question": "Can the concrete selected suppliers inhabit the machine contracts?",
+      "why_it_matters": "A sequence compiler does not implement the native words, recursion or costs."
+    },
+    {
+      "blocked_by": "Prime supply, matrix analysis, capped circuits and physical Gaussian algorithms are not formalized.",
+      "first_step": "Formalize the narrow/broad norm estimates, then instantiate scaled_schedule.",
+      "question": "Can the Gaussian and Fourier constructions supply the analytic contracts?",
+      "why_it_matters": "The bounded-call theorem needs actual prefix, interval and local approximation bounds."
+    },
+    {
+      "blocked_by": "Concrete CRT/Fourier correctness and binary-output refinement remain.",
+      "first_step": "Supply hscaled and hexact in RecoveryPipeline and implement coefficient carry.",
+      "question": "Can the exact transform identities and tape carry pass close Target.output?",
+      "why_it_matters": "Numerical error bounds alone do not identify a binary product."
+    },
+    {
+      "blocked_by": "No combined multiplier transition table or recursive resource invariant exists.",
+      "first_step": "Prove actual cost rows and one reusable linear-space invariant.",
+      "question": "Can the total machine prove the time and visited-space bounds?",
+      "why_it_matters": "Exact exponent inequalities do not count machine transitions or bound a shared visited region."
+    },
+    {
+      "blocked_by": "The complete theorem is absent; available independent tooling also has documented compatibility/quotient limitations.",
+      "first_step": "Use a compatible Lean4Lean build and the strict exact-theorem challenge once the theorem exists.",
+      "question": "Can an independently qualified checker accept the completed exact target?",
+      "why_it_matters": "Official checking does not satisfy the user's dual-checker reviewed-challenge policy."
+    }
+  ],
+  "original_card": {
+    "acceptance_gate": "Identify the proposition and what would change downstream; do not equate a finite replay with a universal proof.",
+    "allowed_variations": [
+      "Choose one tape, precision, hosting or restoration lemma."
+    ],
+    "bottleneck_link": "Finite supplier improvements are useful only under the retained transfer obligations.",
+    "first_experiment": "Write its quantified inputs and conclusion; find a missing hypothesis or construct a minimal exact adversarial instance.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Read the selected review scope and choose one exact all-size or precision implication.",
+      "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+    },
+    "id": "uniform-transfer-audit",
+    "methods": [
+      "Prove one missing implication with explicit quantified hypotheses.",
+      "Find an exact counterexample at the claimed interface boundary."
+    ],
+    "overlap_terms": [
+      "uniform transfer",
+      "all-size",
+      "precision"
+    ],
+    "question": "Can one exact all-size/compiler, precision, hosting or restoration implication be proved or falsified?",
+    "scope_change_triggers": [
+      "Replacing a quantified obligation with another finite smoke test."
+    ],
+    "starting_points": [
+      "certificates/selected-result.json",
+      "docs/audit.md"
+    ]
+  },
+  "outcome": "partial",
+  "overlap": {
+    "coverage": {
+      "discussions": {
+        "complete_pagination": true,
+        "fetched_at": "2026-10-16T18:03:56.421511+00:00",
+        "records": 1734
+      },
+      "open_prs": {
+        "complete_pagination": true,
+        "fetched_at": "2026-10-16T18:03:22.300679+00:00",
+        "records": 261
+      }
+    },
+    "matches_total": 26,
+    "searched_at": "2026-10-16T18:03:56.517654+00:00",
+    "warnings": []
+  },
+  "priority_revision": 5,
+  "publication": "Previously authorized fork-branch push only; no PR, Discussion or other message.",
+  "schema_version": 1,
+  "scope_change_reason": "Explicit user request to finish the whole-machine Lean proof. The retained contribution is partial: proved finite-table composition and analytic/numerical closure lemmas; no proof of the target exists.",
+  "scope_status": "changed",
+  "stop_rule": "Preserve checked progress and expose every unproved dependency at the bounded research checkpoint; never report Target.Complete as proved without a closed term.",
+  "task_id": "uniform-transfer-audit",
+  "upstream_checkpoint": {
+    "changed_files": [
+      "AGENTS.md",
+      "autoresearch.md",
+      "docs/research/agent-procedure.md",
+      "docs/research/agent-task-catalog.json",
+      "docs/research/construction-profiles.json",
+      "docs/research/coordination.md",
+      "docs/research/current-priorities.md",
+      "docs/research/pr-intake.md",
+      "docs/research/research-priority-log.md",
+      "scripts/choose_research_task.py",
+      "scripts/post_update.py",
+      "scripts/pr_queue_groups.py",
+      "scripts/research_coordination.py",
+      "tests/test_research_assignment.py",
+      "tests/test_research_coordination.py",
+      "tests/test_research_queue_groups.py"
+    ],
+    "checked_at": "2026-10-16T18:03:16.384275+00:00",
+    "decision": "Read updated AGENTS, current priorities and standing procedure. Changes reorganize guidance and add existing-check coverage; no scientific source or selected frontier changed. Continue explicit whole-machine task on the isolated branch; preserve all frozen predecessor inputs.",
+    "latest_main": "d8e0f83f00191df62174b641e9fff055c357f641",
+    "previous_main": "836b19bfa309ceafbc8ee32a15e8c4b10dde7e11",
+    "priority_revision": 6,
+    "scientific_inputs_changed": [],
+    "selected_record_changed": false
+  },
+  "validated_at": "2026-10-16T18:07:31.219834+00:00",
+  "validation": {
+    "audited_declarations": 356,
+    "inherited_recovery_theorems": 5,
+    "lean4lean": "FAILED_INCOMPATIBLE_OLEAN_HEADER",
+    "negative_controls": 5,
+    "new_explicit_theorems": 58,
+    "official_fresh": "PASS",
+    "strict_acceptance": false,
+    "whole_machine_proved": false
+  }
+}

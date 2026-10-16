@@ -1,0 +1,4 @@
+omit_handoff.lean:5:78: error: Tactic `decide` proved that the proposition
+  (run (WholeMachine.Composition.sequence stop stop) (left (input stop [] [])) 0).state =
+    (right (restart stop (input stop [] []))).state
+is false

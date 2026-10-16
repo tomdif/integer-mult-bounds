@@ -1,0 +1,33 @@
+⚠ [3000/3010] Built Recovery (4.3s)
+warning: Recovery.lean:18:48: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+info: Recovery.lean:52:0: 'OuterRecovery.productError' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Recovery.lean:53:0: 'OuterRecovery.scaleEnvelope' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Recovery.lean:54:0: 'OuterRecovery.quarterRadius' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Recovery.lean:55:0: 'OuterRecovery.roundOfQuarter' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Recovery.lean:56:0: 'OuterRecovery.exactRecovery' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [3001/3010] Built Parameters (4.5s)
+✔ [3002/3010] Built BoundedCalls (4.6s)
+✔ [3003/3010] Built Asymptotics (4.5s)
+✔ [3004/3010] Built Target (4.7s)
+✔ [3005/3010] Built Intervals (4.7s)
+✔ [3006/3010] Built RecoveryPipeline (5.8s)
+✔ [3007/3010] Built Composition (4.6s)
+⚠ [3008/3010] Built ProofCounterexamples (4.0s)
+warning: ProofCounterexamples.lean:39:84: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+ℹ [3009/3010] Built Audit (6.1s)
+info: Audit.lean:15:0: SCOPED_AXIOM_AUDIT declarations=356 theorems=198
+info: Audit.lean:37:0: 'WholeMachine.BoundedCalls.scaled_schedule' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:38:0: 'WholeMachine.Intervals.horner_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:39:0: 'WholeMachine.Costs.cost_row_absorbed' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:40:0: 'WholeMachine.Composition.run_sequence' depends on axioms: [propext, Quot.sound]
+info: Audit.lean:41:0: 'WholeMachine.Composition.visited_sequence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:42:0: 'WholeMachine.Composition.compose_halting_runs' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:43:0: 'WholeMachine.RecoveryPipeline.pipeline' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:44:0: 'WholeMachine.RecoveryPipeline.recover_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:45:0: 'WholeMachine.Counterexamples.eraser_visited' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:46:0: WholeMachine.Target.Complete : Prop
+Build completed successfully (3010 jobs).

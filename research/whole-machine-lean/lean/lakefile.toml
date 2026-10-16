@@ -1,0 +1,37 @@
+name = "WholeMachineProgress"
+defaultTargets = ["Audit"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "905b95818eb32af7874a58b427f50c1711a5e96c"
+
+[[lean_lib]]
+name = "BoundedCalls"
+
+[[lean_lib]]
+name = "Target"
+
+[[lean_lib]]
+name = "Parameters"
+
+[[lean_lib]]
+name = "Asymptotics"
+
+[[lean_lib]]
+name = "Intervals"
+
+[[lean_lib]]
+name = "Composition"
+
+[[lean_lib]]
+name = "Recovery"
+
+[[lean_lib]]
+name = "RecoveryPipeline"
+
+[[lean_lib]]
+name = "ProofCounterexamples"
+
+[[lean_lib]]
+name = "Audit"

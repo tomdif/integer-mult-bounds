@@ -1,0 +1,42 @@
+{
+  "base_commit": "e6d133adbb9039f2ee5c07ceb49465655db81312",
+  "files": [
+    {
+      "git_blob": "889b95d936746df124872133ae1e7cc339adcb92",
+      "path": "docs/research/agent-task-catalog.json",
+      "sha256": "7d185cd8c2af35988d638d969748ad7b670f902606444dbfc748e4402c340df6",
+      "usage": "provenance"
+    },
+    {
+      "git_blob": "d0c7af012bfd82d1b3aa5681f8a72f10930000b9",
+      "path": "research/fine-prime-transform-assembly/Recovery.lean",
+      "sha256": "a9238eca65a09a961f4013c14ca308e2e44188b7e92dd12d719accbf638d682c",
+      "usage": "input"
+    },
+    {
+      "git_blob": "7c91bba39e318b1e1e7fc24b951e27efe121ea5e",
+      "path": "research/multiplication-proof-completion/PROOF.md",
+      "sha256": "b2bb49764f6df15f83bd749909ca232d6c3b4f0df64c2d1c65190d71a1cfbc59",
+      "usage": "input"
+    }
+  ],
+  "inputs": {
+    "research/fine-prime-transform-assembly/Recovery.lean": "a9238eca65a09a961f4013c14ca308e2e44188b7e92dd12d719accbf638d682c",
+    "research/multiplication-proof-completion/PROOF.md": "b2bb49764f6df15f83bd749909ca232d6c3b4f0df64c2d1c65190d71a1cfbc59",
+    "research/whole-machine-lean/Asymptotics.lean": "67079c10913ef25cd50824c25fae8a0c7906593c33ead005a6926f2015a304e8",
+    "research/whole-machine-lean/Audit.lean": "95b9a33d5a5fc1302aab7c865f111b9140cd91bafe9b7b997208c51b7c14a627",
+    "research/whole-machine-lean/BoundedCalls.lean": "5e6ae1d183535870bc3d394fdc6e395c541fa847cd7e8fe0ea23c3a2794aa2be",
+    "research/whole-machine-lean/Composition.lean": "217ec48e36c1a6c000d172745d4eac5c014dbb12403ef50f828e1c5e5344debf",
+    "research/whole-machine-lean/Intervals.lean": "550bef995f3ec2ab89f9250780096a519aee86bf7715465492679ccefb707f7e",
+    "research/whole-machine-lean/Parameters.lean": "d2fc2bae6b6202286134fa67fb7ed16777da9dc51c8496f957dc510af850948b",
+    "research/whole-machine-lean/ProofCounterexamples.lean": "68e1cd1d4a8d27bbeb598976d0b384bc78b0c88d5553f1e943e7edb09c9c657e",
+    "research/whole-machine-lean/RecoveryPipeline.lean": "6a2810b8e06cc234dae32b78324f1c140ce8adaf1b1fbf9d0f593a38f742aeb8",
+    "research/whole-machine-lean/Target.lean": "97dd46548fc1150e8381af8d7b6bb6a4180236fcb0f8d5cba84de48693235680",
+    "research/whole-machine-lean/lean/lake-manifest.json": "f7c77129e177b10a32fac2f4aede5538f704094611368dcb275cb86669e9c74a",
+    "research/whole-machine-lean/lean/lakefile.toml": "402c639bf0262b970fa7169c4bb85079372e877828bb1f09ade8c2efb6024c9b",
+    "research/whole-machine-lean/lean/lean-toolchain": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273",
+    "research/whole-machine-lean/verify.py": "6378361945d526197624f0217236adb5517527ebaf4fe7cd0faa42a6dce244e6",
+    "research/whole-machine-lean/verify_kernel.py": "f990a9cd8f782a8f22a481ad28e624190bfc7d5925bd7f39217aa507a8fd5988"
+  },
+  "schema_version": 1
+}

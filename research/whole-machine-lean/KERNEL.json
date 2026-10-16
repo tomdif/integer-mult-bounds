@@ -1,0 +1,256 @@
+{
+  "audit": {
+    "declarations": 356,
+    "printed_roots": {
+      "OuterRecovery.exactRecovery": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "OuterRecovery.productError": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "OuterRecovery.quarterRadius": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "OuterRecovery.roundOfQuarter": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "OuterRecovery.scaleEnvelope": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "WholeMachine.BoundedCalls.scaled_schedule": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "WholeMachine.Composition.compose_halting_runs": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "WholeMachine.Composition.run_sequence": [
+        "Quot.sound",
+        "propext"
+      ],
+      "WholeMachine.Composition.visited_sequence": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "WholeMachine.Costs.cost_row_absorbed": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "WholeMachine.Counterexamples.eraser_visited": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "WholeMachine.Intervals.horner_interval": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "WholeMachine.RecoveryPipeline.pipeline": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "WholeMachine.RecoveryPipeline.recover_coordinate": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "theorems_including_generated": 198
+  },
+  "build": {
+    "argv": [
+      "/Users/thomasdifiore/.elan/toolchains/leanprover--lean4---v4.32.2/bin/lake",
+      "build",
+      "Audit"
+    ],
+    "elapsed_seconds": 24.565,
+    "log_sha256": "8683e9819d3796080d87bf5c2914a058f508f2ffa7ca5c06fd2b0fcdf3abb6d0",
+    "peak_rss_kib": 11702528,
+    "returncode": 0,
+    "stopped": null
+  },
+  "dependencies": {
+    "Cli": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+    "LeanSearchClient": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+    "Qq": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+    "aesop": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+    "batteries": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+    "importGraph": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+    "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+    "plausible": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+    "proofwidgets": "6e311e2a844da9b2cc3971187df2fe0066947b93"
+  },
+  "independent": {
+    "accepted": false,
+    "argv": [
+      "/Users/thomasdifiore/.elan/toolchains/leanprover--lean4---v4.32.2/bin/lake",
+      "env",
+      "/Users/thomasdifiore/gpu-lean/third_party/lean4lean/.lake/build/bin/lean4lean-diagnostics-v152",
+      "--fresh",
+      "Audit"
+    ],
+    "elapsed_seconds": 8.129,
+    "executable_sha256": "879908633e481ffbafda14527e0cc9fbe201e074dcc7c444f96262b304eeae9b",
+    "log_sha256": "8a36928bb9624aec1b058a6bf4840a1276a4d60f2a1b69605807db3eaf8aa39b",
+    "peak_rss_kib": 734240,
+    "returncode": 1,
+    "status": "RAW_REPLAY_FAILED",
+    "stopped": null
+  },
+  "lean": "Lean (version 4.32.2, arm64-apple-darwin24.6.0, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "local_olean_sha256": {
+    ".lake/build/lib/lean/Asymptotics.olean": "6d83544ba28f4eaa25b63f12400ffa4f4a7754aa38003a9084b66cb637b50e0e",
+    ".lake/build/lib/lean/Asymptotics.olean.hash": "05d77dcb4313068a5a0915fe9bd18492ce9ed2d6967ea4bcd5b5286aa1f43610",
+    ".lake/build/lib/lean/Audit.olean": "ee6af57e101bff5b53b891e323cbb46959b008eb33c334dfd5a86f2a00015a21",
+    ".lake/build/lib/lean/Audit.olean.hash": "e3d7771f1065237acf0e982a8cd2427501b8e8b089dd1d47209ea2bfa300b69a",
+    ".lake/build/lib/lean/BoundedCalls.olean": "089f6545eef3734bffbdb102462595f50fe90dafcbf173506c377e094714441d",
+    ".lake/build/lib/lean/BoundedCalls.olean.hash": "cc747227a1dfe40ac549be530e0f43dd122e47f6abc30cd115bfbecd9d531657",
+    ".lake/build/lib/lean/Composition.olean": "5f5db79fd3637642b461c6db45ce44200e0779cd5ec8f1d77c25139ebc305b74",
+    ".lake/build/lib/lean/Composition.olean.hash": "d5a89b50733055a95560af05ed799840b7b0c15dcfc8abc1b56103d10a874505",
+    ".lake/build/lib/lean/Intervals.olean": "290f7bc4c21d88f1fecd3afa263753a3221c74011fd1503f7321cbd03b806201",
+    ".lake/build/lib/lean/Intervals.olean.hash": "d9e0f6c9b0733c82b8d68abb1e0c158922aab91ad2b2abfdc215519842931759",
+    ".lake/build/lib/lean/Parameters.olean": "7859a12b4fcfabefa77b3433e6c9c8e48b4a18f34ee099626c996828221c4aee",
+    ".lake/build/lib/lean/Parameters.olean.hash": "b276378fa7821c09bad9fa0f044e14d15598eb5161612421d751f8e531fdd26e",
+    ".lake/build/lib/lean/ProofCounterexamples.olean": "de6df1a2d64e9992a738ed91a0661878c43b4816367c1905521e91debeb5387e",
+    ".lake/build/lib/lean/ProofCounterexamples.olean.hash": "f22d11e4fb0d734ec1191a3301bd243e699c7b90fce0d1b7f38ffa797bc8d5f4",
+    ".lake/build/lib/lean/Recovery.olean": "cc9c4b384c908b1c12a64332ecf77335a16d4fcce9718bc8819eafc18429ed15",
+    ".lake/build/lib/lean/Recovery.olean.hash": "ca72fe7c7e352b97f3f61d9e36ddd4da7ffc2e703d9b70d84e6186f1c90bf4c0",
+    ".lake/build/lib/lean/RecoveryPipeline.olean": "f554c583059e5b99f2a6b7b8a3451fea70ae44e407cf7f282191984847263549",
+    ".lake/build/lib/lean/RecoveryPipeline.olean.hash": "224dd9b90d6457a2669d6abfd2b5e4a5eaa52efc839892719023c3b41504a79f",
+    ".lake/build/lib/lean/Target.olean": "6a9eff5a50de6e478cc08365083c4adaecb3527cb461ab10c31b29224c5f7ac5",
+    ".lake/build/lib/lean/Target.olean.hash": "a8e81bfb66cc2b6c4daeb87f4e5dff28e377b384119d99033d809f31ce7b3f86"
+  },
+  "local_source_sha256": {
+    "Asymptotics.lean": "67079c10913ef25cd50824c25fae8a0c7906593c33ead005a6926f2015a304e8",
+    "Audit.lean": "95b9a33d5a5fc1302aab7c865f111b9140cd91bafe9b7b997208c51b7c14a627",
+    "BoundedCalls.lean": "5e6ae1d183535870bc3d394fdc6e395c541fa847cd7e8fe0ea23c3a2794aa2be",
+    "Composition.lean": "217ec48e36c1a6c000d172745d4eac5c014dbb12403ef50f828e1c5e5344debf",
+    "Intervals.lean": "550bef995f3ec2ab89f9250780096a519aee86bf7715465492679ccefb707f7e",
+    "Parameters.lean": "d2fc2bae6b6202286134fa67fb7ed16777da9dc51c8496f957dc510af850948b",
+    "ProofCounterexamples.lean": "68e1cd1d4a8d27bbeb598976d0b384bc78b0c88d5553f1e943e7edb09c9c657e",
+    "Recovery.lean": "a9238eca65a09a961f4013c14ca308e2e44188b7e92dd12d719accbf638d682c",
+    "RecoveryPipeline.lean": "6a2810b8e06cc234dae32b78324f1c140ce8adaf1b1fbf9d0f593a38f742aeb8",
+    "Target.lean": "97dd46548fc1150e8381af8d7b6bb6a4180236fcb0f8d5cba84de48693235680"
+  },
+  "official_fresh_replay": {
+    "argv": [
+      "/Users/thomasdifiore/.elan/toolchains/leanprover--lean4---v4.32.2/bin/lake",
+      "env",
+      "/Users/thomasdifiore/.elan/toolchains/leanprover--lean4---v4.32.2/bin/leanchecker",
+      "--fresh",
+      "--verbose",
+      "Audit"
+    ],
+    "elapsed_seconds": 274.859,
+    "log_sha256": "65db9919b31ae1fa9419890e0a8ad53eeab947aed70447e24a0a224ff89186d0",
+    "peak_rss_kib": 4082560,
+    "returncode": 0,
+    "stopped": null
+  },
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "rejected_controls": {
+    "completed_map_bounds_calls": {
+      "argv": [
+        "/Users/thomasdifiore/.elan/toolchains/leanprover--lean4---v4.32.2/bin/lake",
+        "env",
+        "lean",
+        "-j1",
+        "-M8192",
+        "completed_map_bounds_calls.lean"
+      ],
+      "elapsed_seconds": 6.144,
+      "log_sha256": "6863b18abf2e9652f6a75d7b3ba57636ddea10ad34930d45d84fbb6c480227d1",
+      "peak_rss_kib": 3373328,
+      "returncode": 1,
+      "stopped": null
+    },
+    "erase_visited_history": {
+      "argv": [
+        "/Users/thomasdifiore/.elan/toolchains/leanprover--lean4---v4.32.2/bin/lake",
+        "env",
+        "lean",
+        "-j1",
+        "-M8192",
+        "erase_visited_history.lean"
+      ],
+      "elapsed_seconds": 6.378,
+      "log_sha256": "52f68a2203455e122912cfb55448328597fa0f76d578bb727f1de3f0d3a82562",
+      "peak_rss_kib": 3380624,
+      "returncode": 1,
+      "stopped": null
+    },
+    "omit_handoff": {
+      "argv": [
+        "/Users/thomasdifiore/.elan/toolchains/leanprover--lean4---v4.32.2/bin/lake",
+        "env",
+        "lean",
+        "-j1",
+        "-M8192",
+        "omit_handoff.lean"
+      ],
+      "elapsed_seconds": 6.16,
+      "log_sha256": "f1ec686783546d8db49d5cdc4f57f7eec144bab52a5b752b78abaa70ea7891a8",
+      "peak_rss_kib": 3357360,
+      "returncode": 1,
+      "stopped": null
+    },
+    "omit_restore_precision": {
+      "argv": [
+        "/Users/thomasdifiore/.elan/toolchains/leanprover--lean4---v4.32.2/bin/lake",
+        "env",
+        "lean",
+        "-j1",
+        "-M8192",
+        "omit_restore_precision.lean"
+      ],
+      "elapsed_seconds": 6.391,
+      "log_sha256": "6c0d4e7b77765b251a34d8b85cdd8c08ed21810acddef00226e8d72a08664dfe",
+      "peak_rss_kib": 3268960,
+      "returncode": 1,
+      "stopped": null
+    },
+    "wrong_kappa": {
+      "argv": [
+        "/Users/thomasdifiore/.elan/toolchains/leanprover--lean4---v4.32.2/bin/lake",
+        "env",
+        "lean",
+        "-j1",
+        "-M8192",
+        "wrong_kappa.lean"
+      ],
+      "elapsed_seconds": 6.406,
+      "log_sha256": "4aaae9c43eba8de08c8ef1d9fad934a20473c745c49bb4cc72d8f8485619a9ae",
+      "peak_rss_kib": 3374752,
+      "returncode": 1,
+      "stopped": null
+    }
+  },
+  "scope": "Finite tape composition, visited-space semantics, numerical schedules and recovery implications; no multiplier program or proof of Target.Complete.",
+  "source_manifest_sha256": "3f4165f78a7e428e637ee9052c726e576702e04ce685623eee578890d32d7b58",
+  "status": "PASS_SCOPED_LEAN_PROGRESS",
+  "strict_acceptance": false,
+  "target": "WholeMachine.Target.Complete",
+  "tool_sha256": {
+    "lake": "58261a1a2fa1a362376c71e02ca854a093e71cc5e6ea64b287a931cb2565273d",
+    "lean": "1b370cfcbf44e80d1b004ab1b1ab9a4c73951f9f7c242140bcff9bc577576554",
+    "leanchecker": "4c4f966e8c42ae7a7ce6d7f5999de8c1b1fbc920040f72e60d2086aa25ceec01"
+  },
+  "whole_machine_proved": false
+}

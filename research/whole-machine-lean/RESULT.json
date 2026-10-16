@@ -1,0 +1,8 @@
+{
+  "inputs": 16,
+  "new_lean_theorems": 58,
+  "scope": "Saved source/receipt/log bindings only; this invocation does not run Lean.",
+  "status": "PASS_SAVED_EVIDENCE_BINDINGS_ONLY",
+  "strict_acceptance": false,
+  "whole_machine_proved": false
+}

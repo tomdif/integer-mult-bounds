@@ -1,0 +1,33 @@
+{
+  "commands": [
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "checks": "Saved source/receipt/log bindings only. Does not run Lean or prove the whole-machine theorem.",
+      "timeout_seconds": 120
+    },
+    {
+      "argv": [
+        "{python}",
+        "-I",
+        "-O",
+        "-B",
+        "{package}/verify.py"
+      ],
+      "checks": "Same saved-evidence binding check with assertions disabled; not a fresh Lean replay.",
+      "timeout_seconds": 120
+    }
+  ],
+  "inputs": [
+    "research/fine-prime-transform-assembly/Recovery.lean",
+    "research/multiplication-proof-completion/PROOF.md"
+  ],
+  "python": "3.12",
+  "requirements": [],
+  "schema_version": 1,
+  "status": "ready"
+}

@@ -1,0 +1,248 @@
+{
+  "status": "POSSIBLE_OVERLAP_NOT_A_NOVELTY_CERTIFICATE",
+  "searched_at": "2026-10-16T18:03:56.517654+00:00",
+  "terms": [
+    "whole-machine Lean",
+    "bounded input",
+    "complete Lean"
+  ],
+  "coverage": {
+    "open_prs": {
+      "fetched_at": "2026-10-16T18:03:22.300679+00:00",
+      "complete_pagination": true,
+      "records": 261
+    },
+    "discussions": {
+      "fetched_at": "2026-10-16T18:03:56.421511+00:00",
+      "complete_pagination": true,
+      "records": 1734
+    }
+  },
+  "local_records": 2701,
+  "warnings": [],
+  "limits": "Remote PR scope is open PRs including drafts. Closed work is searched through local READMEs, TASK metadata and ledger only. No code diffs or arbitrary package files are searched. Recheck relevant heads before submission.",
+  "matches_total": 26,
+  "matches": [
+    {
+      "number": 2954,
+      "title": "Help wanted: the \"class C\" cells of the one-sided K2 residue (excess pays for corrections, d >= 4) -- 17 hard rows, a 4-flat span question",
+      "kind": "discussion-comment",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2954#discussioncomment-18977655",
+      "updated_at": "2026-10-16T16:44:51Z",
+      "matched_terms": [
+        "bounded input"
+      ],
+      "score": 1,
+      "excerpt": "ask, its final order, active direction, cap and downstream result. Profile first; compare identical bounded inputs, including the prior representative46 fixture and seed94-selected setup cases. One evidence-driven pivot is allowed if profiling locates a different setup hotspot.\n\nExpected deliverable: a small opt-in adapter, equivalence argument, source-bound replay, before/after measurements and rejecting controls, or a failed-performance handoff. No new search exclusion or kappa is presumed. St"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/community-efficient1500-audit/README.md",
+      "path": "research/community-efficient1500-audit/README.md",
+      "sha256": "673d6158cdc201346deadc300cb77f3d7d9a19e3678a8f100563b64a6be0383b",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "s, comment/eval spoofs, wrapped twelve-axiom output and sorryAx rejection. Parser scope only, not a complete Lean lexer or new theorem verification. |\n| [#2524](https://github.com/CrocSwap/integer-mult-bounds/pull/2524) | WilliamLawyer | QQ16 accumulated-frame L2 reconstruction with one paid H1 preparation per owned output and restored borrowed inputs. Reviewed full owner/map/phase argument, ordered interpreter and separate finite arithmetic oracle. Comparable old-frame bill992 rank mass versus1"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/complex-cold-owner-repair/README.md",
+      "path": "research/complex-cold-owner-repair/README.md",
+      "sha256": "43acf51c4cd0f1dbdee190a9130a131538706864b73899e8e97a05265fb25808",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "nged PR543 bit supplier and H1\u2013H5 assumptions. It is not an unconditional multiplication theorem, a complete Lean proof, an optimal packing claim or a practical speedup. \u03ba=1 is not established.\n\n## Attribution\n\nPR614: jeremykothe2, immutable head `6cfd7e2039078f80a8a39dec5e958d8df304cb90`. Native cold-ended construction: DreamingOfClouds PR604, built on jeremykothe2 PR601 and the pinned PR568/569/571/575/583 contributions. Full inherited attribution and AI disclosures remain in NOTICE.md and ven"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/complex-k492-owner-repair-validation/README.md",
+      "path": "research/complex-k492-owner-repair-validation/README.md",
+      "sha256": "5a417b61c536e913056c57e61d6a3bbde931aab5cb0b259062115c8a26d57483",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "atch packing optimality, new supplier construction,\npriority, unconditional multiplication theorem, complete Lean proof or\npractical speedup is claimed. The inherited compiler, common-label,\nmutable-source, whole-call hosting, precision/tape/exact recovery,\nanalytic-transfer and bit H1-H5 assumptions remain.\n\nCredits: jeremykothe2 and Claude Opus for PR623/PR622; GamingPuzzled for\nPR620's owner-map lead; DreamingOfClouds and the earlier supplier authors\nlisted in the preserved NOTICE.md. This co"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/complex-k492-owner-repair/README.md",
+      "path": "research/complex-k492-owner-repair/README.md",
+      "sha256": "ee5a1ace4828f7a073be97e95c2d931988774dd3a29a877e65abdf429aeec902",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "c transfer and bit H1-H5 assumptions. It is\nnot an unconditional multiplication theorem, kappa=1, a complete Lean\nproof, a practical speedup or a packing optimum. See NOTICE.md for credit.\n"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/complex-pr615-ceiling-validation/README.md",
+      "path": "research/complex-pr615-ceiling-validation/README.md",
+      "sha256": "648557abd89978284fb5461d7c488aaebde8374640fb9f490255458cd0e3829d",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "assumptions remain conditional. The result is neither an unconditional multiplication theorem nor a complete Lean proof. The ceiling does not apply after changing these suppliers, the owner geometry, or the proof interface.\n\nThe new files pass the scoped whitespace check. The broad added-file check reports inherited trailing whitespace or final blank lines in pinned source files; these bytes are intentionally preserved to retain their provenance hashes.\n"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/complex-rank5-pivots8/README.md",
+      "path": "research/complex-rank5-pivots8/README.md",
+      "sha256": "02181c5ff31cd1c2899608e5ab598b405df92ad5814df35f329d117956f7ee10",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "ites and reprices PR543; it does not rebuild the unchanged bit circuit. No unconditional theorem or complete Lean proof is claimed.\n\nPrepared for eumemic with OpenAI Codex assistance. The complete pinned PR552 source and original authorship, AI disclosures, manifests and licenses remain in `vendor/pr552`; PR551 supplies the unchanged all-edge phase driver, and PR550 supplies the adapted hardened assembly. Earlier PR531/535, PR534, PR541/548, PR484 and their attributed ancestry remain credited. S"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/complex-trace-joint-retiming/README.md",
+      "path": "research/complex-trace-joint-retiming/README.md",
+      "sha256": "6602eafc9cf2306fb9b1b35b79c44bf92c34a33786612113251cbc559bb5561d",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "lytic-transfer contracts. This is not an unconditional multiplication theorem, practical speedup or complete Lean proof.\n\nPrepared for Rohan Arun with OpenAI Codex assistance. Credits: eumemic/Codex PR550 trace expansion and admission, rohanarun/Claude PR534 frame-chain method, Dugongue PR548/PR541, icekylinx PR535/PR531, chafreaky PR544, eumemic/Claude PR543 bit supplier, DreamingOfClouds PR484 and the inherited gauge/kernel/phase/moment ancestry. Original notices and licenses remain in upstrea"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/complex-trace-rank5/README.md",
+      "path": "research/complex-trace-rank5/README.md",
+      "sha256": "e39f2a224ac86bed21fe048e1b86930f1ae23916ccb118c7c04fba97806033c0",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": " contracts remain assumptions. This does not prove unconditional faster integer multiplication or a complete Lean theorem.\n\nPrepared for eumemic with OpenAI Codex assistance. Original author and AI disclosures are preserved; see `NOTICE.md`.\n"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/gauge44-barch-t16/README.md",
+      "path": "research/gauge44-barch-t16/README.md",
+      "sha256": "42a87c4b8ba75d360412acb1330c3c5d72e37369b1999e4bc4d5dcab9f0cfb14",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "ns a finite conditional witness. It does not establish an\nunconditional multiplication theorem or a complete Lean formalization.\n"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/gauge44-barch/README.md",
+      "path": "research/gauge44-barch/README.md",
+      "sha256": "7a6f17e83af95089f5a83ae8d4cbfed12677b6df54ee45a3203d2f8181f5633a",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "ns a finite conditional witness. It does not establish an\nunconditional multiplication theorem or a complete Lean formalization.\n"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/gauge44-frames-x/README.md",
+      "path": "research/gauge44-frames-x/README.md",
+      "sha256": "a086b31dcbfe273006a9a90b56a9703f3679114c9f988f8868f3c5f1ff783f3d",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "ns a finite conditional witness. It does not establish an\nunconditional multiplication theorem or a complete Lean formalization.\n"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/gauge44-leaver/README.md",
+      "path": "research/gauge44-leaver/README.md",
+      "sha256": "28acc0bdb972bdc8c2c48cbf8e1ef663d79b7ab134c23d542fec31680a6af6dc",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "ns a finite conditional witness. It does not establish an\nunconditional multiplication theorem or a complete Lean formalization.\n"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/gauge44-leaver8/README.md",
+      "path": "research/gauge44-leaver8/README.md",
+      "sha256": "0c09f0685e5db77177187c12afea9c45465787c44d6ae0d7d28c0c7de8f1b2a0",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "ns a finite conditional witness. It does not establish an\nunconditional multiplication theorem or a complete Lean formalization.\n"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/gauge44-slots-t16/README.md",
+      "path": "research/gauge44-slots-t16/README.md",
+      "sha256": "e33534891b32397220d29cd60943a71b863b606e734d71902349e4cac78a1a35",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "ns a finite conditional witness. It does not establish an\nunconditional multiplication theorem or a complete Lean formalization.\n"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/gauge44-slots/README.md",
+      "path": "research/gauge44-slots/README.md",
+      "sha256": "bd4248499e577321f17aacba1d7815a5eb0f9cbe88faeb8fef38b71bdf3a684c",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "ns a finite conditional witness. It does not establish an\nunconditional multiplication theorem or a complete Lean formalization.\n"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/joint-prefix-kernel-packing/README.md",
+      "path": "research/joint-prefix-kernel-packing/README.md",
+      "sha256": "1cbcd64cc8b71910dbdd52e4eab864d4b9c50e3319dd76cc738cea936b706f60",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "est.\n\n## Scope\n\nThis is conditional finite evidence, not an unconditional multiplication\ntheorem, a complete Lean proof, a measured practical speedup, or kappa = 1.\nAll-size compiler, common-label/mutable-source realization, whole-call hosting,\nnormalized recursive interfaces, precision/tape/exact recovery, analytic\ntransfer and the unchanged bit H1-H5 assumptions remain.\n"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/larger-gain/README.md",
+      "path": "research/larger-gain/README.md",
+      "sha256": "a891bf175b5a7c406ebf50af26c55fcacc766ebed09361fc0d5a2ea886d53f13",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": ", precision/tape and analytic transfer remain assumptions. No\nunconditional multiplication theorem, complete Lean proof, or general O(1)\nindexing theorem is claimed.\n\n## What changed locally\n\nThree additional exact suffix relations reduce three width-nine helpers to\nwidth eight in each zero-, four- and eight-promotion provider. Their combined\npaid change is `3 H1 + 6 H2 - 6 H3`. The relations were reconstructed for each\nprovider: copying the same insertion cuts blindly was invalid. The actual\nwo"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/mixed-prefix-fourway/README.md",
+      "path": "research/mixed-prefix-fourway/README.md",
+      "sha256": "bfed450d212a0010ed09ecc9da0b0c2af525d9281ad85ee677734e547ddd33e6",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "obligations, including\nthe bit supplier's H1\u2013H5. It is not an unconditional multiplication theorem,\ncomplete Lean proof, measured runtime improvement or \u03ba = 1 result. Solver\noptimality and global packing optimality are not claimed.\n"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/multicold-width7/README.md",
+      "path": "research/multicold-width7/README.md",
+      "sha256": "d5541218fbd24bf4f2ad8c6c2effc95581098e726a66ebb7ba91be35f4649c2f",
+      "matched_terms": [
+        "complete lean"
+      ],
+      "score": 1,
+      "excerpt": "ution.\n\n## Scope\n\nThis is conditional finite evidence, not an unconditional multiplication\ntheorem, complete Lean proof or practical speedup. The inherited all-size\ncompiler, common-label/mutable-source realization, normalized residual\ninterfaces, whole-call hosting, precision/tape and analytic-transfer\nassumptions remain. The bit H1\u2013H5 assumptions remain. No claim of globally\noptimal packing or a universal upper bound is made.\n\nGenerated gzip files are identified by their exact decompressed pay"
+    }
+  ]
+}

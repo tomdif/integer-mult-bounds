@@ -1,0 +1,27 @@
+{
+  "changed_files": [
+    "AGENTS.md",
+    "autoresearch.md",
+    "docs/research/agent-procedure.md",
+    "docs/research/agent-task-catalog.json",
+    "docs/research/construction-profiles.json",
+    "docs/research/coordination.md",
+    "docs/research/current-priorities.md",
+    "docs/research/pr-intake.md",
+    "docs/research/research-priority-log.md",
+    "scripts/choose_research_task.py",
+    "scripts/post_update.py",
+    "scripts/pr_queue_groups.py",
+    "scripts/research_coordination.py",
+    "tests/test_research_assignment.py",
+    "tests/test_research_coordination.py",
+    "tests/test_research_queue_groups.py"
+  ],
+  "checked_at": "2026-10-16T18:03:16.384275+00:00",
+  "decision": "Read updated AGENTS, current priorities and standing procedure. Changes reorganize guidance and add existing-check coverage; no scientific source or selected frontier changed. Continue explicit whole-machine task on the isolated branch; preserve all frozen predecessor inputs.",
+  "latest_main": "d8e0f83f00191df62174b641e9fff055c357f641",
+  "previous_main": "836b19bfa309ceafbc8ee32a15e8c4b10dde7e11",
+  "priority_revision": 6,
+  "scientific_inputs_changed": [],
+  "selected_record_changed": false
+}
