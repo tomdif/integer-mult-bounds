@@ -1,0 +1,14 @@
+labels: 111 E8 root lines of the 120 (even unimodular lattice of rank 8, Gram det 1; 9 punctured lines); 636 frames, every one closed in the live labels
+retained totals at the scatter: COPY ranks [7, 7, 7, 7, 7, 7, 7, 7, 7] (decoder constant 63); every total sits at the hyperplane of a distinct punctured line: True
+legality and exact F2 replay on all 661 columns (sources, targets, 439 dirty helpers as symbolic inputs): PASS; gates D/A/B/C = 111/2075/712/2574
+   H1_no_target_feeds_z                     holds
+   H2_D_frame0_targets_from_helpers         holds
+   H3_A_z_only_scatter_targets_B_split      holds
+   H4_C_literal_reverse_at_full             holds
+   H5_V_identity                            holds
+   U_block_form                             holds
+   J_identity                               holds
+   K_equals_D                               holds
+   C_is_U_inverse                           holds
+   {"z_gates_A": 2075, "source_writes_A": 0, "z_gates_B": 499, "source_writes_B": 483, "helper_writes_B": 16, "sources_rewritten_B": 108, "B_z_write_frame_dims": {"4": 388, "6": 111}, "B_z_operand_kinds": {"helper<-helper": 3, "helper<-source": 13, "source<-helper": 108, "source<-source": 375}, "B_z_operand_kinds_by_dim": {"dim4:helper<-source": 13, "dim4:source<-source": 375, "dim6:helper<-helper": 3, "dim6:source<-helper": 108}, "B_z_writes_after_a_target_read_of_the_same_register": 454, "B_target_reads_of_registers_rewritten_earlier_in_B": 111, "target_reads_of_targets": 0, "cleanup_gates": 2574}
+PASS interleaved interface lemma: hypotheses H1-H5 hold and the conclusion decomposes as U, J = I, D = K, C = U^-1

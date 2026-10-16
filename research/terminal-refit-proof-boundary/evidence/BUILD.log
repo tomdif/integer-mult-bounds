@@ -1,0 +1,125 @@
+⚠ [1020/1022] Built LemmaG.Stream (13s)
+warning: LemmaG/Stream.lean:191:63: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  simp [scal, phys, F̵u̵n̵c̵t̵i̵o̵n̵.̵u̵p̵d̵a̵t̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LemmaG/Stream.lean:192:59: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  simp [scal, phys, F̵u̵n̵c̵t̵i̵o̵n̵.̵u̵p̵d̵a̵t̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LemmaG/Stream.lean:193:59: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  simp [scal, phys, F̵u̵n̵c̵t̵i̵o̵n̵.̵u̵p̵d̵a̵t̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LemmaG/Stream.lean:194:60: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  simp [scal, phys, F̵u̵n̵c̵t̵i̵o̵n̵.̵u̵p̵d̵a̵t̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LemmaG/Stream.lean:195:59: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  simp [scal, phys, F̵u̵n̵c̵t̵i̵o̵n̵.̵u̵p̵d̵a̵t̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LemmaG/Stream.lean:209:63: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  simp [scal, phys, F̵u̵n̵c̵t̵i̵o̵n̵.̵u̵p̵d̵a̵t̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LemmaG/Stream.lean:211:46: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  simp [scal, phys, F̵u̵n̵c̵t̵i̵o̵n̵.̵u̵p̵d̵a̵t̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi, smul_add, add_add_add_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LemmaG/Stream.lean:212:59: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  simp [scal, phys, F̵u̵n̵c̵t̵i̵o̵n̵.̵u̵p̵d̵a̵t̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi, smul_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LemmaG/Stream.lean:213:60: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  simp [scal, phys, F̵u̵n̵c̵t̵i̵o̵n̵.̵u̵p̵d̵a̵t̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LemmaG/Stream.lean:214:59: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  simp [scal, phys, F̵u̵n̵c̵t̵i̵o̵n̵.̵u̵p̵d̵a̵t̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LemmaG/Stream.lean:219:63: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  simp [scal, phys, F̵u̵n̵c̵t̵i̵o̵n̵.̵u̵p̵d̵a̵t̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LemmaG/Stream.lean:220:59: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  simp [scal, phys, F̵u̵n̵c̵t̵i̵o̵n̵.̵u̵p̵d̵a̵t̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LemmaG/Stream.lean:221:59: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  simp [scal, phys, F̵u̵n̵c̵t̵i̵o̵n̵.̵u̵p̵d̵a̵t̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LemmaG/Stream.lean:222:60: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  simp [scal, phys, F̵u̵n̵c̵t̵i̵o̵n̵.̵u̵p̵d̵a̵t̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LemmaG/Stream.lean:223:59: This simp argument is unused:
+  Function.update_apply
+
+Hint: Omit it from the simp argument list.
+  simp [scal, phys, F̵u̵n̵c̵t̵i̵o̵n̵.̵u̵p̵d̵a̵t̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LemmaG/Stream.lean:266:10: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [P̵i̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi, Ne.symm hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: LemmaG/Stream.lean:284:17: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  simp [φ, P̵i̵.̵s̵i̵n̵g̵l̵e̵_̵a̵p̵p̵l̵y̵,̵ ̵hi]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+ℹ [1021/1022] Built Refit (1.7s)
+info: Refit.lean:57:0: 'TerminalRefit.adds_commute' depends on axioms: [propext, Quot.sound]
+info: Refit.lean:58:0: 'TerminalRefit.scale_then_adds_commute' depends on axioms: [propext, Quot.sound]
+info: Refit.lean:59:0: 'TerminalRefit.replace_program' depends on axioms: [propext, Quot.sound]
+Build completed successfully (1022 jobs).

@@ -1,0 +1,209 @@
+{
+  "axioms": {
+    "adds_commute": [
+      "Quot.sound",
+      "propext"
+    ],
+    "replace_program": [
+      "Quot.sound",
+      "propext"
+    ],
+    "scale_then_adds_commute": [
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "boundary": "Literal patch premises only. Full frame/native/cleanup admission is retained from the authenticated release; native recipes are not imported into Lean.",
+  "build_log_sha256": "753bdadca6898ba3e258759a19b3bc51545b823b8dfaa4e9d86feccc429ae44e",
+  "cases": [
+    {
+      "coefficients": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "destination": 408,
+      "preceding_scale": null,
+      "provider": "base",
+      "sources": [
+        42,
+        105
+      ]
+    },
+    {
+      "coefficients": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "destination": 424,
+      "preceding_scale": null,
+      "provider": "base",
+      "sources": [
+        16,
+        44
+      ]
+    },
+    {
+      "coefficients": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "destination": 428,
+      "preceding_scale": [
+        -1,
+        1
+      ],
+      "provider": "base",
+      "sources": [
+        416,
+        430
+      ]
+    },
+    {
+      "coefficients": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "destination": 412,
+      "preceding_scale": [
+        -1,
+        1
+      ],
+      "provider": "base",
+      "sources": [
+        400,
+        414
+      ]
+    },
+    {
+      "coefficients": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "destination": 408,
+      "preceding_scale": null,
+      "provider": "extra",
+      "sources": [
+        42,
+        105
+      ]
+    },
+    {
+      "coefficients": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "destination": 424,
+      "preceding_scale": null,
+      "provider": "extra",
+      "sources": [
+        16,
+        44
+      ]
+    },
+    {
+      "coefficients": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "destination": 428,
+      "preceding_scale": [
+        -1,
+        1
+      ],
+      "provider": "extra",
+      "sources": [
+        416,
+        430
+      ]
+    },
+    {
+      "coefficients": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "destination": 412,
+      "preceding_scale": [
+        -1,
+        1
+      ],
+      "provider": "extra",
+      "sources": [
+        400,
+        414
+      ]
+    }
+  ],
+  "dependencies": {
+    "Cli": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+    "LeanSearchClient": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+    "Qq": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+    "aesop": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+    "batteries": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+    "importGraph": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+    "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+    "plausible": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+    "proofwidgets": "6e311e2a844da9b2cc3971187df2fe0066947b93"
+  },
+  "kernel_checked": true,
+  "lean_sources": {
+    "LemmaG/Stream.lean": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+    "Refit.lean": "5a658943e436e1c2f0e7d90104c29c8178bee9cfef86676731df44429e8b5cff",
+    "lake-manifest.json": "da952a399afabca52d01a3be304c2fc55e413bced8e2b4eedb45bd32709fade9",
+    "lakefile.toml": "c6fbbe9d5cf792a77fb12ccc39363fafdffcbcd82bcf3d683d77c19f7b8a0abf",
+    "lean-toolchain": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273"
+  },
+  "lean_version": "Lean (version 4.32.2, arm64-apple-darwin24.6.0, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "rejected_controls": [
+    "different_shadow",
+    "self_reading_adds"
+  ],
+  "status": "PASS_SCOPED_LEAN_REFIT_PROOF"
+}

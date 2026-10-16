@@ -1,0 +1,28 @@
+{
+  "bit_word_git_bytes_equal": true,
+  "bit_word_head": "a5afc8c6169ea61ba7c51dfd3cade02cc7b13b46",
+  "bit_word_original_path": "research/e8-bit-p111/tune/bitE8mut-p111-tuned.json.gz",
+  "inputs": {
+    "research/complex-grid-prefix-audit/PROOF.md": "9c2473e080a64de5139abf66680534043143ec9f4488ceabf62403702047a3ad",
+    "research/e8-bit-p111-tuned/code/xcheck_p.py": "af3decc877e27c00001cf56f50c6c09566e8e101297ab34c7860aed96a06d80e",
+    "research/e8-bit-p111-tuned/tune/bitE8mut-p111-tuned.json.gz": "e3e301e62bc2b41dbf1ceac0acf3d35824ebeab1848c5a2142d4577b109da52f",
+    "research/e8-lemma-g-lean/LemmaG/Stream.lean": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+    "research/lean-common-label-tensor-lift/README.md": "5571d08c779eda12ad2871185d5869f3b1dd293e28300f52efb5fabb36c6abf9",
+    "research/lean-common-label-tensor-lift/lean/TensorLift.lean": "75ca8fa02de0a9a81501361a85a1e958c986afef70ec8a89e587f13c8fe8c567",
+    "research/paired-terminal-refit/MANIFEST.json": "3c7c53a761689d8ca0572898321988ef743043ea4158e23fd5a9ad8d86f7a6a7",
+    "research/pr589-five-helper-hosting/PROOF.md": "59cae781bfbe1a01ed9e66a8efeeb5a2b995e5ecdf908586b23ecc39f2b8d647",
+    "research/recursive-parking-boundary/README.md": "491aa208391ee4c2936510b1a5c5c018dd5509d9a0e88687c72ab8406cd77b18",
+    "research/selected-bit-recursive-closure/PROOF.md": "74cc8de20f21acb5123fe2d20996fe0925ea6e51b3dec633bd5221fb719b3344",
+    "research/selected-caller-capacity-prefix/README.md": "652fe5440001847867645dd858c4a0b8b799e9eaaaf47942d4954d2b12e727f9",
+    "research/selected-complex-height-ledger/sources/pr2287/PROOF.md": "43feda0342c07a9429699c3a44e8936a3f3fb57ce9b32f38ff3dc06ac887b265"
+  },
+  "proof_files": {
+    "lean/LemmaG/Stream.lean": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+    "lean/Refit.lean": "5a658943e436e1c2f0e7d90104c29c8178bee9cfef86676731df44429e8b5cff",
+    "lean/lake-manifest.json": "da952a399afabca52d01a3be304c2fc55e413bced8e2b4eedb45bd32709fade9",
+    "lean/lakefile.toml": "c6fbbe9d5cf792a77fb12ccc39363fafdffcbcd82bcf3d683d77c19f7b8a0abf",
+    "lean/lean-toolchain": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273"
+  },
+  "proof_scope": "Generic common-label replacement and commuting additions; no formal import of the complete supplier.",
+  "research_commit": "db3248c232244daddc8c0c9de5f61c23f4e2aa83"
+}

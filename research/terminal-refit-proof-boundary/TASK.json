@@ -1,0 +1,30 @@
+{
+  "base": "5a0dc2c0f4685b02bef7776bc196c7c1231cbac1",
+  "credit": "Thomas DiFiore with substantial OpenAI Codex assistance; Lemma G, tensor and machine/precision predecessors retained and linked.",
+  "open_obligation": "Costed source-faithful all-size recursive implementation and joined analytic transfer.",
+  "overlap": {
+    "coverage": {
+      "discussions": {
+        "complete_pagination": true,
+        "fetched_at": "2026-10-16T11:45:04.756636+00:00",
+        "records": 1604
+      },
+      "open_prs": {
+        "complete_pagination": true,
+        "fetched_at": "2026-10-16T11:44:32.424814+00:00",
+        "records": 489
+      }
+    },
+    "limits": "Remote PR scope is open PRs including drafts. Closed work is searched through local READMEs, TASK metadata and ledger only. No code diffs or arbitrary package files are searched. Recheck relevant heads before submission.",
+    "searched_at": "2026-10-16T11:45:04.883999+00:00",
+    "warnings": []
+  },
+  "priority_revision": 5,
+  "publication": "Follow-up proof package on the user-authorized research/push424-20261016 branch.",
+  "research_commit": "db3248c232244daddc8c0c9de5f61c23f4e2aa83",
+  "scope": "Fresh Lean generic refit lemmas, literal patch binding, fresh PR589 finite H1-H5 check, and remaining all-size proof map. No complete native recipe import or unconditional multiplier.",
+  "status": "scoped_kernel_proof_and_assumption_audit_complete",
+  "submission_checkpoint": "Guidance, selected record and every scientific input remain unchanged. Newly incorporated payload, retained-backing and lcm-stock-fit results close scoped components, explicitly excluding complete physical tape/supplier admission. Keep pinned research base and remaining joined implementation obligation.",
+  "upstream_checked": "f0cf35964766b21a67c5e3b52e4a7daa4ca92a13",
+  "user_request": "can we prove those assumptions?"
+}
