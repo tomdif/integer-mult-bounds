@@ -1,0 +1,5 @@
+CHECK Exact call-domain and roundoff fixtures, six rejecting controls, rational cost/guard inequalities and all source pins; entire deterministic receipt.
+PASS_BOUNDED_CALL_COMPLETION_SEAMS 288 executions; 6 rejecting controls; 195 source pins
+CHECK Exact call-domain and roundoff fixtures, six rejecting controls, rational cost/guard inequalities and all source pins; entire deterministic receipt. Assertions disabled.
+PASS_BOUNDED_CALL_COMPLETION_SEAMS 288 executions; 6 rejecting controls; 195 source pins
+PASS_REGISTERED_RESEARCH_PACKAGE research/multiplication-proof-completion outcome=completed

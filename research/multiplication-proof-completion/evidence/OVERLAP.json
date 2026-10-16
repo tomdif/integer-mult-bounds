@@ -1,0 +1,253 @@
+{
+  "status": "POSSIBLE_OVERLAP_NOT_A_NOVELTY_CERTIFICATE",
+  "searched_at": "2026-10-16T16:53:36.707542+00:00",
+  "terms": [
+    "shallow Toeplitz",
+    "source transform",
+    "complete proof",
+    "finite core"
+  ],
+  "coverage": {
+    "open_prs": {
+      "fetched_at": "2026-10-16T16:53:02.391981+00:00",
+      "complete_pagination": true,
+      "records": 244
+    },
+    "discussions": {
+      "fetched_at": "2026-10-16T16:53:36.575011+00:00",
+      "complete_pagination": true,
+      "records": 1707
+    }
+  },
+  "local_records": 2697,
+  "warnings": [],
+  "limits": "Remote PR scope is open PRs including drafts. Closed work is searched through local READMEs, TASK metadata and ledger only. No code diffs or arbitrary package files are searched. Recheck relevant heads before submission.",
+  "matches_total": 26,
+  "matches": [
+    {
+      "kind": "local-readme",
+      "title": "research/fine-prime-transform-assembly/README.md",
+      "path": "research/fine-prime-transform-assembly/README.md",
+      "sha256": "197d25c262d18a1f838ab1e564962f3bcfc01b06614b0d1b10be4f43f2d86f23",
+      "matched_terms": [
+        "source transform",
+        "finite core"
+      ],
+      "score": 2,
+      "excerpt": "o a formal verification of the entire multiplier.\n\n[TRANSFER.md](TRANSFER.md) joins the constructed source transform to the\nlogarithmic CRT layout and exact integer recovery, at\n\n```\nkappa = 0.001722052684227397319529 - 10^-46 - 10^-70.\n```\n\n[CORE.md](CORE.md) removes the terminal cyclic-prefix premise: fast solves\nuse finite cores and whole separator pivots, while actual wrapped input\nfaces use the explicitly priced polynomial inverse. The face proof applies\nto varying coefficients. [PRECISION."
+    },
+    {
+      "number": 1462,
+      "title": "DONE: exact boundary for moving truncation across linear frames",
+      "kind": "discussion",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1462",
+      "updated_at": "2026-10-14T01:09:37Z",
+      "matched_terms": [
+        "source transform"
+      ],
+      "score": 1,
+      "excerpt": "Q_p(x) for every x? I will characterize this interface and test whether unitarity alone permits the source transform proof's truncation move.\n\nBase: 410026dc5513b87db92ae98571d1d5984c69a983. Assignment: uniform-transfer-audit, scope key ce7411fb7cf6f3460bfc, nonce 581862d7c100f0437c6ea259a7deb687, priority revision 2. Source: upstream/build/sections/06-transforms.tex, eq:transform-truncate and the forward-round argument following eq:combined-twiddle. The retained source uses signed coefficient p"
+    },
+    {
+      "number": 1357,
+      "title": "DONE: quadratic dirty-interval amplification for commuting isometries",
+      "kind": "discussion",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/1357",
+      "updated_at": "2026-10-14T21:59:44Z",
+      "matched_terms": [
+        "complete proof"
+      ],
+      "score": 1,
+      "excerpt": "d small coefficient counts are credited to Charles Bethin PR1278; new scalar witnesses attain them. Complete proof, source pins, receipt, limits and next questions are in the package.\n\nNo selected record, precision adoption, numerical failure, supplier or kappa change; no hosted-CI or human-review claim. Credit Chafik Boukhalfa PR628/862/905, Hanson Sun PR1085/1244, Charles Bethin PR1278, Philipp PR1295, Gareth Davidson PR877 and retained lineage. Substantial OpenAI Codex assistance. Claim relea"
+    },
+    {
+      "number": 2245,
+      "title": "DONE: P104 shared correction-space minimum is exactly 96",
+      "kind": "discussion-comment",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2245#discussioncomment-18940216",
+      "updated_at": "2026-10-15T04:01:08Z",
+      "matched_terms": [
+        "complete proof"
+      ],
+      "score": 1,
+      "excerpt": "py\r\npython -I -O -B research/p104-prefix-complement/test_verify.py\r\n```\r\n\r\nThe archive contains the complete proof, 29-contact certificate, two checkers, controls, immutable source pins and all three public input JSON files under their original paths. No Git/network is needed for these commands. The registered package additionally passes in the repository. Expected primary receipt: `01589d3ba0bd92dae5fb4259d94c209ef34a1f889f87b2c71844680a7fb897d4`.\r\n\r\nLocal CPython 3.12.14/Windows: dense integer"
+    },
+    {
+      "number": 2570,
+      "title": "DONE: exact S4 two-premium pair tariffs on two dirty registers",
+      "kind": "discussion-comment",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2570#discussioncomment-18952229",
+      "updated_at": "2026-10-15T15:46:47Z",
+      "matched_terms": [
+        "complete proof"
+      ],
+      "score": 1,
+      "excerpt": "ar, two `(14)` targets cost `6 beta+4 alpha`; two reversals cost `6 beta+6 alpha`.\r\n\r\n[Download the complete proof, checkers, pinned predecessors and patch](https://github.com/user-attachments/files/33501888/s4-symmetric-price-cone-412fc4e6.zip). Archive SHA256: `30743889059c11bcd9ef6012f1f6012ac09eac7cc896a73453a18126036d8a67`. Preserved commit `412fc4e6e69040b609e2e9fa7336f68004de406f`; 25 source/evidence files plus per-file manifest and patch. Direct replay requires Python 3.12 and C++17, wit"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/ck-all-dyadic-forest-seed23/README.md",
+      "path": "research/ck-all-dyadic-forest-seed23/README.md",
+      "sha256": "719fb29d91dc1018393373d36d7ffa65a96e6f2595cdbeb5fa7d67fdb48bfa22",
+      "matched_terms": [
+        "finite core"
+      ],
+      "score": 1,
+      "excerpt": "cks the **different X4 matrix**, not this CK matrix. The new evidence\nis the complete CK all-dyadic finite core, including a concrete reason the\nstronger root-only domination argument from the power class cannot be reused.\n\n## Exact evidence and reproduction\n\nFrom the repository root, Python 3.10+ and the standard library suffice:\n\n```sh\npython3 -I -O -B research/ck-all-dyadic-forest-seed23/verify.py && python3 -I -O -B research/ck-all-dyadic-forest-seed23/independent.py\n```\n\nExpected output:\n\n`"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/ck-power-forest-bound/README.md",
+      "path": "research/ck-power-forest-bound/README.md",
+      "sha256": "189ea8069462ce6645d0ba7eca91e643361dab2c69dc438f8886428afc31696b",
+      "matched_terms": [
+        "finite core"
+      ],
+      "score": 1,
+      "excerpt": "/ck-power-forest-bound/verify.py\n```\n\nThis command checks source bindings, regenerates the complete finite core,\nchecks the retained tree against every signed edge, replays its arbitrary-input\npanel, runs controls, compares the entire committed receipt and invokes the\nseparate dense integer/literal-Horner/Prim checker.\n\nExpected final line:\n\n```text\nPASS_CK_POWER_FOREST_BOUND: 174048 finite cases; all integer exponents; forest floor 16364; original witness retained; no new kappa\n```\n\nThe all-int"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/community-efficient1700-audit/README.md",
+      "path": "research/community-efficient1700-audit/README.md",
+      "sha256": "03abf1170cab31bb7b72747f544c53874c1e9bd290cc9c3474e6ee252509b784",
+      "matched_terms": [
+        "complete proof"
+      ],
+      "score": 1,
+      "excerpt": "mpleted-residual payload bound3v+3R including borrowed source, with retained-role corollary664v+3R. Complete proof, allocation hooks, ownership and origin checks reviewed;22 exports independently match original PR2697 Git blobs. All17 fixtures/231 primitive events, good/fallback returns, sharp8748 peak and rejecting controls pass normal and optimized Python. Historical selected metadata moved to provenance with full mathematical receipt unchanged. Excludes markers, numeric/control tapes, failure"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/complex-x4-dyadic-forest-seed31/README.md",
+      "path": "research/complex-x4-dyadic-forest-seed31/README.md",
+      "sha256": "1aaa610138ce812bd6c35b9fd29391b862490aec5dc83fd9755fd3741a22e382",
+      "matched_terms": [
+        "finite core"
+      ],
+      "score": 1,
+      "excerpt": "this local exclusion and is not discounted.\n\nThe [proof](PROOF.md) reduces every dyadic outside the finite core to a\nstrictly more expensive alternative that leaves the child as a root. The core\nis all nonzero multiples of 1/8 with absolute value below 68. For this matrix:\n\n| Check | Exact result |\n|---|---:|\n| Target rows / active helper columns | 112 / 216 |\n| Core coefficients / ordered target pairs | 1,086 / 12,432 |\n| Complete coefficient-pair comparisons | 13,501,152 |\n| Nonunit comparison"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/cyclic-schur-lean/README.md",
+      "path": "research/cyclic-schur-lean/README.md",
+      "sha256": "f3c47b3da90a8aadb1c271706eff090f876542b65b974d17ab24a4c9388992fc",
+      "matched_terms": [
+        "complete proof"
+      ],
+      "score": 1,
+      "excerpt": ". It ends with:\n\n```text\nPASS_CYCLIC_SCHUR: 102 theorems; standard axioms only\nPASS_AUDIT_GUARDS: incomplete proof and package axiom rejected\n```\n\nThe count includes compiler-generated helper theorems. The mathematical\nresult is the parametric proof above, not that count. `AXIOMS.txt` records\nthe checked dependency report. All dependencies are drawn from `propext`,\n`Quot.sound`, and `Classical.choice`. The central scalar Schur theorem\nuses only `propext` and `Quot.sound`. No theorem uses `sorryA"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/graded-path-obstruction/README.md",
+      "path": "research/graded-path-obstruction/README.md",
+      "sha256": "4c3a8ff6a27edde28ae5ccb19398d49c21a9add8036dd41c2233f4148e27e92b",
+      "matched_terms": [
+        "complete proof"
+      ],
+      "score": 1,
+      "excerpt": "s and\narbitrary invertible complex coefficients, subject to that explicit path\nhypothesis. See [the complete proof](PROOF.md).\n\nThis closes eight previously unresolved four-block Clifford words and 23\nadditional evolved words at m=3, W=3, s=8. It also recovers the 33 exclusions\nin [PR #680](https://github.com/CrocSwap/integer-mult-bounds/pull/680) by a\ndifferent argument. Nine supplied words fail the new hypothesis and are\nkept as unknown, not reported as solutions or impossibility results.\n\n## "
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/packed-clifford-gate-tables/README.md",
+      "path": "research/packed-clifford-gate-tables/README.md",
+      "sha256": "ea042e30277e85b00750a3f5a26fb85965486958330566ac2981edf447881da8",
+      "matched_terms": [
+        "source transform"
+      ],
+      "score": 1,
+      "excerpt": "guard still execute, and no producer lowering/evaluator or\nproducer acceptance result is used.\n\nThe source transformation has exactly three uniquely checked anchors:\n\n1. Replace P's scalar table comprehension with a call using the gate's row\n   tuple and dimension.\n2. Compute D's phase table once before its 512-element loop.\n3. Read D's phase from that table; PH retains its original expression.\n\nThe changed kernel SHA-256 is\n`68f1f2305772c4be946351d4a20a90845d9a61b7c01f86531383113441f7aa67`.\nAll"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/refit-physical-dispatch/README.md",
+      "path": "research/refit-physical-dispatch/README.md",
+      "sha256": "83260a32a8ea9ca047d77e28a45187acaeadba1547435f8cce4436f975c632a4",
+      "matched_terms": [
+        "source transform"
+      ],
+      "score": 1,
+      "excerpt": "the earlier full admission, and is unchanged here.\n\n## Open next questions\n\n1. **Uniform fine-prime source transform and recovery.** Contract T in the\n   preceding [CRT note](../refit-proof-closure/CRT.md) remains open. Prove its\n   actual Gaussian, halo, boundary and source-transform costs/errors, then join\n   the logarithmic CRT inverse before final rounding. This is needed for the\n   full multiplication theorem; the dispatcher proof does not establish it.\n2. **Independent review and machine f"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/refit-proof-closure/README.md",
+      "path": "research/refit-proof-closure/README.md",
+      "sha256": "045eaaae4fd9a57ebdf64633d1cc4acb695a9555ea8d9ca69f141c713b96ceeb",
+      "matched_terms": [
+        "source transform"
+      ],
+      "score": 1,
+      "excerpt": "ence remains an\n   implication whose node-cost premise must be established.\n2. **Uniform fine-prime source transform.** Prove contract T in CRT.md from\n   the actual fine-prime, gauge-free and union-schedule routines, uniformly on\n   d/2 target axes with complete spectator rows and O(p) working precision.\n   Extract the source-transform call graph before introducing the outer CRT,\n   then charge every Gaussian, halo, diagonal and synthetic-transform pass.\n   This is needed both by the original o"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/selected-validation-numerical-lifetime/README.md",
+      "path": "research/selected-validation-numerical-lifetime/README.md",
+      "sha256": "acdf9eea56ee7f7bbe1ffdc706ed5bf6725e44eaebe6de2a2d84d840d9e945ab",
+      "matched_terms": [
+        "complete proof"
+      ],
+      "score": 1,
+      "excerpt": "er reserve, physical-storage theorem, supplier admission or new kappa.\n\n## Contract and proof\n\nThe [complete proof](INDEPENDENT.md) derives the primitive, directory,\ninitialization and validation lifetimes directly from the immutable source.\nThe residue/index arenas must be distinct, their incoming Words complete and\nheads restored. Include modulus, Ring one, Context cap, parent size/depth,\nunrelated matrices and suspended caller state in the entry baseline.\nAssume selected dimension 64, current"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/tintagel-source-lookup/README.md",
+      "path": "research/tintagel-source-lookup/README.md",
+      "sha256": "f79b0d5c96137897090dd651e92722a5379f548777251e5f40e2074931cc8a5e",
+      "matched_terms": [
+        "complete proof"
+      ],
+      "score": 1,
+      "excerpt": "on argument and certificate below were developed in an\nunpublished local Tintagel audit packet. The complete proof and checker\nneeded for this scoped claim are reproduced here. This contribution\ndoes not assert a new multiplication exponent or a physical provider.\n\n## Statement\n\nLet \\(h\\geq3\\) (\\(h\\geq5\\) if \\(T\\) is present), let\n\\(S\\subseteq\\{0,\\ldots,h-1\\}\\) have size three, and optionally let\n\\(T\\) also have size three with \\(|S\\cap T|=1\\). Set\n\\(G=I-J/9\\) and \\(u_L=1_L\\) for each chosen tri"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/dirty-host-cutrank-audit/TASK.json",
+      "path": "research/dirty-host-cutrank-audit/TASK.json",
+      "sha256": "cf03e52e688951c8fdcc37ccfc0aa4ae9dfc1632a9ee6c44f78d0b23b129ca5f",
+      "matched_terms": [
+        "complete proof"
+      ],
+      "score": 1,
+      "excerpt": "No human or proof-assistant verification is claimed. A separate GPT-6 Pro conversation reviewed the complete proof/checker and supplied the boundary qualification and independent fixed-trace checker.\",\n  \"open_questions\": [\n    {\n      \"question\": \"How is each claimed hosting credit bound to declared host endpoints and logical gauges?\",\n      \"why_it_matters\": \"The conditional endpoint term does not automatically equal an implementation invoice credit.\",\n      \"first_step\": \"Supply an exact exte"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/finite-dihedral-cut-bound/TASK.json",
+      "path": "research/finite-dihedral-cut-bound/TASK.json",
+      "sha256": "d1c4e75edced29c1433274ca11215d2e2d3c6b0ca5512708236a122b6eaaa2fa",
+      "matched_terms": [
+        "complete proof"
+      ],
+      "score": 1,
+      "excerpt": "e n=2,6,10 parity boundaries and every target for even n through 32; stop this fixed question after complete proof and bounded controls, without expanding a failed search.\",\n  \"outcome\": \"completed\",\n  \"evidence\": \"Written torsion-aware cut-rank theorem with simultaneous full-formal attaining words. Exact research run: 47,872 representation products, 1,088 target cut ranks, 155 rank-one projectors, 1,027 forward/inverse dirty fixtures, 134,864 faithful regular basis columns, 9,420 complete short"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/finite-parking-frames/TASK.json",
+      "path": "research/finite-parking-frames/TASK.json",
+      "sha256": "1b41376a6fe3d9301637231348e43b5e628ace96c9eab1530c75eb9b2c307924",
+      "matched_terms": [
+        "complete proof"
+      ],
+      "score": 1,
+      "excerpt": "ered primary and both Git-free/integrity test groups PASS.\",\n    \"peer\": \"Separate Codex agent read complete proof, controller, verifier and dense interpreter and independently ran optimized CPython3.12.14: packets2047/table490/controls9 PASS, no blocking finding. No human review claimed.\"\n  }\n}\n"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/p104-owned-collector-dual/TASK.json",
+      "path": "research/p104-owned-collector-dual/TASK.json",
+      "sha256": "81d4ebf4b826195d0d3a68c1d412cfe9ea2002fa3d533dca62341ece1383add3",
+      "matched_terms": [
+        "complete proof"
+      ],
+      "score": 1,
+      "excerpt": "or research selection, construction, proof, code and tests. Separate round4_complex AI reviewed the complete proof/build/verifier/native conventions and independently replayed the result; no human review or hosted CI claimed.\",\n  \"open_questions\": [\n    {\n      \"question\": \"Can collector initialization, gather, owner accumulation and zero-return be lowered with a complete physical bill?\",\n      \"why_it_matters\": \"Exact logical zero restoration does not yet implement physical tape allocation and "
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "task_id": "uniform-transfer-audit",
+  "priority_revision": 5,
+  "base_commit": "b0d75b815208e63849b370f57630d75d0359eb3a",
+  "original_card": {
+    "id": "uniform-transfer-audit",
+    "question": "Can one exact all-size/compiler, precision, hosting or restoration implication be proved or falsified?",
+    "starting_points": [
+      "certificates/selected-result.json",
+      "docs/audit.md"
+    ],
+    "methods": [
+      "Prove one missing implication with explicit quantified hypotheses.",
+      "Find an exact counterexample at the claimed interface boundary."
+    ],
+    "acceptance_gate": "Identify the proposition and what would change downstream; do not equate a finite replay with a universal proof.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Read the selected review scope and choose one exact all-size or precision implication.",
+      "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+    },
+    "first_experiment": "Write its quantified inputs and conclusion; find a missing hypothesis or construct a minimal exact adversarial instance.",
+    "bottleneck_link": "Finite supplier improvements are useful only under the retained transfer obligations.",
+    "allowed_variations": [
+      "Choose one tape, precision, hosting or restoration lemma."
+    ],
+    "scope_change_triggers": [
+      "Replacing a quantified obligation with another finite smoke test."
+    ],
+    "overlap_terms": [
+      "uniform transfer",
+      "all-size",
+      "precision"
+    ]
+  },
+  "scope_status": "changed",
+  "actual_scope": "Complete the written multiplication proof by auditing and substituting the full physical and analytic dependency chain; repair every Gaussian supplier call domain with a proved uniform scaling wrapper.",
+  "scope_change_reason": "Explicit continuing user instruction to finish the whole proof, rather than stop after another local lemma. The full audit found completed-map contraction insufficient for intermediate supplier calls.",
+  "bottleneck_link": "The final multiplication theorem needs each physical call in domain, all error amplification paid and the primitive hypotheses constructively supplied.",
+  "budget_minutes": 60,
+  "stop_rule": "Complete the corrected top-level written proof, test the new interface and bind its exact sources; distinguish this result from whole-machine formalization and independent review.",
+  "outcome": "completed",
+  "evidence": "PROOF.md, exact bounded-call/error counterexamples and RESULT.json; preceding written implementation and analytic lemmas are substituted in dependency order.",
+  "author": "Thomas DiFiore",
+  "ai_assistance": "Substantial OpenAI Codex assistance in mathematics, source audit, code and writing. No subagents or independent reviewers.",
+  "open_questions": [
+    {
+      "question": "Does independent mathematical review validate the complete written theorem and its dependency lemmas?",
+      "why_it_matters": "The manuscript asserts the all-size multiplication result; local kernels and finite tests do not establish the whole statement.",
+      "first_step": "Read PROOF.md sections 2 and 3 against the pinned lower-level construction and then audit CORE/PRECISION and final CRT recovery.",
+      "blocked_by": "No independent reviewer has participated; this is a validation step, not an additional assumed algorithmic interface."
+    },
+    {
+      "question": "Can the whole construction be formalized with tape semantics and analytic norm bounds?",
+      "why_it_matters": "Existing Lean files cover local guard, recurrence and recovery implications, not the complete machine.",
+      "first_step": "Define the primitive tape semantics and formalize the bounded-call induction, then compose it with the analytic circuit lemmas.",
+      "blocked_by": "Those complete formal developments are not part of the current written proof."
+    }
+  ],
+  "publication": "Previously authorized fork-branch push only; no PR, Discussion, email or other external message.",
+  "overlap": {
+    "searched_at": "2026-10-16T16:53:36.707542+00:00",
+    "coverage": {
+      "open_prs": {
+        "fetched_at": "2026-10-16T16:53:02.391981+00:00",
+        "complete_pagination": true,
+        "records": 244
+      },
+      "discussions": {
+        "fetched_at": "2026-10-16T16:53:36.575011+00:00",
+        "complete_pagination": true,
+        "records": 1707
+      }
+    },
+    "warnings": [],
+    "matches_total": 26,
+    "review": "Read the retained shallow Toeplitz/tensor compiler and current source06 signed-permutation rounding argument. The earlier rounding-equivariance audit is consistent: no general unitary truncation commutation is used. No novelty claim for the general rescaling principle."
+  },
+  "upstream_checkpoint": {
+    "latest_main": "836b19bfa309ceafbc8ee32a15e8c4b10dde7e11",
+    "priority_revision": 6,
+    "decision": "Continue explicit assigned proof task. Revision 6 priorities and unrelated pending constructions do not change the pinned primitive or outer inputs. Preserve predecessor packages and selected frontier.",
+    "common_inputs_checked": 38,
+    "changed_common_inputs": []
+  },
+  "completed_at": "2026-10-16T17:18:02.331817+00:00",
+  "validation": "Registered new normal and optimized suites passed: 288 executions, 576 bounded calls, 180 matrix intervals, six rejecting controls and 195 pins. Predecessor assembly normal and optimized suites passed. No fresh Lean or native admission; written theorem is not independently reviewed."
+}
