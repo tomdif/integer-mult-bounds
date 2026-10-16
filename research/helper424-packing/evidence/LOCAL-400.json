@@ -1,0 +1,202 @@
+{
+  "native": {},
+  "native_replayed": false,
+  "providers": {
+    "base": {
+      "audit": {
+        "R": 480,
+        "base": null,
+        "checked_columns": 632,
+        "compressed_sha256": "637182fbb1b2242ab19ebcaee2af05b9242d7034ac399afd92c4b2e76ae8a25e",
+        "content_sha256": "b22292026e8520738de2a2b09caa592245309448799b85c8970aade0d3e3a639",
+        "corrections": 36,
+        "elapsed_seconds": 0.491881541965995,
+        "entering": 134,
+        "h": 9,
+        "independent_inputs": 632,
+        "input_file": "WORD-base.json.gz",
+        "local_mass": 5177,
+        "local_profile": {
+          "1": 2411,
+          "2": 637,
+          "3": 262,
+          "4": 128,
+          "5": 26,
+          "8": 8
+        },
+        "orientations": {
+          "dual": "PASS",
+          "forward": "PASS"
+        },
+        "removed_helpers": 72,
+        "restored_cold": 75,
+        "scope": "Exact free-operator-algebra replay (every remaining input is an independent column): K_G warps with G invertible, G(from)=to, symplectic form fixing L_0/L_FULL and sending L_from to L_to (rank 0), literal frame chain with warps, relaxed fixed initial compensation, derived inverse-reverse cleanup at FULL with inverse warps and private zero buffers. No Clifford phase/Gaussian product, no owner admission, no repricing.",
+        "status": "PASS_INDEPENDENT_EXACT_BORROWING_WORD",
+        "v": 112,
+        "warps": 72,
+        "width_inventory": {
+          "4": 26,
+          "5": 2,
+          "7": 62,
+          "8": 89,
+          "9": 229
+        },
+        "zero_buffers": 75
+      },
+      "parent_sha256": "b7e310888e87a478a4f94350d9c059fd52836fdd6ba98c51daa02687d122e8a0",
+      "structure": {
+        "alpha": {
+          "400": "1",
+          "412": "-2",
+          "414": "2"
+        },
+        "helper": 400,
+        "identities": [
+          "S e_h = v",
+          "u S = e_h^T",
+          "M v = y",
+          "alpha M = u",
+          "alpha y = 1",
+          "T y = e_h",
+          "e_h^T T = alpha"
+        ],
+        "scope": "Exact free-operator identities before target writes; full target correctness checked separately.",
+        "status": "PASS_EXACT_TWO_SIDED_SUBSPACE_CERTIFICATE",
+        "u": {
+          "401": "1",
+          "406": "-1",
+          "407": "1",
+          "410": "1",
+          "411": "-1",
+          "412": "-1",
+          "413": "1",
+          "414": "2",
+          "415": "-2"
+        },
+        "v": {
+          "242": "1/4",
+          "246": "-1/4",
+          "247": "-1/4",
+          "249": "-1/4",
+          "250": "-1/4",
+          "252": "1/4",
+          "255": "1/4",
+          "402": "-1/4",
+          "403": "-1/4",
+          "406": "1/4",
+          "407": "1/4",
+          "409": "1/4",
+          "410": "1/4",
+          "412": "-1/4",
+          "415": "-1/4"
+        },
+        "y": {
+          "400": "1"
+        }
+      },
+      "word_sha256": "637182fbb1b2242ab19ebcaee2af05b9242d7034ac399afd92c4b2e76ae8a25e"
+    },
+    "extra": {
+      "audit": {
+        "R": 480,
+        "base": null,
+        "checked_columns": 632,
+        "compressed_sha256": "91de864edf2459babded0df8073865dbd50e7c65579f6383326515735bfc1d12",
+        "content_sha256": "f4049e3576341b3998ad00e1343801f7e9238e7ff995989c4e5a3807c9313356",
+        "corrections": 36,
+        "elapsed_seconds": 0.4949603750137612,
+        "entering": 134,
+        "h": 9,
+        "independent_inputs": 632,
+        "input_file": "WORD-extra.json.gz",
+        "local_mass": 5177,
+        "local_profile": {
+          "1": 2411,
+          "2": 637,
+          "3": 262,
+          "4": 128,
+          "5": 26,
+          "8": 8
+        },
+        "orientations": {
+          "dual": "PASS",
+          "forward": "PASS"
+        },
+        "removed_helpers": 72,
+        "restored_cold": 75,
+        "scope": "Exact free-operator-algebra replay (every remaining input is an independent column): K_G warps with G invertible, G(from)=to, symplectic form fixing L_0/L_FULL and sending L_from to L_to (rank 0), literal frame chain with warps, relaxed fixed initial compensation, derived inverse-reverse cleanup at FULL with inverse warps and private zero buffers. No Clifford phase/Gaussian product, no owner admission, no repricing.",
+        "status": "PASS_INDEPENDENT_EXACT_BORROWING_WORD",
+        "v": 112,
+        "warps": 72,
+        "width_inventory": {
+          "4": 26,
+          "5": 2,
+          "7": 62,
+          "8": 89,
+          "9": 229
+        },
+        "zero_buffers": 75
+      },
+      "parent_sha256": "dc4e09d113d88e0d987edd8dc34190921432a56a4748787706dfc65f2c39c0a3",
+      "structure": {
+        "alpha": {
+          "400": "1",
+          "412": "-2",
+          "414": "2"
+        },
+        "helper": 400,
+        "identities": [
+          "S e_h = v",
+          "u S = e_h^T",
+          "M v = y",
+          "alpha M = u",
+          "alpha y = 1",
+          "T y = e_h",
+          "e_h^T T = alpha"
+        ],
+        "scope": "Exact free-operator identities before target writes; full target correctness checked separately.",
+        "status": "PASS_EXACT_TWO_SIDED_SUBSPACE_CERTIFICATE",
+        "u": {
+          "401": "1",
+          "406": "-1",
+          "407": "1",
+          "410": "1",
+          "411": "-1",
+          "412": "-1",
+          "413": "1",
+          "414": "2",
+          "415": "-2"
+        },
+        "v": {
+          "242": "1/4",
+          "246": "-1/4",
+          "247": "-1/4",
+          "249": "-1/4",
+          "250": "-1/4",
+          "252": "1/4",
+          "255": "1/4",
+          "402": "-1/4",
+          "403": "-1/4",
+          "406": "1/4",
+          "407": "1/4",
+          "409": "1/4",
+          "410": "1/4",
+          "412": "-1/4",
+          "415": "-1/4"
+        },
+        "y": {
+          "400": "1"
+        }
+      },
+      "word_sha256": "91de864edf2459babded0df8073865dbd50e7c65579f6383326515735bfc1d12"
+    }
+  },
+  "scope": "Exact local construction only; no owner allocation or higher kappa admitted. Extra private buffer is mandatory.",
+  "semantic_controls": {
+    "omit_new_private_buffer": "explicit cleanup differs from derived inverse-reverse at FULL",
+    "stale_compensation": "pre-wrapper touch of residual helper",
+    "wrong_input_scale": "restored cold row is not its own input 400",
+    "wrong_output_cancellation": "restored cold row is not its own input 400"
+  },
+  "status": "PASS_TWO_SIDED_HELPER400_LOCAL_CONSTRUCTION"
+}

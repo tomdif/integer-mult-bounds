@@ -1,0 +1,60 @@
+--- round1/channel_blocknorm.py
++++ four-channel/channel_blocknorm.py
+@@ -83,7 +83,7 @@
+                        for (i,word),x in rows[r].items()}
+         elif tag == 'center':
+             require(('C',event[1]) in rows, 'centre child before first clear')
+-    require(not live_z and allocated == freed and len(allocated)==74, 'all74 private zero buffers released')
++    require(not live_z and allocated == freed and len(allocated)==76, 'all76 private zero buffers released')
+     require(set(cleared_c)==set(range(8)) and all(cleared_c[k]==2 for k in range(8)), 'each centre first and terminal clear')
+     require(all(not row for r,row in rows.items() if r[0] in ('C','Z')), 'private work nonzero at boundary')
+     for i in range(n):
+@@ -92,7 +92,7 @@
+         if not back and v<=i<2*v: want[(i-v,())]=Q(1)
+         require(rows['L',i] == want, 'all-column endpoint mismatch row '+str(i))
+     return {'all_arbitrary_columns':n,'helper_to_data_response_zero':True,
+-            'centres_first_clear_and_terminal_zero':8,'zero_buffers_allocated_and_cleared':74,
++            'centres_first_clear_and_terminal_zero':8,'zero_buffers_allocated_and_cleared':76,
+             'coefficient_work_contract':'unchanged audited clear-before-and-after Horner macro'}
+ 
+ 
+@@ -112,7 +112,7 @@
+         endpoint[pid]={}
+         for direction in ('forward','backward'):
+             r=replay['local'][direction]; c=checks[direction]
+-            require(r['all_exact_columns']==632 and r['private_work_erased'] and r['zero_buffers_returned_to_zero']==74, 'native all-column/private endpoint')
++            require(r['all_exact_columns']==632 and r['private_work_erased'] and r['zero_buffers_returned_to_zero']==76, 'native all-column/private endpoint')
+             require(c['private_centers_cleared'] and c['private_coefficient_stream_cleared_after_each_macro'], 'native private macro contract')
+             localbits=max(localbits,r['prefix_bits_upper'])
+             endpoint[pid][direction]=replay_endpoint(programs[direction],112,408,direction=='backward')
+@@ -143,10 +143,10 @@
+     require(isinstance(live,int) and live>0 and live%896==0, 'live896T')
+     T=live//896
+     stock_bits, stock_l2_bits=full_stock_l2(physical)
+-    require(physical==live+8+408+74+2 and physical <= 2**20, 'physical stock bound')
++    require(physical==live+8+408+76+2 and physical <= 2**20, 'physical stock bound')
+     ns=d['private_namespace']
+     require(ns=={'centers':[live,live+8], 'reserved_tableau':[live+8,live+416],
+-                 'zero_buffers':[live+416,live+490], 'coefficient':[live+490,live+492]}, 'private namespaces')
++                 'zero_buffers':[live+416,live+492], 'coefficient':[live+492,live+494]}, 'private namespaces')
+     registry=d['local_providers']; require(set(local_dirs)==set(registry), 'complete provider directory map')
+     endpoint, localbits = certify_providers(registry, local_dirs)
+     require(localbits<=128, 'local prefix128 reserve')
+@@ -201,7 +201,7 @@
+     zb=d['private_zero_buffer_lowering']; require(zb['allocation']==zb['release']=='clear' and zb['families']==ns['zero_buffers'], 'physical zero buffer clear ABI')
+     require(set(zb['provider_maps'])==set(registry), 'complete private Z provider mapping')
+     for pid,mp in zb['provider_maps'].items():
+-        require(pid in registry and len(mp)==74 and set(mp.values())==set(range(*ns['zero_buffers'])), '74distinct private Z slots')
++        require(pid in registry and len(mp)==76 and set(mp.values())==set(range(*ns['zero_buffers'])), '76distinct private Z slots')
+     return {'status':'PASS_TENSOR_BLOCK_NORM_CERTIFICATE','replicas':T,
+             'physical_families':physical,'live_families':live,'block_width_families':896,
+             'active_calls_per_block':9,'bridges_per_block':9,'boundary_depth_bits':18,'max_active_depth':18,
+@@ -221,7 +221,7 @@
+     bridges. check_roles must still validate all literal windows and charts.
+     """
+     c=context; order=c['order']; require(len(order)%9==0 and order, 'context9T calls')
+-    T=len(order)//9; live=896*T; physical=live+492
++    T=len(order)//9; live=896*T; physical=live+494
+     stock_bits, stock_l2_bits=full_stock_l2(physical)
+     require(physical<=2**20, 'context physical stock bound')
+     require(len(set(map(tuple,order)))==9*T and set(map(tuple,order))=={(s,r) for r in range(T) for s in range(9)}, 'context full stage inventory')

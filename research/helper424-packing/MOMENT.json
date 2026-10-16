@@ -1,0 +1,51 @@
+{
+  "calls": 666,
+  "complex_lower": "43044470281866281533/25000000000000000000000",
+  "complex_upper": "1721778811274651261321/1000000000000000000000000",
+  "controls": [
+    "missing role",
+    "omitted paid child"
+  ],
+  "gain_over_round1": "220736046764028453/200000000000000000000000",
+  "idle": {
+    "1": 16968,
+    "3": 5967,
+    "5": 8222,
+    "6": 1,
+    "15": 1,
+    "16": 2,
+    "24": 2,
+    "32": 138,
+    "48": 26850
+  },
+  "inputs_sha256": {
+    "research/helper424-packing/allocation/DISPATCH.json": "a2ade66687d1ad6b788a79dd8bb31a128bda9d02b4583e82d347e8892e9a148d",
+    "research/helper424-packing/allocation/FILL.json.gz": "6433795ed73779124e5e0c5bf64d0dea5101b993ca80171ea6186c6fbfedaafe",
+    "research/helper424-packing/allocation/ORDER.json": "1dcbeb826512d864ba5b4bc740d6125980d4b2edec834206c07348485d159e96",
+    "research/helper424-packing/data/WORD-base.json.gz": "378d6894eb3cc8b979d7c98238d869c07556d3dfbe26fa4972382d27c9c8b888",
+    "research/helper424-packing/data/WORD-extra.json.gz": "a234fea66e185b3a6cf74dca6b8a8986b19e5bb693ab4fdfeac74d9716785169"
+  },
+  "kappa": "17217788112746512613199999999999999999999998999999999999999999999999/10000000000000000000000000000000000000000000000000000000000000000000000",
+  "live": 66304,
+  "physical": 66798,
+  "private_buffers": 76,
+  "profile": {
+    "1": 1620696,
+    "2": 424908,
+    "3": 180459,
+    "4": 85248,
+    "5": 25538,
+    "6": 1,
+    "8": 5328,
+    "15": 1,
+    "16": 2,
+    "24": 2,
+    "32": 138,
+    "48": 26850
+  },
+  "rank_mass": 4816512,
+  "replicas": 74,
+  "roles": 271728,
+  "scope": "Complete finite words, literal owners and rational complex moment. Full native/supplier/outer admission remains separate.",
+  "status": "PASS_EXACT_FOUR_CHANNEL_OWNERS_AND_MOMENT"
+}

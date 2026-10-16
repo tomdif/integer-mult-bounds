@@ -1,0 +1,113 @@
+[
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/integrate424/admission2/package/reconstruct.py",
+      "--out",
+      "/Users/thomasdifiore/beat2745-work/integrate424/admission2/owners"
+    ],
+    "exit_code": 0,
+    "log_sha256": "3dde1a0a67b7cf3ef4f2835cff1bfac1c5a908d62bc5e1c2bedfeb08a14bdfa8",
+    "name": "owners",
+    "script_sha256": "5472811c24aef3852dc7e189dff5060076a6c0b25bfde928da50dcfe9b5bdc15",
+    "seconds": 3.5976259589660913
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/integrate424/admission2/package/lift_parent.py",
+      "--package",
+      "/Users/thomasdifiore/beat2745-work/integrate424/admission2/package",
+      "--owners",
+      "/Users/thomasdifiore/beat2745-work/integrate424/admission2/owners",
+      "--out",
+      "/Users/thomasdifiore/beat2745-work/integrate424/admission2/parent-data"
+    ],
+    "exit_code": 0,
+    "log_sha256": "7b6249a123ca39fae7b7a6339dd9e8ae8777b081f4336418f2cc101704b70644",
+    "name": "parent-lift",
+    "script_sha256": "9a1edd7d4ab4a2f2ac8d15b42b7e40f93653d65026bac59e4c1ce80b486bd60e",
+    "seconds": 8.70402445801301
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/integrate424/admission2/package/new/rebind.py",
+      "/Users/thomasdifiore/beat2745-work/integrate424/admission2/package",
+      "/Users/thomasdifiore/beat2745-work/integrate424/native/native-cache/b7e310888e87a478a4f94350d9c059fd52836fdd6ba98c51daa02687d122e8a0/local",
+      "/Users/thomasdifiore/beat2745-work/integrate424/native/native-cache/dc4e09d113d88e0d987edd8dc34190921432a56a4748787706dfc65f2c39c0a3/local",
+      "/Users/thomasdifiore/beat2745-work/integrate424/admission2/rebound"
+    ],
+    "exit_code": 0,
+    "log_sha256": "43be30be0f2fe71d49461a0da7dec6cad56bade640181f4d536e70a39d806707",
+    "name": "rebind",
+    "script_sha256": "52f8b4cec2dab69cbe590e1fd0f7a68e1b35de5a540bd22fd2adfce07a92b46b",
+    "seconds": 0.6452834579977207
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/integrate424/admission2/layout/packing74/replay.py",
+      "--data",
+      "/Users/thomasdifiore/beat2745-work/integrate424/admission2/layout/packing74/candidate",
+      "--work",
+      "/Users/thomasdifiore/beat2745-work/integrate424/admission2/discovery",
+      "--local",
+      "/Users/thomasdifiore/beat2745-work/integrate424/native/native-cache/b7e310888e87a478a4f94350d9c059fd52836fdd6ba98c51daa02687d122e8a0/local",
+      "--discover"
+    ],
+    "exit_code": 0,
+    "log_sha256": "68ddc458235bc02b672a9cd171d454e359053dc5d2e712661983188585554059",
+    "name": "discovery",
+    "script_sha256": "cda0f3a63c5c92c0ff45f7f3a200567d7931fd421836e72ea3b8534f6ee24dcc",
+    "seconds": 89.29346408403944
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/integrate424/admission2/package/outer/check_ledger.py"
+    ],
+    "exit_code": 0,
+    "log_sha256": "951cfbd4ae25034e2c126ef9a973c53d1348f1e3d1552cc0996e7483de3f82d9",
+    "name": "outer-check_ledger.py",
+    "script_sha256": "1dd56009986eb14dd6603c9193c7ad71dd45c7d005bf71c9cd3f916e66f54d98",
+    "seconds": 0.060753208003006876
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/integrate424/admission2/package/outer/independent_check.py"
+    ],
+    "exit_code": 0,
+    "log_sha256": "1724af2d869f3106a280b06b5e6df027b6c6e6eb7c1e4d3c5848d3567bb699b6",
+    "name": "outer-independent_check.py",
+    "script_sha256": "a5a0361539ec7cae9eb6c0371f857919335a1720040f22af291aa3e34fc864c7",
+    "seconds": 0.026997209002729505
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/integrate424/admission2/package/verify_release.py",
+      "--main",
+      "/Users/thomasdifiore/beat2745-work",
+      "--work",
+      "/Users/thomasdifiore/beat2745-work/integrate424/admission2/release",
+      "--native-cache",
+      "/Users/thomasdifiore/beat2745-work/integrate424/native/native-cache",
+      "--jobs",
+      "1"
+    ],
+    "exit_code": 0,
+    "log_sha256": "0d3c3525ce0a92451a56e41e62edfb7a99d8c62623335c55582966526566313a",
+    "name": "release",
+    "script_sha256": "6cfefe80c02a6c0f243f50ca9e146e1ab1440b84a033d8a71d42be5a5fa27f6b",
+    "seconds": 271.7737845000229
+  }
+]

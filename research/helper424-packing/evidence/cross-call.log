@@ -1,0 +1,4 @@
+sweep 0 examined 124732 changes 152 cross-swaps 98 relocations 54 idle {0: 90585, 1: 17167, 3: 6156, 5: 8363, 6: 2, 7: 2, 16: 2, 24: 3, 32: 63, 48: 26841}
+sweep 1 examined 124556 changes 1 cross-swaps 98 relocations 55 idle {0: 90585, 1: 17167, 3: 6156, 5: 8363, 6: 2, 7: 2, 16: 3, 24: 1, 32: 64, 48: 26841}
+sweep 2 examined 124556 changes 0 cross-swaps 98 relocations 55 idle {0: 90585, 1: 17167, 3: 6156, 5: 8363, 6: 2, 7: 2, 16: 3, 24: 1, 32: 64, 48: 26841}
+{"calls": 666, "floating_root_proposal": 0.0017207575428954123, "idle": {"1": 17167, "3": 6156, "5": 8363, "6": 2, "7": 2, "16": 3, "24": 1, "32": 64, "48": 26841}, "live": 66304, "physical": 66796, "private_buffers": 74, "profile": {"1": 1622227, "2": 424908, "3": 180648, "4": 85248, "5": 25679, "6": 2, "7": 2, "8": 5328, "16": 3, "24": 1, "32": 64, "48": 26841}, "rank_mass": 4816512, "relocations": 55, "replicas": 74, "roles": 271728, "swaps": 98}

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "fine-engine-oracle",
+    "exit_code": 0,
+    "seconds": 1.0937915839604102,
+    "log_sha256": "ea6df7be568d6461ac54e0d56754797de0f70f2f1ecc335114791445b75795d3"
+  },
+  {
+    "name": "retained-provider-and-parent-admission",
+    "reused_receipt": "e0eefc96567fbb45e19e6de0ca295381dbe0e686c08ddc783639b065c7c791d4",
+    "exit_code": 0,
+    "seconds": 0.2714933750103228
+  },
+  {
+    "name": "rebuild-words-566",
+    "exit_code": 0,
+    "seconds": 1.8223698330111802,
+    "log_sha256": "dcbcbeda80423df29ef008bfac58409378f1fd0a3b9b23fc31ab9f03659dd86f"
+  },
+  {
+    "name": "reconstruct-owners",
+    "exit_code": 0,
+    "seconds": 3.2621495409985073,
+    "log_sha256": "3dde1a0a67b7cf3ef4f2835cff1bfac1c5a908d62bc5e1c2bedfeb08a14bdfa8"
+  },
+  {
+    "name": "lift-parent",
+    "exit_code": 0,
+    "seconds": 8.234793165989686,
+    "log_sha256": "7b6249a123ca39fae7b7a6339dd9e8ae8777b081f4336418f2cc101704b70644"
+  },
+  {
+    "name": "rebuild-borrow-words",
+    "exit_code": 0,
+    "seconds": 133.85900587501237,
+    "log_sha256": "3bdcc5c273d4fd70ea8a0654dcdef96b0a3c7a4647d07aad2f4428138738f52b"
+  },
+  {
+    "name": "shared-kernel-independent-review",
+    "exit_code": 0,
+    "seconds": 9.014716833014973,
+    "log_sha256": "3dc6eb8940cf8a4b993f80129c98b6c4846ad346ccf773a78af225cff3339cc3"
+  },
+  {
+    "name": "preload-move-independent-review",
+    "exit_code": 0,
+    "seconds": 11.51650566700846,
+    "log_sha256": "c456d3e39c09e960ceebf80251d5e808fa9299991471fd86f4093d9bc4dd3eda"
+  },
+  {
+    "name": "two-sided-helper408-review",
+    "exit_code": 0,
+    "seconds": 3.8604222499998286,
+    "log_sha256": "4d5bbb663120845d12b5fb43dc0656dadcc3b5a6991748dbf682799c6994f07a"
+  },
+  {
+    "name": "two-sided-helper424-review",
+    "exit_code": 0,
+    "seconds": 3.8730525840073824,
+    "log_sha256": "b4896ebd44023b5cdbbffcd1bbaad3abb712424116e0433b97976842bb56a5fb"
+  },
+  {
+    "name": "audit-local-566-base",
+    "exit_code": 0,
+    "seconds": 0.6857830829685554,
+    "log_sha256": "7a3359b11e5ab6683a81c456cd25ee02380082dcab33cc1f68d9d1624b69f8d1"
+  },
+  {
+    "name": "audit-local-566-extra",
+    "exit_code": 0,
+    "seconds": 0.6810943749733269,
+    "log_sha256": "6d6f04fa48df66ed5bd61aaeaf0387571ae5f7078ead322980e0537389f8d453"
+  },
+  {
+    "name": "rebind-566",
+    "exit_code": 0,
+    "seconds": 0.6893604999640957,
+    "log_sha256": "43be30be0f2fe71d49461a0da7dec6cad56bade640181f4d536e70a39d806707"
+  },
+  {
+    "name": "lemmag-labels",
+    "exit_code": 0,
+    "seconds": 16.353151292016264,
+    "log_sha256": "91fafdc76824e278546bb51465cf84d60a3513df3f2e8ab9854919c416cd3469"
+  },
+  {
+    "name": "strict-t74",
+    "exit_code": 0,
+    "seconds": 86.1750574579928,
+    "log_sha256": "226bce1c11be99896154e677a36b85252b681eecdc0382c34b974c82fbe6cc0a"
+  },
+  {
+    "name": "geometry-controls",
+    "exit_code": 0,
+    "seconds": 0.5307232499471866,
+    "log_sha256": "0a3ecf05cfa2bebb61fffd2fbb4b244c03d742069e2705d02512699bbf4b01f9"
+  }
+]

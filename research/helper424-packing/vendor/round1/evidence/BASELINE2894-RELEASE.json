@@ -1,0 +1,7 @@
+{
+  "status": "PASS_RELEASE",
+  "kappa_decimal": "0.0017201845283774695330739999999999999999999998999999999999999999999999",
+  "manifest_sha256": "3cb842b93dd3b0707ceea825bef2afeaa68f8df0d554867761b4752b69077293",
+  "proof": "Package manifest; exact gates against PR2827, PR2833, PR2843, PR2848, PR2853, PR2857, PR2863 and PR2875; tools/ci_verify.py (declared-stage re-application, independent owner/moment/profile checks); materialize_source.py (exact 541-file PR2833 source from Git objects); reproduce.py: derivation of the declared preload-move stage with its independent reviewer and fault controls, fresh native preparation of the two changed words, fresh retained bootstrap, complete replica admission and the modern outer release. Conditional kappa 0.0017201845283774695330739999999999999999999998999999999999999999999999.",
+  "seconds": 665.33
+}

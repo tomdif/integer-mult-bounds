@@ -1,0 +1,15 @@
+--- PR2917/prepare_extension_native.py
++++ terminal-refit/prepare_extension_native.py
+@@ -8,9 +8,9 @@
+ from importlib import metadata
+ import argparse,hashlib,json,gzip,os,platform,shutil,subprocess,sys,time
+ sys.dont_write_bytecode=True
+-SOURCE_SHA='98d57c82a1c7318be3c330c3b66897844d57232f0aaeaea88fb4bebd0a1bedf1'
+-SOURCE_FILES=632
+-SOURCE_COMMIT='paired-helper-extension-pr2908'
++SOURCE_SHA='0c8213c5fd3dc60a0ab3db8963cf1357d46334c93268e33fcf555aeb4cce5f36'
++SOURCE_FILES=645
++SOURCE_COMMIT='paired-terminal-refit-pr2917'
+ PARENT_SHA='e0eefc96567fbb45e19e6de0ca295381dbe0e686c08ddc783639b065c7c791d4'
+ OLD_RECEIPT_SHA='ce6239ff3cee5222b4f8676df123b863902e04dd1e9fb0cd707adcbadc3dae42'
+ def need(ok,why):
