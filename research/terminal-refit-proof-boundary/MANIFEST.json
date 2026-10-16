@@ -1,0 +1,16 @@
+{
+  "KERNEL.json": "db77cb8cf16e5656064921f5876120422ec4f9c4b0cc51b1dd62eb2137513ea0",
+  "README.md": "f434f45ca7de3808a4375ee0401625600b5cb406049f40d31f08bfc3f37f11ce",
+  "SOURCES.json": "75b0580203cc232fe453d3c9a56bca0b82a4bcd91dd32c715d005b44b793524f",
+  "TASK.json": "2aa4b02b1e100f4bc87c5445007e9230ff121fc91bc3f99dd7798e0e76ccc321",
+  "evidence/BIT-H1-H5.log": "50e756fcc91bc03b05d291e0983f12766764153ad2292975fd6b561bdc66d95c",
+  "evidence/BUILD.log": "753bdadca6898ba3e258759a19b3bc51545b823b8dfaa4e9d86feccc429ae44e",
+  "evidence/different_shadow.log": "6c5557103793383277d5c8c7730ca69f677de1f5f50dab34d1c85f556eff8e85",
+  "evidence/self_reading_adds.log": "e407aad2f28d847d7b6c82db2f6b2e141f4615833c5d504da4c89ec2671979e9",
+  "lean/LemmaG/Stream.lean": "7138f4b859d0574a803e99401f05ef5e0ec9eeac0eb480775cd9b86595c365f8",
+  "lean/Refit.lean": "5a658943e436e1c2f0e7d90104c29c8178bee9cfef86676731df44429e8b5cff",
+  "lean/lake-manifest.json": "da952a399afabca52d01a3be304c2fc55e413bced8e2b4eedb45bd32709fade9",
+  "lean/lakefile.toml": "c6fbbe9d5cf792a77fb12ccc39363fafdffcbcd82bcf3d683d77c19f7b8a0abf",
+  "lean/lean-toolchain": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273",
+  "verify.py": "344f7c428f61cca53a1055aaaf71ff20eef551cfb3b76b2235f9320f9faa435b"
+}
