@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "scope": "All package files except this manifest and bytecode; immutable scientific inputs pinned separately.",
+  "files": [
+    {
+      "path": "PROOF.md",
+      "bytes": 19185,
+      "sha256": "0cd62c835c71711d50f7e91f3ba29c40a0d4b6f3f336ec2911a6de358be408da"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4430,
+      "sha256": "83260a32a8ea9ca047d77e28a45187acaeadba1547435f8cce4436f975c632a4"
+    },
+    {
+      "path": "RESULT.json",
+      "bytes": 27906,
+      "sha256": "c0a4c62edc80d1b1dddcf46f0abddcdd2fca41316e024bf9270a3c140776fa2a"
+    },
+    {
+      "path": "SOURCES.json",
+      "bytes": 31641,
+      "sha256": "e305dfc069a3d87e4a3856379dabeb22c02637008ca7f0bd839ca80fb55c8f51"
+    },
+    {
+      "path": "TASK.json",
+      "bytes": 5076,
+      "sha256": "4cc5662f7c947b01788987b81ddf5a5bf0609285aa759b3135ecb03097fc239d"
+    },
+    {
+      "path": "VERIFY.json",
+      "bytes": 8558,
+      "sha256": "53255aa9a119e7283ef54a4ea117d7399e16dffbc88d5e2ea2ab62a6a52a36bf"
+    },
+    {
+      "path": "charts.py",
+      "bytes": 11460,
+      "sha256": "5c08f7ee5dafa65ea1ea3da7d3c2038f3d0223ee4a65636ff00e11a97b23518e"
+    },
+    {
+      "path": "evidence/ENVIRONMENT.json",
+      "bytes": 177,
+      "sha256": "7e59734d3fd9441b72d8177bd3e01c78565a01309799faf66a0a85a7b6536b29"
+    },
+    {
+      "path": "evidence/OVERLAP.json",
+      "bytes": 13779,
+      "sha256": "f86842200005325dd382885fb4aad65da9930c8c1b1a093a3916ab0fb0d2623a"
+    },
+    {
+      "path": "evidence/PACKAGE-REPLAY.txt",
+      "bytes": 56066,
+      "sha256": "cffd49e9c0506478ea3163856983054ff666bb31bd62d14870997d5eab40342b"
+    },
+    {
+      "path": "evidence/UPSTREAM-REFRESH.json",
+      "bytes": 2587,
+      "sha256": "82251ab71947711529d7bc14c68fb8b93c4c01ea375d398f38ce4278a303c294"
+    },
+    {
+      "path": "native.py",
+      "bytes": 9398,
+      "sha256": "97998090d3a4e5235565c4d03b9daa04b08c41c6127f9f881050f263ae10f376"
+    },
+    {
+      "path": "rows.py",
+      "bytes": 5728,
+      "sha256": "2ec064e26620fc9f66376edaf3595f2cc7fe3f4c207b08e94c6d28d1162b56cb"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 7612,
+      "sha256": "82b0be99ef73edfdfb4fcc3444b952d18b09815d4b8fc0fdcb5e40257f655f3c"
+    }
+  ]
+}

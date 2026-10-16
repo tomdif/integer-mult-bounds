@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "task_id": "uniform-transfer-audit",
+  "priority_revision": 5,
+  "base_commit": "9bd6a60e4ae59f217c1dc9ccc836d7dd59f8e0af",
+  "original_card": {
+    "id": "uniform-transfer-audit",
+    "question": "Can one exact all-size/compiler, precision, hosting or restoration implication be proved or falsified?",
+    "starting_points": [
+      "certificates/selected-result.json",
+      "docs/audit.md"
+    ],
+    "methods": [
+      "Prove one missing implication with explicit quantified hypotheses.",
+      "Find an exact counterexample at the claimed interface boundary."
+    ],
+    "acceptance_gate": "Identify the proposition and what would change downstream; do not equate a finite replay with a universal proof.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Read the selected review scope and choose one exact all-size or precision implication.",
+      "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+    },
+    "first_experiment": "Write its quantified inputs and conclusion; find a missing hypothesis or construct a minimal exact adversarial instance.",
+    "bottleneck_link": "Finite supplier improvements are useful only under the retained transfer obligations.",
+    "allowed_variations": [
+      "Choose one tape, precision, hosting or restoration lemma."
+    ],
+    "scope_change_triggers": [
+      "Replacing a quantified obligation with another finite smoke test."
+    ],
+    "overlap_terms": [
+      "uniform transfer",
+      "all-size",
+      "precision"
+    ]
+  },
+  "scope_status": "refined",
+  "actual_scope": "Prove a directly priced fine-prime halo-face routine and narrow/broad spectral estimates, with actual rounding and terminal cyclic-prefix integration hypotheses explicit.",
+  "scope_change_reason": "The continuing proof-completion task reaches the analytic locality/online-cost interface after the dispatcher. A direct face algorithm gives an independently priced alternative.",
+  "bottleneck_link": "The stronger finite supplier remains conditional until uniform physical and analytic transfer is proved.",
+  "budget_minutes": 60,
+  "stop_rule": "Do not claim the Gaussian conditioning premise or complete contract T is proved by the generic inverse lemma.",
+  "outcome": "partial",
+  "evidence": "PROOF.md, NARROW.md, BROAD.md, and exact residual, Schur, finite LDU, locality, adverse-family and ledger checks.",
+  "author": "Thomas DiFiore",
+  "ai_assistance": "Substantial OpenAI Codex assistance in mathematics, code, checking and writing; no subagents.",
+  "open_questions": [
+    {
+      "question": "Can the actual rounded Gaussian compiler and period-cut schedule be joined to these bounds?",
+      "why_it_matters": "Contract T still needs a source-bound full analytic and physical assembly.",
+      "first_step": "Audit setup rounding, restrict or justify terminal cyclic-prefix solves, and join the capped tensor compiler before CRT recovery.",
+      "blocked_by": "The generic norm/locality theorems and finite checks do not validate every executed rounded matrix or the full source-transform call graph."
+    }
+  ],
+  "upstream_checkpoint": {
+    "base_main": "9ee73fecdbae9f892a6496dbdfae872217cf4601",
+    "latest_main": "0614abaef427f123d9b844f85a759e64ee3ab29c",
+    "decision": "Continue the same isolated proof task on immutable scientific inputs. Read current archive-intake caveat; publication is not mathematical validation.",
+    "checked_at": "2026-10-16T14:49:48.758886+00:00",
+    "input_changes": [],
+    "existing_input_paths_checked": 37,
+    "guidance_changes": [
+      "Archive-intake notes updated: historic snapshots and workflow acceptance do not validate scientific claims; read and followed."
+    ]
+  },
+  "overlap": {
+    "searched_at": "2026-10-16T14:37:31.894364+00:00",
+    "coverage": {
+      "open_prs": {
+        "fetched_at": "2026-10-16T14:36:52.437050+00:00",
+        "complete_pagination": true,
+        "records": 238
+      },
+      "discussions": {
+        "fetched_at": "2026-10-16T14:37:31.795693+00:00",
+        "complete_pagination": true,
+        "records": 1657
+      }
+    },
+    "warnings": [],
+    "matches_total": 15
+  },
+  "publication": "Authorized fork branch only; no PR, discussion, email or other message posted.",
+  "status": "scoped_proof_completion",
+  "external_provenance": {
+    "pr": 1786,
+    "head": "c52345caa318fc6b1b6e2659c57d746317a72823",
+    "author": "chafreaky / Chafik Boukhalfa",
+    "note": "Credited Neumann locality method and geometry, not an executable input or a claim of independent validation."
+  },
+  "completed_at": "2026-10-16T14:49:48.758886+00:00",
+  "validation": "Both registered normal and optimized commands pass with fresh bytecode namespaces; complete deterministic receipts compared. No new full native/outer admission or Lean run."
+}

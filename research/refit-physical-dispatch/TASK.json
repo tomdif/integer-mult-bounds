@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "task_id": "uniform-transfer-audit",
+  "priority_revision": 5,
+  "base_commit": "9bd6a60e4ae59f217c1dc9ccc836d7dd59f8e0af",
+  "original_card": {
+    "id": "uniform-transfer-audit",
+    "question": "Can one exact all-size/compiler, precision, hosting or restoration implication be proved or falsified?",
+    "starting_points": [
+      "certificates/selected-result.json",
+      "docs/audit.md"
+    ],
+    "methods": [
+      "Prove one missing implication with explicit quantified hypotheses.",
+      "Find an exact counterexample at the claimed interface boundary."
+    ],
+    "acceptance_gate": "Identify the proposition and what would change downstream; do not equate a finite replay with a universal proof.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Read the selected review scope and choose one exact all-size or precision implication.",
+      "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+    },
+    "first_experiment": "Write its quantified inputs and conclusion; find a missing hypothesis or construct a minimal exact adversarial instance.",
+    "bottleneck_link": "Finite supplier improvements are useful only under the retained transfer obligations.",
+    "allowed_variations": [
+      "Choose one tape, precision, hosting or restoration lemma."
+    ],
+    "scope_change_triggers": [
+      "Replacing a quantified obligation with another finite smoke test."
+    ],
+    "overlap_terms": [
+      "uniform transfer",
+      "all-size",
+      "precision"
+    ]
+  },
+  "scope_status": "refined",
+  "actual_scope": "Construct a fixed-tape dispatcher for the current native refit, with complete row splitting, actual owner charts, opcode lowering, phases, call/return locality and node-cost proof.",
+  "scope_change_reason": "Explicit continued proof-completion request. The earlier package identified the actual physical dispatcher as the next obligation.",
+  "bottleneck_link": "The stronger finite supplier remains conditional until uniform physical and analytic transfer is proved.",
+  "budget_minutes": 60,
+  "stop_rule": "Preserve a reviewable scoped dispatcher proof and exact receipts; do not claim the outer transform or full theorem is proved.",
+  "outcome": "partial",
+  "evidence": "PROOF.md, exact full native numerical replays, global chart/phase coefficient checks, literal recursive row and parking executions.",
+  "author": "Thomas DiFiore",
+  "ai_assistance": "Substantial OpenAI Codex assistance in mathematics, code, checking and writing; no subagents.",
+  "open_questions": [
+    {
+      "question": "Does the fine-prime source transform meet contract T?",
+      "why_it_matters": "The source transform powers both outer multiplication and the repaired CRT.",
+      "first_step": "Prove the uniform Gaussian/halo cost and accuracy at the exact fine-prime parameters, then integrate logarithmic CRT before rounding.",
+      "blocked_by": "A completed dispatcher does not establish analytic transfer or integer recovery."
+    },
+    {
+      "question": "Can the dispatcher proof be independently reviewed or formalized?",
+      "why_it_matters": "The new construction is a written composition, not a kernel theorem of the entire machine.",
+      "first_step": "Review fixed-cover role expansion, protected suffix and actual phase-coordinate convention against source contracts.",
+      "blocked_by": "Finite execution cannot replace these all-size arguments."
+    }
+  ],
+  "upstream_checkpoint": {
+    "base_main": "9ee73fecdbae9f892a6496dbdfae872217cf4601",
+    "latest_main": "0614abaef427f123d9b844f85a759e64ee3ab29c",
+    "decision": "Continue the same isolated proof task on immutable scientific inputs. Read current archive-intake caveat; publication is not mathematical validation.",
+    "checked_at": "2026-10-16T14:49:48.758886+00:00",
+    "input_changes": [],
+    "existing_input_paths_checked": 37,
+    "guidance_changes": [
+      "Archive-intake notes updated: historic snapshots and workflow acceptance do not validate scientific claims; read and followed."
+    ]
+  },
+  "overlap": {
+    "searched_at": "2026-10-16T14:37:31.894364+00:00",
+    "coverage": {
+      "open_prs": {
+        "fetched_at": "2026-10-16T14:36:52.437050+00:00",
+        "complete_pagination": true,
+        "records": 238
+      },
+      "discussions": {
+        "fetched_at": "2026-10-16T14:37:31.795693+00:00",
+        "complete_pagination": true,
+        "records": 1657
+      }
+    },
+    "warnings": [],
+    "matches_total": 15
+  },
+  "publication": "Authorized fork branch only; no PR, discussion, email or other message posted.",
+  "status": "scoped_proof_completion",
+  "completed_at": "2026-10-16T14:49:48.758886+00:00",
+  "validation": "Both registered normal and optimized commands pass with fresh bytecode namespaces; complete deterministic receipts compared. No new full native/outer admission or Lean run."
+}

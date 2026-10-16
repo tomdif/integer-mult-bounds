@@ -1,0 +1,377 @@
+CHECK Exact nonnormal residuals, path-locality, scale controls and current ledger.
+{
+  "broad": {
+    "cases": [
+      {
+        "exponential_base": "17/16",
+        "exponential_denominator": 4,
+        "matrix_sha256": "094265002fae5c8da5b719f2cc881acad4d68740323cae2c2a7fd0fc35cbe258",
+        "origin": -2,
+        "rho": "3/2",
+        "size": 4
+      },
+      {
+        "exponential_base": "17/16",
+        "exponential_denominator": 4,
+        "matrix_sha256": "094265002fae5c8da5b719f2cc881acad4d68740323cae2c2a7fd0fc35cbe258",
+        "origin": 0,
+        "rho": "3/2",
+        "size": 4
+      },
+      {
+        "exponential_base": "17/16",
+        "exponential_denominator": 4,
+        "matrix_sha256": "2443aa42cf4bfe3edd6bfeaf694a4e7298098b206d44d034173d057a2709059c",
+        "origin": 3,
+        "rho": "3/2",
+        "size": 4
+      },
+      {
+        "exponential_base": "65/64",
+        "exponential_denominator": 16,
+        "matrix_sha256": "f802c20256b0eae49c027d6a0da205780e2a902a610c46eb4e0ff825cb93800c",
+        "origin": -2,
+        "rho": "5/4",
+        "size": 4
+      },
+      {
+        "exponential_base": "65/64",
+        "exponential_denominator": 16,
+        "matrix_sha256": "203ad4eb190edaab9dc10327c7debd0965c19e0199419991bfbbb9e48ee16f2a",
+        "origin": 0,
+        "rho": "5/4",
+        "size": 4
+      },
+      {
+        "exponential_base": "65/64",
+        "exponential_denominator": 16,
+        "matrix_sha256": "776051710752c2f23726030aa69cf41d7c8788cdeaca1ea3d1ae59fa68a1dad9",
+        "origin": 3,
+        "rho": "5/4",
+        "size": 4
+      }
+    ],
+    "rejection_controls": [
+      "unshifted_origin_3/2",
+      "unshifted_origin_5/4"
+    ],
+    "scope": "Finite LDU identities, including b<1 and translated origins. The uniform limits and norm estimates are the written proof, with actual rounding/prefix geometry explicit."
+  },
+  "ledger": {
+    "dyadic_scale_cases": [
+      {
+        "iterations": 8796093022208,
+        "p": 2,
+        "scale_denominator": 1048576
+      },
+      {
+        "iterations": 218837978263024718418,
+        "p": 3,
+        "scale_denominator": 4294967296
+      },
+      {
+        "iterations": 454747350886464118957519531250,
+        "p": 5,
+        "scale_denominator": 140737488355328
+      },
+      {
+        "iterations": 9547390663679132469637936879469255568748548415930178,
+        "p": 17,
+        "scale_denominator": 4835703278458516698824704
+      },
+      {
+        "iterations": 63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168,
+        "p": 128,
+        "scale_denominator": 1393796574908163946345982392040522594123776
+      },
+      {
+        "iterations": 2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+        "p": 1000,
+        "scale_denominator": 1606938044258990275541962092341162602522202993782792835301376
+      }
+    ],
+    "exact_face_volume_cases": 42,
+    "face_cost_power": "-28672000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000041/1024000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "halo_fraction_power": "-323584000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000123/4096000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "margin_to_target": "29694236618051351145144802304000000000000000000102400000000000000000000102400000000000000000000000000000041/1024000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "scope": "Exact parameter consequences; the Gaussian norm premises are not proved here.",
+    "target_power": "9982779473157726026804710000000000000000000001000000000000000000000001/10000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "matrices": {
+    "cases": [
+      {
+        "bandwidth": 1,
+        "iterations": 1,
+        "polynomial_sha256": "4e53b24bf133450fa9a09bc0096308b2cb878530a1f7e3f4a96e4e3b34346c90",
+        "size": 4
+      },
+      {
+        "bandwidth": 3,
+        "iterations": 2,
+        "polynomial_sha256": "d936b103263835c92d76c9448f87ce094350319e1850f0e0b129af84aaa7e578",
+        "size": 4
+      },
+      {
+        "bandwidth": 3,
+        "iterations": 3,
+        "polynomial_sha256": "5824512c6875dd854d12f4d3abfdcc5fe136f4934d5b405bbcad7ee527da1ec5",
+        "size": 4
+      },
+      {
+        "bandwidth": 1,
+        "iterations": 1,
+        "polynomial_sha256": "afe4dce9fcc955992e5861d367a5c3cf7797afc5b3e37f500a83e848634e177e",
+        "size": 9
+      },
+      {
+        "bandwidth": 3,
+        "iterations": 2,
+        "polynomial_sha256": "e5b1410b1b81db7f0c302e82f29a91b61af76356e64b4022fc040a827515c85b",
+        "size": 9
+      },
+      {
+        "bandwidth": 5,
+        "iterations": 3,
+        "polynomial_sha256": "8d8a22924efcd1a637a1058670afce33c5273b0527e9a5631531347ad0ad5f29",
+        "size": 9
+      },
+      {
+        "bandwidth": 1,
+        "iterations": 1,
+        "polynomial_sha256": "444e54ab96ffe81f147e2072cd2f49c61394963be8309bedc681d7166631eb88",
+        "size": 17
+      },
+      {
+        "bandwidth": 3,
+        "iterations": 2,
+        "polynomial_sha256": "544e08198745d1ded1ac6d82abd3f28958ba74651e4b65ba995deb38bb75df9c",
+        "size": 17
+      },
+      {
+        "bandwidth": 5,
+        "iterations": 3,
+        "polynomial_sha256": "d4051b645627e17f0c413767da047104954526a5d35aff5e3db9405766cbdd95",
+        "size": 17
+      }
+    ],
+    "locality_entries": 357,
+    "rejection_controls": [
+      "omitted_adjoint_on_nonnormal_matrix",
+      "adjoint_in_wrong_order",
+      "understated_attained_bandwidth",
+      "invalid_neumann_scale"
+    ]
+  },
+  "narrow": {
+    "norm_umbrella": "p^10 from delta=1/(16 p^2), M<=2, b<=p, p>=4",
+    "row_gap_without_bandwidth_witnesses": [
+      {
+        "first_column_norm_squared": "5/4",
+        "size": 2
+      },
+      {
+        "first_column_norm_squared": "2",
+        "size": 5
+      },
+      {
+        "first_column_norm_squared": "5",
+        "size": 17
+      }
+    ],
+    "schur_sections": 48,
+    "scope": "Uniform narrow bound proved in NARROW.md, requiring the stated actual reference rounding and retained bandwidth geometry. Broad matrices are separate.",
+    "section_sha256": "bad65ce8d77089026dcd521cd5b538f009db68eed5b0856517288fb4a556ceac"
+  },
+  "scope": "Local inverse and current face budget, plus narrow/broad spectral arguments under explicit reference-rounding and prefix-geometry premises. Full contract T remains open.",
+  "source_files": 1,
+  "status": "PASS_SCOPED_FINE_PRIME_HALO"
+}
+CHECK Same deterministic result without assertions.
+{
+  "broad": {
+    "cases": [
+      {
+        "exponential_base": "17/16",
+        "exponential_denominator": 4,
+        "matrix_sha256": "094265002fae5c8da5b719f2cc881acad4d68740323cae2c2a7fd0fc35cbe258",
+        "origin": -2,
+        "rho": "3/2",
+        "size": 4
+      },
+      {
+        "exponential_base": "17/16",
+        "exponential_denominator": 4,
+        "matrix_sha256": "094265002fae5c8da5b719f2cc881acad4d68740323cae2c2a7fd0fc35cbe258",
+        "origin": 0,
+        "rho": "3/2",
+        "size": 4
+      },
+      {
+        "exponential_base": "17/16",
+        "exponential_denominator": 4,
+        "matrix_sha256": "2443aa42cf4bfe3edd6bfeaf694a4e7298098b206d44d034173d057a2709059c",
+        "origin": 3,
+        "rho": "3/2",
+        "size": 4
+      },
+      {
+        "exponential_base": "65/64",
+        "exponential_denominator": 16,
+        "matrix_sha256": "f802c20256b0eae49c027d6a0da205780e2a902a610c46eb4e0ff825cb93800c",
+        "origin": -2,
+        "rho": "5/4",
+        "size": 4
+      },
+      {
+        "exponential_base": "65/64",
+        "exponential_denominator": 16,
+        "matrix_sha256": "203ad4eb190edaab9dc10327c7debd0965c19e0199419991bfbbb9e48ee16f2a",
+        "origin": 0,
+        "rho": "5/4",
+        "size": 4
+      },
+      {
+        "exponential_base": "65/64",
+        "exponential_denominator": 16,
+        "matrix_sha256": "776051710752c2f23726030aa69cf41d7c8788cdeaca1ea3d1ae59fa68a1dad9",
+        "origin": 3,
+        "rho": "5/4",
+        "size": 4
+      }
+    ],
+    "rejection_controls": [
+      "unshifted_origin_3/2",
+      "unshifted_origin_5/4"
+    ],
+    "scope": "Finite LDU identities, including b<1 and translated origins. The uniform limits and norm estimates are the written proof, with actual rounding/prefix geometry explicit."
+  },
+  "ledger": {
+    "dyadic_scale_cases": [
+      {
+        "iterations": 8796093022208,
+        "p": 2,
+        "scale_denominator": 1048576
+      },
+      {
+        "iterations": 218837978263024718418,
+        "p": 3,
+        "scale_denominator": 4294967296
+      },
+      {
+        "iterations": 454747350886464118957519531250,
+        "p": 5,
+        "scale_denominator": 140737488355328
+      },
+      {
+        "iterations": 9547390663679132469637936879469255568748548415930178,
+        "p": 17,
+        "scale_denominator": 4835703278458516698824704
+      },
+      {
+        "iterations": 63657374260452690195888927762793067532858387302060507832379389042324415617604272068231168,
+        "p": 128,
+        "scale_denominator": 1393796574908163946345982392040522594123776
+      },
+      {
+        "iterations": 2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+        "p": 1000,
+        "scale_denominator": 1606938044258990275541962092341162602522202993782792835301376
+      }
+    ],
+    "exact_face_volume_cases": 42,
+    "face_cost_power": "-28672000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000041/1024000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "halo_fraction_power": "-323584000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000123/4096000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "margin_to_target": "29694236618051351145144802304000000000000000000102400000000000000000000102400000000000000000000000000000041/1024000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "scope": "Exact parameter consequences; the Gaussian norm premises are not proved here.",
+    "target_power": "9982779473157726026804710000000000000000000001000000000000000000000001/10000000000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "matrices": {
+    "cases": [
+      {
+        "bandwidth": 1,
+        "iterations": 1,
+        "polynomial_sha256": "4e53b24bf133450fa9a09bc0096308b2cb878530a1f7e3f4a96e4e3b34346c90",
+        "size": 4
+      },
+      {
+        "bandwidth": 3,
+        "iterations": 2,
+        "polynomial_sha256": "d936b103263835c92d76c9448f87ce094350319e1850f0e0b129af84aaa7e578",
+        "size": 4
+      },
+      {
+        "bandwidth": 3,
+        "iterations": 3,
+        "polynomial_sha256": "5824512c6875dd854d12f4d3abfdcc5fe136f4934d5b405bbcad7ee527da1ec5",
+        "size": 4
+      },
+      {
+        "bandwidth": 1,
+        "iterations": 1,
+        "polynomial_sha256": "afe4dce9fcc955992e5861d367a5c3cf7797afc5b3e37f500a83e848634e177e",
+        "size": 9
+      },
+      {
+        "bandwidth": 3,
+        "iterations": 2,
+        "polynomial_sha256": "e5b1410b1b81db7f0c302e82f29a91b61af76356e64b4022fc040a827515c85b",
+        "size": 9
+      },
+      {
+        "bandwidth": 5,
+        "iterations": 3,
+        "polynomial_sha256": "8d8a22924efcd1a637a1058670afce33c5273b0527e9a5631531347ad0ad5f29",
+        "size": 9
+      },
+      {
+        "bandwidth": 1,
+        "iterations": 1,
+        "polynomial_sha256": "444e54ab96ffe81f147e2072cd2f49c61394963be8309bedc681d7166631eb88",
+        "size": 17
+      },
+      {
+        "bandwidth": 3,
+        "iterations": 2,
+        "polynomial_sha256": "544e08198745d1ded1ac6d82abd3f28958ba74651e4b65ba995deb38bb75df9c",
+        "size": 17
+      },
+      {
+        "bandwidth": 5,
+        "iterations": 3,
+        "polynomial_sha256": "d4051b645627e17f0c413767da047104954526a5d35aff5e3db9405766cbdd95",
+        "size": 17
+      }
+    ],
+    "locality_entries": 357,
+    "rejection_controls": [
+      "omitted_adjoint_on_nonnormal_matrix",
+      "adjoint_in_wrong_order",
+      "understated_attained_bandwidth",
+      "invalid_neumann_scale"
+    ]
+  },
+  "narrow": {
+    "norm_umbrella": "p^10 from delta=1/(16 p^2), M<=2, b<=p, p>=4",
+    "row_gap_without_bandwidth_witnesses": [
+      {
+        "first_column_norm_squared": "5/4",
+        "size": 2
+      },
+      {
+        "first_column_norm_squared": "2",
+        "size": 5
+      },
+      {
+        "first_column_norm_squared": "5",
+        "size": 17
+      }
+    ],
+    "schur_sections": 48,
+    "scope": "Uniform narrow bound proved in NARROW.md, requiring the stated actual reference rounding and retained bandwidth geometry. Broad matrices are separate.",
+    "section_sha256": "bad65ce8d77089026dcd521cd5b538f009db68eed5b0856517288fb4a556ceac"
+  },
+  "scope": "Local inverse and current face budget, plus narrow/broad spectral arguments under explicit reference-rounding and prefix-geometry premises. Full contract T remains open.",
+  "source_files": 1,
+  "status": "PASS_SCOPED_FINE_PRIME_HALO"
+}
+PASS_REGISTERED_RESEARCH_PACKAGE research/fine-prime-halo-closure outcome=partial

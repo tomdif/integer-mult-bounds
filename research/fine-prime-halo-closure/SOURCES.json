@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "base_commit": "9bd6a60e4ae59f217c1dc9ccc836d7dd59f8e0af",
+  "files": [
+    {
+      "path": "research/paired-terminal-refit/evidence/OUTER-LEDGER.json",
+      "usage": "input",
+      "sha256": "0ded0f50a82d1d66adf836f488da3f8dbb92bab9445e2c1feaa27f35ba082365",
+      "git_blob": "00036f33d54faf2014945f1b29f3cd0838888834"
+    },
+    {
+      "path": "docs/research/agent-task-catalog.json",
+      "usage": "provenance",
+      "sha256": "7d185cd8c2af35988d638d969748ad7b670f902606444dbfc748e4402c340df6",
+      "git_blob": "889b95d936746df124872133ae1e7cc339adcb92"
+    }
+  ]
+}

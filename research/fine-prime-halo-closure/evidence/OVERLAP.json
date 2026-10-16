@@ -1,0 +1,200 @@
+{
+  "status": "POSSIBLE_OVERLAP_NOT_A_NOVELTY_CERTIFICATE",
+  "searched_at": "2026-10-16T14:37:31.894364+00:00",
+  "terms": [
+    "physical dispatcher",
+    "fixed-role",
+    "fine-prime halo"
+  ],
+  "coverage": {
+    "open_prs": {
+      "fetched_at": "2026-10-16T14:36:52.437050+00:00",
+      "complete_pagination": true,
+      "records": 238
+    },
+    "discussions": {
+      "fetched_at": "2026-10-16T14:37:31.795693+00:00",
+      "complete_pagination": true,
+      "records": 1657
+    }
+  },
+  "local_records": 2693,
+  "warnings": [],
+  "limits": "Remote PR scope is open PRs including drafts. Closed work is searched through local READMEs, TASK metadata and ledger only. No code diffs or arbitrary package files are searched. Recheck relevant heads before submission.",
+  "matches_total": 15,
+  "matches": [
+    {
+      "number": 2238,
+      "title": "FINDING / HANDOFF: selected complex compact adapters with sequential repair",
+      "kind": "discussion-comment",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2238#discussioncomment-18971213",
+      "updated_at": "2026-10-16T10:54:15Z",
+      "matched_terms": [
+        "fixed-role"
+      ],
+      "score": 1,
+      "excerpt": " long-record domain, those additional terms fit O(V). Encoded execution, physical ownership and the fixed-role census remain the new construction obligations. Full complex recursion, precision transfer and formal refinement remain separate.\n\n**Overlap and expansion decision.** I checked 495 open PRs, new all-state work since10:43, relevant complex boards, and the complete2238/2253 predecessor threads. I found no competing encoded fixed-role Compact+B1 construction. I retain PR2378/2422's formal "
+    },
+    {
+      "number": 2319,
+      "title": "Selected BIT first-node caller and recursive-return handoff",
+      "kind": "discussion-comment",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2319#discussioncomment-18958887",
+      "updated_at": "2026-10-16T03:00:11Z",
+      "matched_terms": [
+        "fixed-role"
+      ],
+      "score": 1,
+      "excerpt": "**DONE / RELEASED / 2026-10-16 / priority revision 5.**\n\nI implemented the generated fixed-role controller in [PR2809](https://github.com/CrocSwap/integer-mult-bounds/pull/2809), head `e7d93dd0de0bb81308bc3356f65eddeeb22fd712`, as `jmbarrancoml`. I execute complete 9,216-bit recursive GL2(F2) and 31,104-bit four-family GL2(F3) programs with permanent tapes, serialized parent state and root cleanup. I retain the source-level O_q(V_root)+F_q space and O_q(V(n+w)) local-work argument. I also correc"
+    },
+    {
+      "number": 2319,
+      "title": "Selected BIT first-node caller and recursive-return handoff",
+      "kind": "discussion-comment",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2319#discussioncomment-18960371",
+      "updated_at": "2026-10-15T23:27:26Z",
+      "matched_terms": [
+        "fixed-role"
+      ],
+      "score": 1,
+      "excerpt": "8af8fb25f6adb5fa7da145cd9a03d41c39fd5d0`, narrowed to the shared-bank Frame return contract and the fixed-role parking/continuation implication. I will inspect the written boundary and actual source, replay the published checks, and test a distinct ownership/restoration or source-binding failure mode where warranted. This complements, and does not take, Jose Manuel's active whole-controller implementation claim.\n\nBase canonical main: `6e5bffc201db2559cc0da1c205c22a3a661f24dd`. I am overriding th"
+    },
+    {
+      "number": 2319,
+      "title": "Selected BIT first-node caller and recursive-return handoff",
+      "kind": "discussion-comment",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/discussions/2319#discussioncomment-18963568",
+      "updated_at": "2026-10-16T09:02:19Z",
+      "matched_terms": [
+        "fixed-role"
+      ],
+      "score": 1,
+      "excerpt": "mediate disposal. The wrapper endpoint and source p=1 recurrence are written predecessor arguments. Fixed-role outer placement, template lifetimes, encoded stock/fit selection and their full uniform bill remain the obligations in this claim; I do not treat those costs as zero.\n\n**Expansion decision.** I continue because this junction would turn the physical reversed caller into the completed ordinary backend required by commdata2338's PR2399. I retain the existing ordinary saving c(1-c), c=17/10"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/community-efficient1300-audit/README.md",
+      "path": "research/community-efficient1300-audit/README.md",
+      "sha256": "dd9ae69f3e4d18def9b24502e07d713901e8ab54378334c1756b75728f2587f7",
+      "matched_terms": [
+        "physical dispatcher"
+      ],
+      "score": 1,
+      "excerpt": " and thirteen controls pass, including artifact tests. Producer normal-form hypotheses and complete physical dispatcher remain separate; no supplier or exponent change. |\n| [#2334](https://github.com/CrocSwap/integer-mult-bounds/pull/2334) | ROTl24 | Explicit nine-line B2 acyclic-edge counterexample (cost 21 versus 27), independent rank/graph oracles, and all-k tripartite proof. The induced-vertex statement survives; indexed repeated lines are permitted. Credit ROTl24 and Aaron Wang\u2019s preceding "
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/fine-prime-halo-closure/README.md",
+      "path": "research/fine-prime-halo-closure/README.md",
+      "sha256": "ded612f250651eaa516364e91fe289831269ae6a656b7fdbb74b4f03e2336b21",
+      "matched_terms": [
+        "fine-prime halo"
+      ],
+      "score": 1,
+      "excerpt": "# An explicit fine-prime halo routine that fits the budget\n\n**Scoped proof under explicit norm premises; no complete multiplication theorem.**\n[PROOF.md](PROOF.md) supplies a direct polynomial-iteration inverse on the small\nhalo-face volume. It makes the online work explicit after the fine-prime\nconditioning bound enlarges the locality window.\n\nAssuming bandwidth below p and matrix/inverse norms at most p^10, a dyadically\nscaled Neumann polynomial with 2p^42 iterations has error at most\n`p^10 ex"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/physical-ordinary-interchange/README.md",
+      "path": "research/physical-ordinary-interchange/README.md",
+      "sha256": "dec1ca108a1dbd2d81df6f18d4e75040ce7538c804ed697478ae360af8f6b86a",
+      "matched_terms": [
+        "fixed-role"
+      ],
+      "score": 1,
+      "excerpt": "ubstantial OpenAI Codex assistance.\n\nI join Nick Petalas's PR2808 ordinary wrapper to the generated fixed-role\nreversed caller in PR2809. I compute stock and widths on binary tapes, build\nminimal numerical templates by scanning encoded values, emit the unweighted\nROOT program, and reuse one physical root session for the two padded calls.\nI then erase the owned banks, markers and parking port. The binary adapter\npreserves arbitrary complete spectators and closes its padding before return.\n\nIn [PR"
+    },
+    {
+      "kind": "local-readme",
+      "title": "research/selected-bit-fast-primitives/README.md",
+      "path": "research/selected-bit-fast-primitives/README.md",
+      "sha256": "46136a36462163003cecf93a78d4a435d170948676e9015bae22620589e9d57e",
+      "matched_terms": [
+        "fixed-role"
+      ],
+      "score": 1,
+      "excerpt": "art\n   with the two allocation-site bindings, exact factor direction, complete\n   prefix charge and fixed-role census in [PROOF.md](PROOF.md). Reduced tests\n   alone cannot settle the selected GL64 or universal source claims.\n\nI record the scope change and expansion decision in [TASK.json](TASK.json),\nwith source pins in [SOURCES.json](SOURCES.json). I coordinate in\n[Discussion 2319](https://github.com/CrocSwap/integer-mult-bounds/discussions/2319#discussioncomment-18968527).\n\n## Attribution\n\nJo"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/fixed-tape-unit-carry/TASK.json",
+      "path": "research/fixed-tape-unit-carry/TASK.json",
+      "sha256": "669e25f4b8c568e177828939742ad8acf296505be219919d3f666e6d11d84d22",
+      "matched_terms": [
+        "fixed-role"
+      ],
+      "score": 1,
+      "excerpt": "Closes one explicit nonzero-carry case in the selected stream physical compiler while retaining all fixed-role and cleanup costs.\",\n  \"outcome\": \"completed\",\n  \"evidence\": \"PROOF.md gives the all-size invariant and exact predecessor-plus-seven ledger. TABLE.json has 552 instructions per direction. RESULT.json records 270 dense cases, 156 same-input comparisons, twelve source-carry checks and ten semantic controls.\",\n  \"declared_milestone\": \"One physical unit-carry kernel; no full supplier, H2 di"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/gl3-order4-register-census/TASK.json",
+      "path": "research/gl3-order4-register-census/TASK.json",
+      "sha256": "7ecef043e6a58e62c079ac1b259f37b2233716528e05586dce966cc7222bc9c9",
+      "matched_terms": [
+        "fixed-role"
+      ],
+      "score": 1,
+      "excerpt": " length four but displacement rank two. This is outside the abelian rational-address model and is a fixed-role finite result.\",\n  \"bottleneck_link\": \"Tests whether collective register mixing saves paid recursive units in a changed address alphabet. The finite obstruction rejects this specific optimistic eight-call budget reduction; no selected-supplier or exponent improvement follows.\",\n  \"budget_minutes\": 60,\n  \"stop_rule\": \"Pin one target, certify its direct length, and exhaust lengths through"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/recursive-refit-realization/TASK.json",
+      "path": "research/recursive-refit-realization/TASK.json",
+      "sha256": "ce774177c09087a8365cf0e77981123adab73d303cc939ed23e94bbe1b942097",
+      "matched_terms": [
+        "physical dispatcher"
+      ],
+      "score": 1,
+      "excerpt": "records.\",\n      \"blocked_by\": \"The source-bound ledger and primitive join do not supply a complete physical dispatcher.\"\n    },\n    {\n      \"question\": \"Does the actual sparse support router meet the joined physical B1 interface?\",\n      \"why_it_matters\": \"It supplies the global exposure needed by the deferred layout at the headline parameters.\",\n      \"first_step\": \"Bind support exposure, prefix-only reservoirs and repair to the same binary backend and test complete returns.\",\n      \"blocked_b"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/refit-physical-dispatch/TASK.json",
+      "path": "research/refit-physical-dispatch/TASK.json",
+      "sha256": "d66c408293963e242679235175aaff07aa26abfee0b2eccca4be48ebc6269998",
+      "matched_terms": [
+        "physical dispatcher"
+      ],
+      "score": 1,
+      "excerpt": "ge_reason\": \"Explicit continued proof-completion request. The earlier package identified the actual physical dispatcher as the next obligation.\",\n  \"bottleneck_link\": \"The stronger finite supplier remains conditional until uniform physical and analytic transfer is proved.\",\n  \"budget_minutes\": 60,\n  \"stop_rule\": \"Preserve a reviewable scoped dispatcher proof and exact receipts; do not claim the outer transform or full theorem is proved.\",\n  \"outcome\": \"partial\",\n  \"evidence\": \"PROOF.md, exact fu"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/selected-bit-fast-primitives/TASK.json",
+      "path": "research/selected-bit-fast-primitives/TASK.json",
+      "sha256": "b415aee0f8d9bfded525cb47d3aa04ea97680abf16a02a89888ac0dc5ab2ecbd",
+      "matched_terms": [
+        "fixed-role"
+      ],
+      "score": 1,
+      "excerpt": "lves.\",\"first_step\":\"Audit the reached hooks, finite factor direction, per-prefix setup absorption, fixed-role lifetime and full recurrence in PROOF.md.\",\"blocked_by\":\"Independent review and proof-assistant refinement remain open.\"}\n  ]\n}\n"
+    },
+    {
+      "kind": "local-task",
+      "title": "research/selected-complex-height-ledger/TASK.json",
+      "path": "research/selected-complex-height-ledger/TASK.json",
+      "sha256": "99b85cf4b2673434660700a307c566d283146d9d3ae081c09e0cee6d0a5086f2",
+      "matched_terms": [
+        "physical dispatcher"
+      ],
+      "score": 1,
+      "excerpt": " \"open_questions\": [\n    {\n      \"question\": \"Does an actual selected native child and its complete physical dispatcher satisfy the proof semantic hypotheses?\",\n      \"why_it_matters\": \"This binds the conditional coefficient reserve to physical supplier execution.\",\n      \"first_step\": \"Implement or independently audit one selected rank-one child with monomial adapters, coefficient scratch, spectators and parking return.\",\n      \"blocked_by\": \"Complete physical interpreter and native endpoint co"
+    },
+    {
+      "kind": "pr",
+      "number": 2945,
+      "title": "Map later BIT physical caller contracts and the remaining consumer handoff",
+      "url": "https://github.com/CrocSwap/integer-mult-bounds/pull/2945",
+      "head": "a54d85a97f0be518369e08d300f38add810516ca",
+      "updated_at": "2026-10-16T13:34:14Z",
+      "draft": false,
+      "state": "open",
+      "matched_terms": [
+        "fixed-role"
+      ],
+      "score": 1,
+      "excerpt": "k brief / dated logical caller map\n  + physical-contract successor\n      logical wrapper -> pending fixed-role caller -> B1 -> reached fast primitives\n      remaining complex compact-operation interface and universal dependency audit\n```\n\nRepair a stale research handoff without rewriting its historical snapshot. Pin PR2808/2809/2899/2915 and distinguish incorporated downstream compositions from PR2809's still-partial universal-caller review. Record the real consumer boundary rather than assignin"
+    }
+  ]
+}

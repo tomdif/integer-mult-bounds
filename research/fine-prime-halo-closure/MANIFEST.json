@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "scope": "All package files except this manifest and bytecode; immutable scientific inputs pinned separately.",
+  "files": [
+    {
+      "path": "BROAD.md",
+      "bytes": 9137,
+      "sha256": "b637b404ae9c6c36f928e2bb6413189d091c28b7ea20f4e248a586e934dc7e9a"
+    },
+    {
+      "path": "NARROW.md",
+      "bytes": 5928,
+      "sha256": "4dd3a85585acf35d013297c4bd83f95ae5b1d7782463a2a6ccf5a676ba1cba33"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 8467,
+      "sha256": "394445b3d75f9b8796a0643cf9e61b09cce0cf50f44bae6e87506757650f27fe"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3170,
+      "sha256": "254b03e015f40b2b6f138876057c138d4b8d48bfbdcc5fcad4a46d674073aaf5"
+    },
+    {
+      "path": "RESULT.json",
+      "bytes": 6687,
+      "sha256": "3289af6de58232e008e9faa27ae57619e45d151878a459336c4be9d83d0948f4"
+    },
+    {
+      "path": "SOURCES.json",
+      "bytes": 603,
+      "sha256": "5e156fcfde468797d985e0e9a6795be2c8bb265f995acc5111db6e564268eb35"
+    },
+    {
+      "path": "TASK.json",
+      "bytes": 5006,
+      "sha256": "177b5b8057aafdca47b0ab167a4ca49846489e2b877e0f3738722f006ee04edd"
+    },
+    {
+      "path": "VERIFY.json",
+      "bytes": 657,
+      "sha256": "1180decac13d754ce574870934c8e492e2904690a3e242a72e7d334a5d5f319f"
+    },
+    {
+      "path": "evidence/OVERLAP.json",
+      "bytes": 13779,
+      "sha256": "f86842200005325dd382885fb4aad65da9930c8c1b1a093a3916ab0fb0d2623a"
+    },
+    {
+      "path": "evidence/PACKAGE-REPLAY.txt",
+      "bytes": 13591,
+      "sha256": "862cac0333ef3e4cb82c7491002a3a46419dc35ce2c86e817f70f3a6e5f777ac"
+    },
+    {
+      "path": "evidence/UPSTREAM-REFRESH.json",
+      "bytes": 2587,
+      "sha256": "82251ab71947711529d7bc14c68fb8b93c4c01ea375d398f38ce4278a303c294"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 12025,
+      "sha256": "6da9ea05eb00003c170c3aa74e99c1930711a3c61e19f7a6eb794db61649447c"
+    }
+  ]
+}
