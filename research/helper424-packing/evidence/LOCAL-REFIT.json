@@ -1,0 +1,102 @@
+{
+  "providers": {
+    "base": {
+      "audit": {
+        "R": 480,
+        "base": null,
+        "checked_columns": 632,
+        "compressed_sha256": "378d6894eb3cc8b979d7c98238d869c07556d3dfbe26fa4972382d27c9c8b888",
+        "content_sha256": "083fc1158fc8616d1a0f320862cc49265d886996df4b764b1970b909b4c02858",
+        "corrections": 36,
+        "elapsed_seconds": 0.5440332089783624,
+        "entering": 134,
+        "h": 9,
+        "independent_inputs": 632,
+        "input_file": "WORD-base.json.gz",
+        "local_mass": 5176,
+        "local_profile": {
+          "1": 2408,
+          "2": 638,
+          "3": 262,
+          "4": 128,
+          "5": 26,
+          "8": 8
+        },
+        "orientations": {
+          "dual": "PASS",
+          "forward": "PASS"
+        },
+        "removed_helpers": 72,
+        "restored_cold": 76,
+        "scope": "Exact free-operator-algebra replay (every remaining input is an independent column): K_G warps with G invertible, G(from)=to, symplectic form fixing L_0/L_FULL and sending L_from to L_to (rank 0), literal frame chain with warps, relaxed fixed initial compensation, derived inverse-reverse cleanup at FULL with inverse warps and private zero buffers. No Clifford phase/Gaussian product, no owner admission, no repricing.",
+        "status": "PASS_INDEPENDENT_EXACT_BORROWING_WORD",
+        "v": 112,
+        "warps": 72,
+        "width_inventory": {
+          "4": 26,
+          "5": 2,
+          "7": 62,
+          "8": 90,
+          "9": 228
+        },
+        "zero_buffers": 76
+      },
+      "candidate_canonical": "d56f7d6bf9c89bc4bc26142a0efdbcff12f17bd55435a800a78ac3c8b8150764",
+      "full_terminal_operator_equal": true,
+      "parent_canonical": "e5f786bbc8aadb3ec7b27c62c65dc09c19bbd89c100ea5e52e561d5e655b673b"
+    },
+    "extra": {
+      "audit": {
+        "R": 480,
+        "base": null,
+        "checked_columns": 632,
+        "compressed_sha256": "a234fea66e185b3a6cf74dca6b8a8986b19e5bb693ab4fdfeac74d9716785169",
+        "content_sha256": "5c4ed8f4b09f85f1f21973ec9a946954c09e85d95d9798c7568244990f33d42b",
+        "corrections": 36,
+        "elapsed_seconds": 0.5149639170267619,
+        "entering": 134,
+        "h": 9,
+        "independent_inputs": 632,
+        "input_file": "WORD-extra.json.gz",
+        "local_mass": 5176,
+        "local_profile": {
+          "1": 2408,
+          "2": 638,
+          "3": 262,
+          "4": 128,
+          "5": 26,
+          "8": 8
+        },
+        "orientations": {
+          "dual": "PASS",
+          "forward": "PASS"
+        },
+        "removed_helpers": 72,
+        "restored_cold": 76,
+        "scope": "Exact free-operator-algebra replay (every remaining input is an independent column): K_G warps with G invertible, G(from)=to, symplectic form fixing L_0/L_FULL and sending L_from to L_to (rank 0), literal frame chain with warps, relaxed fixed initial compensation, derived inverse-reverse cleanup at FULL with inverse warps and private zero buffers. No Clifford phase/Gaussian product, no owner admission, no repricing.",
+        "status": "PASS_INDEPENDENT_EXACT_BORROWING_WORD",
+        "v": 112,
+        "warps": 72,
+        "width_inventory": {
+          "4": 26,
+          "5": 2,
+          "7": 62,
+          "8": 90,
+          "9": 228
+        },
+        "zero_buffers": 76
+      },
+      "candidate_canonical": "0db8e3e1d384f8c9d8f19bf5e747f78cb85764c8b0096fbaaa81fabd33ff84c4",
+      "full_terminal_operator_equal": true,
+      "parent_canonical": "631f528933e97519c8aab98c465e3501f7b979aba5d93e82d167be2a4f5f62bd"
+    }
+  },
+  "scope": "Exact scalar operator equality, declared local frame and complete forward/dual word audits; full native and supplier admission required.",
+  "semantic_controls": {
+    "noncommuting_order": "restored cold row is not its own input 408",
+    "too_small_frame": "frame not monotone (408, (256, 128, 66, 36, 22, 8, 1), (128, 66, 36, 22, 8, 1))",
+    "underpriced_profile": "paid profile mismatch {1: 2408, 2: 638, 3: 262, 4: 128, 5: 26, 8: 8}",
+    "wrong_coefficient": "restored cold row is not its own input 408"
+  },
+  "status": "PASS_COMMUTING_TERMINAL_FRAME_REFIT"
+}

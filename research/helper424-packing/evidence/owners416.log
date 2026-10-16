@@ -1,0 +1,7 @@
+sweep 0 changes 1575 swaps 735 relocations 840
+sweep 1 changes 169 swaps 768 relocations 976
+sweep 2 changes 16 swaps 776 relocations 984
+sweep 3 changes 3 swaps 776 relocations 987
+sweep 4 changes 4 swaps 776 relocations 991
+sweep 5 changes 0 swaps 776 relocations 991
+{"calls": 666, "floating_root_proposal": 0.0017212179986709206, "idle": {"1": 16968, "3": 5961, "5": 8127, "6": 146, "7": 26, "24": 2, "32": 122, "48": 26850}, "live": 66304, "physical": 66798, "private_buffers": 76, "profile": {"1": 1626024, "2": 422244, "3": 180453, "4": 85248, "5": 25443, "6": 146, "7": 26, "8": 5328, "24": 2, "32": 122, "48": 26850}, "rank_mass": 4816512, "relocations": 991, "replicas": 74, "roles": 271728, "swaps": 776}

@@ -1,0 +1,84 @@
+{
+  "changes": {
+    "new/BORROW-PROVIDERS.json": {
+      "after": "9c5638eadef65dcfa324ba0900bbd2039a3f9caec197b5e48d0989443b6c5834",
+      "before": "578535f15325d82aa95bbb2b1770a22734c92c9c160cbe2967451df878c47cab"
+    },
+    "new/borrow/channel424/PINS.json": {
+      "after": "03047f5726f52b8986da2c88ce61629610f5923b7caa35a6d6af856551b5e988",
+      "before": null
+    },
+    "new/borrow/channel424/data/PARENT-base.json.gz": {
+      "after": "3657ad53ebe5f156f307a903479e919f2fe812811ce5d5f15e72c3aaf68dfde3",
+      "before": null
+    },
+    "new/borrow/channel424/data/PARENT-extra.json.gz": {
+      "after": "b975492ff4cbec0d619cdf2da34f55ce3b20c8a541132e4339cc6c8ae3b2e487",
+      "before": null
+    },
+    "new/borrow/channel424/data/TRANSFORM.json": {
+      "after": "28fc9498a8d49a769eeee033371e18039719b42ac9f0f7649485fe7da84c52fd",
+      "before": null
+    },
+    "new/borrow/channel424/data/WORD-base.json.gz": {
+      "after": "b7e310888e87a478a4f94350d9c059fd52836fdd6ba98c51daa02687d122e8a0",
+      "before": null
+    },
+    "new/borrow/channel424/data/WORD-extra.json.gz": {
+      "after": "dc4e09d113d88e0d987edd8dc34190921432a56a4748787706dfc65f2c39c0a3",
+      "before": null
+    },
+    "new/borrow/channel424/extract.py": {
+      "after": "3ec84393453c1c9e5f4c049409226e54094e13654aa6f8faf8b330842792114f",
+      "before": null
+    },
+    "new/borrow/channel424/structure.py": {
+      "after": "83f63b6d9a1a543ecfa2c98d479dbe4e7a1c3caf6fd1c3566123308efbc32e96",
+      "before": null
+    },
+    "new/borrow/channel424/vendor/audit_local.py": {
+      "after": "a38940094f7d19cd6376aafdd4734fa68eabc9aff4c98c3c4a3e9540328b1c90",
+      "before": null
+    },
+    "new/borrow/channel424/vendor/preload_move.py": {
+      "after": "c8fda4674644fcd5cbf39b6645ce148a21daa90a998b678cbe51f970b78b0044",
+      "before": null
+    },
+    "new/borrow/channel424/verify.py": {
+      "after": "f0cda1b28f7a57831a29261a3d31c1d2a3181ccac736806757b241c4b219397b",
+      "before": null
+    },
+    "new/borrow/channel424_extract.py": {
+      "after": "3ec84393453c1c9e5f4c049409226e54094e13654aa6f8faf8b330842792114f",
+      "before": null
+    },
+    "new/borrow/inputs/CHANNEL408-WORD-base.json.gz": {
+      "after": "3657ad53ebe5f156f307a903479e919f2fe812811ce5d5f15e72c3aaf68dfde3",
+      "before": null
+    },
+    "new/borrow/inputs/CHANNEL408-WORD-extra.json.gz": {
+      "after": "b975492ff4cbec0d619cdf2da34f55ce3b20c8a541132e4339cc6c8ae3b2e487",
+      "before": null
+    },
+    "new/borrow/words/BORROW-WORD-43base.json.gz": {
+      "after": "b7e310888e87a478a4f94350d9c059fd52836fdd6ba98c51daa02687d122e8a0",
+      "before": "3657ad53ebe5f156f307a903479e919f2fe812811ce5d5f15e72c3aaf68dfde3"
+    },
+    "new/borrow/words/BORROW-WORD-43extra.json.gz": {
+      "after": "dc4e09d113d88e0d987edd8dc34190921432a56a4748787706dfc65f2c39c0a3",
+      "before": "b975492ff4cbec0d619cdf2da34f55ce3b20c8a541132e4339cc6c8ae3b2e487"
+    },
+    "new/rebuild_borrow.py": {
+      "after": "97528a0f297fce87cfac228052070802d22320a6728087dd70758ae06a3d6803",
+      "before": "9325dbe919c7035d728273de937445022485956ca6593ad6f617611d63b130d6"
+    },
+    "verify.py": {
+      "after": "cd901fd008df2abac880e6575351a395eadf04a86814ee83a75dd3a8bcaa8544",
+      "before": "63140c78372e088b3f34bc22549b169fd56bed8c66af9871281297bb8455b395"
+    }
+  },
+  "files": 624,
+  "manifest_sha256": "efef6b2579bd72004c574635ad9d1e3d39aafac56bf8f0cb35658c151e860105",
+  "parent_head": "51309592971e3b5be935599eed2a95404dc7781e",
+  "parent_manifest": "56cf455752722051d598a7da1e5ee700637fbaef09189f534413dbe6e0525a83"
+}

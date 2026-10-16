@@ -1,0 +1,80 @@
+{
+  "changes": {
+    "new/BORROW-PROVIDERS.json": {
+      "after": "5da3255f3f14ccc95b63abfb0bec3e58de864b2f250c293d30386f2e332f591d",
+      "before": "912f5decd0dbaefe662a1160ed4e38df424c4c1e3b96e5a69f783a8728f2363c"
+    },
+    "new/borrow/inputs/PRE-REFIT-WORD-base.json.gz": {
+      "after": "fec3c120db1a35022944628d34b56a36f2456248c274c2eaba1a325cdc690ce8",
+      "before": null
+    },
+    "new/borrow/inputs/PRE-REFIT-WORD-extra.json.gz": {
+      "after": "e4d0c617df85bf8a824ff68310ca3373dc017c1ebf9ea733056a3ee4a784b36f",
+      "before": null
+    },
+    "new/borrow/terminal_refit/PINS.json": {
+      "after": "ec2599371e0f0d6af59ff06ec38fef0725fe0b2f5e87bb25f58b7bd93860899f",
+      "before": null
+    },
+    "new/borrow/terminal_refit/data/PARENT-base.json.gz": {
+      "after": "bc41b89c62de6940be3879b74cee59affc5fa1fd63dd0cb37c892de99d7c5a96",
+      "before": null
+    },
+    "new/borrow/terminal_refit/data/PARENT-extra.json.gz": {
+      "after": "4c46ff36ce1a138751fd23e087a62410be779a3e137cc3fc77c1585ca3db702d",
+      "before": null
+    },
+    "new/borrow/terminal_refit/data/PATCH-base.json": {
+      "after": "cfc10f76181f82ea78c9d0e7c620477c7f9fa6c26da18c138e32d744ff8e1960",
+      "before": null
+    },
+    "new/borrow/terminal_refit/data/PATCH-extra.json": {
+      "after": "d91467f2b8756946b5abf5facd2e2b9ce892a391f96896d5aa8e7c1cb6b7cfa0",
+      "before": null
+    },
+    "new/borrow/terminal_refit/data/WORD-base.json.gz": {
+      "after": "65b8ca17dbc9a97832d387c9b4e79a4638ec7c97448c08dc25616fc8b831da38",
+      "before": null
+    },
+    "new/borrow/terminal_refit/data/WORD-extra.json.gz": {
+      "after": "755ef5ae33dab4853d3d00ce39ffceb88479390acb32a2802f78c4991b98561a",
+      "before": null
+    },
+    "new/borrow/terminal_refit/terminal_refit.py": {
+      "after": "d9102f51070fe1869befb3d3b7335229e03d1310f2dbdece3a4492b42b6eb0c6",
+      "before": null
+    },
+    "new/borrow/terminal_refit/vendor/audit_local.py": {
+      "after": "a38940094f7d19cd6376aafdd4734fa68eabc9aff4c98c3c4a3e9540328b1c90",
+      "before": null
+    },
+    "new/borrow/terminal_refit/vendor/preload_move.py": {
+      "after": "c8fda4674644fcd5cbf39b6645ce148a21daa90a998b678cbe51f970b78b0044",
+      "before": null
+    },
+    "new/borrow/terminal_refit_apply.py": {
+      "after": "d9102f51070fe1869befb3d3b7335229e03d1310f2dbdece3a4492b42b6eb0c6",
+      "before": null
+    },
+    "new/borrow/words/BORROW-WORD-43base.json.gz": {
+      "after": "65b8ca17dbc9a97832d387c9b4e79a4638ec7c97448c08dc25616fc8b831da38",
+      "before": "fec3c120db1a35022944628d34b56a36f2456248c274c2eaba1a325cdc690ce8"
+    },
+    "new/borrow/words/BORROW-WORD-43extra.json.gz": {
+      "after": "755ef5ae33dab4853d3d00ce39ffceb88479390acb32a2802f78c4991b98561a",
+      "before": "e4d0c617df85bf8a824ff68310ca3373dc017c1ebf9ea733056a3ee4a784b36f"
+    },
+    "new/rebuild_borrow.py": {
+      "after": "563c6ef45d2b61683e0ba8bf42780658e6bfa299e9802d5bd2b2cdb0b1f919be",
+      "before": "c20933a7e507a3cef57310363c59d64e84a16e34cb6a30cb434e4cb6a67c1cd0"
+    },
+    "verify.py": {
+      "after": "43a9d562988d5df31d2f73051585a83200793a32d7c951514a5951d924f208a3",
+      "before": "b0d5f4217b4699c37609dc7c3633d570acbccd205840777d38f891846b4b918c"
+    }
+  },
+  "files": 645,
+  "parent_head": "224bd5e56041c40078ff6b5fa7393733a215de5c",
+  "parent_manifest_sha256": "98d57c82a1c7318be3c330c3b66897844d57232f0aaeaea88fb4bebd0a1bedf1",
+  "source_manifest_sha256": "0c8213c5fd3dc60a0ab3db8963cf1357d46334c93268e33fcf555aeb4cce5f36"
+}

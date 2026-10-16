@@ -1,0 +1,13 @@
+{
+  "allocation/DISPATCH.json": "a2ade66687d1ad6b788a79dd8bb31a128bda9d02b4583e82d347e8892e9a148d",
+  "allocation/FILL.json.gz": "c87f153be739bf03373bf8d0d7173197f50a4b33554c6dc000feac81226ceef8",
+  "allocation/MOVES.json": "cf25a624c00a566266a87ab35a2b17eb6228aa1b0ff965131bdbbc966ab39ca5",
+  "allocation/ORDER.json": "1dcbeb826512d864ba5b4bc740d6125980d4b2edec834206c07348485d159e96",
+  "allocation/OWNER-RESULT.json": "3e38a1004f332bd635c8f0082a5821d5c14fce9eb94ede454a3fe29451d70d7f",
+  "allocation/PROFILE.json": "c74bd069307e6955c837f88d10b897b958c5559f6a49d631e92f9ce983e3216b",
+  "allocation/PROVIDERS.json": "57f0aa0eb3e15bd838f22863ea13117909dfe2c31e564c73d48457eb35ebd927",
+  "data/TRANSFORM-base.json": "28fc9498a8d49a769eeee033371e18039719b42ac9f0f7649485fe7da84c52fd",
+  "data/TRANSFORM-extra.json": "28fc9498a8d49a769eeee033371e18039719b42ac9f0f7649485fe7da84c52fd",
+  "data/WORD-base.json.gz": "b7e310888e87a478a4f94350d9c059fd52836fdd6ba98c51daa02687d122e8a0",
+  "data/WORD-extra.json.gz": "dc4e09d113d88e0d987edd8dc34190921432a56a4748787706dfc65f2c39c0a3"
+}

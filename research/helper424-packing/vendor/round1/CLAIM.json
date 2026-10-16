@@ -1,0 +1,79 @@
+{
+  "actual_helper_roles": 271728,
+  "comparisons": [
+    {
+      "absolute_gain_decimal": "0.0000045347050433896028653986958405456550016704982851527",
+      "baseline_decimal": "0.0017161404259974415161896013041594543449983294017148",
+      "exact_baseline": "COMPARISON.json#baseline_kappa",
+      "head": "4f485de05544884fa0f2edf6063bb9259decad30",
+      "pr": 2745,
+      "relative_gain_percent": "0.26423857714056107006570014595545837548024972537385",
+      "strictly_larger": true
+    },
+    {
+      "absolute_gain_decimal": "4.90602663361585981E-7",
+      "baseline_decimal": "0.0017201845283774695330739999999999999999999999000000",
+      "exact_baseline": "COMPARISON.json#candidate_kappa",
+      "head": "18d03c447886895ef9abf888398178e0428533ca",
+      "pr": 2894,
+      "relative_gain_percent": "0.028520350884933104437477918279625366308843051321637",
+      "strictly_larger": true
+    },
+    {
+      "absolute_gain_decimal": "2.76793686593233124E-7",
+      "baseline_decimal": "0.0017203983373542378859309999999999999999999999000000",
+      "exact_baseline": "evidence/PR2908-CLAIM.json#kappa",
+      "head": "51309592971e3b5be935599eed2a95404dc7781e",
+      "pr": 2908,
+      "relative_gain_percent": "0.016088930138057907109568901553435957275590522890856",
+      "strictly_larger": true
+    }
+  ],
+  "construction": "Apply PR2908 paired input/output extraction to helper424 after helper408; regenerate compensation and fully charged cleanup, then repair the literal T74 owner allocation.",
+  "credit": "Jeremy Diviney PR2908 extraction method and inherited package; Jeremy Kothe PR2894/2833; Yiyang Lu PR2857; all other source notices retained. Thomas DiFiore with OpenAI Codex assistance.",
+  "kappa": "17206751310408311190549999999999999999999998999999999999999999999999/10000000000000000000000000000000000000000000000000000000000000000000000",
+  "kappa_decimal": "0.0017206751310408311190549999999999999999999998999999999999999999999999",
+  "kappa_expression": "0.001720675131040831119055 - 10^-46 - 10^-70",
+  "live_families": 66304,
+  "native_receipt_sha256": "dcf5edfd1c4d1660e133f2be07ae00fddb695609a98f3a3abe9fee010289ff99",
+  "physical_families": 66796,
+  "private_zero_buffers": 74,
+  "profile": {
+    "1": 1622227,
+    "16": 2,
+    "2": 424908,
+    "24": 1,
+    "3": 180642,
+    "32": 50,
+    "4": 85248,
+    "48": 26841,
+    "5": 25607,
+    "6": 112,
+    "7": 28,
+    "8": 5328
+  },
+  "publication": "Local only; not independently reviewed, submitted, or promoted to selected result.",
+  "release_package_manifest_sha256": "6bb0195f81f7bcee9621b2425bf696fa0bda02a95a901149ac365f0881dadb5b",
+  "release_receipt_sha256": "d4dde7dc86df5a26182399341b750acffc3eb6ada44f19d3d1a8f33b1009dcae",
+  "scope": "Conditional finite construction only. All-size compiler, common-label/mutable-source realization, whole-call hosting, precision/tape, exact recovery, analytic transfer, PR559 recurrence correction and PR589 bit H1-H5 assumptions remain. No unconditional theorem, full Lean certification, or global packing claim.",
+  "source_manifest_sha256": "efef6b2579bd72004c574635ad9d1e3d39aafac56bf8f0cb35658c151e860105",
+  "status": "PASS_CONDITIONAL_FINITE_SUPPLIER_AND_OUTER_RELEASE",
+  "supplier_only_kappa": "0.001717719493825701",
+  "verification": {
+    "both_changed_native_providers": "fresh five-stage executions, then authenticated reuse by admission",
+    "charged_prefix_bits": 2048,
+    "convenience_driver": "pinned-source preflight; complete underlying recipe stages executed separately; final builder regenerated all verified source and adapters",
+    "measured_prefix_bits": 1452,
+    "outer_rejection_controls": 17,
+    "outer_strict_inequalities": 63,
+    "retained_evidence": "explicit reuse of same-session fresh PR2894 bootstrap and parent admission",
+    "retained_exact_evidence_replays": 19,
+    "supplier_controls": {
+      "admission": 119,
+      "bit": 12,
+      "controller": 15,
+      "geometry": 6,
+      "independent_owner": 8
+    }
+  }
+}

@@ -1,0 +1,27 @@
+--- PR2908/prepare_channel_native.py
++++ helper408424/prepare_channel_native.py
+@@ -8,11 +8,11 @@
+ from importlib import metadata
+ import argparse,hashlib,json,gzip,os,platform,shutil,subprocess,sys,time
+ sys.dont_write_bytecode=True
+-SOURCE_SHA='56cf455752722051d598a7da1e5ee700637fbaef09189f534413dbe6e0525a83'
+-SOURCE_FILES=610
+-SOURCE_COMMIT='two-sided-helper408-pr2894'
++SOURCE_SHA='efef6b2579bd72004c574635ad9d1e3d39aafac56bf8f0cb35658c151e860105'
++SOURCE_FILES=624
++SOURCE_COMMIT='two-sided-helper408424-pr2908'
+ PARENT_SHA='e0eefc96567fbb45e19e6de0ca295381dbe0e686c08ddc783639b065c7c791d4'
+-OLD_RECEIPT_SHA='dd36443f2789ffa6deca7210c76ada781e2b9b7e622a546b366f51a475faff3e'
++OLD_RECEIPT_SHA='ce6239ff3cee5222b4f8676df123b863902e04dd1e9fb0cd707adcbadc3dae42'
+ def need(ok,why):
+  if not ok:raise ValueError(why)
+ def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+@@ -64,7 +64,7 @@
+   entry=cache/sha(word);shutil.copytree(work/'native',entry);need(read(entry/'local/FULL-WORD.json.gz')==read(word),'fresh complete literal word')
+   st=read(entry/'STEPS.json');need([s['step']for s in st]==steps and all(s['exit_code']==0 for s in st),'fresh native five stages')
+   checks=read(entry/'local/LOCAL-CHECKS.json');can=read(entry/'local/CANONICAL-WORD.json.gz')
+-  need(can['R']==408 and len(can['centers'])==8 and len(can['zero_buffers'])==73,'complete physical ABI')
++  need(can['R']==408 and len(can['centers'])==8 and len(can['zero_buffers'])==74,'complete physical ABI')
+   for orientation in ['forward','backward']:need(checks[orientation]['all_columns']==632 and checks[orientation]['paid_profile']==read(word)['report']['local_profile'],'actual all-column native profile')
+   write(entry/'CACHE.json',dict(word_sha256=sha(word),files=tree(entry)))
+   rec=dict(name='fresh-current-'+tag,exit_code=0,command=cmd,script_sha256=sha(driver),log_sha256=sha(log),result_sha256=sha(work/'RESULT.json'),seconds=time.monotonic()-begin);print('PASS',rec['name'],flush=True);return rec

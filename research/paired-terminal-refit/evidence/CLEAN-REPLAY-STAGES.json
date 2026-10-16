@@ -1,0 +1,188 @@
+[
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/pr2908/reproduce.py",
+      "--repo",
+      "/Users/thomasdifiore/integer-mult-refit-replay",
+      "--work",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/parent-export",
+      "--dry-run"
+    ],
+    "exit_code": 0,
+    "log_sha256": "6bd8df30779863897e48441608240db6a7e3fcbd0754511e44f854f3a5c462a6",
+    "seconds": 0.4916332919965498,
+    "stage": "export-pr2894"
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/integer-mult-refit-replay/research/paired-terminal-refit/check_allocation.py",
+      "--predecessor",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/pr2908",
+      "--words",
+      "/Users/thomasdifiore/integer-mult-refit-replay/research/paired-terminal-refit/data",
+      "--allocation",
+      "/Users/thomasdifiore/integer-mult-refit-replay/research/paired-terminal-refit/vendor/pr2917/allocation",
+      "--bounds",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/parent-export/pr2894/vendor/pr2857/audit_relaxation.py",
+      "--out",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/saved-check"
+    ],
+    "exit_code": 0,
+    "log_sha256": "e2abf9332acb2a7246b23ac50ee7f31773cd0f4f6be791e8e4f904b402bcb37e",
+    "seconds": 3.654787542007398,
+    "stage": "saved-words-owners-moment"
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/parent-export/pr2894/tools/materialize_source.py",
+      "--repo",
+      "/Users/thomasdifiore/integer-mult-refit-replay",
+      "--out",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/pr2833"
+    ],
+    "exit_code": 0,
+    "log_sha256": "4e491a42e37845d4e236374158ac7117a7a0a7b390f1bbe897b5e6e1ec921e48",
+    "seconds": 1.642103542049881,
+    "stage": "export-pr2833"
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/parent-export/pr2894/vendor/pr2857/build_overlay.py",
+      "--source",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/pr2833",
+      "--generator",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/parent-export/pr2894/vendor/pr2857/shared_kernel.py",
+      "--review",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/parent-export/pr2894/vendor/pr2857/review_four_groups.py",
+      "--candidate-dir",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/parent-export/pr2894/vendor/pr2857/words",
+      "--out",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/source4"
+    ],
+    "exit_code": 0,
+    "log_sha256": "f2bbb6462b3f5bb8a6415bb33c0c35355353b13343ddb90961660f7473caa5a2",
+    "seconds": 1.6899785839486867,
+    "stage": "four-kernel-stage"
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/parent-export/pr2894/vendor/pm/build_pm_overlay.py",
+      "--overlay",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/source4",
+      "--pm-dir",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/parent-export/pr2894/vendor/pm",
+      "--out",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/source-pm"
+    ],
+    "exit_code": 0,
+    "log_sha256": "2eb7601c48840a39c58eb838886aed00a531349b259f0bbc3ea6421376b8ea3c",
+    "seconds": 2.1139476249809377,
+    "stage": "preload-stage"
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/pr2908/tools/build_channel_overlay.py",
+      "--source",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/source-pm",
+      "--local-package",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/pr2908",
+      "--out",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/source2908"
+    ],
+    "exit_code": 0,
+    "log_sha256": "d80d8494c48816e3acf662db00cc0077a888b82392d736826f73beb1c4248299",
+    "seconds": 2.294946665992029,
+    "stage": "parent-paired-stage"
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/integer-mult-refit-replay/research/paired-terminal-refit/build.py",
+      "--source2908",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/source2908",
+      "--package2908",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/pr2908",
+      "--retained",
+      "/Users/thomasdifiore/beat2745-work/cold-2894/reproduce/retained-native",
+      "--out",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/integration"
+    ],
+    "exit_code": 0,
+    "log_sha256": "dec63ec70fea86b29e1064cb8688a6b4d771a5d7c68aae9d7180f06238464f02",
+    "seconds": 13.807155875023454,
+    "stage": "extension-and-refit"
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/integration/adapters/prepare_extension_native.py",
+      "--source",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/integration/source",
+      "--retained-cache",
+      "/Users/thomasdifiore/beat2745-work/cold-2894/reproduce/retained-native/native-cache",
+      "--retained-receipt",
+      "/Users/thomasdifiore/beat2745-work/cold-2894/reproduce/retained-native/NATIVE-RECEIPT.json",
+      "--out",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/native",
+      "--jobs",
+      "2"
+    ],
+    "exit_code": 0,
+    "log_sha256": "57a95a5df95aa0574b48d59d71a6e5e84d017172e51b8627d8713c52a7134206",
+    "seconds": 42.60807100002421,
+    "stage": "fresh-current-native"
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/integration/adapters/admit_extension.py",
+      "--source",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/integration/source",
+      "--fill",
+      "/Users/thomasdifiore/integer-mult-refit-replay/research/paired-terminal-refit/vendor/pr2917/allocation/FILL.json.gz",
+      "--order",
+      "/Users/thomasdifiore/integer-mult-refit-replay/research/paired-terminal-refit/vendor/pr2917/allocation/ORDER.json",
+      "--dispatch",
+      "/Users/thomasdifiore/integer-mult-refit-replay/research/paired-terminal-refit/vendor/pr2917/allocation/DISPATCH.json",
+      "--native-cache",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/native/native-cache",
+      "--native-receipt",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/native/NATIVE-RECEIPT.json",
+      "--work",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/admission",
+      "--replica-helper-dir",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/parent-export/pr2894/vendor/pr2857/vendor/pr2839",
+      "--reconstructor",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/parent-export/pr2894/vendor/pr2857/vendor/pr2839/reconstruct_replica.py",
+      "--blocknorm-checker",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/integration/adapters/extension_blocknorm.py",
+      "--comparison-claim",
+      "/Users/thomasdifiore/beat2745-work/round2/complete-driver-replay/pr2908/CLAIM.json",
+      "--source-profile",
+      "paired-extension",
+      "--comparison-profile",
+      "pr2908",
+      "--jobs",
+      "1"
+    ],
+    "exit_code": 0,
+    "log_sha256": "c75e86acc43ff19304eed5f974b484341abf5dbe23618379174e243ba8f4b106",
+    "seconds": 404.58595558296656,
+    "stage": "complete-admission"
+  }
+]

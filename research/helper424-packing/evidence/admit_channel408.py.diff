@@ -1,0 +1,31 @@
+--- round1/admit_channel408.py
++++ four-channel/admit_channel408.py
+@@ -35,7 +35,7 @@
+ NATIVE_STAGES = ['native', 'ledgers', 'local-replay', 'wrappers', 'phases']
+ # Supported immutable source versions; CLI selection never accepts arbitrary hashes.
+ SOURCE_PROFILES = {
+-    'channel408': dict(commit='two-sided-helper408424-pr2908',manifest='efef6b2579bd72004c574635ad9d1e3d39aafac56bf8f0cb35658c151e860105',helpers=408,source_file_count=624,upstream_head='18d03c447886895ef9abf888398178e0428533ca'),
++    'channel408': dict(commit='four-helper-channels-after-round1',manifest='f495a8fae246147553add6ec7f02a35cb3c77da99987ae6316083939995b1f05',helpers=408,source_file_count=665,upstream_head='18d03c447886895ef9abf888398178e0428533ca'),
+     'shared-four': dict(commit='shared-four-kernel-pr2833', manifest='54dc42f25c1d8b85adcf593c4bf6c0f83f7351388af857812790b8a0b4c3d869', helpers=408, source_file_count=547, upstream_head='e9307b48d7d1b690939935ecef0f8e524e6d92f4'),
+     'preload-move': dict(commit='preload-move-pr2857', manifest='4da246899e2c509dd8c6e5af34905c6124ca17671b188e11ac37e36adf449504', helpers=408, source_file_count=553, upstream_head='e9307b48d7d1b690939935ecef0f8e524e6d92f4'),
+     'pr2833': dict(commit='pr2833-dirtentry', manifest='c8ec4d1b7be08d2ad30730a07392ad9cb6d0222f2c35bef43c9a80a39b16e41f', helpers=408, source_file_count=541, upstream_head='e9307b48d7d1b690939935ecef0f8e524e6d92f4'),
+@@ -290,7 +290,7 @@
+          "import blocknorm_certificate as BN;ctx['blocknorm']=BN.certify_context(ctx,roles,dirs,source_parent=parent);pending=A.check_pending_axes(ctx);receipt=A.check_roles(ctx,roles)")])
+     patch('code/assemble.py', [
+         (" assert invoice['global_prefix_bits']==max(z['prefix_bits']for p in invoice['providers'].values()for z in p['local'].values())+37+CALLS+CALLS+4",
+-         " bn=invoice['blocknorm']\n assert bn['status']=='PASS_TENSOR_BLOCK_NORM_CERTIFICATE' and bn['replicas']==REPLICAS\n assert bn['max_active_depth']==bn['boundary_depth_bits']==18 and bn['active_calls_per_block']==bn['bridges_per_block']==9\n assert bn['block_width_families']==896 and bn['physical_families']==invoice['physical'] and bn['live_families']==invoice['live']\n assert bn['partial_cover_bits']==1 and bn['input_l2_bits']==37 and bn['local_reserve_bits']==128 and bn['retained_payload_bits']==PAYLOAD\n localbits=max(z['prefix_bits']for p in invoice['providers'].values()for z in p['local'].values())\n assert bn['local_actual_prefix_bits']==localbits and localbits<=128\n assert invoice['global_prefix_bits']==bn['actual_prefix_bits']==localbits+37+18+bn['stock_l2_bits']+1+4\n assert bn['required_reserve_bits']==128+37+18+bn['stock_l2_bits']+1+4<PAYLOAD\n expected_endpoint=dict(all_arbitrary_columns=632,helper_to_data_response_zero=True,centres_first_clear_and_terminal_zero=8,zero_buffers_allocated_and_cleared=74,coefficient_work_contract='unchanged audited clear-before-and-after Horner macro')\n assert bn['endpoint_replay']=={pid:{o:expected_endpoint for o in ('forward','backward')} for pid in invoice['providers']}"),
++         " bn=invoice['blocknorm']\n assert bn['status']=='PASS_TENSOR_BLOCK_NORM_CERTIFICATE' and bn['replicas']==REPLICAS\n assert bn['max_active_depth']==bn['boundary_depth_bits']==18 and bn['active_calls_per_block']==bn['bridges_per_block']==9\n assert bn['block_width_families']==896 and bn['physical_families']==invoice['physical'] and bn['live_families']==invoice['live']\n assert bn['partial_cover_bits']==1 and bn['input_l2_bits']==37 and bn['local_reserve_bits']==128 and bn['retained_payload_bits']==PAYLOAD\n localbits=max(z['prefix_bits']for p in invoice['providers'].values()for z in p['local'].values())\n assert bn['local_actual_prefix_bits']==localbits and localbits<=128\n assert invoice['global_prefix_bits']==bn['actual_prefix_bits']==localbits+37+18+bn['stock_l2_bits']+1+4\n assert bn['required_reserve_bits']==128+37+18+bn['stock_l2_bits']+1+4<PAYLOAD\n expected_endpoint=dict(all_arbitrary_columns=632,helper_to_data_response_zero=True,centres_first_clear_and_terminal_zero=8,zero_buffers_allocated_and_cleared=76,coefficient_work_contract='unchanged audited clear-before-and-after Horner macro')\n assert bn['endpoint_replay']=={pid:{o:expected_endpoint for o in ('forward','backward')} for pid in invoice['providers']}"),
+         (" stock=group*invoice['physical'];streamed_mass=group*owner['rank_mass']",
+          " stock=group*invoice['physical'];streamed_mass=group*owner['rank_mass']\n assert bn['physical_stock_bits']==stock.bit_length() and bn['stock_l2_bits']==(stock.bit_length()+1)//2<=1330")])
+     patch('code/assembly_controls.py', [
+@@ -330,8 +330,8 @@
+     spec = read(work / 'rebound/SPEC.json')
+     for tag in ('base', 'extra'):
+         c = read(natives[tag] / 'local/CANONICAL-WORD.json.gz')
+-        need(c['R']==expected_helpers and len(c['centers'])==8 and len(c.get('zero_buffers',[]))==74, 'helper408 physical ABI including all 74 private buffers')
+-    need(spec['expected']['physical'] == 896*T+expected_helpers+8+74+2, 'complete physical cost including all actual helpers and 74 buffers')
++        need(c['R']==expected_helpers and len(c['centers'])==8 and len(c.get('zero_buffers',[]))==76, 'helper408 physical ABI including all 76 private buffers')
++    need(spec['expected']['physical'] == 896*T+expected_helpers+8+76+2, 'complete physical cost including all actual helpers and 76 buffers')
+     layout = work / 'layout'
+     layout.mkdir()
+     with tarfile.open(old / 'upstream-layout.tar.gz') as archive:

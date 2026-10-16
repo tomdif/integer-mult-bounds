@@ -1,0 +1,113 @@
+[
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/admission/package/reconstruct.py",
+      "--out",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/admission/owners"
+    ],
+    "exit_code": 0,
+    "log_sha256": "d3badc30903c4aa644faa26ba468d16146ef1a0f4a86b629470ce24ced989ae0",
+    "name": "owners",
+    "script_sha256": "5472811c24aef3852dc7e189dff5060076a6c0b25bfde928da50dcfe9b5bdc15",
+    "seconds": 3.5520401659887284
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/admission/package/lift_parent.py",
+      "--package",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/admission/package",
+      "--owners",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/admission/owners",
+      "--out",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/admission/parent-data"
+    ],
+    "exit_code": 0,
+    "log_sha256": "7b6249a123ca39fae7b7a6339dd9e8ae8777b081f4336418f2cc101704b70644",
+    "name": "parent-lift",
+    "script_sha256": "9a1edd7d4ab4a2f2ac8d15b42b7e40f93653d65026bac59e4c1ce80b486bd60e",
+    "seconds": 8.180903916014358
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/admission/package/new/rebind.py",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/admission/package",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/native/native-cache/65b8ca17dbc9a97832d387c9b4e79a4638ec7c97448c08dc25616fc8b831da38/local",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/native/native-cache/755ef5ae33dab4853d3d00ce39ffceb88479390acb32a2802f78c4991b98561a/local",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/admission/rebound"
+    ],
+    "exit_code": 0,
+    "log_sha256": "7ba9ec709ff07dbe09243894275bda7f343ca10a801d09624c0778deec61da55",
+    "name": "rebind",
+    "script_sha256": "52f8b4cec2dab69cbe590e1fd0f7a68e1b35de5a540bd22fd2adfce07a92b46b",
+    "seconds": 0.6338595420238562
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/admission/layout/packing74/replay.py",
+      "--data",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/admission/layout/packing74/candidate",
+      "--work",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/admission/discovery",
+      "--local",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/native/native-cache/65b8ca17dbc9a97832d387c9b4e79a4638ec7c97448c08dc25616fc8b831da38/local",
+      "--discover"
+    ],
+    "exit_code": 0,
+    "log_sha256": "953bce88296f79faefe9b66b277e984f19d552f5c2cfa22297409753bf607376",
+    "name": "discovery",
+    "script_sha256": "cda0f3a63c5c92c0ff45f7f3a200567d7931fd421836e72ea3b8534f6ee24dcc",
+    "seconds": 86.029583290976
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/admission/package/outer/check_ledger.py"
+    ],
+    "exit_code": 0,
+    "log_sha256": "e4bf9cff768bb34203b6dd180040e31169cd77607f4dbe3f3c075431148d948b",
+    "name": "outer-check_ledger.py",
+    "script_sha256": "1dd56009986eb14dd6603c9193c7ad71dd45c7d005bf71c9cd3f916e66f54d98",
+    "seconds": 0.061408207984641194
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/admission/package/outer/independent_check.py"
+    ],
+    "exit_code": 0,
+    "log_sha256": "d705e38d5faa6986f76e541e8e7846e0318221a1f3c6cfc3b18c33be647cbaf5",
+    "name": "outer-independent_check.py",
+    "script_sha256": "a5a0361539ec7cae9eb6c0371f857919335a1720040f22af291aa3e34fc864c7",
+    "seconds": 0.026317707961425185
+  },
+  {
+    "command": [
+      "/Users/thomasdifiore/beat2745-work/venv/bin/python",
+      "-B",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/admission/package/verify_release.py",
+      "--main",
+      "/Users/thomasdifiore/beat2745-work/round2",
+      "--work",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/admission/release",
+      "--native-cache",
+      "/Users/thomasdifiore/beat2745-work/round2/integration2917/native/native-cache",
+      "--jobs",
+      "1"
+    ],
+    "exit_code": 0,
+    "log_sha256": "26227c80cf430e6eda1774dcc9ed935f882fd473089b939b276e4a0104446fd5",
+    "name": "release",
+    "script_sha256": "6cfefe80c02a6c0f243f50ca9e146e1ab1440b84a033d8a71d42be5a5fa27f6b",
+    "seconds": 305.97621749999234
+  }
+]

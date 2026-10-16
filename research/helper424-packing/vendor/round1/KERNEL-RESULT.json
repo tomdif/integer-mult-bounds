@@ -1,0 +1,109 @@
+{
+  "status": "PASS_EXACT_SIX_QUARTET_RESPONSE_KERNEL",
+  "helpers": [
+    456,
+    457,
+    458,
+    459,
+    460,
+    461,
+    462,
+    463,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    478,
+    479,
+    480,
+    481,
+    490,
+    491,
+    492,
+    493
+  ],
+  "variants": {
+    "base": {
+      "word_sha256": "c20a470aec0f3e61833cb41fe190639eb358f58017143d2336c55c80fba265eb",
+      "response_rows": 48,
+      "rank": 18,
+      "nullity": 6,
+      "zero_columns": [
+        457,
+        458,
+        460,
+        462,
+        478,
+        480
+      ],
+      "pivot_columns": [
+        456,
+        459,
+        461,
+        463,
+        464,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        479,
+        481,
+        490,
+        491,
+        492,
+        493
+      ],
+      "controls": [
+        "added independent response increases rank",
+        "deleted pivot column decreases rank"
+      ]
+    },
+    "extra": {
+      "word_sha256": "db34e39876241087b581ed9374c53e9cd393e3e86ef6103bfb54f3077c3d2761",
+      "response_rows": 48,
+      "rank": 18,
+      "nullity": 6,
+      "zero_columns": [
+        457,
+        458,
+        460,
+        462,
+        478,
+        480
+      ],
+      "pivot_columns": [
+        456,
+        459,
+        461,
+        463,
+        464,
+        465,
+        466,
+        467,
+        468,
+        469,
+        470,
+        471,
+        479,
+        481,
+        490,
+        491,
+        492,
+        493
+      ],
+      "controls": [
+        "added independent response increases rank",
+        "deleted pivot column decreases rank"
+      ]
+    }
+  },
+  "scope": "The frozen PR2894 forward target-response map restricted to these 24 input helpers has rank18 and exactly six independent zero directions, already realized. An invertible change of helper basis alone cannot create a seventh. This does not rule out changed gates, extra carriers, enlarged helper sets, larger entrance frames or cheaper realizations of the existing directions.",
+  "credit": "Jeremy Kothe PR2894, Yiyang Lu PR2857, Philippe Van Velzen PR2853, Dugongue PR2863, and retained word authors. Exact algebra independently implemented with OpenAI Codex assistance; no novelty claim."
+}

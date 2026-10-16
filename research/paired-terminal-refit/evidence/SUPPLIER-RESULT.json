@@ -1,0 +1,128 @@
+{
+  "status": "PASS_T74_EXACT_FILL_COMPLETE_FINITE_ADMISSION",
+  "kappa": "107443269793063/62500000000000000",
+  "kappa_decimal": "0.001719092316689008",
+  "manifest_sha256": "f30e5e3ff8b6049cde3d53fbd689b433e320c73211ae7e886dceba857cab3f68",
+  "native_reuse": {
+    "base": true,
+    "extra": true
+  },
+  "provider_verification": "PASS_GLOBAL_MIXED_X54_FUSIONS_NATIVE_AND_STRICT_ADMISSION",
+  "roles": 271728,
+  "prefix_bits": 1456,
+  "charged_prefix_bits": 2048,
+  "physical_row_coefficient": 19545,
+  "row_limit": 20161,
+  "controls": {
+    "admission": 119,
+    "bit": 12,
+    "controller": 15,
+    "independent_owner": 8,
+    "geometry": 6
+  },
+  "stages": [
+    {
+      "name": "fine-engine-oracle",
+      "exit_code": 0,
+      "seconds": 1.130946249992121,
+      "log_sha256": "ea6df7be568d6461ac54e0d56754797de0f70f2f1ecc335114791445b75795d3"
+    },
+    {
+      "name": "retained-provider-and-parent-admission",
+      "reused_receipt": "e0eefc96567fbb45e19e6de0ca295381dbe0e686c08ddc783639b065c7c791d4",
+      "exit_code": 0,
+      "seconds": 0.3092895000008866
+    },
+    {
+      "name": "rebuild-words-566",
+      "exit_code": 0,
+      "seconds": 1.7836889160098508,
+      "log_sha256": "dcbcbeda80423df29ef008bfac58409378f1fd0a3b9b23fc31ab9f03659dd86f"
+    },
+    {
+      "name": "reconstruct-owners",
+      "exit_code": 0,
+      "seconds": 3.745330333011225,
+      "log_sha256": "d3badc30903c4aa644faa26ba468d16146ef1a0f4a86b629470ce24ced989ae0"
+    },
+    {
+      "name": "lift-parent",
+      "exit_code": 0,
+      "seconds": 8.71506075002253,
+      "log_sha256": "7b6249a123ca39fae7b7a6339dd9e8ae8777b081f4336418f2cc101704b70644"
+    },
+    {
+      "name": "rebuild-borrow-words",
+      "exit_code": 0,
+      "seconds": 139.3554412079975,
+      "log_sha256": "519e44571e746450bbe73e199dc6af35a6c7e74b3a7cf2f92cfcf27c8c76fbae"
+    },
+    {
+      "name": "shared-kernel-independent-review",
+      "exit_code": 0,
+      "seconds": 8.95090087497374,
+      "log_sha256": "3dc6eb8940cf8a4b993f80129c98b6c4846ad346ccf773a78af225cff3339cc3"
+    },
+    {
+      "name": "preload-move-independent-review",
+      "exit_code": 0,
+      "seconds": 11.391165958018973,
+      "log_sha256": "c456d3e39c09e960ceebf80251d5e808fa9299991471fd86f4093d9bc4dd3eda"
+    },
+    {
+      "name": "two-sided-helper408-review",
+      "exit_code": 0,
+      "seconds": 4.0115474999765866,
+      "log_sha256": "9fb1d88b672212ed67b61aed255ea9f4a48ada49dd688f09b6b2efb82a506935"
+    },
+    {
+      "name": "paired-extension-review",
+      "exit_code": 0,
+      "seconds": 22.42997420905158,
+      "log_sha256": "0596571dd24b357895a33791037dbce55bfc763654d87dfc287875c5044b12ea"
+    },
+    {
+      "name": "terminal-frame-refit-review",
+      "exit_code": 0,
+      "seconds": 4.317679750034586,
+      "log_sha256": "40d71fa6753089f3c9094a96fb27cc9f216a6e41d1f9a877b84effbc568309c6"
+    },
+    {
+      "name": "audit-local-566-base",
+      "exit_code": 0,
+      "seconds": 0.7013872090028599,
+      "log_sha256": "499853420592a6b7cf10cce264746a26e68c4a55793ebe8e4d32ed8941b678b5"
+    },
+    {
+      "name": "audit-local-566-extra",
+      "exit_code": 0,
+      "seconds": 0.6871419579838403,
+      "log_sha256": "04c9e97a1010e4f1f915356c0ee5b09930337f55b03c06df43ffd11de9608e2d"
+    },
+    {
+      "name": "rebind-566",
+      "exit_code": 0,
+      "seconds": 0.6990492920158431,
+      "log_sha256": "7ba9ec709ff07dbe09243894275bda7f343ca10a801d09624c0778deec61da55"
+    },
+    {
+      "name": "lemmag-labels",
+      "exit_code": 0,
+      "seconds": 16.197068292007316,
+      "log_sha256": "91fafdc76824e278546bb51465cf84d60a3513df3f2e8ab9854919c416cd3469"
+    },
+    {
+      "name": "strict-t74",
+      "exit_code": 0,
+      "seconds": 91.71527858299669,
+      "log_sha256": "99736cba573acff16a258de4136e42a76e517ef118b7401194e04029c3b34597"
+    },
+    {
+      "name": "geometry-controls",
+      "exit_code": 0,
+      "seconds": 0.9572615000070073,
+      "log_sha256": "0a3ecf05cfa2bebb61fffd2fbb4b244c03d742069e2705d02512699bbf4b01f9"
+    }
+  ],
+  "scope": "Conditional finite construction only. All-size compiler, common-label/mutable-source realization, whole-call hosting, precision/tape, exact recovery, analytic transfer, PR559 recurrence correction and PR589 bit H1-H5 assumptions remain. No unconditional theorem, full Lean certification, or global packing claim."
+}

@@ -1,0 +1,11 @@
+{
+  "files": {
+    "SOURCE-DERIVATION.json": "1086bfa2a38c33a43439b479ff9a49364147f37ae19430e10f042d4d6a5c60a8",
+    "admit_channel408.py": "fbbf5e48c16f235aa369af92a414af6f8cdeb8b23701c728c0d61643e944d96c",
+    "channel_blocknorm.py": "3aa94ef7f899da8b3c215c0239d96a6401c5263751332474d87a17dc3ed15dfc",
+    "prepare_channel_native.py": "1682eef8da0596b69a56a6dbfb3bb19daaa0aea223ed6ef1eccbc4f84c6a36c1",
+    "source/MANIFEST.json": "efef6b2579bd72004c574635ad9d1e3d39aafac56bf8f0cb35658c151e860105"
+  },
+  "note": "The original adapter derivation adds explanatory correction notes; all before/after hashes match.",
+  "status": "PASS_GENERATOR_REPRODUCES_VERIFIED_SOURCE_AND_ADAPTERS"
+}
