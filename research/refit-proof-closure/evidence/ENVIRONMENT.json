@@ -1,0 +1,12 @@
+{
+  "python": "3.12.13 (main, Apr 14 2026, 14:33:40) [Clang 22.1.3 ]",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "checked_at": "2026-10-16T13:54:58.734646+00:00",
+  "registered_commands": 2,
+  "fresh_bytecode_namespaces": true,
+  "normal_optimized_receipts_identical": true,
+  "python_rejecting_controls": 11,
+  "lean_theorems": 5,
+  "lean_rejected_controls": 3,
+  "scope": "No new full native/Gaussian admission and no full multiplier execution."
+}

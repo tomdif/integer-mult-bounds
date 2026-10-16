@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "task_id": "uniform-transfer-audit",
+  "priority_revision": 5,
+  "base_commit": "b9b9666504aa0df805149486bc3a3cab481b7e98",
+  "original_card": {
+    "id": "uniform-transfer-audit",
+    "question": "Can one exact all-size/compiler, precision, hosting or restoration implication be proved or falsified?",
+    "starting_points": [
+      "certificates/selected-result.json",
+      "docs/audit.md"
+    ],
+    "methods": [
+      "Prove one missing implication with explicit quantified hypotheses.",
+      "Find an exact counterexample at the claimed interface boundary."
+    ],
+    "acceptance_gate": "Identify the proposition and what would change downstream; do not equate a finite replay with a universal proof.",
+    "first_step": {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/research_baseline.py"
+      ],
+      "expected": "PASS_RESEARCH_BASELINE_BINDINGS_ONLY",
+      "inspect": "Read the selected review scope and choose one exact all-size or precision implication.",
+      "scope": "Positive control / source-bound orientation only; this is not a new construction or full cold replay."
+    },
+    "first_experiment": "Write its quantified inputs and conclusion; find a missing hypothesis or construct a minimal exact adversarial instance.",
+    "bottleneck_link": "Finite supplier improvements are useful only under the retained transfer obligations.",
+    "allowed_variations": [
+      "Choose one tape, precision, hosting or restoration lemma."
+    ],
+    "scope_change_triggers": [
+      "Replacing a quantified obligation with another finite smoke test."
+    ],
+    "overlap_terms": [
+      "uniform transfer",
+      "all-size",
+      "precision"
+    ]
+  },
+  "scope_status": "refined",
+  "actual_scope": "Continue the explicit proof-completion request with constructive support routing, direct weighted induction, and an algebraic/conditional repair of the retained CRT scan cost.",
+  "scope_change_reason": "User-assigned proof work, not a new random task. Auditing the outer cost exposed a CRT interface not supplied by binary-coordinate routing.",
+  "bottleneck_link": "The stronger finite supplier remains conditional until uniform physical and analytic transfer is proved.",
+  "budget_minutes": 60,
+  "stop_rule": "Preserve exact new proofs and counterexamples; do not call the full theorem proved while dispatch and transform contract T remain open.",
+  "outcome": "partial",
+  "evidence": "ROUTER.md, RECURRENCE.md, CRT.md, generated routing/CRT specifications, exact receipts and five Lean lemmas.",
+  "author": "Thomas DiFiore",
+  "ai_assistance": "Substantial OpenAI Codex assistance in mathematics, code, checking and writing; no subagents.",
+  "open_questions": [
+    {
+      "question": "Can the complete current refit dispatcher be refined to fixed physical roles?",
+      "why_it_matters": "The new weighted induction still requires the actual node-cost and locality premises.",
+      "first_step": "Lower one whole current native invocation with owner charts, private buffers, recursive parking and return state.",
+      "blocked_by": "A source-bound event ledger and primitive joins do not implement the complete global controller."
+    },
+    {
+      "question": "Does the actual fine-prime source transform satisfy contract T with complete spectator rows?",
+      "why_it_matters": "The new logarithmic CRT and the outer multiplication reduction both require it.",
+      "first_step": "Extract the acyclic Gaussian/synthetic source-transform graph and prove its uniform cost and error before adding CRT.",
+      "blocked_by": "All-size analytic and physical integration at the extreme parameter point is not established by these finite checks."
+    }
+  ],
+  "upstream_checkpoint": {
+    "base_main": "9ee73fecdbae9f892a6496dbdfae872217cf4601",
+    "latest_main": "4bb3629e638edc9d70ea124eb50f80e71433be05",
+    "checked_at": "2026-10-16T13:43:48Z",
+    "guidance_changes": [
+      "AGENTS.md and CONTRIBUTING.md now clarify archival intake versus mathematical validation; read and followed."
+    ],
+    "input_changes": [],
+    "decision": "Keep immutable scientific inputs; continue scoped proof work without treating archival acceptance as theorem verification.",
+    "archive_policy_read": true
+  },
+  "overlap": {
+    "searched_at": "2026-10-16T13:42:45.817520+00:00",
+    "coverage": {
+      "open_prs": {
+        "fetched_at": "2026-10-16T13:42:10.546085+00:00",
+        "complete_pagination": true,
+        "records": 452
+      },
+      "discussions": {
+        "fetched_at": "2026-10-16T13:42:45.705505+00:00",
+        "complete_pagination": true,
+        "records": 1638
+      }
+    },
+    "warnings": [],
+    "matches_total": 38
+  },
+  "publication": "Authorized fork branch only; no PR, discussion, email or other message posted.",
+  "status": "partial_proof_completion",
+  "completed_at": "2026-10-16T13:54:58.734646+00:00",
+  "validation": "Both registered commands passed in fresh bytecode namespaces with identical receipts; five Lean lemmas passed and three false controls were rejected."
+}

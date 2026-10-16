@@ -1,0 +1,48 @@
+{
+  "axioms": {
+    "blockFactorization": [
+      "Quot.sound",
+      "propext"
+    ],
+    "conditionalShiftInverse": [
+      "propext"
+    ],
+    "normalizedSandwichScale": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "oldScanExceedsTarget": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "weightedClosure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "build_log_sha256": "8eb19228ebd15a091cd86bcb7938ccde3f771c23d9bb9e988ff841f52527479d",
+  "dependencies": {
+    "Cli": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+    "LeanSearchClient": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+    "Qq": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+    "aesop": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+    "batteries": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+    "importGraph": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+    "mathlib": "905b95818eb32af7874a58b427f50c1711a5e96c",
+    "plausible": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+    "proofwidgets": "6e311e2a844da9b2cc3971187df2fe0066947b93"
+  },
+  "kernel_checked": true,
+  "lean_version": "Lean (version 4.32.2, arm64-apple-darwin24.6.0, commit f3b06c705e6c85f5314019d5d3baab0fec5b580c, Release)",
+  "rejected_controls": {
+    "omit_fourier_scale": "68b818fc214d5b6bac01ee81310f4e5008b50ecf17ed304aac1529a8cb5091bc",
+    "omit_inverse_controls": "3e8bc439a650b037ec2938f206797163785d3e13181ab268db52a6651d7c1600",
+    "reverse_old_scan_margin": "f83937307ec8fc6bda8c31ced6cc631d83139dd6b87423081be06b5d1c8ab10f"
+  },
+  "scope": "Five algebraic/arithmetic implications only. No Fourier construction, tape semantics or complete multiplication theorem is formalized.",
+  "source_sha256": "09a7a254703ce2b65702a6b076378298a1887660079ddc04113a55596d5def86",
+  "status": "PASS_SCOPED_REFIT_CLOSURE_KERNEL"
+}

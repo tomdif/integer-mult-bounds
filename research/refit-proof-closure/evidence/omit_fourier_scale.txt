@@ -1,0 +1,2 @@
+omit_fourier_scale.lean:2:31: error: unsolved goals
+⊢ False

@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "scope": "All package files except this manifest; no generated pycache included. Scientific inputs remain pinned in SOURCES.json.",
+  "files": [
+    {
+      "path": "CRT.md",
+      "bytes": 11384,
+      "sha256": "0c8f0d9ce6f93fa7014757f97046da7e3754f5585b391fe12d143f6a422492c8"
+    },
+    {
+      "path": "Closure.lean",
+      "bytes": 2156,
+      "sha256": "09a7a254703ce2b65702a6b076378298a1887660079ddc04113a55596d5def86"
+    },
+    {
+      "path": "KERNEL.json",
+      "bytes": 1855,
+      "sha256": "350b6e9332dc727ae7aeacc8e8af59ab356da1198d1eb807b5cc1a59b03c2088"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6024,
+      "sha256": "045eaaae4fd9a57ebdf64633d1cc4acb695a9555ea8d9ca69f141c713b96ceeb"
+    },
+    {
+      "path": "RECURRENCE.md",
+      "bytes": 3162,
+      "sha256": "caf41d4a06ada9d1cb23a91204eed51e2f09887cd210de39f6630ebcfed1c12a"
+    },
+    {
+      "path": "ROUTER.md",
+      "bytes": 9453,
+      "sha256": "6d833c3066042e4bca038654621b358e0f706bbf4f0058926eab29ecb0df127d"
+    },
+    {
+      "path": "SOURCES.json",
+      "bytes": 22685,
+      "sha256": "4e60c51a4b28ab4ccbc88e89c51d9937467d7a759b03089f23c1ccddb95e6058"
+    },
+    {
+      "path": "TASK.json",
+      "bytes": 5087,
+      "sha256": "96f654a674ad074a2078fc9897f3c6bb483b4663ffa868569a1404fed65a3c80"
+    },
+    {
+      "path": "VERIFY.json",
+      "bytes": 6566,
+      "sha256": "d14f798019e14fb444d67e98c1e16d45cc61f57f0ad82ca9d50f71fa35635a5d"
+    },
+    {
+      "path": "check_crt.py",
+      "bytes": 5949,
+      "sha256": "6c9369dc61b73ff17240730c45a8fb5acc16646353b96fc404a161c700fb9ad4"
+    },
+    {
+      "path": "check_parameters.py",
+      "bytes": 1816,
+      "sha256": "8effafb6239bc45c2915dc368b2bfe8626dddd5fd7a3dc59db59cdbb3c29a79b"
+    },
+    {
+      "path": "coordinate_router.py",
+      "bytes": 8244,
+      "sha256": "136f04bc20d07d42bdb0641225ff104058468d3af41f39bbf3369bd6ddd3395f"
+    },
+    {
+      "path": "crt_layers.py",
+      "bytes": 3878,
+      "sha256": "d9d80d40d1cd00edf7bd14a0c8f13a7a90dd0a867faa32fcc3b37e83d6ddae2d"
+    },
+    {
+      "path": "evidence/BUILD.txt",
+      "bytes": 630,
+      "sha256": "8eb19228ebd15a091cd86bcb7938ccde3f771c23d9bb9e988ff841f52527479d"
+    },
+    {
+      "path": "evidence/ENVIRONMENT.json",
+      "bytes": 454,
+      "sha256": "c8b5e9c177e63f6f7f58066705a782105c1a7d117a9723b5cec02d7591378360"
+    },
+    {
+      "path": "evidence/OVERLAP.json",
+      "bytes": 785,
+      "sha256": "4d0558502acf468aa59252e64550a337f26027ada47a53f0ea504b7efb42dd27"
+    },
+    {
+      "path": "evidence/REGISTERED-REPLAY.txt",
+      "bytes": 17331,
+      "sha256": "a3f74ea5ff90fe64953e77328cb62654aba7e4a3e6f56e779321de4d320b841b"
+    },
+    {
+      "path": "evidence/VERIFY-NORMAL.json",
+      "bytes": 8519,
+      "sha256": "d54b283c9334294fa8a51243ef195269c530721443a2568c67a1f2971e28b272"
+    },
+    {
+      "path": "evidence/VERIFY-OPTIMIZED.json",
+      "bytes": 8519,
+      "sha256": "d54b283c9334294fa8a51243ef195269c530721443a2568c67a1f2971e28b272"
+    },
+    {
+      "path": "evidence/omit_fourier_scale.txt",
+      "bytes": 62,
+      "sha256": "68b818fc214d5b6bac01ee81310f4e5008b50ecf17ed304aac1529a8cb5091bc"
+    },
+    {
+      "path": "evidence/omit_inverse_controls.txt",
+      "bytes": 65,
+      "sha256": "3e8bc439a650b037ec2938f206797163785d3e13181ab268db52a6651d7c1600"
+    },
+    {
+      "path": "evidence/reverse_old_scan_margin.txt",
+      "bytes": 68,
+      "sha256": "f83937307ec8fc6bda8c31ced6cc631d83139dd6b87423081be06b5d1c8ab10f"
+    },
+    {
+      "path": "lean/lake-manifest.json",
+      "bytes": 3559,
+      "sha256": "f4671ef2eff309d21d902848451b325ee8cc1d2a7a6805f06be95661ff1d2471"
+    },
+    {
+      "path": "lean/lakefile.toml",
+      "bytes": 227,
+      "sha256": "ffb7eb043da8a7881c3bb77d608abc8d926ed571df6263e8d2573dcc937abb74"
+    },
+    {
+      "path": "lean/lean-toolchain",
+      "bytes": 25,
+      "sha256": "2bdc48adfa58d0017e538a0ad117c5d73d35deec879978f909406a80c8037273"
+    },
+    {
+      "path": "sparse_router.py",
+      "bytes": 9798,
+      "sha256": "0432ece3099784045be4ba525c70bf0d507d53b87657c6257e73bacc4e8203bb"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 2045,
+      "sha256": "40372a6d730958c78f9cbec5b385a3f1466cef55dbd97e4f8dc8dc1f110853cc"
+    },
+    {
+      "path": "verify_kernel.py",
+      "bytes": 3907,
+      "sha256": "4cdd8ff239002f9d25fb68bacf0a3e209f733e73881a419ce5a0031a0466f819"
+    }
+  ]
+}

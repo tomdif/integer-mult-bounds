@@ -1,0 +1,2 @@
+omit_inverse_controls.lean:2:41: error: unsolved goals
+⊢ False

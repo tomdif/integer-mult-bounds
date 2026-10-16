@@ -1,0 +1,7 @@
+ℹ [2997/2998] Built Closure (3.6s)
+info: Closure.lean:50:0: 'RefitClosure.blockFactorization' depends on axioms: [propext, Quot.sound]
+info: Closure.lean:51:0: 'RefitClosure.conditionalShiftInverse' depends on axioms: [propext]
+info: Closure.lean:52:0: 'RefitClosure.normalizedSandwichScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Closure.lean:53:0: 'RefitClosure.weightedClosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Closure.lean:54:0: 'RefitClosure.oldScanExceedsTarget' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (2998 jobs).

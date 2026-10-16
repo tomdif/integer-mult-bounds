@@ -1,0 +1,577 @@
+CHECK Source-bound exact CRT/Fourier checks, all-address coordinate plans, sparse physical seam and strict parameter bindings.
+{
+  "coordinate_router": {
+    "cases": [
+      {
+        "bits": 17,
+        "kind": "cycle",
+        "operations": 16,
+        "sparse_shears": 0,
+        "suffix_bits": 4
+      },
+      {
+        "bits": 17,
+        "kind": "reverse",
+        "operations": 8,
+        "sparse_shears": 0,
+        "suffix_bits": 4
+      },
+      {
+        "bits": 17,
+        "kind": "shuffle",
+        "operations": 13,
+        "sparse_shears": 0,
+        "suffix_bits": 4
+      },
+      {
+        "bits": 17,
+        "kind": "sparse",
+        "operations": 3,
+        "sparse_shears": 0,
+        "suffix_bits": 4
+      },
+      {
+        "bits": 1024,
+        "kind": "cycle",
+        "operations": 1384,
+        "sparse_shears": 848,
+        "suffix_bits": 16
+      },
+      {
+        "bits": 1024,
+        "kind": "reverse",
+        "operations": 684,
+        "sparse_shears": 408,
+        "suffix_bits": 16
+      },
+      {
+        "bits": 1024,
+        "kind": "shuffle",
+        "operations": 1276,
+        "sparse_shears": 874,
+        "suffix_bits": 16
+      },
+      {
+        "bits": 1024,
+        "kind": "sparse",
+        "operations": 7,
+        "sparse_shears": 3,
+        "suffix_bits": 16
+      },
+      {
+        "bits": 2048,
+        "kind": "cycle",
+        "operations": 2753,
+        "sparse_shears": 1696,
+        "suffix_bits": 25
+      },
+      {
+        "bits": 2048,
+        "kind": "reverse",
+        "operations": 1364,
+        "sparse_shears": 823,
+        "suffix_bits": 25
+      },
+      {
+        "bits": 2048,
+        "kind": "shuffle",
+        "operations": 2571,
+        "sparse_shears": 1754,
+        "suffix_bits": 25
+      },
+      {
+        "bits": 2048,
+        "kind": "sparse",
+        "operations": 7,
+        "sparse_shears": 3,
+        "suffix_bits": 25
+      },
+      {
+        "bits": 4096,
+        "kind": "cycle",
+        "operations": 2913,
+        "sparse_shears": 1856,
+        "suffix_bits": 25
+      },
+      {
+        "bits": 4096,
+        "kind": "reverse",
+        "operations": 1444,
+        "sparse_shears": 903,
+        "suffix_bits": 25
+      },
+      {
+        "bits": 4096,
+        "kind": "shuffle",
+        "operations": 2815,
+        "sparse_shears": 2010,
+        "suffix_bits": 25
+      },
+      {
+        "bits": 4096,
+        "kind": "sparse",
+        "operations": 7,
+        "sparse_shears": 3,
+        "suffix_bits": 25
+      }
+    ],
+    "rejecting_controls": [
+      "omit_actual_reservoir_exchange",
+      "omit_actual_sparse_call",
+      "omit_middle_matching_XOR"
+    ],
+    "scope": "Exact formal-bit endpoint checks of constructed plans; sparse raw/repair payload seam checked separately.",
+    "status": "PASS_COORDINATE_ROUTER_PLAN"
+  },
+  "crt": {
+    "addresses": [
+      {
+        "addresses": 3,
+        "layers": 0,
+        "moduli": [
+          3
+        ]
+      },
+      {
+        "addresses": 15,
+        "layers": 1,
+        "moduli": [
+          3,
+          5
+        ]
+      },
+      {
+        "addresses": 105,
+        "layers": 2,
+        "moduli": [
+          3,
+          5,
+          7
+        ]
+      },
+      {
+        "addresses": 1155,
+        "layers": 2,
+        "moduli": [
+          3,
+          5,
+          7,
+          11
+        ]
+      },
+      {
+        "addresses": 2310,
+        "layers": 3,
+        "moduli": [
+          2,
+          3,
+          5,
+          7,
+          11
+        ]
+      }
+    ],
+    "fourier": {
+      "arithmetic": "exact integer cyclotomic reductions and rational phases",
+      "conditional_phase_checks": 2310,
+      "sandwich_entries": 4599
+    },
+    "rejecting_controls": [
+      "reverse_forward_layer_order",
+      "use_transformed_controls_without_block_inverse",
+      "omit_final_S_scale",
+      "omit_retained_frequency_unit"
+    ]
+  },
+  "parameters": {
+    "margins": {
+      "direct_induction_above_requested": "1/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "global_router_absorption": "49544157726026804710000000000000000000001000000000000000000000001/10000000000000000000000000000000000000000000000000000000000000000000000",
+      "moment_monotonicity_gap": "3/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "old_scan_exceeds_target": "7053527794595419420790783999999999999999999590399999999999999999999590399999999999999999999999999999959/4096000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "ordinary_above_effective": "990883154520536094200000000000000000000000000000000000000000000000000000000000000000000000000000003/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "outer_main_absorption": "20480000000000000000000020479999999999999999999999999999995900469791997333835494965550000000000000000000000000000000000000000000000000000000000000000000000000000041/204800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "retained_moment_gap": "588155256925609936314206750132224892606135195984594338677979819066250823405783521283605611915302165210230755797415322800754792523884641/439347050248359021758841651141209165905243859209171546201245661387874763737449987335843817002333091518546963929054774914375807231981865204004737810631363657728"
+    },
+    "parameters": {
+      "C": "1722052684227397319529/1000000000000000000000000",
+      "a": "344410536845479463905799999999999999999999999999999999999999999999999999999999999999999999999999999997/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "epsilon": "4095999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999959/4096000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "kappa": "17220526842273973195289999999999999999999998999999999999999999999999/10000000000000000000000000000000000000000000000000000000000000000000000",
+      "q": "86102634211369865976449999999999999999999999999999999999999999999999999999999999999999999999999999999/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "scope": "Exact arithmetic and authenticated retained enclosure; no new native or analytic admission.",
+    "status": "PASS_PROOF_TARGET_BINDINGS"
+  },
+  "scope": "Scoped algebra, generated coordinate routing, reduced physical seam, and exact parameter bindings. Full complex dispatch and the uniform analytic source-transform contract remain unproved here.",
+  "source_files": 85,
+  "sparse_router": {
+    "algebra": [
+      {
+        "addresses": 256,
+        "bad": 224,
+        "capacity": 1,
+        "good": 32,
+        "raw_errors": 64,
+        "sources": [
+          2
+        ],
+        "targets": [
+          0
+        ]
+      },
+      {
+        "addresses": 2048,
+        "bad": 1792,
+        "capacity": 2,
+        "good": 256,
+        "raw_errors": 512,
+        "sources": [
+          2
+        ],
+        "targets": [
+          0
+        ]
+      },
+      {
+        "addresses": 131072,
+        "bad": 129024,
+        "capacity": 2,
+        "good": 2048,
+        "raw_errors": 79744,
+        "sources": [
+          2,
+          8
+        ],
+        "targets": [
+          0,
+          6
+        ]
+      }
+    ],
+    "physical": {
+      "ordinary_calls": 12,
+      "payload_bits": 2048,
+      "records": 256,
+      "scope": "Reduced actual B1 payload fixture; all calls use its elementary branch. Upper descriptor costs require the written refinement proof.",
+      "source_inside_guard": true,
+      "work_erased": true
+    },
+    "rejecting_controls": [
+      "omit_repair",
+      "wrong_inverse_current_controls",
+      "source_is_target",
+      "guard_outside_field"
+    ],
+    "unequal_gaps": {
+      "G": 3,
+      "K": 8,
+      "addresses": 4000,
+      "bad": 1631,
+      "capacity": 4,
+      "good": 2369,
+      "raw_errors": 629,
+      "scope": "Deterministic sampled and constructed-good states, not exhaustive; gaps 10 and 13, nonbinary dirty digits and inactive high digits.",
+      "sources": [
+        2,
+        12,
+        25
+      ],
+      "targets": [
+        0,
+        10,
+        23
+      ]
+    }
+  },
+  "status": "PASS_SCOPED_REFIT_PROOFS"
+}
+CHECK Same results and mathematical rejection controls with Python assertions disabled.
+{
+  "coordinate_router": {
+    "cases": [
+      {
+        "bits": 17,
+        "kind": "cycle",
+        "operations": 16,
+        "sparse_shears": 0,
+        "suffix_bits": 4
+      },
+      {
+        "bits": 17,
+        "kind": "reverse",
+        "operations": 8,
+        "sparse_shears": 0,
+        "suffix_bits": 4
+      },
+      {
+        "bits": 17,
+        "kind": "shuffle",
+        "operations": 13,
+        "sparse_shears": 0,
+        "suffix_bits": 4
+      },
+      {
+        "bits": 17,
+        "kind": "sparse",
+        "operations": 3,
+        "sparse_shears": 0,
+        "suffix_bits": 4
+      },
+      {
+        "bits": 1024,
+        "kind": "cycle",
+        "operations": 1384,
+        "sparse_shears": 848,
+        "suffix_bits": 16
+      },
+      {
+        "bits": 1024,
+        "kind": "reverse",
+        "operations": 684,
+        "sparse_shears": 408,
+        "suffix_bits": 16
+      },
+      {
+        "bits": 1024,
+        "kind": "shuffle",
+        "operations": 1276,
+        "sparse_shears": 874,
+        "suffix_bits": 16
+      },
+      {
+        "bits": 1024,
+        "kind": "sparse",
+        "operations": 7,
+        "sparse_shears": 3,
+        "suffix_bits": 16
+      },
+      {
+        "bits": 2048,
+        "kind": "cycle",
+        "operations": 2753,
+        "sparse_shears": 1696,
+        "suffix_bits": 25
+      },
+      {
+        "bits": 2048,
+        "kind": "reverse",
+        "operations": 1364,
+        "sparse_shears": 823,
+        "suffix_bits": 25
+      },
+      {
+        "bits": 2048,
+        "kind": "shuffle",
+        "operations": 2571,
+        "sparse_shears": 1754,
+        "suffix_bits": 25
+      },
+      {
+        "bits": 2048,
+        "kind": "sparse",
+        "operations": 7,
+        "sparse_shears": 3,
+        "suffix_bits": 25
+      },
+      {
+        "bits": 4096,
+        "kind": "cycle",
+        "operations": 2913,
+        "sparse_shears": 1856,
+        "suffix_bits": 25
+      },
+      {
+        "bits": 4096,
+        "kind": "reverse",
+        "operations": 1444,
+        "sparse_shears": 903,
+        "suffix_bits": 25
+      },
+      {
+        "bits": 4096,
+        "kind": "shuffle",
+        "operations": 2815,
+        "sparse_shears": 2010,
+        "suffix_bits": 25
+      },
+      {
+        "bits": 4096,
+        "kind": "sparse",
+        "operations": 7,
+        "sparse_shears": 3,
+        "suffix_bits": 25
+      }
+    ],
+    "rejecting_controls": [
+      "omit_actual_reservoir_exchange",
+      "omit_actual_sparse_call",
+      "omit_middle_matching_XOR"
+    ],
+    "scope": "Exact formal-bit endpoint checks of constructed plans; sparse raw/repair payload seam checked separately.",
+    "status": "PASS_COORDINATE_ROUTER_PLAN"
+  },
+  "crt": {
+    "addresses": [
+      {
+        "addresses": 3,
+        "layers": 0,
+        "moduli": [
+          3
+        ]
+      },
+      {
+        "addresses": 15,
+        "layers": 1,
+        "moduli": [
+          3,
+          5
+        ]
+      },
+      {
+        "addresses": 105,
+        "layers": 2,
+        "moduli": [
+          3,
+          5,
+          7
+        ]
+      },
+      {
+        "addresses": 1155,
+        "layers": 2,
+        "moduli": [
+          3,
+          5,
+          7,
+          11
+        ]
+      },
+      {
+        "addresses": 2310,
+        "layers": 3,
+        "moduli": [
+          2,
+          3,
+          5,
+          7,
+          11
+        ]
+      }
+    ],
+    "fourier": {
+      "arithmetic": "exact integer cyclotomic reductions and rational phases",
+      "conditional_phase_checks": 2310,
+      "sandwich_entries": 4599
+    },
+    "rejecting_controls": [
+      "reverse_forward_layer_order",
+      "use_transformed_controls_without_block_inverse",
+      "omit_final_S_scale",
+      "omit_retained_frequency_unit"
+    ]
+  },
+  "parameters": {
+    "margins": {
+      "direct_induction_above_requested": "1/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "global_router_absorption": "49544157726026804710000000000000000000001000000000000000000000001/10000000000000000000000000000000000000000000000000000000000000000000000",
+      "moment_monotonicity_gap": "3/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "old_scan_exceeds_target": "7053527794595419420790783999999999999999999590399999999999999999999590399999999999999999999999999999959/4096000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "ordinary_above_effective": "990883154520536094200000000000000000000000000000000000000000000000000000000000000000000000000000003/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "outer_main_absorption": "20480000000000000000000020479999999999999999999999999999995900469791997333835494965550000000000000000000000000000000000000000000000000000000000000000000000000000041/204800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "retained_moment_gap": "588155256925609936314206750132224892606135195984594338677979819066250823405783521283605611915302165210230755797415322800754792523884641/439347050248359021758841651141209165905243859209171546201245661387874763737449987335843817002333091518546963929054774914375807231981865204004737810631363657728"
+    },
+    "parameters": {
+      "C": "1722052684227397319529/1000000000000000000000000",
+      "a": "344410536845479463905799999999999999999999999999999999999999999999999999999999999999999999999999999997/200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "epsilon": "4095999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999959/4096000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "kappa": "17220526842273973195289999999999999999999998999999999999999999999999/10000000000000000000000000000000000000000000000000000000000000000000000",
+      "q": "86102634211369865976449999999999999999999999999999999999999999999999999999999999999999999999999999999/50000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "scope": "Exact arithmetic and authenticated retained enclosure; no new native or analytic admission.",
+    "status": "PASS_PROOF_TARGET_BINDINGS"
+  },
+  "scope": "Scoped algebra, generated coordinate routing, reduced physical seam, and exact parameter bindings. Full complex dispatch and the uniform analytic source-transform contract remain unproved here.",
+  "source_files": 85,
+  "sparse_router": {
+    "algebra": [
+      {
+        "addresses": 256,
+        "bad": 224,
+        "capacity": 1,
+        "good": 32,
+        "raw_errors": 64,
+        "sources": [
+          2
+        ],
+        "targets": [
+          0
+        ]
+      },
+      {
+        "addresses": 2048,
+        "bad": 1792,
+        "capacity": 2,
+        "good": 256,
+        "raw_errors": 512,
+        "sources": [
+          2
+        ],
+        "targets": [
+          0
+        ]
+      },
+      {
+        "addresses": 131072,
+        "bad": 129024,
+        "capacity": 2,
+        "good": 2048,
+        "raw_errors": 79744,
+        "sources": [
+          2,
+          8
+        ],
+        "targets": [
+          0,
+          6
+        ]
+      }
+    ],
+    "physical": {
+      "ordinary_calls": 12,
+      "payload_bits": 2048,
+      "records": 256,
+      "scope": "Reduced actual B1 payload fixture; all calls use its elementary branch. Upper descriptor costs require the written refinement proof.",
+      "source_inside_guard": true,
+      "work_erased": true
+    },
+    "rejecting_controls": [
+      "omit_repair",
+      "wrong_inverse_current_controls",
+      "source_is_target",
+      "guard_outside_field"
+    ],
+    "unequal_gaps": {
+      "G": 3,
+      "K": 8,
+      "addresses": 4000,
+      "bad": 1631,
+      "capacity": 4,
+      "good": 2369,
+      "raw_errors": 629,
+      "scope": "Deterministic sampled and constructed-good states, not exhaustive; gaps 10 and 13, nonbinary dirty digits and inactive high digits.",
+      "sources": [
+        2,
+        12,
+        25
+      ],
+      "targets": [
+        0,
+        10,
+        23
+      ]
+    }
+  },
+  "status": "PASS_SCOPED_REFIT_PROOFS"
+}
+PASS_REGISTERED_RESEARCH_PACKAGE research/refit-proof-closure outcome=partial
